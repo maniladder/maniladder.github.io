@@ -51,44 +51,55 @@ input {
 .header-inner {
   max-width: 1480px;
   margin: 0 auto;
-  padding: 84px 32px 72px;
+  padding: 72px 32px 60px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
   text-align: center;
 }
 
 .hero-copy {
-  max-width: 1100px;
+  width: 100%;
+  max-width: 920px;
+  margin: 0 auto;
 }
 
 h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 22px;
+  gap: 18px;
+  text-align: center;
 }
 
 .wordmark {
+  display: block;
+  white-space: nowrap;
   font-family: "Trebuchet MS", "Segoe UI", ui-sans-serif, system-ui, sans-serif;
-  font-size: clamp(3.5rem, 11vw, 9rem);
-  line-height: 0.9;
+  font-size: clamp(2.4rem, 6vw, 4.25rem);
+  line-height: 1;
   font-weight: 900;
-  letter-spacing: -0.03em;
-  background: linear-gradient(120deg, var(--orange) 0%, var(--yellow) 38%, var(--green) 66%, var(--blue) 100%);
+  letter-spacing: 0.04em;
+  background: linear-gradient(100deg, var(--orange) 0%, var(--amber) 22%, var(--green) 55%, var(--blue) 100%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
-  text-shadow: 0 10px 30px rgba(233, 130, 50, 0.18);
+  text-shadow: 0 6px 22px rgba(233, 130, 50, 0.16);
+}
+
+.wordmark::first-letter {
+  font-size: 1.18em;
 }
 
 .hero-tagline {
-  max-width: 980px;
-  font-size: clamp(1.2rem, 2.6vw, 2.4rem);
+  display: block;
+  max-width: 820px;
+  margin: 0 auto;
+  font-size: clamp(1rem, 1.9vw, 1.55rem);
   font-weight: 700;
-  line-height: 1.18;
-  letter-spacing: -0.01em;
+  line-height: 1.25;
+  letter-spacing: 0;
   color: #2c261f;
   text-wrap: balance;
 }
@@ -315,14 +326,53 @@ main {
 .type-cell {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
   min-width: 0;
 }
 
-.type-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
+.cell-select {
+  width: 100%;
+  min-height: 38px;
+  padding: 0 34px 0 12px;
+  color: var(--ink);
+  background-color: #fff;
+  background-image:
+    linear-gradient(45deg, transparent 50%, var(--orange) 50%),
+    linear-gradient(135deg, var(--orange) 50%, transparent 50%);
+  background-position:
+    calc(100% - 17px) calc(50% - 2px),
+    calc(100% - 12px) calc(50% - 2px);
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  font-weight: 800;
+  font-size: 0.85rem;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+.cell-select:focus {
+  outline: none;
+  border-color: var(--orange);
+  box-shadow: 0 0 0 3px rgba(233, 130, 50, 0.18);
+}
+
+.type-stage {
+  min-width: 0;
+}
+
+.cell-empty {
+  display: grid;
+  place-items: center;
+  aspect-ratio: 16 / 10;
+  color: var(--muted);
+  background: #fff;
+  border: 1px dashed var(--line);
+  border-radius: 16px;
+  font-weight: 800;
+  font-size: 0.85rem;
 }
 
 .type-group {

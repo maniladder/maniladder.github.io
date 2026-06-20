@@ -149,15 +149,40 @@
     pill.className = `domain-pill domain-${domain}`;
     pill.textContent = labelFor(domain);
     typeHeading.append(pill, document.createTextNode(labelFor(embodiment)));
+    cell.append(typeHeading);
 
-    const stack = document.createElement("div");
-    stack.className = "type-stack";
-    tasksForCell
+    const items = tasksForCell
       .slice()
-      .sort((a, b) => a.env_id.localeCompare(b.env_id))
-      .forEach((task) => stack.append(renderTask(task)));
+      .sort((a, b) => a.env_id.localeCompare(b.env_id));
 
-    cell.append(typeHeading, stack);
+    if (!items.length) {
+      const empty = document.createElement("div");
+      empty.className = "cell-empty";
+      empty.textContent = "No tasks";
+      cell.append(empty);
+      return cell;
+    }
+
+    const select = document.createElement("select");
+    select.className = "cell-select";
+    items.forEach((task, index) => {
+      const option = document.createElement("option");
+      option.value = String(index);
+      option.textContent = task.display_name || task.env_id;
+      select.append(option);
+    });
+
+    const stage = document.createElement("div");
+    stage.className = "type-stage";
+
+    function show(index) {
+      stage.replaceChildren(renderTask(items[index]));
+    }
+
+    select.addEventListener("change", () => show(select.selectedIndex));
+
+    cell.append(select, stage);
+    show(0);
     return cell;
   }
 
