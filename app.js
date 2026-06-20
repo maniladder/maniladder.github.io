@@ -215,17 +215,7 @@
     title.className = "task-title";
     title.textContent = task.display_name || task.env_id;
 
-    const env = document.createElement("p");
-    env.className = "task-env";
-    env.textContent = task.env_id;
-
-    const meta = document.createElement("div");
-    meta.className = "task-meta";
-    meta.append(metaChip(levelLabel(task.level)));
-    meta.append(metaChip(labelFor(task.embodiment)));
-    meta.append(metaChip(status.label, status.className));
-
-    body.append(title, env, meta);
+    body.append(title);
     card.append(media, body);
     return card;
   }
