@@ -281,7 +281,9 @@
     }
 
     gallery.replaceChildren(...fragments);
-    emptyResults.hidden = items.length > 0;
+    if (emptyResults) {
+      emptyResults.hidden = items.length > 0;
+    }
   }
 
   searchInput.addEventListener("input", (event) => {
