@@ -1,0 +1,2722 @@
+[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:31] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:00:31] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:33] [INFO] Scene [38;5;121m[3m<540d2b4>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [18:00:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<e2adfb3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:38] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:00:40] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<ef0ea3d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:00:40] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:00:40] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<2ccd4f1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<41813f0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<69c90b4>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<5f62fa7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<7b1c64b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<312abb8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Preprocessing geom idx [38;5;121m[4m83[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<8262e7b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Preprocessing geom idx [38;5;121m[4m84[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<d6cfcb9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<dc5d456>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:42] [INFO] Preprocessing geom idx [38;5;121m[4m86[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<9f0e141>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<e5976f0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/001_chips_can/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:42] [INFO] Preprocessing geom idx [38;5;121m[4m88[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:43] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<c24fbeb>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/003_cracker_box/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:44] [INFO] Preprocessing geom idx [38;5;121m[4m89[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:45] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m14[0m[38;5;159m, uid: [38;5;121m[3m<af22dda>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/004_sugar_box/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:45] [INFO] Preprocessing geom idx [38;5;121m[4m90[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:45] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m15[0m[38;5;159m, uid: [38;5;121m[3m<7f5790c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/004_sugar_box/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:46] [INFO] Building scene [38;5;121m[3m<540d2b4>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [18:00:50] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;159m[Genesis] [18:01:00] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [18:01:37] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+/data/gck/maniladder/maniladder/envs/base/base_env.py:1912: UserWarning: Gimbal lock detected. Setting third angle to zero since it is not possible to uniquely determine all angles.
+  info.update(self.evaluate())
+step = 0, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.06
+t_ob pos = [  45.7 -151.4   90. ], [-3.01 -1.57  0.  ]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+Action space: Box(-1.0, 1.0, (22,), float32)
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/ClutterGrasp-v1
+step = 0, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.06
+t_ob pos = [ -87.2 -241.3   90. ], [-2.08 -1.57  0.  ]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 1, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.42, height = 0.04
+t_ob pos = [ -92.7 -235.3   70.5], [-1.85 -1.47 -0.26]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+  [ep 0/1, attempt 1] step 1/2000  terminated=False  truncated=False
+step = 2, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.42, height = 0.03
+t_ob pos = [ -93.2 -233.9   61.2], [-1.13 -1.47 -1.01]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 3, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.42, height = 0.04
+t_ob pos = [ -86.6 -229.9   67. ], [-0.54 -1.25 -1.6 ]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 4, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -84.7 -228.6   67.5], [-0.56 -1.18 -1.58]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 5, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.3], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 6, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.42, height = 0.04
+t_ob pos = [ -86.1 -229.5   67.3], [-0.55 -1.22 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 7, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 8, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.8 -229.3   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 9, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.8 -229.3   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 10, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 11, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 12, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 13, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 14, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 15, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 16, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 17, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 18, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 19, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 20, phase = 0, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 21, phase = 1, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 22, phase = 5, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 23, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.9 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 74.6   0.  373.6], [ 2.   -1.57  2.71]
+log_enabled = False
+--------
+step = 24, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 70.7  -3.8 373.5], [ 1.37 -1.57 -2.94]
+log_enabled = False
+--------
+step = 25, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.41, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 66.6  -7.9 373.5], [ 1.39 -1.57 -2.96]
+log_enabled = False
+--------
+step = 26, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.40, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 62.5 -11.9 373.5], [ 1.39 -1.57 -2.96]
+log_enabled = False
+--------
+step = 27, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.40, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 58.4 -16.  373.5], [ 1.4  -1.57 -2.97]
+log_enabled = False
+--------
+step = 28, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.40, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 54.2 -20.1 373.4], [ 1.41 -1.57 -2.98]
+log_enabled = False
+--------
+step = 29, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.39, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 50.1 -24.2 373.4], [ 1.42 -1.57 -2.99]
+log_enabled = False
+--------
+step = 30, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.39, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 46.  -28.3 373.4], [ 1.43 -1.57 -3.  ]
+log_enabled = False
+--------
+step = 31, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.39, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 41.9 -32.3 373.4], [ 1.44 -1.57 -3.01]
+log_enabled = False
+--------
+step = 32, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.38, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 37.8 -36.4 373.4], [ 1.45 -1.57 -3.02]
+log_enabled = False
+--------
+step = 33, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.38, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 33.7 -40.5 373.4], [ 1.46 -1.57 -3.03]
+log_enabled = False
+--------
+step = 34, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.38, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 29.5 -44.6 373.4], [ 1.47 -1.57 -3.04]
+log_enabled = False
+--------
+step = 35, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.37, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 25.4 -48.6 373.3], [ 1.48 -1.57 -3.05]
+log_enabled = False
+--------
+step = 36, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.37, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 21.3 -52.7 373.3], [ 1.49 -1.57 -3.06]
+log_enabled = False
+--------
+step = 37, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.37, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 17.2 -56.8 373.3], [ 1.5  -1.57 -3.07]
+log_enabled = False
+--------
+step = 38, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.36, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 13.1 -60.9 373.3], [ 1.51 -1.57 -3.08]
+log_enabled = False
+--------
+step = 39, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.36, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  9.  -64.9 373.3], [ 1.52 -1.57 -3.09]
+log_enabled = False
+--------
+step = 40, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.36, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  4.8 -69.  373.3], [ 1.53 -1.57 -3.1 ]
+log_enabled = False
+--------
+step = 41, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  0.7 -73.1 373.2], [ 1.54 -1.57 -3.1 ]
+log_enabled = False
+--------
+step = 42, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -3.4 -77.1 373.2], [ 1.55 -1.57 -3.11]
+log_enabled = False
+--------
+step = 43, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -7.5 -81.2 373.2], [ 1.56 -1.57 -3.12]
+log_enabled = False
+--------
+step = 44, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [-11.6 -85.3 373.2], [ 1.57 -1.57 -3.13]
+log_enabled = False
+--------
+step = 45, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [-15.7 -89.3 373.2], [ 1.58 -1.57 -3.14]
+log_enabled = False
+--------
+step = 46, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [-19.9 -93.4 373.2], [ 1.58 -1.57  3.13]
+log_enabled = False
+--------
+step = 47, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [-24.  -97.5 373.2], [ 1.59 -1.57  3.12]
+log_enabled = False
+--------
+step = 48, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -28.1 -101.4  373.2], [ 1.6  -1.57  3.12]
+log_enabled = False
+--------
+step = 49, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -32.2 -104.6  373.1], [ 1.61 -1.57  3.11]
+log_enabled = False
+--------
+step = 50, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -36.3 -107.1  373.1], [ 1.61 -1.57  3.11]
+log_enabled = False
+--------
+step = 51, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -40.4 -109.1  373.1], [ 1.61 -1.57  3.11]
+log_enabled = False
+--------
+step = 52, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -44.5 -110.7  373.1], [ 1.62 -1.57  3.1 ]
+log_enabled = False
+--------
+step = 53, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -48.4 -112.   373.1], [ 1.62 -1.57  3.1 ]
+log_enabled = False
+--------
+step = 54, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -51.4 -113.   373.1], [ 1.63 -1.57  3.09]
+log_enabled = False
+--------
+step = 55, phase = 14, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -53.8 -113.8  373.1], [ 1.63 -1.57  3.09]
+log_enabled = False
+--------
+step = 56, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -55.8 -114.4  373.1], [ 1.63 -1.57  3.09]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 57.03
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 57.03
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 57, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.  -113.8  372.9], [ 0.91 -1.57 -2.47]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 56.69
+phase15_rot_yaw_raw = 0.989447, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 56.69
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 58, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.  -113.7  372.9], [ 0.66 -1.57 -2.2 ]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 55.61
+phase15_rot_yaw_raw = 0.970633, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 55.61
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 59, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.  -113.7  372.9], [ 0.65 -1.57 -2.17]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 54.48
+phase15_rot_yaw_raw = 0.950822, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 54.48
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 60, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.  -113.6  372.9], [ 0.63 -1.57 -2.13]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 53.35
+phase15_rot_yaw_raw = 0.931095, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 53.35
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 61, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.1 -113.6  372.9], [ 0.62 -1.57 -2.1 ]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 52.22
+phase15_rot_yaw_raw = 0.911365, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 52.22
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 62, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.1 -113.6  372.8], [ 0.6  -1.57 -2.06]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 51.09
+phase15_rot_yaw_raw = 0.891640, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 51.09
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 63, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.1 -113.6  372.8], [ 0.59 -1.57 -2.03]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 49.96
+phase15_rot_yaw_raw = 0.871918, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 49.96
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 64, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.2 -113.5  372.8], [ 0.58 -1.57 -2.  ]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 48.83
+phase15_rot_yaw_raw = 0.852199, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 48.83
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 65, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.2 -113.5  372.8], [ 0.58 -1.57 -1.98]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 47.70
+phase15_rot_yaw_raw = 0.832484, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 47.70
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 66, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.2 -113.4  372.8], [ 0.57 -1.57 -1.95]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 46.57
+phase15_rot_yaw_raw = 0.812771, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 46.57
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 67, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.2 -113.4  372.8], [ 0.57 -1.57 -1.93]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 45.44
+phase15_rot_yaw_raw = 0.793061, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 45.44
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 68, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.2 -113.4  372.8], [ 0.56 -1.57 -1.91]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 44.31
+phase15_rot_yaw_raw = 0.773353, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 44.31
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 69, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -113.3  372.8], [ 0.56 -1.57 -1.88]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 43.18
+phase15_rot_yaw_raw = 0.753647, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 43.18
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 70, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -113.3  372.7], [ 0.56 -1.57 -1.86]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 42.05
+phase15_rot_yaw_raw = 0.733944, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 42.05
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 71, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -113.3  372.7], [ 0.56 -1.57 -1.84]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 40.92
+phase15_rot_yaw_raw = 0.714241, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 40.92
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 72, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -113.2  372.7], [ 0.56 -1.57 -1.82]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 39.79
+phase15_rot_yaw_raw = 0.694540, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 39.79
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 73, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -113.2  372.7], [ 0.56 -1.57 -1.8 ]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 38.66
+phase15_rot_yaw_raw = 0.674841, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 38.66
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 74, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -113.2  372.7], [ 0.56 -1.57 -1.78]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 37.54
+phase15_rot_yaw_raw = 0.655143, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 37.54
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 75, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -113.1  372.7], [ 0.56 -1.57 -1.76]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 36.41
+phase15_rot_yaw_raw = 0.635446, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 36.41
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 76, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -113.1  372.7], [ 0.56 -1.57 -1.74]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 35.28
+phase15_rot_yaw_raw = 0.615748, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 35.28
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 77, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.4 -113.   372.7], [ 0.56 -1.57 -1.72]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 34.15
+phase15_rot_yaw_raw = 0.596052, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 34.15
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 78, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.4 -113.   372.7], [ 0.56 -1.57 -1.7 ]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 33.02
+phase15_rot_yaw_raw = 0.576355, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 33.02
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 79, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.4 -113.   372.7], [ 0.56 -1.57 -1.68]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 31.89
+phase15_rot_yaw_raw = 0.556658, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 31.89
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 80, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.4 -112.9  372.7], [ 0.56 -1.57 -1.66]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 30.77
+phase15_rot_yaw_raw = 0.536961, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 30.77
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 81, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.4 -112.9  372.7], [ 0.56 -1.57 -1.64]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 29.64
+phase15_rot_yaw_raw = 0.517264, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 29.64
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 82, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.4 -112.9  372.7], [ 0.56 -1.57 -1.62]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 28.51
+phase15_rot_yaw_raw = 0.497566, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 28.51
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 83, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.4 -112.8  372.7], [ 0.56 -1.57 -1.6 ]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 27.38
+phase15_rot_yaw_raw = 0.477866, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 27.38
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 84, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.4 -112.8  372.7], [ 0.55 -1.57 -1.58]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 26.25
+phase15_rot_yaw_raw = 0.458167, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 26.25
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 85, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -112.7  372.7], [ 0.55 -1.57 -1.56]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 25.12
+phase15_rot_yaw_raw = 0.438466, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 25.12
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 86, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -112.7  372.7], [ 0.55 -1.57 -1.53]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 23.99
+phase15_rot_yaw_raw = 0.418763, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 23.99
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 87, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -112.7  372.7], [ 0.54 -1.57 -1.51]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 22.86
+phase15_rot_yaw_raw = 0.399058, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 22.86
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 88, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -112.6  372.7], [ 0.54 -1.57 -1.48]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 21.73
+phase15_rot_yaw_raw = 0.379352, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 21.73
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 89, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -112.6  372.7], [ 0.53 -1.57 -1.46]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 20.61
+phase15_rot_yaw_raw = 0.359644, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 20.61
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 90, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -112.6  372.7], [ 0.52 -1.57 -1.43]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 19.48
+phase15_rot_yaw_raw = 0.339935, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 19.48
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 91, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -112.5  372.7], [ 0.52 -1.57 -1.4 ]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 18.35
+phase15_rot_yaw_raw = 0.320222, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 18.35
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 92, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -112.5  372.7], [ 0.51 -1.57 -1.38]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 17.22
+phase15_rot_yaw_raw = 0.300507, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 17.22
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 93, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.3 -112.5  372.7], [ 0.5  -1.57 -1.34]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 16.09
+phase15_rot_yaw_raw = 0.280791, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 16.09
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 94, phase = 15, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.2 -112.5  372.7], [ 0.48 -1.57 -1.31]
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 14.96
+phase15_rot_yaw_raw = 0.261071, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+log_enabled = False
+--------
+phase15_link7_y_plus_to_chips_z_world_z_plane_angle_deg = 14.96
+phase15_rot_yaw_raw = 0.995440, phase15_rot_yaw_clipped = 0.100000, phase15_rot_delta = [0.0, 0.0, 0.10000000149011612]
+step = 95, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -56.2 -112.4  372.7], [ 0.47 -1.57 -1.28]
+log_enabled = False
+--------
+step = 96, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -53.2 -116.8  372.6], [ 0.82 -1.56 -1.61]
+log_enabled = False
+--------
+step = 97, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -49.3 -120.9  372.4], [ 0.92 -1.56 -1.71]
+log_enabled = False
+--------
+step = 98, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -45.2 -125.   372.4], [ 0.91 -1.56 -1.7 ]
+log_enabled = False
+--------
+step = 99, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -41.1 -129.1  372.4], [ 0.9  -1.56 -1.69]
+log_enabled = False
+--------
+step = 100, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -37.1 -133.3  372.3], [ 0.9  -1.56 -1.69]
+log_enabled = False
+--------
+step = 101, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -33.  -136.7  372.3], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+  [ep 0/1, attempt 1] step 101/2000  terminated=False  truncated=False
+step = 102, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -28.9 -139.4  372.3], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 103, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -24.9 -141.6  372.2], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 104, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -20.8 -143.2  372.2], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 105, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -16.7 -144.6  372.2], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 106, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ -12.6 -145.6  372.1], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 107, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  -8.5 -146.5  372.1], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 108, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  -4.4 -147.1  372.1], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 109, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [-3.000e-01 -1.477e+02  3.721e+02], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 110, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [   3.8 -148.1  372. ], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 111, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [   7.8 -148.4  372. ], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 112, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  11.9 -148.7  372. ], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 113, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  16.  -148.9  372. ], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 114, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  20.1 -149.   372. ], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 115, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  24.2 -149.1  371.9], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 116, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  28.3 -149.2  371.9], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 117, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  32.4 -149.3  371.9], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 118, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  36.5 -149.4  371.9], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 119, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  40.6 -149.4  371.8], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 120, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  44.6 -149.4  371.8], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 121, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  48.7 -149.5  371.8], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 122, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  52.8 -149.5  371.8], [ 0.89 -1.56 -1.69]
+log_enabled = False
+--------
+step = 123, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  56.9 -149.5  371.8], [ 0.9  -1.56 -1.69]
+log_enabled = False
+--------
+step = 124, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  61.  -149.5  371.7], [ 0.9  -1.56 -1.69]
+log_enabled = False
+--------
+step = 125, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  65.1 -149.5  371.7], [ 0.9  -1.56 -1.69]
+log_enabled = False
+--------
+step = 126, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  69.2 -149.5  371.7], [ 0.9  -1.56 -1.69]
+log_enabled = False
+--------
+step = 127, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  73.3 -149.5  371.7], [ 0.9  -1.56 -1.69]
+log_enabled = False
+--------
+step = 128, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  76.8 -149.5  371.6], [ 0.9  -1.56 -1.69]
+log_enabled = False
+--------
+step = 129, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.36, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  79.6 -149.5  371.6], [ 0.9  -1.56 -1.69]
+log_enabled = False
+--------
+step = 130, phase = 16, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.36, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  81.8 -149.5  371.6], [ 0.9  -1.56 -1.7 ]
+log_enabled = False
+--------
+step = 131, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.36, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  83.6 -149.5  371.6], [ 0.9  -1.56 -1.7 ]
+log_enabled = False
+--------
+step = 132, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  85.  -149.5  367.8], [ 0.9  -1.56 -1.69]
+log_enabled = False
+--------
+step = 133, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  86.1 -149.5  363.7], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 134, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  87.  -149.5  359.5], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 135, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.35, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  87.7 -149.5  355.4], [ 0.89 -1.56 -1.68]
+log_enabled = False
+--------
+step = 136, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  88.2 -149.5  351.3], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 137, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  88.7 -149.6  347.2], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 138, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.34, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  89.  -149.6  343.1], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 139, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  89.3 -149.6  338.9], [ 0.88 -1.56 -1.67]
+log_enabled = False
+--------
+step = 140, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  89.5 -149.6  334.8], [ 0.87 -1.56 -1.66]
+log_enabled = False
+--------
+step = 141, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.33, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  89.7 -149.6  330.7], [ 0.87 -1.56 -1.66]
+log_enabled = False
+--------
+step = 142, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  89.8 -149.6  326.6], [ 0.87 -1.56 -1.66]
+log_enabled = False
+--------
+step = 143, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  89.9 -149.6  322.5], [ 0.86 -1.56 -1.66]
+log_enabled = False
+--------
+step = 144, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.32, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.  -149.6  318.4], [ 0.86 -1.56 -1.65]
+log_enabled = False
+--------
+step = 145, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.31, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.1 -149.6  314.3], [ 0.86 -1.56 -1.65]
+log_enabled = False
+--------
+step = 146, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.31, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.1 -149.6  310.1], [ 0.86 -1.56 -1.65]
+log_enabled = False
+--------
+step = 147, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.31, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.2 -149.6  306. ], [ 0.85 -1.56 -1.65]
+log_enabled = False
+--------
+step = 148, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.30, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.2 -149.6  301.9], [ 0.85 -1.56 -1.64]
+log_enabled = False
+--------
+step = 149, phase = 17, success = 0.0
+is_grasped = False, is_lifted = False
+dist = 0.30, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.2 -149.6  297.8], [ 0.85 -1.56 -1.64]
+log_enabled = False
+--------
+step = 150, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.30, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.3 -149.6  293.7], [ 0.85 -1.56 -1.64]
+log_enabled = False
+--------
+step = 151, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.29, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.3 -149.6  289.6], [ 0.85 -1.56 -1.64]
+log_enabled = False
+--------
+step = 152, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.29, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.3 -149.6  285.5], [ 0.84 -1.56 -1.63]
+log_enabled = False
+--------
+step = 153, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.29, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.3 -149.6  281.3], [ 0.84 -1.56 -1.63]
+log_enabled = False
+--------
+step = 154, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.29, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.3 -149.6  277.2], [ 0.84 -1.56 -1.63]
+log_enabled = False
+--------
+step = 155, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.28, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.3 -149.6  273.1], [ 0.84 -1.56 -1.63]
+log_enabled = False
+--------
+step = 156, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.28, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.3 -149.6  269. ], [ 0.83 -1.56 -1.62]
+log_enabled = False
+--------
+step = 157, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.28, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  264.9], [ 0.83 -1.56 -1.62]
+log_enabled = False
+--------
+step = 158, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.27, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  260.8], [ 0.83 -1.56 -1.62]
+log_enabled = False
+--------
+step = 159, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.27, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  256.7], [ 0.83 -1.56 -1.62]
+log_enabled = False
+--------
+step = 160, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.27, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  252.5], [ 0.83 -1.56 -1.62]
+log_enabled = False
+--------
+step = 161, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.26, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  248.4], [ 0.82 -1.56 -1.61]
+log_enabled = False
+--------
+step = 162, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.26, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  244.3], [ 0.82 -1.56 -1.61]
+log_enabled = False
+--------
+step = 163, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.26, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  240.2], [ 0.82 -1.56 -1.61]
+log_enabled = False
+--------
+step = 164, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.26, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  236.1], [ 0.82 -1.56 -1.61]
+log_enabled = False
+--------
+step = 165, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.25, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  232. ], [ 0.82 -1.56 -1.61]
+log_enabled = False
+--------
+step = 166, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.25, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  227.8], [ 0.81 -1.56 -1.6 ]
+log_enabled = False
+--------
+step = 167, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.25, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  223.7], [ 0.81 -1.56 -1.6 ]
+log_enabled = False
+--------
+step = 168, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.25, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  219.6], [ 0.81 -1.56 -1.6 ]
+log_enabled = False
+--------
+step = 169, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.24, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  215.5], [ 0.81 -1.56 -1.6 ]
+log_enabled = False
+--------
+step = 170, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.24, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  211.4], [ 0.81 -1.56 -1.6 ]
+log_enabled = False
+--------
+step = 171, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.24, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  207.3], [ 0.8  -1.56 -1.59]
+log_enabled = False
+--------
+step = 172, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.24, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  203.1], [ 0.8  -1.56 -1.59]
+log_enabled = False
+--------
+step = 173, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.23, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  199. ], [ 0.8  -1.56 -1.59]
+log_enabled = False
+--------
+step = 174, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.23, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  194.9], [ 0.8  -1.56 -1.59]
+log_enabled = False
+--------
+step = 175, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.23, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  190.8], [ 0.8  -1.56 -1.59]
+log_enabled = False
+--------
+step = 176, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.23, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  186.7], [ 0.8  -1.56 -1.59]
+log_enabled = False
+--------
+step = 177, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.23, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  182.6], [ 0.79 -1.56 -1.58]
+log_enabled = False
+--------
+step = 178, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  178.4], [ 0.79 -1.56 -1.58]
+log_enabled = False
+--------
+step = 179, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  174.3], [ 0.79 -1.56 -1.58]
+log_enabled = False
+--------
+step = 180, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  90.4 -149.6  170.2], [ 0.79 -1.56 -1.58]
+log_enabled = False
+--------
+step = 181, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  91.3 -149.3  169. ], [ 0.24 -1.56 -1.03]
+log_enabled = False
+--------
+step = 182, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  92.  -148.9  167.5], [-0.49 -1.56 -0.3 ]
+log_enabled = False
+--------
+step = 183, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  92.6 -148.6  165.9], [-0.8  -1.55  0.02]
+log_enabled = False
+--------
+step = 184, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  93.2 -148.6  164.2], [-0.94 -1.54  0.16]
+log_enabled = False
+--------
+step = 185, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  93.8 -148.7  162.6], [-1.03 -1.53  0.25]
+log_enabled = False
+--------
+step = 186, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  94.4 -148.8  161. ], [-1.09 -1.52  0.31]
+log_enabled = False
+--------
+step = 187, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  94.9 -149.   159.4], [-1.13 -1.51  0.36]
+log_enabled = False
+--------
+step = 188, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  95.4 -149.1  157.8], [-1.16 -1.5   0.39]
+log_enabled = False
+--------
+step = 189, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  95.9 -149.3  156.2], [-1.18 -1.5   0.41]
+log_enabled = False
+--------
+step = 190, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  96.3 -149.5  154.6], [-1.2  -1.49  0.43]
+log_enabled = False
+--------
+step = 191, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  96.8 -149.8  153. ], [-1.21 -1.48  0.45]
+log_enabled = False
+--------
+step = 192, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  97.2 -150.   151.3], [-1.22 -1.47  0.46]
+log_enabled = False
+--------
+step = 193, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  97.6 -150.3  149.7], [-1.23 -1.46  0.47]
+log_enabled = False
+--------
+step = 194, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  97.9 -150.6  148. ], [-1.24 -1.45  0.48]
+log_enabled = False
+--------
+step = 195, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  98.3 -150.9  146.4], [-1.25 -1.44  0.49]
+log_enabled = False
+--------
+step = 196, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  98.6 -151.2  144.7], [-1.26 -1.43  0.5 ]
+log_enabled = False
+--------
+step = 197, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  99.  -151.5  143. ], [-1.26 -1.43  0.51]
+log_enabled = False
+--------
+step = 198, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  99.3 -151.8  141.4], [-1.27 -1.42  0.52]
+log_enabled = False
+--------
+step = 199, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [  99.7 -152.2  139.9], [-1.28 -1.41  0.53]
+log_enabled = False
+--------
+step = 200, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 100.2 -152.6  138.5], [-1.29 -1.4   0.54]
+log_enabled = False
+--------
+step = 201, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 100.7 -153.   137.2], [-1.3  -1.4   0.55]
+log_enabled = False
+--------
+  [ep 0/1, attempt 1] step 201/2000  terminated=False  truncated=False
+step = 202, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 101.1 -153.5  135.9], [-1.31 -1.39  0.57]
+log_enabled = False
+--------
+step = 203, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 101.7 -154.   134.8], [-1.33 -1.38  0.58]
+log_enabled = False
+--------
+step = 204, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 102.3 -154.4  133.8], [-1.35 -1.38  0.6 ]
+log_enabled = False
+--------
+step = 205, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 103.  -154.8  132.8], [-1.37 -1.38  0.63]
+log_enabled = False
+--------
+step = 206, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 103.6 -155.3  131.9], [-1.39 -1.37  0.65]
+log_enabled = False
+--------
+step = 207, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 104.1 -155.7  131.1], [-1.41 -1.37  0.67]
+log_enabled = False
+--------
+step = 208, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 104.7 -156.1  130.2], [-1.44 -1.36  0.7 ]
+log_enabled = False
+--------
+step = 209, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 105.2 -156.4  129.5], [-1.47 -1.36  0.73]
+log_enabled = False
+--------
+step = 210, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 105.7 -156.8  128.8], [-1.49 -1.36  0.75]
+log_enabled = False
+--------
+step = 211, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 106.3 -157.1  128.3], [-1.52 -1.36  0.78]
+log_enabled = False
+--------
+step = 212, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 106.6 -157.2  127.8], [-1.54 -1.35  0.8 ]
+log_enabled = False
+--------
+step = 213, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 106.9 -157.4  127.3], [-1.56 -1.35  0.82]
+log_enabled = False
+--------
+step = 214, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 107.4 -157.6  127. ], [-1.58 -1.35  0.84]
+log_enabled = False
+--------
+step = 215, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 107.7 -157.7  126.7], [-1.6  -1.34  0.87]
+log_enabled = False
+--------
+step = 216, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.4], [-0.55 -1.21 -1.59]
+hand pos = [ 108.  -157.9  126.6], [-1.63 -1.34  0.89]
+log_enabled = False
+--------
+step = 217, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.4   67.2], [-0.56 -1.21 -1.59]
+hand pos = [ 108.3 -157.9  126.4], [-1.65 -1.34  0.91]
+log_enabled = False
+--------
+step = 218, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -229.6   66.8], [-0.56 -1.21 -1.58]
+hand pos = [ 108.5 -157.9  126.2], [-1.67 -1.34  0.93]
+log_enabled = False
+--------
+step = 219, phase = 17, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.9 -229.9   66.3], [-0.58 -1.2  -1.57]
+hand pos = [ 108.6 -158.   126. ], [-1.69 -1.33  0.95]
+log_enabled = False
+--------
+step = 220, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.9 -230.3   65.9], [-0.59 -1.2  -1.56]
+hand pos = [ 108.7 -158.1  125.9], [-1.7  -1.33  0.97]
+log_enabled = False
+--------
+step = 221, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -86.2 -230.8   66.9], [-0.57 -1.21 -1.58]
+hand pos = [ 108.6 -159.6  127.7], [-1.69 -1.33  0.95]
+log_enabled = False
+--------
+step = 222, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.8 -230.7   67.4], [-0.56 -1.2  -1.58]
+hand pos = [ 108.7 -160.6  129.3], [-1.67 -1.32  0.94]
+log_enabled = False
+--------
+step = 223, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.6 -230.5   67.6], [-0.56 -1.19 -1.58]
+hand pos = [ 109.3 -160.5  130.4], [-1.67 -1.32  0.94]
+log_enabled = False
+--------
+step = 224, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.7 -230.6   67.6], [-0.56 -1.19 -1.59]
+hand pos = [ 109.8 -160.6  131.4], [-1.68 -1.32  0.95]
+log_enabled = False
+--------
+step = 225, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -85.9 -230.8   67.5], [-0.56 -1.2  -1.59]
+hand pos = [ 110.2 -160.5  131.9], [-1.68 -1.32  0.95]
+log_enabled = False
+--------
+step = 226, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -86.2 -230.9   67.3], [-0.56 -1.21 -1.58]
+hand pos = [ 110.4 -160.4  132.4], [-1.69 -1.32  0.95]
+log_enabled = False
+--------
+step = 227, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.22, height = 0.04
+t_ob pos = [ -88.2 -231.6   65.7], [-0.57 -1.29 -1.56]
+hand pos = [ 110.7 -160.3  132.7], [-1.69 -1.32  0.96]
+log_enabled = False
+--------
+step = 228, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.23, height = 0.04
+t_ob pos = [ -91.5 -232.1   65.4], [-0.57 -1.35 -1.55]
+hand pos = [ 111. -160.  133.], [-1.69 -1.32  0.96]
+log_enabled = False
+--------
+step = 229, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.23, height = 0.03
+t_ob pos = [ -96.5 -233.2   63.9], [-0.64 -1.39 -1.49]
+hand pos = [ 111.5 -159.3  133.2], [-1.7  -1.32  0.97]
+log_enabled = False
+--------
+step = 230, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.23, height = 0.04
+t_ob pos = [ -92.5 -229.2   65.5], [-0.6  -1.43 -1.5 ]
+hand pos = [ 111.7 -158.9  133.3], [-1.7  -1.32  0.97]
+log_enabled = False
+--------
+step = 231, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.21, height = 0.04
+t_ob pos = [ -77.9 -220.8   67.9], [-0.45 -1.48 -1.56]
+hand pos = [ 111.8 -158.8  133.3], [-1.7  -1.32  0.97]
+log_enabled = False
+--------
+step = 232, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.20, height = 0.03
+t_ob pos = [ -63.8 -214.3   64.6], [-0.75 -1.5  -1.18]
+hand pos = [ 111.8 -158.7  133.4], [-1.7  -1.32  0.97]
+log_enabled = False
+--------
+step = 233, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.19, height = 0.03
+t_ob pos = [ -51.7 -209.7   60.1], [-1.28 -1.5  -0.58]
+hand pos = [ 111.8 -158.7  133.4], [-1.7  -1.32  0.97]
+log_enabled = False
+--------
+step = 234, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.18, height = 0.03
+t_ob pos = [ -42.8 -206.3   62.5], [-1.61 -1.52 -0.2 ]
+hand pos = [ 111.8 -158.6  133.4], [-1.7  -1.32  0.97]
+log_enabled = False
+--------
+step = 235, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.17, height = 0.03
+t_ob pos = [ -33.2 -204.1   60. ], [-1.9  -1.5   0.15]
+hand pos = [ 111.8 -158.6  133.4], [-1.7  -1.32  0.97]
+log_enabled = False
+--------
+step = 236, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.16, height = 0.03
+t_ob pos = [ -26.3 -203.4   59.9], [-2.04 -1.48  0.33]
+hand pos = [ 111.4 -159.4  133.5], [-1.7  -1.32  0.96]
+log_enabled = False
+--------
+step = 237, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.16, height = 0.03
+t_ob pos = [ -20.4 -202.8   61.5], [-2.21 -1.47  0.54]
+hand pos = [ 111.1 -160.2  133.6], [-1.69 -1.31  0.96]
+log_enabled = False
+--------
+step = 238, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.03
+t_ob pos = [ -16.1 -202.9   59.2], [-2.24 -1.43  0.59]
+hand pos = [ 110.7 -161.   133.8], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 239, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.03
+t_ob pos = [ -13.3 -203.    59.2], [-2.27 -1.4   0.64]
+hand pos = [ 110.4 -161.6  133.9], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 240, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.03
+t_ob pos = [ -11.5 -203.4   58.2], [-2.28 -1.37  0.66]
+hand pos = [ 110.1 -162.2  134. ], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 241, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.03
+t_ob pos = [  -9.1 -203.6   57.5], [-2.29 -1.34  0.68]
+hand pos = [ 110.  -162.6  134.1], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 242, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.03
+t_ob pos = [  -7.1 -203.5   57.5], [-2.32 -1.32  0.71]
+hand pos = [ 109.8 -162.9  134.1], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 243, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -4.7 -203.3   57. ], [-2.32 -1.3   0.72]
+hand pos = [ 109.8 -162.9  134.1], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 244, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -3.8 -203.    56.7], [-2.33 -1.28  0.74]
+hand pos = [ 109.8 -162.8  134.1], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 245, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -3.9 -202.8   56. ], [-2.36 -1.25  0.76]
+hand pos = [ 109.8 -162.8  134.1], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 246, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -4.  -202.6   55.8], [-2.38 -1.24  0.77]
+hand pos = [ 109.8 -162.8  134.2], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 247, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -4.5 -202.4   55.6], [-2.38 -1.23  0.76]
+hand pos = [ 109.9 -162.8  134.2], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 248, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -4.9 -202.3   55.4], [-2.38 -1.23  0.75]
+hand pos = [ 110.  -162.8  134.4], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 249, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.03
+t_ob pos = [  -4.9 -202.1   55.2], [-2.38 -1.22  0.75]
+hand pos = [ 110.  -162.9  134.5], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 250, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -4.2 -201.8   55.4], [-2.38 -1.22  0.75]
+hand pos = [ 110.  -162.9  134.5], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 251, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -3.6 -201.5   55.5], [-2.37 -1.22  0.75]
+hand pos = [ 110.  -162.9  134.5], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 252, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -3.4 -201.3   55.5], [-2.37 -1.22  0.74]
+hand pos = [ 110.  -162.9  134.5], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 253, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -3.  -200.9   55.8], [-2.36 -1.21  0.73]
+hand pos = [ 110.  -162.9  134.4], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 254, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -3.2 -200.8   55.6], [-2.35 -1.21  0.72]
+hand pos = [ 110.  -162.8  134.4], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 255, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.03
+t_ob pos = [  -3.6 -200.8   55.3], [-2.35 -1.21  0.71]
+hand pos = [ 110.  -162.8  134.4], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 256, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.02
+t_ob pos = [  -3.9 -200.8   55. ], [-2.34 -1.21  0.7 ]
+hand pos = [ 110.1 -162.8  134.5], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 257, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.14, height = 0.02
+t_ob pos = [  -4.  -200.8   54.6], [-2.33 -1.21  0.69]
+hand pos = [ 110.2 -162.8  134.7], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 258, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.02
+t_ob pos = [  -4.2 -200.9   54.4], [-2.32 -1.2   0.67]
+hand pos = [ 110.3 -162.8  134.9], [-1.67 -1.31  0.94]
+log_enabled = False
+--------
+step = 259, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.02
+t_ob pos = [  -4.3 -201.1   54.2], [-2.31 -1.2   0.66]
+hand pos = [ 110.5 -162.8  135.2], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 260, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.02
+t_ob pos = [  -4.5 -201.2   54.1], [-2.31 -1.2   0.65]
+hand pos = [ 110.6 -162.8  135.5], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 261, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.02
+t_ob pos = [  -4.7 -201.3   54. ], [-2.3  -1.19  0.64]
+hand pos = [ 110.8 -162.9  135.8], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 262, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.02
+t_ob pos = [  -5.1 -201.4   54. ], [-2.3  -1.19  0.64]
+hand pos = [ 111.  -162.9  136.1], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 263, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.02
+t_ob pos = [  -5.1 -201.6   53.7], [-2.3  -1.19  0.63]
+hand pos = [ 111.1 -162.9  136.4], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 264, phase = 18, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.02
+t_ob pos = [  -5.2 -201.9   53.5], [-2.29 -1.19  0.61]
+hand pos = [ 111.3 -163.   136.8], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 265, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.02
+t_ob pos = [  -5.2 -202.    53.5], [-2.28 -1.19  0.6 ]
+hand pos = [ 111.5 -163.   137.1], [-1.68 -1.31  0.96]
+log_enabled = False
+--------
+step = 266, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.03
+t_ob pos = [  -5.4 -202.4   55.7], [-2.26 -1.18  0.59]
+hand pos = [ 111.3 -162.9  140.7], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 267, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.03
+t_ob pos = [  -5.9 -202.7   59.2], [-2.25 -1.17  0.57]
+hand pos = [ 111.3 -162.9  144.8], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 268, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.03
+t_ob pos = [  -5.6 -202.8   62.7], [-2.24 -1.17  0.56]
+hand pos = [ 111.3 -162.9  148.8], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 269, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.04
+t_ob pos = [  -5.4 -203.    66. ], [-2.23 -1.17  0.55]
+hand pos = [ 111.2 -162.9  152.9], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 270, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.04
+t_ob pos = [  -5.1 -203.1   69.4], [-2.23 -1.16  0.55]
+hand pos = [ 111.2 -162.9  156.9], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 271, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.04
+t_ob pos = [  -4.7 -203.1   72.9], [-2.22 -1.16  0.54]
+hand pos = [ 111.2 -162.9  161. ], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 272, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.05
+t_ob pos = [  -4.1 -203.    76.8], [-2.22 -1.16  0.54]
+hand pos = [ 111.2 -162.9  165. ], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 273, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.05
+t_ob pos = [  -3.6 -202.9   80.7], [-2.22 -1.16  0.54]
+hand pos = [ 111.2 -162.9  169.1], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 274, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.05
+t_ob pos = [  -3.3 -202.7   84.8], [-2.21 -1.16  0.54]
+hand pos = [ 111.2 -162.9  173.1], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 275, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.06
+t_ob pos = [  -3.  -202.4   89.1], [-2.22 -1.16  0.55]
+hand pos = [ 111.2 -162.9  177.1], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 276, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.06
+t_ob pos = [  -2.5 -202.3   93.2], [-2.21 -1.16  0.55]
+hand pos = [ 111.2 -162.9  181.2], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 277, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.07
+t_ob pos = [  -2.  -202.3   96.9], [-2.21 -1.16  0.54]
+hand pos = [ 111.2 -162.9  185.2], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 278, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.07
+t_ob pos = [  -1.7 -202.3  100.6], [-2.2  -1.16  0.54]
+hand pos = [ 111.2 -162.9  189.3], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 279, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.07
+t_ob pos = [  -1.2 -202.2  104.4], [-2.2  -1.16  0.54]
+hand pos = [ 111.2 -162.9  193.3], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 280, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.08
+t_ob pos = [  -0.8 -202.2  108.2], [-2.19 -1.15  0.53]
+hand pos = [ 111.2 -162.9  197.4], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 281, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.08
+t_ob pos = [  -0.4 -202.1  112.1], [-2.19 -1.15  0.53]
+hand pos = [ 111.2 -162.9  201.4], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 282, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.09
+t_ob pos = [  -0.  -202.1  116. ], [-2.19 -1.15  0.53]
+hand pos = [ 111.2 -162.9  205.5], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 283, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.09
+t_ob pos = [ 1.000e-01 -2.021e+02  1.197e+02], [-2.18 -1.15  0.53]
+hand pos = [ 111.2 -162.9  209.5], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 284, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.09
+t_ob pos = [   0.3 -202.2  123.4], [-2.18 -1.15  0.52]
+hand pos = [ 111.2 -162.9  213.5], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 285, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.10
+t_ob pos = [   0.6 -202.2  127.2], [-2.18 -1.15  0.52]
+hand pos = [ 111.2 -162.9  217.6], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 286, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.10
+t_ob pos = [   0.9 -202.2  131. ], [-2.17 -1.15  0.52]
+hand pos = [ 111.2 -162.9  221.6], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 287, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.11
+t_ob pos = [   1.7 -202.   135.2], [-2.18 -1.15  0.53]
+hand pos = [ 111.2 -162.9  225.7], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 288, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.11
+t_ob pos = [   1.7 -202.2  138.6], [-2.18 -1.14  0.53]
+hand pos = [ 111.2 -162.9  229.7], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 289, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.11
+t_ob pos = [   2.4 -202.2  142.3], [-2.18 -1.14  0.53]
+hand pos = [ 111.2 -162.9  233.7], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 290, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.12
+t_ob pos = [   2.9 -202.3  146.1], [-2.18 -1.14  0.54]
+hand pos = [ 111.2 -162.9  237.8], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 291, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.12
+t_ob pos = [   3.2 -202.3  149.9], [-2.18 -1.14  0.54]
+hand pos = [ 111.2 -162.9  241.8], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 292, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.12
+t_ob pos = [   3.4 -202.3  153.8], [-2.18 -1.13  0.54]
+hand pos = [ 111.2 -162.9  245.9], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 293, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.13
+t_ob pos = [   3.5 -202.3  157.7], [-2.18 -1.13  0.54]
+hand pos = [ 111.2 -162.9  249.9], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 294, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.13
+t_ob pos = [   3.4 -202.4  161.5], [-2.18 -1.13  0.54]
+hand pos = [ 111.2 -162.9  254. ], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 295, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.14
+t_ob pos = [   3.5 -202.5  165.2], [-2.18 -1.13  0.54]
+hand pos = [ 111.2 -162.9  258. ], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 296, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.14
+t_ob pos = [   3.6 -202.6  168.9], [-2.18 -1.13  0.54]
+hand pos = [ 111.2 -162.9  262. ], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 297, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.14
+t_ob pos = [   4.3 -202.5  172.8], [-2.18 -1.12  0.54]
+hand pos = [ 111.2 -162.9  266.1], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 298, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.15
+t_ob pos = [   5.1 -202.5  176.9], [-2.19 -1.12  0.55]
+hand pos = [ 111.2 -162.9  270.1], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 299, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.15
+t_ob pos = [   5.1 -202.7  180.5], [-2.19 -1.12  0.55]
+hand pos = [ 111.2 -162.9  274.2], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 300, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.15
+t_ob pos = [   5.1 -202.9  184.1], [-2.19 -1.11  0.55]
+hand pos = [ 111.2 -162.9  278.2], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 301, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.16
+t_ob pos = [   5.2 -203.   187.9], [-2.19 -1.11  0.55]
+hand pos = [ 111.2 -162.9  282.2], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+  [ep 0/1, attempt 1] step 301/2000  terminated=False  truncated=False
+step = 302, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.16
+t_ob pos = [   5.3 -203.   191.7], [-2.19 -1.11  0.55]
+hand pos = [ 111.2 -162.9  286.3], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 303, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.17
+t_ob pos = [   5.3 -203.2  195.3], [-2.19 -1.11  0.55]
+hand pos = [ 111.2 -162.9  290.3], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 304, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.17
+t_ob pos = [   5.4 -203.2  199.1], [-2.2  -1.1   0.55]
+hand pos = [ 111.2 -162.9  294.4], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 305, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.17
+t_ob pos = [   5.6 -203.2  203.1], [-2.2  -1.1   0.56]
+hand pos = [ 111.2 -162.9  298.4], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 306, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.18
+t_ob pos = [   5.7 -203.2  207. ], [-2.2  -1.1   0.56]
+hand pos = [ 111.2 -162.9  302.4], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 307, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.18
+t_ob pos = [   5.6 -203.4  210.7], [-2.2  -1.1   0.55]
+hand pos = [ 111.2 -162.9  306.5], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 308, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.18
+t_ob pos = [   5.8 -203.5  214.5], [-2.19 -1.1   0.55]
+hand pos = [ 111.2 -162.9  310.5], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 309, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.19
+t_ob pos = [   5.9 -203.6  218.2], [-2.19 -1.1   0.54]
+hand pos = [ 111.2 -162.9  314.6], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 310, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.19
+t_ob pos = [   5.7 -203.8  221.9], [-2.19 -1.09  0.54]
+hand pos = [ 111.2 -162.9  318.6], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 311, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.20
+t_ob pos = [   5.5 -204.   225.5], [-2.18 -1.09  0.53]
+hand pos = [ 111.2 -162.9  322.6], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 312, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.20
+t_ob pos = [   5.3 -204.2  229. ], [-2.18 -1.09  0.53]
+hand pos = [ 111.2 -162.9  326.7], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 313, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.20
+t_ob pos = [   5.5 -204.2  232.9], [-2.18 -1.09  0.53]
+hand pos = [ 111.2 -162.9  330.7], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 314, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.21
+t_ob pos = [   5.2 -204.4  236.6], [-2.17 -1.09  0.52]
+hand pos = [ 111.2 -162.9  334.7], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 315, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.21
+t_ob pos = [   4.8 -204.6  240.1], [-2.17 -1.08  0.52]
+hand pos = [ 111.2 -162.9  338.8], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 316, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.21
+t_ob pos = [   4.7 -204.6  243.9], [-2.17 -1.08  0.51]
+hand pos = [ 111.2 -162.9  342.8], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 317, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.22
+t_ob pos = [   5.1 -204.4  248.1], [-2.17 -1.08  0.52]
+hand pos = [ 111.2 -162.9  346.9], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 318, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.22
+t_ob pos = [   5.5 -204.3  252.3], [-2.17 -1.08  0.52]
+hand pos = [ 111.2 -162.9  350.9], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 319, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.23
+t_ob pos = [   5.7 -204.2  256.3], [-2.17 -1.08  0.52]
+hand pos = [ 111.2 -162.9  354.9], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 320, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.23
+t_ob pos = [   5.5 -204.2  260.2], [-2.18 -1.08  0.52]
+hand pos = [ 111.2 -162.9  359. ], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 321, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.23
+t_ob pos = [   5.9 -204.2  264.2], [-2.18 -1.08  0.53]
+hand pos = [ 111.2 -162.9  363. ], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 322, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.24
+t_ob pos = [   5.4 -204.3  267.9], [-2.18 -1.08  0.52]
+hand pos = [ 111.2 -162.9  367. ], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 323, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.24
+t_ob pos = [   5.4 -204.3  271.8], [-2.18 -1.08  0.53]
+hand pos = [ 111.2 -162.9  371.1], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 324, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.25
+t_ob pos = [   5.6 -204.2  275.8], [-2.18 -1.08  0.53]
+hand pos = [ 111.2 -162.9  375.1], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 325, phase = 19, success = 0.0
+is_grasped = True, is_lifted = False
+dist = 0.15, height = 0.25
+t_ob pos = [   6.2 -204.   279.9], [-2.18 -1.08  0.53]
+hand pos = [ 111.2 -162.9  379.1], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 326, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.25
+t_ob pos = [   6.  -204.   283.9], [-2.18 -1.08  0.53]
+hand pos = [ 111.2 -162.9  383.2], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+  [ep 0/1, attempt 1] step 326/2000  terminated=True  truncated=False
+step = 327, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.26
+t_ob pos = [   6.  -204.   287.8], [-2.18 -1.08  0.53]
+hand pos = [ 111.2 -162.9  387.2], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 328, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.26
+t_ob pos = [   6.3 -204.   291.8], [-2.18 -1.08  0.54]
+hand pos = [ 111.2 -162.9  391.2], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 329, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.27
+t_ob pos = [   6.6 -204.   295.7], [-2.18 -1.08  0.54]
+hand pos = [ 111.2 -162.9  395.3], [-1.68 -1.31  0.95]
+log_enabled = False
+--------
+step = 330, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.27
+t_ob pos = [   6.7 -204.   299.6], [-2.18 -1.08  0.54]
+hand pos = [ 111.2 -162.9  399.3], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 331, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.27
+t_ob pos = [   6.8 -204.   303.6], [-2.18 -1.08  0.54]
+hand pos = [ 111.2 -162.9  403.3], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 332, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.28
+t_ob pos = [   7.  -204.   307.5], [-2.18 -1.08  0.54]
+hand pos = [ 111.2 -162.9  407.4], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 333, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.28
+t_ob pos = [   7.1 -204.1  311.4], [-2.18 -1.08  0.53]
+hand pos = [ 111.2 -162.9  411.4], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 334, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.29
+t_ob pos = [   7.1 -204.1  315.3], [-2.18 -1.08  0.53]
+hand pos = [ 111.2 -162.9  415.4], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 335, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.29
+t_ob pos = [   7.3 -204.1  319.2], [-2.18 -1.08  0.53]
+hand pos = [ 111.2 -162.9  419.5], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 336, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.29
+t_ob pos = [   7.3 -204.1  323.2], [-2.18 -1.08  0.53]
+hand pos = [ 111.2 -162.9  423.5], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 337, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.30
+t_ob pos = [   7.4 -204.1  327.1], [-2.17 -1.07  0.53]
+hand pos = [ 111.2 -162.9  427.5], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 338, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.30
+t_ob pos = [   7.2 -204.1  331.1], [-2.17 -1.08  0.53]
+hand pos = [ 111.2 -162.9  431.6], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 339, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.30
+t_ob pos = [   7.4 -204.1  335. ], [-2.17 -1.07  0.53]
+hand pos = [ 111.2 -162.9  435.6], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 340, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.31
+t_ob pos = [   7.8 -204.   339.1], [-2.17 -1.07  0.53]
+hand pos = [ 111.2 -162.9  439.6], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 341, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.31
+t_ob pos = [   7.9 -204.1  343. ], [-2.17 -1.07  0.53]
+hand pos = [ 111.2 -162.9  443.6], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 342, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.32
+t_ob pos = [   8.1 -204.2  346.8], [-2.17 -1.07  0.53]
+hand pos = [ 111.2 -162.9  447.7], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 343, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.32
+t_ob pos = [   8.  -204.2  350.7], [-2.17 -1.07  0.53]
+hand pos = [ 111.2 -162.9  451.7], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 344, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.32
+t_ob pos = [   8.2 -204.1  354.9], [-2.17 -1.07  0.53]
+hand pos = [ 111.2 -162.9  455.7], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 345, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.33
+t_ob pos = [   8.2 -204.2  358.7], [-2.17 -1.07  0.53]
+hand pos = [ 111.2 -162.9  459.8], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 346, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.33
+t_ob pos = [   8.3 -204.2  362.6], [-2.16 -1.07  0.53]
+hand pos = [ 111.2 -162.9  463.8], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 347, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.34
+t_ob pos = [   8.7 -204.1  366.7], [-2.16 -1.07  0.53]
+hand pos = [ 111.2 -162.9  467.8], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 348, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.34
+t_ob pos = [   8.8 -204.2  370.6], [-2.16 -1.07  0.53]
+hand pos = [ 111.2 -162.9  471.8], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 349, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.34
+t_ob pos = [   8.6 -204.2  374.5], [-2.16 -1.07  0.52]
+hand pos = [ 111.2 -162.9  475.9], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 350, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.35
+t_ob pos = [   8.8 -204.2  378.5], [-2.16 -1.07  0.52]
+hand pos = [ 111.2 -162.9  479.9], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 351, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.35
+t_ob pos = [   8.6 -204.3  382.4], [-2.16 -1.07  0.52]
+hand pos = [ 111.2 -162.9  483.9], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 352, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.36
+t_ob pos = [   9.  -204.2  386.4], [-2.16 -1.07  0.52]
+hand pos = [ 111.2 -162.9  487.9], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 353, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.36
+t_ob pos = [   8.9 -204.3  390.3], [-2.16 -1.07  0.52]
+hand pos = [ 111.2 -162.9  492. ], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 354, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.36
+t_ob pos = [   8.9 -204.3  394.3], [-2.15 -1.07  0.52]
+hand pos = [ 111.2 -162.9  496. ], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 355, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.37
+t_ob pos = [   9.  -204.2  398.3], [-2.15 -1.07  0.52]
+hand pos = [ 111.3 -162.9  500. ], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+step = 356, phase = 19, success = 1.0
+is_grasped = True, is_lifted = True
+dist = 0.15, height = 0.37
+t_ob pos = [   9.1 -204.2  402.3], [-2.15 -1.07  0.52]
+hand pos = [ 111.3 -162.9  504. ], [-1.67 -1.31  0.95]
+log_enabled = False
+--------
+  [ep 0, attempt 1] Success at step 326, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/ClutterGrasp-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [18:02:50] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/ClutterGrasp-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [18:02:52] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/ClutterGrasp-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/ClutterGrasp-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [18:02:52] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

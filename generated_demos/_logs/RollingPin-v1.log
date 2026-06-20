@@ -1,0 +1,180 @@
+[38;5;159m[Genesis] [17:08:53] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:08:53] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:08:53] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:08:54] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [17:08:54] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:08:57] [INFO] Scene [38;5;121m[3m<4cfe017>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [17:08:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<d464161>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:00] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [17:09:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<01444f5>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:09:02] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [17:09:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<df9b524>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<a40cb2c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<1f22240>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<32bcb4d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<0f15784>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:03] [INFO] Adding [38;5;121m<gs.MPMEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<75accdd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.MPM.ElastoPlastic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:03] [INFO] Sampling particles with [38;5;121mregular[0m[38;5;159m sampler and generating `.ptc` file:[0m
+[38;5;159m[Genesis] [17:09:03] [INFO] Sampled [38;5;121m[4m2,432[0m[38;5;159m particles.[0m
+[38;5;159m[Genesis] [17:09:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<fd8fed6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/stamp.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:03] [INFO] Convex hull is not accurate enough for collision detection (1.118). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [17:09:03] [INFO] Running convex decomposition.[0m
+[2026-06-16 17:09:03.343] [CoACD] [info] threshold               0.1
+[2026-06-16 17:09:03.344] [CoACD] [info] max # convex hull       -1
+[2026-06-16 17:09:03.344] [CoACD] [info] preprocess mode         auto
+[2026-06-16 17:09:03.344] [CoACD] [info] preprocess resolution   30
+[2026-06-16 17:09:03.344] [CoACD] [info] pca                     false
+[2026-06-16 17:09:03.344] [CoACD] [info] mcts max depth          3
+[2026-06-16 17:09:03.344] [CoACD] [info] mcts nodes              20
+[2026-06-16 17:09:03.344] [CoACD] [info] mcts iterations         100
+[2026-06-16 17:09:03.344] [CoACD] [info] merge                   true
+[2026-06-16 17:09:03.344] [CoACD] [info] decimate                false
+[2026-06-16 17:09:03.344] [CoACD] [info] max_ch_vertex           256
+[2026-06-16 17:09:03.344] [CoACD] [info] extrude                 false
+[2026-06-16 17:09:03.344] [CoACD] [info] extrude margin          0.1
+[2026-06-16 17:09:03.344] [CoACD] [info] approximate mode        ch
+[2026-06-16 17:09:03.344] [CoACD] [info] seed                    0
+[2026-06-16 17:09:03.344] [CoACD] [info]  - Manifold Check
+[2026-06-16 17:09:03.345] [CoACD] [info] 	Unclosed mesh
+[2026-06-16 17:09:03.345] [CoACD] [info] Manifold Check Time: 0.000234s
+[2026-06-16 17:09:03.345] [CoACD] [info] Mesh Manifoldness: false
+[2026-06-16 17:09:03.345] [CoACD] [info]  - Preprocess
+[2026-06-16 17:09:03.345] [CoACD] [info] Preprocess resolution: 30
+[2026-06-16 17:09:03.555] [CoACD] [info] Preprocess Time: 12.100472s
+[2026-06-16 17:09:03.555] [CoACD] [info] # Points: 6892
+[2026-06-16 17:09:03.556] [CoACD] [info] # Triangles: 13784
+[2026-06-16 17:09:03.556] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-16 17:09:03.556] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-16 17:09:03.569] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:09:06.205] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:09:06.205] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-16 17:09:06.210] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:09:06.210] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:09:07.946] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:09:07.946] [CoACD] [info] iter 2 ---- waiting pool: 2
+[2026-06-16 17:09:07.947] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:09:07.947] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:09:09.494] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:09:09.494] [CoACD] [info] iter 3 ---- waiting pool: 2
+[2026-06-16 17:09:09.494] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:09:09.494] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:09:10.245] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:09:10.245] [CoACD] [info] iter 4 ---- waiting pool: 2
+[2026-06-16 17:09:10.245] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:09:10.245] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:09:10.265] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:09:10.265] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-16 17:09:10.381] [CoACD] [info] Compute Time: 6.825198573060334s
+[2026-06-16 17:09:10.381] [CoACD] [info] # Convex Hulls: 5
+[38;5;159m[Genesis] [17:09:10] [INFO] Preprocessing geom idx [38;5;121m[4m83[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:10] [INFO] Preprocessing geom idx [38;5;121m[4m84[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:10] [INFO] Preprocessing geom idx [38;5;121m[4m85[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:10] [INFO] Preprocessing geom idx [38;5;121m[4m86[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:11] [INFO] Preprocessing geom idx [38;5;121m[4m87[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:09:11] [INFO] Building scene [38;5;121m[3m<4cfe017>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [17:09:14] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [17:09:16] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 3284, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;226m[Genesis] [17:09:24] [WARNING] Current `substep_dt` (0.001) is greater than suggested_dt (0.0003125, calculated based on `grid_density`). Simulation might be unstable.[0m
+[38;5;159m[Genesis] [17:09:25] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [17:10:09] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+[RollingPinEval] step=0 phase=0 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.000/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.191,0.164) pin_x_sweep=(0.110,0.110) clay_center=(0.110,0.391,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+Action space: Box(-1.0, 1.0, (22,), float32)
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/RollingPin-v1
+[38;5;159m[Genesis] [17:10:12] [INFO] Scene [38;5;121m[3m<1a25706>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [17:10:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<e15c08a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:10:16] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [17:10:17] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<e22dfb0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:10:17] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [17:10:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<dce8dc1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:10:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<651d5a4>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:10:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<f08f3d5>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:10:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<a41bef2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:10:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<7dc82ec>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:10:18] [INFO] Adding [38;5;121m<gs.MPMEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<5e4ac60>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.MPM.ElastoPlastic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:10:18] [INFO] Sampled [38;5;121m[4m2,432[0m[38;5;159m particles.[0m
+[38;5;159m[Genesis] [17:10:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<9061b44>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/stamp.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:10:18] [INFO] Convex hull is not accurate enough for collision detection (1.118). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [17:10:18] [INFO] Building scene [38;5;121m[3m<1a25706>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [17:10:21] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [17:10:23] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 3284, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;226m[Genesis] [17:10:32] [WARNING] Current `substep_dt` (0.001) is greater than suggested_dt (0.0003125, calculated based on `grid_density`). Simulation might be unstable.[0m
+[38;5;159m[Genesis] [17:10:32] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [17:11:16] [INFO] Building visualizer...[0m
+[RollingPinEval] step=0 phase=0 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.000/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.164) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+  [ep 0/1, attempt 1] step 1/300  terminated=False  truncated=False
+[RollingPinEval] step=10 phase=0 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=20 phase=0 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=30 phase=0 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=40 phase=0 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=50 phase=0 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=60 phase=0 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=70 phase=1 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=80 phase=1 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=90 phase=1 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=100 phase=1 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+  [ep 0/1, attempt 1] step 101/300  terminated=False  truncated=False
+[RollingPinEval] step=110 phase=1 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=120 phase=2 wait=0 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=130 phase=2 wait=10 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.001/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,0.023,0.172) pin_x_sweep=(0.110,0.110) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=140 phase=2 wait=20 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.019/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.113,0.023,0.172) pin_x_sweep=(0.110,0.113) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=150 phase=2 wait=30 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.038/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.115,0.026,0.173) pin_x_sweep=(0.110,0.115) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=160 phase=3 wait=40 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.038/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.111,0.031,0.174) pin_x_sweep=(0.110,0.115) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=170 phase=3 wait=40 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.067/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.106,0.040,0.212) pin_x_sweep=(0.106,0.115) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=180 phase=4 wait=40 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.108,0.021,0.233) pin_x_sweep=(0.106,0.115) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=190 phase=4 wait=40 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.018,0.236) pin_x_sweep=(0.106,0.115) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=200 phase=4 wait=40 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,-0.058,0.236) pin_x_sweep=(0.106,0.115) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+  [ep 0/1, attempt 1] step 201/300  terminated=False  truncated=False
+[RollingPinEval] step=210 phase=4 wait=40 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,-0.098,0.236) pin_x_sweep=(0.106,0.115) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=220 phase=4 wait=40 success=False h_ratio=1.000/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,-0.137,0.236) pin_x_sweep=(0.106,0.115) clay_center=(0.110,-0.177,0.030) clay_top_z=0.037 dx=0.135 dy=0.135
+[RollingPinEval] step=230 phase=5 wait=0 success=False h_ratio=1.002/0.700 ok_h=False mean_z_ratio=1.000/0.650 ok_mean_z=False A_ratio=1.000/1.100 ok_A=False coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.170,0.227) pin_x_sweep=(0.106,0.115) clay_center=(0.110,-0.177,0.030) clay_top_z=0.038 dx=0.135 dy=0.135
+[RollingPinEval] step=236 phase=5 wait=0 success=True h_ratio=1.221/0.700 ok_h=False mean_z_ratio=0.632/0.650 ok_mean_z=True A_ratio=1.143/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.175,0.202) pin_x_sweep=(0.106,0.115) clay_center=(0.109,-0.177,0.019) clay_top_z=0.029 dx=0.144 dy=0.144
+  [ep 0/1, attempt 1] step 236/300  terminated=True  truncated=False
+[RollingPinEval] step=237 phase=5 wait=0 success=True h_ratio=1.334/0.700 ok_h=False mean_z_ratio=0.573/0.650 ok_mean_z=True A_ratio=1.272/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.176,0.198) pin_x_sweep=(0.106,0.115) clay_center=(0.109,-0.177,0.017) clay_top_z=0.029 dx=0.152 dy=0.152
+[RollingPinEval] step=238 phase=5 wait=0 success=True h_ratio=1.434/0.700 ok_h=False mean_z_ratio=0.529/0.650 ok_mean_z=True A_ratio=1.400/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.176,0.194) pin_x_sweep=(0.106,0.115) clay_center=(0.108,-0.177,0.016) clay_top_z=0.030 dx=0.160 dy=0.160
+[RollingPinEval] step=239 phase=5 wait=0 success=True h_ratio=1.561/0.700 ok_h=False mean_z_ratio=0.485/0.650 ok_mean_z=True A_ratio=1.532/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.176,0.190) pin_x_sweep=(0.106,0.115) clay_center=(0.108,-0.177,0.015) clay_top_z=0.030 dx=0.167 dy=0.167
+[RollingPinEval] step=240 phase=5 wait=0 success=True h_ratio=1.783/0.700 ok_h=False mean_z_ratio=0.445/0.650 ok_mean_z=True A_ratio=1.688/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.176,0.186) pin_x_sweep=(0.106,0.115) clay_center=(0.107,-0.176,0.013) clay_top_z=0.032 dx=0.176 dy=0.175
+[RollingPinEval] step=241 phase=5 wait=0 success=True h_ratio=2.093/0.700 ok_h=False mean_z_ratio=0.423/0.650 ok_mean_z=True A_ratio=1.881/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.176,0.182) pin_x_sweep=(0.106,0.115) clay_center=(0.106,-0.175,0.013) clay_top_z=0.035 dx=0.186 dy=0.184
+[RollingPinEval] step=242 phase=5 wait=0 success=True h_ratio=2.318/0.700 ok_h=False mean_z_ratio=0.422/0.650 ok_mean_z=True A_ratio=2.053/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.108,-0.176,0.178) pin_x_sweep=(0.106,0.115) clay_center=(0.105,-0.174,0.013) clay_top_z=0.036 dx=0.194 dy=0.193
+[RollingPinEval] step=243 phase=5 wait=0 success=True h_ratio=2.382/0.700 ok_h=False mean_z_ratio=0.431/0.650 ok_mean_z=True A_ratio=2.129/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.108,-0.176,0.176) pin_x_sweep=(0.106,0.115) clay_center=(0.105,-0.173,0.013) clay_top_z=0.036 dx=0.197 dy=0.197
+[RollingPinEval] step=244 phase=5 wait=0 success=True h_ratio=2.384/0.700 ok_h=False mean_z_ratio=0.430/0.650 ok_mean_z=True A_ratio=2.131/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.176,0.176) pin_x_sweep=(0.106,0.115) clay_center=(0.105,-0.174,0.013) clay_top_z=0.036 dx=0.197 dy=0.197
+[RollingPinEval] step=245 phase=5 wait=0 success=True h_ratio=2.387/0.700 ok_h=False mean_z_ratio=0.430/0.650 ok_mean_z=True A_ratio=2.141/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.176,0.175) pin_x_sweep=(0.106,0.115) clay_center=(0.106,-0.174,0.013) clay_top_z=0.036 dx=0.198 dy=0.197
+[RollingPinEval] step=246 phase=5 wait=0 success=True h_ratio=2.390/0.700 ok_h=False mean_z_ratio=0.432/0.650 ok_mean_z=True A_ratio=2.149/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.176,0.175) pin_x_sweep=(0.106,0.115) clay_center=(0.106,-0.175,0.013) clay_top_z=0.036 dx=0.198 dy=0.198
+[RollingPinEval] step=247 phase=5 wait=0 success=True h_ratio=2.394/0.700 ok_h=False mean_z_ratio=0.434/0.650 ok_mean_z=True A_ratio=2.155/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.109,-0.176,0.174) pin_x_sweep=(0.106,0.115) clay_center=(0.107,-0.175,0.013) clay_top_z=0.036 dx=0.198 dy=0.198
+[RollingPinEval] step=248 phase=5 wait=0 success=True h_ratio=2.398/0.700 ok_h=False mean_z_ratio=0.437/0.650 ok_mean_z=True A_ratio=2.160/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,-0.176,0.174) pin_x_sweep=(0.106,0.115) clay_center=(0.108,-0.176,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+[RollingPinEval] step=249 phase=5 wait=0 success=True h_ratio=2.401/0.700 ok_h=False mean_z_ratio=0.440/0.650 ok_mean_z=True A_ratio=2.164/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,-0.176,0.174) pin_x_sweep=(0.106,0.115) clay_center=(0.109,-0.176,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+[RollingPinEval] step=250 phase=5 wait=0 success=True h_ratio=2.401/0.700 ok_h=False mean_z_ratio=0.443/0.650 ok_mean_z=True A_ratio=2.170/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.110,-0.176,0.174) pin_x_sweep=(0.106,0.115) clay_center=(0.109,-0.177,0.013) clay_top_z=0.036 dx=0.199 dy=0.199
+[RollingPinEval] step=251 phase=5 wait=0 success=True h_ratio=2.404/0.700 ok_h=False mean_z_ratio=0.445/0.650 ok_mean_z=True A_ratio=2.172/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.111,-0.176,0.173) pin_x_sweep=(0.106,0.115) clay_center=(0.110,-0.177,0.013) clay_top_z=0.036 dx=0.199 dy=0.199
+[RollingPinEval] step=252 phase=5 wait=0 success=True h_ratio=2.404/0.700 ok_h=False mean_z_ratio=0.446/0.650 ok_mean_z=True A_ratio=2.174/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.111,-0.177,0.173) pin_x_sweep=(0.106,0.115) clay_center=(0.111,-0.178,0.013) clay_top_z=0.036 dx=0.199 dy=0.199
+[RollingPinEval] step=253 phase=5 wait=0 success=True h_ratio=2.412/0.700 ok_h=False mean_z_ratio=0.445/0.650 ok_mean_z=True A_ratio=2.175/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.112,-0.177,0.173) pin_x_sweep=(0.106,0.115) clay_center=(0.112,-0.179,0.013) clay_top_z=0.036 dx=0.199 dy=0.199
+[RollingPinEval] step=254 phase=5 wait=0 success=True h_ratio=2.415/0.700 ok_h=False mean_z_ratio=0.446/0.650 ok_mean_z=True A_ratio=2.177/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.113,-0.177,0.173) pin_x_sweep=(0.106,0.115) clay_center=(0.112,-0.180,0.013) clay_top_z=0.036 dx=0.199 dy=0.200
+[RollingPinEval] step=255 phase=5 wait=0 success=True h_ratio=2.420/0.700 ok_h=False mean_z_ratio=0.444/0.650 ok_mean_z=True A_ratio=2.177/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.113,-0.178,0.172) pin_x_sweep=(0.106,0.115) clay_center=(0.113,-0.180,0.013) clay_top_z=0.036 dx=0.199 dy=0.200
+[RollingPinEval] step=256 phase=5 wait=0 success=True h_ratio=2.424/0.700 ok_h=False mean_z_ratio=0.444/0.650 ok_mean_z=True A_ratio=2.175/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.114,-0.178,0.172) pin_x_sweep=(0.106,0.115) clay_center=(0.114,-0.181,0.013) clay_top_z=0.036 dx=0.198 dy=0.200
+[RollingPinEval] step=257 phase=5 wait=0 success=True h_ratio=2.427/0.700 ok_h=False mean_z_ratio=0.442/0.650 ok_mean_z=True A_ratio=2.171/1.100 ok_A=True coverage=0.069/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.115,-0.178,0.172) pin_x_sweep=(0.106,0.115) clay_center=(0.115,-0.182,0.013) clay_top_z=0.036 dx=0.198 dy=0.200
+[RollingPinEval] step=258 phase=5 wait=0 success=True h_ratio=2.428/0.700 ok_h=False mean_z_ratio=0.441/0.650 ok_mean_z=True A_ratio=2.168/1.100 ok_A=True coverage=0.072/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.115,-0.179,0.172) pin_x_sweep=(0.106,0.115) clay_center=(0.115,-0.183,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+[RollingPinEval] step=259 phase=5 wait=0 success=True h_ratio=2.431/0.700 ok_h=False mean_z_ratio=0.440/0.650 ok_mean_z=True A_ratio=2.166/1.100 ok_A=True coverage=0.076/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.116,-0.179,0.172) pin_x_sweep=(0.106,0.116) clay_center=(0.116,-0.184,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+[RollingPinEval] step=260 phase=5 wait=0 success=True h_ratio=2.432/0.700 ok_h=False mean_z_ratio=0.438/0.650 ok_mean_z=True A_ratio=2.165/1.100 ok_A=True coverage=0.080/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.117,-0.180,0.172) pin_x_sweep=(0.106,0.117) clay_center=(0.117,-0.184,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+[RollingPinEval] step=261 phase=5 wait=0 success=True h_ratio=2.433/0.700 ok_h=False mean_z_ratio=0.437/0.650 ok_mean_z=True A_ratio=2.164/1.100 ok_A=True coverage=0.085/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.117,-0.180,0.172) pin_x_sweep=(0.106,0.117) clay_center=(0.117,-0.185,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+[RollingPinEval] step=262 phase=5 wait=0 success=True h_ratio=2.435/0.700 ok_h=False mean_z_ratio=0.436/0.650 ok_mean_z=True A_ratio=2.164/1.100 ok_A=True coverage=0.087/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.117,-0.181,0.171) pin_x_sweep=(0.106,0.117) clay_center=(0.117,-0.186,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+[RollingPinEval] step=263 phase=5 wait=0 success=True h_ratio=2.437/0.700 ok_h=False mean_z_ratio=0.435/0.650 ok_mean_z=True A_ratio=2.163/1.100 ok_A=True coverage=0.090/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.118,-0.181,0.171) pin_x_sweep=(0.106,0.118) clay_center=(0.118,-0.186,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+[RollingPinEval] step=264 phase=5 wait=0 success=True h_ratio=2.439/0.700 ok_h=False mean_z_ratio=0.435/0.650 ok_mean_z=True A_ratio=2.163/1.100 ok_A=True coverage=0.093/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.118,-0.182,0.171) pin_x_sweep=(0.106,0.118) clay_center=(0.118,-0.187,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+[RollingPinEval] step=265 phase=5 wait=0 success=True h_ratio=2.437/0.700 ok_h=False mean_z_ratio=0.435/0.650 ok_mean_z=True A_ratio=2.162/1.100 ok_A=True coverage=0.098/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.119,-0.183,0.172) pin_x_sweep=(0.106,0.119) clay_center=(0.119,-0.188,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+[RollingPinEval] step=266 phase=5 wait=0 success=True h_ratio=2.438/0.700 ok_h=False mean_z_ratio=0.435/0.650 ok_mean_z=True A_ratio=2.162/1.100 ok_A=True coverage=0.102/0.550 ok_cov=False press_depth=0.0000/0.0040 pressed=False pin=(0.119,-0.184,0.172) pin_x_sweep=(0.106,0.119) clay_center=(0.120,-0.189,0.013) clay_top_z=0.036 dx=0.198 dy=0.199
+  [ep 0, attempt 1] Success at step 236, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/RollingPin-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [17:13:10] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/RollingPin-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:13:12] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/RollingPin-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/RollingPin-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [17:13:12] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

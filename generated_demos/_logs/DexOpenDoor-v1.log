@@ -1,0 +1,71 @@
+[38;5;159m[Genesis] [17:26:57] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:26:57] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:26:57] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:26:58] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [17:26:58] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:27:00] [INFO] Scene [38;5;121m[3m<bb91929>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [17:27:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<3f1ae15>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:27:04] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [17:27:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<921f94f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:27:06] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [17:27:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<375a42e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:27:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<e728844>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:27:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<c554744>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:27:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<ceda48e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:27:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<2a8954f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:27:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<3563dee>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/models/door/dex_latched_door.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:27:06] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [17:27:06] [INFO] Building scene [38;5;121m[3m<bb91929>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [17:27:09] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [17:27:11] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 3453, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [17:27:18] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [17:27:52] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+Action space: Box(-1.0, 1.0, (22,), float32)
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/DexOpenDoor-v1
+  [ep 0/1, attempt 1] step 1/500  terminated=False  truncated=False
+[phase2 latch exit] latch_slide=0.051 steps=1
+  [ep 0/1, attempt 1] step 101/500  terminated=False  truncated=False
+[phase12 press enter] tcp=[-0.081  0.395  0.313] target_z=0.233
+[phase12 press exit] tcp=[-0.081  0.395  0.295] handle=15.7° steps=6
+[phase13 grasp enter] tcp=[-0.081  0.395  0.291] hand_qpos[:4]=[ 0. -0.  0.  0.]
+[phase13 grasp exit] hand_qpos[:4]=[0.   0.79 0.79 0.79]
+[phase4b step=10] tcp=[-0.043  0.374  0.258] door_angle=0.5° desired=16.0° stall=10 target=[0.016 0.184 0.38 ] |err|=0.233
+[phase4b step=20] tcp=[-0.022  0.353  0.277] door_angle=0.7° desired=15.1° stall=7 target=[0.019 0.186 0.38 ] |err|=0.201
+  [ep 0/1, attempt 1] step 201/500  terminated=False  truncated=False
+[phase4b step=30] tcp=[-0.015  0.344  0.288] door_angle=0.9° desired=14.3° stall=4 target=[0.022 0.187 0.38 ] |err|=0.186
+[phase4b step=40] tcp=[-0.011  0.339  0.301] door_angle=1.1° desired=14.1° stall=3 target=[0.022 0.187 0.38 ] |err|=0.174
+[phase4b step=50] tcp=[-0.007  0.334  0.313] door_angle=1.3° desired=14.7° stall=4 target=[0.018 0.186 0.38 ] |err|=0.165
+[phase4b step=60] tcp=[-0.005  0.332  0.323] door_angle=1.7° desired=14.4° stall=2 target=[0.019 0.186 0.38 ] |err|=0.159
+[phase4b step=70] tcp=[-0.003  0.33   0.332] door_angle=2.2° desired=14.9° stall=2 target=[0.015 0.185 0.38 ] |err|=0.154
+[phase4b step=80] tcp=[-0.003  0.328  0.34 ] door_angle=2.8° desired=15.8° stall=3 target=[0.01  0.183 0.38 ] |err|=0.151
+[phase4b step=90] tcp=[-0.005  0.326  0.345] door_angle=3.5° desired=16.2° stall=2 target=[0.006 0.182 0.38 ] |err|=0.149
+[phase4b step=100] tcp=[-0.011  0.32   0.35 ] door_angle=5.2° desired=17.2° stall=0 target=[-0.002  0.178  0.38 ] |err|=0.145
+[phase4b step=110] tcp=[-0.02   0.309  0.356] door_angle=7.6° desired=19.9° stall=1 target=[-0.02   0.171  0.38 ] |err|=0.140
+[phase4b step=120] tcp=[-0.035  0.295  0.36 ] door_angle=11.0° desired=23.0° stall=0 target=[-0.041  0.161  0.38 ] |err|=0.135
+  [ep 0/1, attempt 1] step 301/500  terminated=False  truncated=False
+[phase4b step=130] tcp=[-0.055  0.275  0.364] door_angle=15.7° desired=27.7° stall=0 target=[-0.072  0.146  0.38 ] |err|=0.131
+[phase4b step=140] tcp=[-0.078  0.25   0.368] door_angle=21.2° desired=33.2° stall=0 target=[-0.107  0.126  0.38 ] |err|=0.129
+[phase4b step=150] tcp=[-0.099  0.225  0.37 ] door_angle=26.8° desired=38.8° stall=0 target=[-0.14   0.105  0.38 ] |err|=0.127
+[phase4b step=160] tcp=[-0.119  0.197  0.372] door_angle=32.4° desired=44.4° stall=0 target=[-0.172  0.083  0.38 ] |err|=0.126
+[phase4b step=170] tcp=[-0.151  0.174  0.357] door_angle=38.2° desired=50.2° stall=0 target=[-0.203  0.062  0.38 ] |err|=0.126
+  [ep 0/1, attempt 1] step 352/500  terminated=True  truncated=False
+[phase4b step=180] tcp=[-0.203  0.144  0.305] door_angle=46.3° desired=58.3° stall=0 target=[-0.241  0.035  0.38 ] |err|=0.138
+[phase4b step=190] tcp=[-0.234  0.128  0.284] door_angle=52.1° desired=64.1° stall=0 target=[-0.264  0.019  0.38 ] |err|=0.148
+[phase4b step=200] tcp=[-0.256  0.11   0.294] door_angle=55.6° desired=67.6° stall=0 target=[-0.275  0.011  0.38 ] |err|=0.132
+  [ep 0, attempt 1] Success at step 352, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DexOpenDoor-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [17:28:17] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DexOpenDoor-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:28:19] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/DexOpenDoor-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/DexOpenDoor-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [17:28:19] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

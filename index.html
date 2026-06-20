@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ManiLadder</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">ManiLadder</p>
+        <h1>Scaling Robot Manipulation Tasks, One Rung at a Time</h1>
+        <p class="hero-subtitle">
+          A curated ladder of rigid-body, deformable, and long-horizon manipulation tasks,
+          organized by difficulty and embodiment with demonstration rollouts for fast comparison.
+        </p>
+        <div class="hero-links" aria-label="Project links">
+          <a href="#overview">Overview</a>
+          <a href="#task-gallery">Demo Gallery</a>
+        </div>
+      </div>
+      <div class="header-stats" aria-label="Task summary">
+        <div><strong id="task-count">0</strong><span>Tasks</span></div>
+        <div><strong id="level-count">0</strong><span>Levels</span></div>
+        <div><strong id="video-count">0</strong><span>Videos</span></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro-section" id="overview" aria-labelledby="intro-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Overview</p>
+          <h2 id="intro-title">Introduction Video</h2>
+        </div>
+        <p class="section-kicker">Drop the project overview video at <code>site/videos/intro.mp4</code>.</p>
+      </div>
+      <div class="intro-video-shell">
+        <video class="intro-video" controls preload="metadata" poster="" aria-label="ManiLadder introduction video">
+          <source src="videos/intro.mp4" type="video/mp4">
+        </video>
+        <div class="intro-placeholder">
+          <span>ManiLadder overview video</span>
+        </div>
+      </div>
+      <p class="intro-caption">
+        Overview slot for the benchmark story, task taxonomy, and example policy rollouts.
+      </p>
+    </section>
+
+    <section class="controls-section" id="task-gallery" aria-label="Gallery controls">
+      <label class="search-box">
+        <span>Search</span>
+        <input id="search-input" type="search" placeholder="Task name, domain, embodiment">
+      </label>
+      <div class="segmented" id="level-filter" aria-label="Level filter"></div>
+      <div class="segmented compact" id="domain-filter" aria-label="Domain filter"></div>
+    </section>
+
+    <section class="gallery-section" aria-live="polite">
+      <div id="gallery"></div>
+      <div class="empty-results" id="empty-results" hidden>No tasks match the current filters.</div>
+    </section>
+  </main>
+
+  <script src="data/tasks.js"></script>
+  <script src="data/video-status.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

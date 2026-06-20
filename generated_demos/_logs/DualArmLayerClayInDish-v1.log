@@ -1,0 +1,103 @@
+[38;5;159m[Genesis] [17:29:47] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:29:47] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:29:47] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:29:48] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [17:29:48] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:29:51] [INFO] Scene [38;5;121m[3m<c5d5d96>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [17:29:51] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<5e56c61>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand_left.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:29:55] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 17:29:57,406 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000,  0.7000,  0.0000,  0.0000,  0.0000, -1.5708]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [17:29:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<a0e77ec>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:01] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 17:30:02,892 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000, -0.7000,  0.0000,  0.0000,  0.0000,  1.5708]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [17:30:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<c6b2535>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:30:02] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [17:30:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<ec7dd86>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<ce94595>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<2f4a209>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<59ab578>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<c6c36ca>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<d3cf47e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:03] [INFO] Preprocessing geom idx [38;5;121m[4m164[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<479f32e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:03] [INFO] Preprocessing geom idx [38;5;121m[4m165[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<503c20a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:03] [INFO] Preprocessing geom idx [38;5;121m[4m166[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<9708cd9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<ed3423b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/dish.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Preprocessing geom idx [38;5;121m[4m168[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Preprocessing geom idx [38;5;121m[4m170[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<4ef4715>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Preprocessing geom idx [38;5;121m[4m172[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m14[0m[38;5;159m, uid: [38;5;121m[3m<fbc3edc>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/stamp_tool.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Preprocessing geom idx [38;5;121m[4m173[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:04] [INFO] Preprocessing geom idx [38;5;121m[4m175[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:05] [INFO] Preprocessing geom idx [38;5;121m[4m176[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:05] [INFO] Preprocessing geom idx [38;5;121m[4m177[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:05] [INFO] Preprocessing geom idx [38;5;121m[4m179[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:05] [INFO] Preprocessing geom idx [38;5;121m[4m180[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:05] [INFO] Preprocessing geom idx [38;5;121m[4m182[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:05] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m15[0m[38;5;159m, uid: [38;5;121m[3m<90704eb>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/stamp_tool.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:05] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m16[0m[38;5;159m, uid: [38;5;121m[3m<10ca184>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m17[0m[38;5;159m, uid: [38;5;121m[3m<90d36f2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m18[0m[38;5;159m, uid: [38;5;121m[3m<14e7066>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m19[0m[38;5;159m, uid: [38;5;121m[3m<c6f15a7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m20[0m[38;5;159m, uid: [38;5;121m[3m<e20a8c7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m21[0m[38;5;159m, uid: [38;5;121m[3m<95f44a8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m22[0m[38;5;159m, uid: [38;5;121m[3m<002cc5b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m23[0m[38;5;159m, uid: [38;5;121m[3m<a7491e0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m24[0m[38;5;159m, uid: [38;5;121m[3m<a858e14>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m25[0m[38;5;159m, uid: [38;5;121m[3m<dd8d120>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m26[0m[38;5;159m, uid: [38;5;121m[3m<f1c15f3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m27[0m[38;5;159m, uid: [38;5;121m[3m<b212ca1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m28[0m[38;5;159m, uid: [38;5;121m[3m<ae939f7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m29[0m[38;5;159m, uid: [38;5;121m[3m<e4ed7c1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m30[0m[38;5;159m, uid: [38;5;121m[3m<b4eb4a8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m31[0m[38;5;159m, uid: [38;5;121m[3m<ecafd35>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m32[0m[38;5;159m, uid: [38;5;121m[3m<dd8cc14>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.MPMEntity>[0m[38;5;159m. idx: [38;5;121m33[0m[38;5;159m, uid: [38;5;121m[3m<20fc891>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.MPM.ElastoPlastic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Sampling particles with [38;5;121mregular[0m[38;5;159m sampler and generating `.ptc` file:[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Sampled [38;5;121m[4m1,280[0m[38;5;159m particles.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.MPMEntity>[0m[38;5;159m. idx: [38;5;121m34[0m[38;5;159m, uid: [38;5;121m[3m<2312e58>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.MPM.ElastoPlastic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Sampled [38;5;121m[4m1,280[0m[38;5;159m particles.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.MPMEntity>[0m[38;5;159m. idx: [38;5;121m35[0m[38;5;159m, uid: [38;5;121m[3m<7c6e6b0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.MPM.ElastoPlastic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Sampled [38;5;121m[4m1,280[0m[38;5;159m particles.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Adding [38;5;121m<gs.MPMEntity>[0m[38;5;159m. idx: [38;5;121m36[0m[38;5;159m, uid: [38;5;121m[3m<c4cbc69>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.MPM.ElastoPlastic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Sampled [38;5;121m[4m1,280[0m[38;5;159m particles.[0m
+[38;5;159m[Genesis] [17:30:06] [INFO] Building scene [38;5;121m[3m<c5d5d96>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [17:30:10] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [17:30:12] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 17298, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;226m[Genesis] [17:30:22] [WARNING] Current `substep_dt` (0.001) is greater than suggested_dt (0.00015625, calculated based on `grid_density`). Simulation might be unstable.[0m
+[38;5;159m[Genesis] [17:30:23] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [17:31:11] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+Action space: Dict('panda_leaphand-1': Box(-1.0, 1.0, (22,), float32), 'panda_leaphand_left-0': Box(-1.0, 1.0, (22,), float32))
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/DualArmLayerClayInDish-v1
+  [ep 0/1, attempt 1] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 575/600  terminated=True  truncated=False
+  [ep 0, attempt 1] Success at step 575, collected 25 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmLayerClayInDish-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [17:40:40] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmLayerClayInDish-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:40:42] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/DualArmLayerClayInDish-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/DualArmLayerClayInDish-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [17:40:42] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

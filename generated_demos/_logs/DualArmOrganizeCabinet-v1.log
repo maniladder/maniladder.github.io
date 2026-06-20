@@ -1,0 +1,300 @@
+[38;5;159m[Genesis] [18:22:18] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:22:18] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:22:18] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:22:19] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:22:19] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:22:21] [INFO] Scene [38;5;121m[3m<5497632>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [18:22:21] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<15119c5>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:22:21] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [18:22:21] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [18:22:21] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [18:22:21] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [18:22:21] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 18:22:22,242 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[  0.0000,   0.5500,   0.0000,   0.0000,   0.0000, -90.0000]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [18:22:22] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<60088fb>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:22:22] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [18:22:22] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [18:22:22] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [18:22:22] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [18:22:22] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 18:22:22,668 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000, -0.5500,  0.0000,  0.0000,  0.0000, 90.0000]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [18:22:22] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<2e3539a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:22:22] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:22:22] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<c8812ca>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:23] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<a0de7c6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:23] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<6412997>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:23] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<08d9c05>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:23] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<204aaee>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:23] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<4bfeac3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/storage_cabinet_furniture.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:22:23] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:22:23] [INFO] Convex hull is not accurate enough for collision detection (5.030). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:22:23] [INFO] Running convex decomposition.[0m
+[2026-06-16 18:22:23.990] [CoACD] [info] threshold               0.1
+[2026-06-16 18:22:23.991] [CoACD] [info] max # convex hull       -1
+[2026-06-16 18:22:23.991] [CoACD] [info] preprocess mode         auto
+[2026-06-16 18:22:23.991] [CoACD] [info] preprocess resolution   30
+[2026-06-16 18:22:23.991] [CoACD] [info] pca                     false
+[2026-06-16 18:22:23.991] [CoACD] [info] mcts max depth          3
+[2026-06-16 18:22:23.991] [CoACD] [info] mcts nodes              20
+[2026-06-16 18:22:23.991] [CoACD] [info] mcts iterations         100
+[2026-06-16 18:22:23.991] [CoACD] [info] merge                   true
+[2026-06-16 18:22:23.991] [CoACD] [info] decimate                false
+[2026-06-16 18:22:23.991] [CoACD] [info] max_ch_vertex           256
+[2026-06-16 18:22:23.991] [CoACD] [info] extrude                 false
+[2026-06-16 18:22:23.991] [CoACD] [info] extrude margin          0.1
+[2026-06-16 18:22:23.991] [CoACD] [info] approximate mode        ch
+[2026-06-16 18:22:23.991] [CoACD] [info] seed                    0
+[2026-06-16 18:22:23.991] [CoACD] [info]  - Manifold Check
+[2026-06-16 18:22:23.994] [CoACD] [info] 	Unclosed mesh
+[2026-06-16 18:22:23.994] [CoACD] [info] Manifold Check Time: 0.001838s
+[2026-06-16 18:22:23.994] [CoACD] [info] Mesh Manifoldness: false
+[2026-06-16 18:22:23.994] [CoACD] [info]  - Preprocess
+[2026-06-16 18:22:23.994] [CoACD] [info] Preprocess resolution: 30
+[2026-06-16 18:22:24.362] [CoACD] [info] Preprocess Time: 21.688987s
+[2026-06-16 18:22:24.363] [CoACD] [info] # Points: 22126
+[2026-06-16 18:22:24.363] [CoACD] [info] # Triangles: 44248
+[2026-06-16 18:22:24.363] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-16 18:22:24.363] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-16 18:22:24.366] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:22:28.877] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:22:28.877] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-16 18:22:28.878] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:22:28.878] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:22:31.679] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:22:31.679] [CoACD] [info] iter 2 ---- waiting pool: 4
+[2026-06-16 18:22:31.680] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:22:31.680] [CoACD] [info] Processing [25.0%]
+[2026-06-16 18:22:31.680] [CoACD] [info] Processing [75.0%]
+[2026-06-16 18:22:31.680] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:22:33.698] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:22:33.698] [CoACD] [info] iter 3 ---- waiting pool: 8
+[2026-06-16 18:22:33.699] [CoACD] [info] Processing [37.5%]
+[2026-06-16 18:22:33.699] [CoACD] [info] Processing [25.0%]
+[2026-06-16 18:22:33.699] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:22:33.699] [CoACD] [info] Processing [12.5%]
+[2026-06-16 18:22:33.699] [CoACD] [info] Processing [62.5%]
+[2026-06-16 18:22:33.699] [CoACD] [info] Processing [75.0%]
+[2026-06-16 18:22:33.699] [CoACD] [info] Processing [87.5%]
+[2026-06-16 18:22:33.699] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:22:35.295] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:22:35.295] [CoACD] [info] iter 4 ---- waiting pool: 12
+[2026-06-16 18:22:35.296] [CoACD] [info] Processing [33.3%]
+[2026-06-16 18:22:35.296] [CoACD] [info] Processing [16.7%]
+[2026-06-16 18:22:35.296] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:22:35.296] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:22:35.296] [CoACD] [info] Processing [83.3%]
+[2026-06-16 18:22:35.296] [CoACD] [info] Processing [66.7%]
+[2026-06-16 18:22:36.874] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:22:36.874] [CoACD] [info] iter 5 ---- waiting pool: 8
+[2026-06-16 18:22:36.874] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:22:36.874] [CoACD] [info] Processing [12.5%]
+[2026-06-16 18:22:36.874] [CoACD] [info] Processing [25.0%]
+[2026-06-16 18:22:36.874] [CoACD] [info] Processing [87.5%]
+[2026-06-16 18:22:36.874] [CoACD] [info] Processing [62.5%]
+[2026-06-16 18:22:36.874] [CoACD] [info] Processing [75.0%]
+[2026-06-16 18:22:36.874] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:22:36.874] [CoACD] [info] Processing [37.5%]
+[2026-06-16 18:22:36.898] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:22:36.898] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-16 18:22:38.142] [CoACD] [info] Compute Time: 13.778966552577913s
+[2026-06-16 18:22:38.142] [CoACD] [info] # Convex Hulls: 15
+[38;5;159m[Genesis] [18:22:38] [INFO] Preprocessing geom idx [38;5;121m[4m48[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:38] [INFO] Preprocessing geom idx [38;5;121m[4m49[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:39] [INFO] Preprocessing geom idx [38;5;121m[4m50[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:39] [INFO] Preprocessing geom idx [38;5;121m[4m51[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:39] [INFO] Preprocessing geom idx [38;5;121m[4m52[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:40] [INFO] Preprocessing geom idx [38;5;121m[4m53[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:40] [INFO] Preprocessing geom idx [38;5;121m[4m54[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:40] [INFO] Preprocessing geom idx [38;5;121m[4m55[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:41] [INFO] Preprocessing geom idx [38;5;121m[4m56[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:41] [INFO] Preprocessing geom idx [38;5;121m[4m57[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:41] [INFO] Preprocessing geom idx [38;5;121m[4m58[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:42] [INFO] Preprocessing geom idx [38;5;121m[4m59[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:42] [INFO] Preprocessing geom idx [38;5;121m[4m60[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:42] [INFO] Preprocessing geom idx [38;5;121m[4m61[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:43] [INFO] Preprocessing geom idx [38;5;121m[4m62[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:43] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<082f9ba>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/old_book_glb.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:22:43] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:22:44] [INFO] Convex hull is not accurate enough for collision detection (0.179). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:22:44] [INFO] Preprocessing geom idx [38;5;121m[4m63[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:45] [INFO] Preprocessing geom idx [38;5;121m[4m64[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:45] [INFO] Preprocessing geom idx [38;5;121m[4m65[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<32f78b8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/old_book_glb.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:22:46] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:22:47] [INFO] Convex hull is not accurate enough for collision detection (0.179). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:22:47] [INFO] Preprocessing geom idx [38;5;121m[4m66[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:47] [INFO] Preprocessing geom idx [38;5;121m[4m67[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:47] [INFO] Preprocessing geom idx [38;5;121m[4m68[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:48] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<7fa0a43>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/old_book_glb.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:22:48] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:22:49] [INFO] Convex hull is not accurate enough for collision detection (0.179). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:22:49] [INFO] Preprocessing geom idx [38;5;121m[4m69[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:50] [INFO] Preprocessing geom idx [38;5;121m[4m70[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:50] [INFO] Preprocessing geom idx [38;5;121m[4m71[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:51] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<0ebb541>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/basic-bowl/source/Basic Bowl/Bowl.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:51] [INFO] Convex hull is not accurate enough for collision detection (7.457). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:22:51] [INFO] Preprocessing geom idx [38;5;121m[4m72[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:52] [INFO] Preprocessing geom idx [38;5;121m[4m73[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:52] [INFO] Preprocessing geom idx [38;5;121m[4m74[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:52] [INFO] Preprocessing geom idx [38;5;121m[4m75[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:53] [INFO] Preprocessing geom idx [38;5;121m[4m76[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:53] [INFO] Preprocessing geom idx [38;5;121m[4m77[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:53] [INFO] Preprocessing geom idx [38;5;121m[4m78[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:53] [INFO] Preprocessing geom idx [38;5;121m[4m79[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:54] [INFO] Preprocessing geom idx [38;5;121m[4m80[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:54] [INFO] Preprocessing geom idx [38;5;121m[4m81[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:54] [INFO] Preprocessing geom idx [38;5;121m[4m82[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:54] [INFO] Preprocessing geom idx [38;5;121m[4m83[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:55] [INFO] Preprocessing geom idx [38;5;121m[4m84[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:55] [INFO] Preprocessing geom idx [38;5;121m[4m85[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:55] [INFO] Preprocessing geom idx [38;5;121m[4m86[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:56] [INFO] Preprocessing geom idx [38;5;121m[4m87[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:56] [INFO] Preprocessing geom idx [38;5;121m[4m88[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:56] [INFO] Preprocessing geom idx [38;5;121m[4m89[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:56] [INFO] Preprocessing geom idx [38;5;121m[4m90[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:57] [INFO] Preprocessing geom idx [38;5;121m[4m91[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:57] [INFO] Preprocessing geom idx [38;5;121m[4m92[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:57] [INFO] Preprocessing geom idx [38;5;121m[4m93[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:57] [INFO] Preprocessing geom idx [38;5;121m[4m94[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:58] [INFO] Preprocessing geom idx [38;5;121m[4m95[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:58] [INFO] Preprocessing geom idx [38;5;121m[4m96[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:58] [INFO] Preprocessing geom idx [38;5;121m[4m97[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:58] [INFO] Preprocessing geom idx [38;5;121m[4m98[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:22:58] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<0d6b9c5>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/spoon.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:22:58] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+[38;5;159m[Genesis] [18:22:58] [INFO] Convex hull is not accurate enough for collision detection (9.593). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:22:58] [INFO] Running convex decomposition.[0m
+[2026-06-16 18:22:58.839] [CoACD] [info] threshold               0.1
+[2026-06-16 18:22:58.839] [CoACD] [info] max # convex hull       -1
+[2026-06-16 18:22:58.839] [CoACD] [info] preprocess mode         auto
+[2026-06-16 18:22:58.839] [CoACD] [info] preprocess resolution   30
+[2026-06-16 18:22:58.839] [CoACD] [info] pca                     false
+[2026-06-16 18:22:58.839] [CoACD] [info] mcts max depth          3
+[2026-06-16 18:22:58.839] [CoACD] [info] mcts nodes              20
+[2026-06-16 18:22:58.839] [CoACD] [info] mcts iterations         100
+[2026-06-16 18:22:58.839] [CoACD] [info] merge                   true
+[2026-06-16 18:22:58.839] [CoACD] [info] decimate                false
+[2026-06-16 18:22:58.839] [CoACD] [info] max_ch_vertex           256
+[2026-06-16 18:22:58.840] [CoACD] [info] extrude                 false
+[2026-06-16 18:22:58.840] [CoACD] [info] extrude margin          0.1
+[2026-06-16 18:22:58.840] [CoACD] [info] approximate mode        ch
+[2026-06-16 18:22:58.840] [CoACD] [info] seed                    0
+[2026-06-16 18:22:58.840] [CoACD] [info]  - Manifold Check
+[2026-06-16 18:22:58.841] [CoACD] [info] 	Unclosed mesh
+[2026-06-16 18:22:58.841] [CoACD] [info] Manifold Check Time: 0.001707s
+[2026-06-16 18:22:58.842] [CoACD] [info] Mesh Manifoldness: false
+[2026-06-16 18:22:58.843] [CoACD] [info]  - Preprocess
+[2026-06-16 18:22:58.843] [CoACD] [info] Preprocess resolution: 30
+[2026-06-16 18:22:58.969] [CoACD] [info] Preprocess Time: 13.090699s
+[2026-06-16 18:22:58.970] [CoACD] [info] # Points: 1702
+[2026-06-16 18:22:58.970] [CoACD] [info] # Triangles: 3400
+[2026-06-16 18:22:58.970] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-16 18:22:58.970] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-16 18:22:58.971] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:22:59.893] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:22:59.893] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-16 18:22:59.893] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:22:59.893] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:23:00.668] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:23:00.668] [CoACD] [info] iter 2 ---- waiting pool: 2
+[2026-06-16 18:23:00.668] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:23:00.668] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:23:00.677] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:23:00.677] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-16 18:23:00.711] [CoACD] [info] Compute Time: 1.74190763104707s
+[2026-06-16 18:23:00.711] [CoACD] [info] # Convex Hulls: 3
+[38;5;159m[Genesis] [18:23:00] [INFO] Preprocessing geom idx [38;5;121m[4m99[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:23:01] [INFO] Preprocessing geom idx [38;5;121m[4m100[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:23:01] [INFO] Preprocessing geom idx [38;5;121m[4m101[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:23:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m14[0m[38;5;159m, uid: [38;5;121m[3m<14b02a0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/photo_frame/photo_frame_of_dog.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:23:01] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:23:05] [INFO] Convex hull is not accurate enough for collision detection (3.107). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:23:05] [INFO] Running convex decomposition.[0m
+[2026-06-16 18:23:05.636] [CoACD] [info] threshold               0.1
+[2026-06-16 18:23:05.637] [CoACD] [info] max # convex hull       -1
+[2026-06-16 18:23:05.637] [CoACD] [info] preprocess mode         auto
+[2026-06-16 18:23:05.637] [CoACD] [info] preprocess resolution   30
+[2026-06-16 18:23:05.637] [CoACD] [info] pca                     false
+[2026-06-16 18:23:05.637] [CoACD] [info] mcts max depth          3
+[2026-06-16 18:23:05.637] [CoACD] [info] mcts nodes              20
+[2026-06-16 18:23:05.637] [CoACD] [info] mcts iterations         100
+[2026-06-16 18:23:05.637] [CoACD] [info] merge                   true
+[2026-06-16 18:23:05.637] [CoACD] [info] decimate                false
+[2026-06-16 18:23:05.637] [CoACD] [info] max_ch_vertex           256
+[2026-06-16 18:23:05.637] [CoACD] [info] extrude                 false
+[2026-06-16 18:23:05.637] [CoACD] [info] extrude margin          0.1
+[2026-06-16 18:23:05.637] [CoACD] [info] approximate mode        ch
+[2026-06-16 18:23:05.637] [CoACD] [info] seed                    0
+[2026-06-16 18:23:05.637] [CoACD] [info]  - Manifold Check
+[2026-06-16 18:23:05.638] [CoACD] [info] 	Unclosed mesh
+[2026-06-16 18:23:05.638] [CoACD] [info] Manifold Check Time: 0.001221s
+[2026-06-16 18:23:05.638] [CoACD] [info] Mesh Manifoldness: false
+[2026-06-16 18:23:05.639] [CoACD] [info]  - Preprocess
+[2026-06-16 18:23:05.639] [CoACD] [info] Preprocess resolution: 30
+[2026-06-16 18:23:05.738] [CoACD] [info] Preprocess Time: 11.00834s
+[2026-06-16 18:23:05.738] [CoACD] [info] # Points: 9632
+[2026-06-16 18:23:05.738] [CoACD] [info] # Triangles: 19260
+[2026-06-16 18:23:05.738] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-16 18:23:05.738] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-16 18:23:05.739] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:23:07.792] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:23:07.792] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-16 18:23:07.801] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:23:07.801] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:23:09.363] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:23:09.363] [CoACD] [info] iter 2 ---- waiting pool: 4
+[2026-06-16 18:23:09.364] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:23:09.364] [CoACD] [info] Processing [75.0%]
+[2026-06-16 18:23:09.364] [CoACD] [info] Processing [25.0%]
+[2026-06-16 18:23:09.364] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:23:10.485] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:23:10.485] [CoACD] [info] iter 3 ---- waiting pool: 4
+[2026-06-16 18:23:10.486] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:23:10.486] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:23:10.486] [CoACD] [info] Processing [25.0%]
+[2026-06-16 18:23:10.486] [CoACD] [info] Processing [75.0%]
+[2026-06-16 18:23:10.499] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:23:10.499] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-16 18:23:10.717] [CoACD] [info] Compute Time: 4.978971193544567s
+[2026-06-16 18:23:10.717] [CoACD] [info] # Convex Hulls: 6
+[38;5;159m[Genesis] [18:23:10] [INFO] Preprocessing geom idx [38;5;121m[4m102[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:23:10] [INFO] Preprocessing geom idx [38;5;121m[4m103[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:23:11] [INFO] Preprocessing geom idx [38;5;121m[4m104[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:23:11] [INFO] Preprocessing geom idx [38;5;121m[4m105[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:23:11] [INFO] Preprocessing geom idx [38;5;121m[4m106[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:23:12] [INFO] Preprocessing geom idx [38;5;121m[4m107[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:23:12] [INFO] Building scene [38;5;121m[3m<5497632>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [18:23:16] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [18:23:16] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [18:23:18] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 5115, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [18:23:27] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [18:24:04] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+/data/gck/maniladder/maniladder/envs/rigid_body/dual_arm_gripper/level_4/organize_cabinet.py:396: UserWarning: Gimbal lock detected. Setting third angle to zero since it is not possible to uniquely determine all angles.
+  first_layer_results = self._evaluate_first_layer()
+Action space: Dict('panda-0': Box(-1.0, 1.0, (7,), float32), 'panda-1': Box(-1.0, 1.0, (7,), float32))
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/DualArmOrganizeCabinet-v1
+Traceback (most recent call last):
+  File "/data/gck/maniladder/scripts/generate_demos.py", line 524, in <module>
+    main()
+  File "/data/gck/maniladder/scripts/generate_demos.py", line 399, in main
+    action = task_env.scripted_policy()
+AttributeError: 'DualArmOrganizeCabinetEnv' object has no attribute 'scripted_policy'
+
+[38;5;9m[Genesis] [18:24:09] [ERROR] AttributeError: 'DualArmOrganizeCabinetEnv' object has no attribute 'scripted_policy'[0m
+[38;5;159m[Genesis] [18:24:09] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

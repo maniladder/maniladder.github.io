@@ -1,0 +1,76 @@
+[38;5;159m[Genesis] [18:11:12] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:11:12] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:11:12] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:11:12] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:11:12] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:11:15] [INFO] Scene [38;5;121m[3m<e282eca>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [18:11:15] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<e30fa95>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/xarm7_leaphand/xarm7_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:17] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:11:17] [INFO] Preprocessing geom idx [38;5;121m[4m0[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:17] [INFO] Preprocessing geom idx [38;5;121m[4m1[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:17] [INFO] Preprocessing geom idx [38;5;121m[4m2[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:18] [INFO] Preprocessing geom idx [38;5;121m[4m3[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:18] [INFO] Preprocessing geom idx [38;5;121m[4m4[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:18] [INFO] Preprocessing geom idx [38;5;121m[4m5[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:18] [INFO] Preprocessing geom idx [38;5;121m[4m6[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:18] [INFO] Preprocessing geom idx [38;5;121m[4m7[0m[38;5;159m.[0m
+[32m2026-06-16 18:11:20,780 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000,  0.9000,  0.0000,  0.0000,  0.0000, -1.5708]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+/data/gck/maniladder/maniladder/assets/urdf/xarm7_leaphand/xarm7_leaphand.urdf
+[38;5;159m[Genesis] [18:11:20] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<7de98dc>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/xarm7_leaphand/xarm7_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:23] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 18:11:24,716 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000, -0.9000,  0.0000,  0.0000,  0.0000,  1.5708]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+/data/gck/maniladder/maniladder/assets/urdf/xarm7_leaphand/xarm7_leaphand.urdf
+[38;5;159m[Genesis] [18:11:24] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<38bf5df>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:11:24] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<17052c3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<de89929>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<a234409>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<a554ed8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<85dd325>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<2b82a37>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Preprocessing geom idx [38;5;121m[4m160[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<09ac9bf>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Preprocessing geom idx [38;5;121m[4m161[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<4960d05>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<146e6b3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<4a2aedc>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<d8efd86>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/trash_bin.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:11:25] [INFO] Preprocessing geom idx [38;5;121m[4m165[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:26] [INFO] Preprocessing geom idx [38;5;121m[4m166[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:26] [INFO] Preprocessing geom idx [38;5;121m[4m168[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:27] [INFO] Preprocessing geom idx [38;5;121m[4m170[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:27] [INFO] Preprocessing geom idx [38;5;121m[4m172[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:27] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m14[0m[38;5;159m, uid: [38;5;121m[3m<33e1dd0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/bag.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:27] [INFO] Remeshing for tetrahedralization...[0m
+[38;5;159m[Genesis] [18:11:27] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m15[0m[38;5;159m, uid: [38;5;121m[3m<e690047>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:27] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m16[0m[38;5;159m, uid: [38;5;121m[3m<28be3b9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/bag.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:27] [INFO] Remeshing for tetrahedralization...[0m
+[38;5;159m[Genesis] [18:11:28] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m17[0m[38;5;159m, uid: [38;5;121m[3m<042cb33>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:28] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m18[0m[38;5;159m, uid: [38;5;121m[3m<9c9e0ac>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/bag.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:28] [INFO] Remeshing for tetrahedralization...[0m
+[38;5;159m[Genesis] [18:11:28] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m19[0m[38;5;159m, uid: [38;5;121m[3m<3d849e9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:28] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m20[0m[38;5;159m, uid: [38;5;121m[3m<d561034>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/bag.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:28] [INFO] Remeshing for tetrahedralization...[0m
+[38;5;159m[Genesis] [18:11:29] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m21[0m[38;5;159m, uid: [38;5;121m[3m<4d4ddba>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:11:29] [INFO] Building scene [38;5;121m[3m<e282eca>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [18:11:35] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 14552, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [18:11:47] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [18:12:26] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+Action space: Dict('xarm7_leaphand-0': Box(-1.0, 1.0, (22,), float32), 'xarm7_leaphand-1': Box(-1.0, 1.0, (22,), float32))
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/DualArmBagBlockLift-v1
+Traceback (most recent call last):
+  File "/data/gck/maniladder/scripts/generate_demos.py", line 524, in <module>
+    main()
+  File "/data/gck/maniladder/scripts/generate_demos.py", line 399, in main
+    action = task_env.scripted_policy()
+AttributeError: 'BagBlockLiftEnv' object has no attribute 'scripted_policy'
+
+[38;5;9m[Genesis] [18:12:32] [ERROR] AttributeError: 'BagBlockLiftEnv' object has no attribute 'scripted_policy'[0m
+[38;5;159m[Genesis] [18:12:32] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

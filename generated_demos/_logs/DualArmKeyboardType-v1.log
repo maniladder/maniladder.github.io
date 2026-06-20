@@ -1,0 +1,733 @@
+[38;5;159m[Genesis] [18:15:45] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:15:45] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:15:45] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:15:46] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:15:46] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:15:48] [INFO] Scene [38;5;121m[3m<bf2e017>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [18:15:48] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<8391dab>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand_left.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:15:53] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 18:15:55,261 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 5.0000e-02, -7.0000e-01,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+          9.0000e+01]], device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [18:15:55] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<e564fba>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:15:59] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 18:16:00,926 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 5.0000e-02,  5.5000e-01,  0.0000e+00,  0.0000e+00,  0.0000e+00,
+         -9.0000e+01]], device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [18:16:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<a6d5019>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:16:00] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:16:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<57d0d88>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<10c0b6c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<632bb99>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<4821037>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<b360bdd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<9d00e08>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/keyboard/12851/mobility.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:03] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
+[38;5;159m[Genesis] [18:16:03] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:16:03] [INFO] Preprocessing geom idx [38;5;121m[4m164[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:03] [INFO] Preprocessing geom idx [38;5;121m[4m165[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:04] [INFO] Preprocessing geom idx [38;5;121m[4m166[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:04] [INFO] Preprocessing geom idx [38;5;121m[4m167[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:04] [INFO] Preprocessing geom idx [38;5;121m[4m168[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:05] [INFO] Preprocessing geom idx [38;5;121m[4m169[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:05] [INFO] Preprocessing geom idx [38;5;121m[4m170[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:06] [INFO] Preprocessing geom idx [38;5;121m[4m171[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:06] [INFO] Preprocessing geom idx [38;5;121m[4m172[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:07] [INFO] Preprocessing geom idx [38;5;121m[4m173[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:07] [INFO] Preprocessing geom idx [38;5;121m[4m174[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:07] [INFO] Preprocessing geom idx [38;5;121m[4m175[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:07] [INFO] Preprocessing geom idx [38;5;121m[4m176[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:07] [INFO] Preprocessing geom idx [38;5;121m[4m177[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:07] [INFO] Preprocessing geom idx [38;5;121m[4m178[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:08] [INFO] Preprocessing geom idx [38;5;121m[4m179[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:08] [INFO] Preprocessing geom idx [38;5;121m[4m180[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:08] [INFO] Preprocessing geom idx [38;5;121m[4m181[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:08] [INFO] Preprocessing geom idx [38;5;121m[4m182[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:08] [INFO] Preprocessing geom idx [38;5;121m[4m183[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:08] [INFO] Preprocessing geom idx [38;5;121m[4m184[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:09] [INFO] Preprocessing geom idx [38;5;121m[4m185[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:09] [INFO] Preprocessing geom idx [38;5;121m[4m186[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:09] [INFO] Preprocessing geom idx [38;5;121m[4m187[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:09] [INFO] Preprocessing geom idx [38;5;121m[4m188[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:09] [INFO] Preprocessing geom idx [38;5;121m[4m189[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:10] [INFO] Preprocessing geom idx [38;5;121m[4m190[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:10] [INFO] Preprocessing geom idx [38;5;121m[4m191[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:10] [INFO] Preprocessing geom idx [38;5;121m[4m192[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:10] [INFO] Preprocessing geom idx [38;5;121m[4m193[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:10] [INFO] Preprocessing geom idx [38;5;121m[4m194[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:10] [INFO] Preprocessing geom idx [38;5;121m[4m195[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:11] [INFO] Preprocessing geom idx [38;5;121m[4m196[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:11] [INFO] Preprocessing geom idx [38;5;121m[4m197[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:11] [INFO] Preprocessing geom idx [38;5;121m[4m198[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:11] [INFO] Preprocessing geom idx [38;5;121m[4m199[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:12] [INFO] Preprocessing geom idx [38;5;121m[4m200[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:12] [INFO] Preprocessing geom idx [38;5;121m[4m201[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:12] [INFO] Preprocessing geom idx [38;5;121m[4m202[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:12] [INFO] Preprocessing geom idx [38;5;121m[4m203[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:12] [INFO] Preprocessing geom idx [38;5;121m[4m204[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:12] [INFO] Preprocessing geom idx [38;5;121m[4m205[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:13] [INFO] Preprocessing geom idx [38;5;121m[4m206[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:13] [INFO] Preprocessing geom idx [38;5;121m[4m207[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:13] [INFO] Preprocessing geom idx [38;5;121m[4m208[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:13] [INFO] Preprocessing geom idx [38;5;121m[4m209[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:13] [INFO] Preprocessing geom idx [38;5;121m[4m210[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:14] [INFO] Preprocessing geom idx [38;5;121m[4m211[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:14] [INFO] Preprocessing geom idx [38;5;121m[4m212[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:14] [INFO] Preprocessing geom idx [38;5;121m[4m213[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:14] [INFO] Preprocessing geom idx [38;5;121m[4m214[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:14] [INFO] Preprocessing geom idx [38;5;121m[4m215[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:14] [INFO] Preprocessing geom idx [38;5;121m[4m216[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:15] [INFO] Preprocessing geom idx [38;5;121m[4m217[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:15] [INFO] Preprocessing geom idx [38;5;121m[4m218[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:15] [INFO] Preprocessing geom idx [38;5;121m[4m219[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:15] [INFO] Preprocessing geom idx [38;5;121m[4m220[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:15] [INFO] Preprocessing geom idx [38;5;121m[4m221[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:15] [INFO] Preprocessing geom idx [38;5;121m[4m222[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:16] [INFO] Preprocessing geom idx [38;5;121m[4m223[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:16] [INFO] Preprocessing geom idx [38;5;121m[4m224[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:16] [INFO] Preprocessing geom idx [38;5;121m[4m225[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:16] [INFO] Preprocessing geom idx [38;5;121m[4m226[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:16] [INFO] Preprocessing geom idx [38;5;121m[4m227[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:17] [INFO] Preprocessing geom idx [38;5;121m[4m228[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:17] [INFO] Preprocessing geom idx [38;5;121m[4m229[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:17] [INFO] Preprocessing geom idx [38;5;121m[4m230[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:17] [INFO] Preprocessing geom idx [38;5;121m[4m231[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:17] [INFO] Preprocessing geom idx [38;5;121m[4m232[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:18] [INFO] Preprocessing geom idx [38;5;121m[4m233[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:18] [INFO] Preprocessing geom idx [38;5;121m[4m234[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:18] [INFO] Preprocessing geom idx [38;5;121m[4m235[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:18] [INFO] Preprocessing geom idx [38;5;121m[4m236[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:18] [INFO] Preprocessing geom idx [38;5;121m[4m237[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:18] [INFO] Preprocessing geom idx [38;5;121m[4m238[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:19] [INFO] Preprocessing geom idx [38;5;121m[4m239[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:19] [INFO] Preprocessing geom idx [38;5;121m[4m240[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:19] [INFO] Preprocessing geom idx [38;5;121m[4m241[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:19] [INFO] Preprocessing geom idx [38;5;121m[4m242[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:19] [INFO] Preprocessing geom idx [38;5;121m[4m243[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:20] [INFO] Preprocessing geom idx [38;5;121m[4m244[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:20] [INFO] Preprocessing geom idx [38;5;121m[4m245[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:20] [INFO] Preprocessing geom idx [38;5;121m[4m246[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:20] [INFO] Preprocessing geom idx [38;5;121m[4m247[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:20] [INFO] Preprocessing geom idx [38;5;121m[4m248[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:21] [INFO] Preprocessing geom idx [38;5;121m[4m249[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:21] [INFO] Preprocessing geom idx [38;5;121m[4m250[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:21] [INFO] Preprocessing geom idx [38;5;121m[4m251[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:21] [INFO] Preprocessing geom idx [38;5;121m[4m252[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:21] [INFO] Preprocessing geom idx [38;5;121m[4m253[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:22] [INFO] Preprocessing geom idx [38;5;121m[4m254[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:22] [INFO] Preprocessing geom idx [38;5;121m[4m255[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:22] [INFO] Preprocessing geom idx [38;5;121m[4m256[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:22] [INFO] Preprocessing geom idx [38;5;121m[4m257[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:22] [INFO] Preprocessing geom idx [38;5;121m[4m258[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:22] [INFO] Preprocessing geom idx [38;5;121m[4m259[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:23] [INFO] Preprocessing geom idx [38;5;121m[4m260[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:23] [INFO] Preprocessing geom idx [38;5;121m[4m261[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:23] [INFO] Preprocessing geom idx [38;5;121m[4m262[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:23] [INFO] Preprocessing geom idx [38;5;121m[4m263[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:23] [INFO] Preprocessing geom idx [38;5;121m[4m264[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:24] [INFO] Preprocessing geom idx [38;5;121m[4m265[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:24] [INFO] Preprocessing geom idx [38;5;121m[4m266[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:24] [INFO] Preprocessing geom idx [38;5;121m[4m267[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:24] [INFO] Preprocessing geom idx [38;5;121m[4m268[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:24] [INFO] Preprocessing geom idx [38;5;121m[4m269[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:24] [INFO] Preprocessing geom idx [38;5;121m[4m270[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:25] [INFO] Preprocessing geom idx [38;5;121m[4m271[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:25] [INFO] Preprocessing geom idx [38;5;121m[4m272[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:25] [INFO] Preprocessing geom idx [38;5;121m[4m273[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:25] [INFO] Preprocessing geom idx [38;5;121m[4m274[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:25] [INFO] Preprocessing geom idx [38;5;121m[4m275[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:26] [INFO] Preprocessing geom idx [38;5;121m[4m276[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:26] [INFO] Preprocessing geom idx [38;5;121m[4m277[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:16:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<beb2fae>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+Found 105 valid key joints
+[38;5;159m[Genesis] [18:16:26] [INFO] Building scene [38;5;121m[3m<bf2e017>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [18:16:31] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [18:16:33] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 36418, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [18:16:47] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [18:17:25] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+[KeyboardType] cached 105 key world positions; y=[-0.472, +0.438] center=-0.017
+[KbdLog][step=   0] target=link_63  pressed=(none)
+Action space: Dict('panda_leaphand-1': Box(-1.0, 1.0, (22,), float32), 'panda_leaphand_left-0': Box(-1.0, 1.0, (22,), float32))
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/DualArmKeyboardType-v1
+[KbdLog][step=   0] target=link_63  pressed=(none)
+[KbdLog][step=   1] target=link_63  pressed=(none)
+  [ep 0/1, attempt 1] step 1/1500  terminated=False  truncated=False
+[KbdLog][step=   2] target=link_63  pressed=(none)
+[KbdLog][step=   3] target=link_63  pressed=(none)
+[KbdLog][step=   4] target=link_63  pressed=(none)
+[KbdLog][step=   5] target=link_63  pressed=(none)
+[KbdLog][step=   6] target=link_63  pressed=(none)
+[KbdLog][step=   7] target=link_63  pressed=(none)
+[KbdLog][step=   8] target=link_63  pressed=(none)
+[KbdLog][step=   9] target=link_63  pressed=(none)
+[KbdLog][step=  10] target=link_63  pressed=(none)
+[KbdLog][step=  11] target=link_63  pressed=(none)
+[KbdLog][step=  12] target=link_63  pressed=(none)
+[KbdLog][step=  13] target=link_63  pressed=(none)
+[KbdLog][step=  14] target=link_63  pressed=(none)
+[KbdLog][step=  15] target=link_63  pressed=(none)
+[KbdLog][step=  16] target=link_63  pressed=(none)
+[KbdLog][step=  17] target=link_63  pressed=(none)
+[KbdLog][step=  18] target=link_63  pressed=(none)
+[KbdLog][step=  19] target=link_63  pressed=(none)
+[KbdLog][step=  20] target=link_63  pressed=(none)
+[KbdLog][step=  21] target=link_63  pressed=(none)
+[KbdLog][step=  22] target=link_63  pressed=(none)
+[KbdLog][step=  23] target=link_63  pressed=(none)
+[KbdLog][step=  24] target=link_63  pressed=(none)
+[KbdLog][step=  25] target=link_63  pressed=(none)
+[KbdLog][step=  26] target=link_63  pressed=(none)
+[KbdLog][step=  27] target=link_63  pressed=(none)
+[KbdLog][step=  28] target=link_63  pressed=(none)
+[KbdLog][step=  29] target=link_63  pressed=(none)
+[KeyboardType-SP][step=30] global_seq=0/6 side=right key=63 finger=ring phase=HOVER tip=[-0.207  0.229  0.182] target_tip=[-0.14  -0.062  0.182] tip_err=0.298
+[KbdLog][step=  30] target=link_63  pressed=(none)
+[KbdLog][step=  31] target=link_63  pressed=(none)
+[KbdLog][step=  32] target=link_63  pressed=(none)
+[KbdLog][step=  33] target=link_63  pressed=(none)
+[KbdLog][step=  34] target=link_63  pressed=(none)
+[KbdLog][step=  35] target=link_63  pressed=(none)
+[KbdLog][step=  36] target=link_63  pressed=(none)
+[KbdLog][step=  37] target=link_63  pressed=(none)
+[KbdLog][step=  38] target=link_63  pressed=(none)
+[KbdLog][step=  39] target=link_63  pressed=(none)
+[KbdLog][step=  40] target=link_63  pressed=(none)
+[KbdLog][step=  41] target=link_63  pressed=(none)
+[KbdLog][step=  42] target=link_63  pressed=(none)
+[KbdLog][step=  43] target=link_63  pressed=(none)
+[KbdLog][step=  44] target=link_63  pressed=(none)
+[KbdLog][step=  45] target=link_63  pressed=(none)
+[KbdLog][step=  46] target=link_63  pressed=(none)
+[KbdLog][step=  47] target=link_63  pressed=(none)
+[KbdLog][step=  48] target=link_63  pressed=(none)
+[KbdLog][step=  49] target=link_63  pressed=(none)
+[KbdLog][step=  50] target=link_63  pressed=(none)
+[KbdLog][step=  51] target=link_63  pressed=(none)
+[KbdLog][step=  52] target=link_63  pressed=(none)
+[KbdLog][step=  53] target=link_63  pressed=(none)
+[KbdLog][step=  54] target=link_63  pressed=(none)
+[KbdLog][step=  55] target=link_63  pressed=(none)
+[KbdLog][step=  56] target=link_63  pressed=(none)
+[KbdLog][step=  57] target=link_63  pressed=(none)
+[KbdLog][step=  58] target=link_63  pressed=(none)
+[KbdLog][step=  59] target=link_63  pressed=(none)
+[KeyboardType-SP][step=60] global_seq=0/6 side=right key=63 finger=ring phase=HOVER tip=[-0.146  0.167  0.182] target_tip=[-0.14  -0.062  0.182] tip_err=0.229
+[KbdLog][step=  60] target=link_63  pressed=(none)
+[KbdLog][step=  61] target=link_63  pressed=(none)
+[KbdLog][step=  62] target=link_63  pressed=(none)
+[KbdLog][step=  63] target=link_63  pressed=(none)
+[KbdLog][step=  64] target=link_63  pressed=(none)
+[KbdLog][step=  65] target=link_63  pressed=(none)
+[KbdLog][step=  66] target=link_63  pressed=(none)
+[KbdLog][step=  67] target=link_63  pressed=(none)
+[KbdLog][step=  68] target=link_63  pressed=(none)
+[KbdLog][step=  69] target=link_63  pressed=(none)
+[KbdLog][step=  70] target=link_63  pressed=(none)
+[KbdLog][step=  71] target=link_63  pressed=(none)
+[KbdLog][step=  72] target=link_63  pressed=(none)
+[KbdLog][step=  73] target=link_63  pressed=(none)
+[KbdLog][step=  74] target=link_63  pressed=(none)
+[KbdLog][step=  75] target=link_63  pressed=(none)
+[KbdLog][step=  76] target=link_63  pressed=(none)
+[KbdLog][step=  77] target=link_63  pressed=(none)
+[KbdLog][step=  78] target=link_63  pressed=(none)
+[KbdLog][step=  79] target=link_63  pressed=(none)
+[KbdLog][step=  80] target=link_63  pressed=(none)
+[KbdLog][step=  81] target=link_63  pressed=(none)
+[KbdLog][step=  82] target=link_63  pressed=(none)
+[KbdLog][step=  83] target=link_63  pressed=(none)
+[KbdLog][step=  84] target=link_63  pressed=(none)
+[KbdLog][step=  85] target=link_63  pressed=(none)
+[KbdLog][step=  86] target=link_63  pressed=(none)
+[KbdLog][step=  87] target=link_63  pressed=(none)
+[KbdLog][step=  88] target=link_63  pressed=(none)
+[KbdLog][step=  89] target=link_63  pressed=(none)
+[KeyboardType-SP][step=90] global_seq=0/6 side=right key=63 finger=ring phase=HOVER tip=[-0.14   0.106  0.182] target_tip=[-0.14  -0.062  0.182] tip_err=0.168
+[KbdLog][step=  90] target=link_63  pressed=(none)
+[KbdLog][step=  91] target=link_63  pressed=(none)
+[KbdLog][step=  92] target=link_63  pressed=(none)
+[KbdLog][step=  93] target=link_63  pressed=(none)
+[KbdLog][step=  94] target=link_63  pressed=(none)
+[KbdLog][step=  95] target=link_63  pressed=(none)
+[KbdLog][step=  96] target=link_63  pressed=(none)
+[KbdLog][step=  97] target=link_63  pressed=(none)
+[KbdLog][step=  98] target=link_63  pressed=(none)
+[KbdLog][step=  99] target=link_63  pressed=(none)
+[KbdLog][step= 100] target=link_63  pressed=(none)
+[KbdLog][step= 101] target=link_63  pressed=(none)
+  [ep 0/1, attempt 1] step 101/1500  terminated=False  truncated=False
+[KbdLog][step= 102] target=link_63  pressed=(none)
+[KbdLog][step= 103] target=link_63  pressed=(none)
+[KbdLog][step= 104] target=link_63  pressed=(none)
+[KbdLog][step= 105] target=link_63  pressed=(none)
+[KbdLog][step= 106] target=link_63  pressed=(none)
+[KbdLog][step= 107] target=link_63  pressed=(none)
+[KbdLog][step= 108] target=link_63  pressed=(none)
+[KbdLog][step= 109] target=link_63  pressed=(none)
+[KbdLog][step= 110] target=link_63  pressed=(none)
+[KbdLog][step= 111] target=link_63  pressed=(none)
+[KbdLog][step= 112] target=link_63  pressed=(none)
+[KbdLog][step= 113] target=link_63  pressed=(none)
+[KbdLog][step= 114] target=link_63  pressed=(none)
+[KbdLog][step= 115] target=link_63  pressed=(none)
+[KbdLog][step= 116] target=link_63  pressed=(none)
+[KbdLog][step= 117] target=link_63  pressed=(none)
+[KbdLog][step= 118] target=link_63  pressed=(none)
+[KbdLog][step= 119] target=link_63  pressed=(none)
+[KeyboardType-SP][step=120] global_seq=0/6 side=right key=63 finger=ring phase=HOVER tip=[-0.14   0.045  0.182] target_tip=[-0.14  -0.062  0.182] tip_err=0.106
+[KbdLog][step= 120] target=link_63  pressed=(none)
+[KbdLog][step= 121] target=link_63  pressed=(none)
+[KbdLog][step= 122] target=link_63  pressed=(none)
+[KbdLog][step= 123] target=link_63  pressed=(none)
+[KbdLog][step= 124] target=link_63  pressed=(none)
+[KbdLog][step= 125] target=link_63  pressed=(none)
+[KbdLog][step= 126] target=link_63  pressed=(none)
+[KbdLog][step= 127] target=link_63  pressed=(none)
+[KbdLog][step= 128] target=link_63  pressed=(none)
+[KbdLog][step= 129] target=link_63  pressed=(none)
+[KbdLog][step= 130] target=link_63  pressed=(none)
+[KbdLog][step= 131] target=link_63  pressed=(none)
+[KbdLog][step= 132] target=link_63  pressed=(none)
+[KbdLog][step= 133] target=link_63  pressed=(none)
+[KbdLog][step= 134] target=link_63  pressed=(none)
+[KbdLog][step= 135] target=link_63  pressed=(none)
+[KbdLog][step= 136] target=link_63  pressed=(none)
+[KbdLog][step= 137] target=link_63  pressed=(none)
+[KbdLog][step= 138] target=link_63  pressed=(none)
+[KbdLog][step= 139] target=link_63  pressed=(none)
+[KbdLog][step= 140] target=link_63  pressed=(none)
+[KbdLog][step= 141] target=link_63  pressed=(none)
+[KbdLog][step= 142] target=link_63  pressed=(none)
+[KbdLog][step= 143] target=link_63  pressed=(none)
+[KbdLog][step= 144] target=link_63  pressed=(none)
+[KbdLog][step= 145] target=link_63  pressed=(none)
+[KbdLog][step= 146] target=link_63  pressed=(none)
+[KbdLog][step= 147] target=link_63  pressed=(none)
+[KbdLog][step= 148] target=link_63  pressed=(none)
+[KbdLog][step= 149] target=link_63  pressed=(none)
+[KeyboardType-SP][step=150] global_seq=0/6 side=right key=63 finger=ring phase=HOVER tip=[-0.14  -0.016  0.182] target_tip=[-0.14  -0.062  0.182] tip_err=0.045
+[KbdLog][step= 150] target=link_63  pressed=(none)
+[KbdLog][step= 151] target=link_63  pressed=(none)
+[KbdLog][step= 152] target=link_63  pressed=(none)
+[KbdLog][step= 153] target=link_63  pressed=(none)
+[KbdLog][step= 154] target=link_63  pressed=(none)
+[KbdLog][step= 155] target=link_63  pressed=(none)
+[KbdLog][step= 156] target=link_63  pressed=(none)
+[KbdLog][step= 157] target=link_63  pressed=(none)
+[KbdLog][step= 158] target=link_63  pressed=(none)
+[KbdLog][step= 159] target=link_63  pressed=(none)
+[KbdLog][step= 160] target=link_63  pressed=(none)
+[KbdLog][step= 161] target=link_63  pressed=(none)
+[KbdLog][step= 162] target=link_63  pressed=(none)
+[KbdLog][step= 163] target=link_63  pressed=(none)
+[KbdLog][step= 164] target=link_63  pressed=(none)
+[KbdLog][step= 165] target=link_63  pressed=(none)
+[KbdLog][step= 166] target=link_63  pressed=(none)
+[KbdLog][step= 167] target=link_63  pressed=(none)
+[KbdLog][step= 168] target=link_63  pressed=(none)
+[KbdLog][step= 169] target=link_63  pressed=(none)
+[KbdLog][step= 170] target=link_63  pressed=(none)
+[KbdLog][step= 171] target=link_63  pressed=(none)
+[KbdLog][step= 172] target=link_63  pressed=(none)
+[KbdLog][step= 173] target=link_63  pressed=(none)
+[KbdLog][step= 174] target=link_63  pressed=(none)
+[KbdLog][step= 175] target=link_63  pressed=(none)
+[KbdLog][step= 176] target=link_63  pressed=(none)
+[KbdLog][step= 177] target=link_63  pressed=(none)
+[KbdLog][step= 178] target=link_63  pressed=(none)
+[KbdLog][step= 179] target=link_63  pressed=(none)
+[KeyboardType-SP][step=180] global_seq=0/6 side=right key=63 finger=ring phase=DESCEND tip=[-0.14  -0.061  0.154] target_tip=[-0.14  -0.062  0.107] tip_err=0.046
+[KbdLog][step= 180] target=link_63  pressed=(none)
+[KbdLog][step= 181] target=link_63  pressed=(none)
+[KbdLog][step= 182] target=link_63  pressed=(none)
+[KbdLog][step= 183] target=link_63  pressed=(none)
+[KbdLog][step= 184] target=link_63  pressed=(none)
+[KbdLog][step= 185] target=link_63  pressed=(none)
+[KbdLog][step= 186] target=link_63  pressed=(none)
+[KbdLog][step= 187] target=link_63  pressed=(none)
+[KbdLog][step= 188] target=link_63  pressed=(none)
+[KbdLog][step= 189] target=link_63  pressed=(none)
+[KbdLog][step= 190] target=link_63  pressed=(none)
+[KbdLog][step= 191] target=link_63  pressed=(none)
+[KbdLog][step= 192] target=link_63  pressed=(none)
+[KbdLog][step= 193] target=link_63  pressed=(none)
+[KbdLog][step= 194] target=link_63  pressed=(none)
+[KbdLog][step= 195] target=link_63  pressed=(none)
+[KbdLog][step= 196] target=link_63  pressed=(none)
+[KbdLog][step= 197] target=link_63  pressed=(none)
+[KbdLog][step= 198] target=link_63  pressed=(none)
+[KbdLog][step= 199] target=link_63  pressed=link_63(0.0028)
+[KbdLog][step= 200] target=link_63  pressed=link_63(0.0126)
+[KbdLog][step= 201] target=link_1  pressed=link_63(0.0122)
+  [ep 0/1, attempt 1] step 201/1500  terminated=False  truncated=False
+[KbdLog][step= 202] target=link_1  pressed=link_63(0.0119)
+[KbdLog][step= 203] target=link_1  pressed=link_63(0.0119)
+[KbdLog][step= 204] target=link_1  pressed=link_63(0.0119)
+[KbdLog][step= 205] target=link_1  pressed=link_63(0.0118)
+[KbdLog][step= 206] target=link_1  pressed=link_63(0.0118)
+[KbdLog][step= 207] target=link_1  pressed=link_63(0.0117)
+[KbdLog][step= 208] target=link_1  pressed=link_63(0.0117)
+[KbdLog][step= 209] target=link_1  pressed=link_63(0.0101)
+[KeyboardType-SP][step=210] global_seq=0/6 side=right key=63 finger=ring phase=RELEASE tip=[-0.135 -0.061  0.091] target_tip=[-0.14  -0.062  0.107] tip_err=0.017
+[KbdLog][step= 210] target=link_1  pressed=link_63(0.0080)
+[KbdLog][step= 211] target=link_1  pressed=link_63(0.0064)
+[KbdLog][step= 212] target=link_1  pressed=link_63(0.0051)
+[KbdLog][step= 213] target=link_1  pressed=link_63(0.0042)
+[KbdLog][step= 214] target=link_1  pressed=link_63(0.0034)
+[KbdLog][step= 215] target=link_1  pressed=link_63(0.0029)
+[KbdLog][step= 216] target=link_1  pressed=link_63(0.0025)
+[KbdLog][step= 217] target=link_1  pressed=link_63(0.0021)
+[KbdLog][step= 218] target=link_1  pressed=link_63(0.0019)
+[KbdLog][step= 219] target=link_1  pressed=link_63(0.0017)
+[KbdLog][step= 220] target=link_1  pressed=link_63(0.0016)
+[KbdLog][step= 221] target=link_1  pressed=(none)
+[KbdLog][step= 222] target=link_1  pressed=(none)
+[KbdLog][step= 223] target=link_1  pressed=(none)
+[KbdLog][step= 224] target=link_1  pressed=(none)
+[KbdLog][step= 225] target=link_1  pressed=(none)
+[KbdLog][step= 226] target=link_1  pressed=(none)
+[KbdLog][step= 227] target=link_1  pressed=(none)
+[KbdLog][step= 228] target=link_1  pressed=(none)
+[KbdLog][step= 229] target=link_1  pressed=(none)
+[KbdLog][step= 230] target=link_1  pressed=(none)
+[KbdLog][step= 231] target=link_1  pressed=(none)
+[KbdLog][step= 232] target=link_1  pressed=(none)
+[KbdLog][step= 233] target=link_1  pressed=(none)
+[KbdLog][step= 234] target=link_1  pressed=(none)
+[KbdLog][step= 235] target=link_1  pressed=(none)
+[KbdLog][step= 236] target=link_1  pressed=(none)
+[KbdLog][step= 237] target=link_1  pressed=(none)
+[KbdLog][step= 238] target=link_1  pressed=(none)
+[KbdLog][step= 239] target=link_1  pressed=(none)
+[KeyboardType-SP][step=240] global_seq=1/6 side=right key=1 finger=middle phase=HOVER tip=[-0.193 -0.139  0.17 ] target_tip=[-0.224 -0.139  0.189] tip_err=0.036
+[KbdLog][step= 240] target=link_1  pressed=(none)
+[KbdLog][step= 241] target=link_1  pressed=(none)
+[KbdLog][step= 242] target=link_1  pressed=(none)
+[KbdLog][step= 243] target=link_1  pressed=(none)
+[KbdLog][step= 244] target=link_1  pressed=(none)
+[KbdLog][step= 245] target=link_1  pressed=(none)
+[KbdLog][step= 246] target=link_1  pressed=(none)
+[KbdLog][step= 247] target=link_1  pressed=(none)
+[KbdLog][step= 248] target=link_1  pressed=(none)
+[KbdLog][step= 249] target=link_1  pressed=(none)
+[KbdLog][step= 250] target=link_1  pressed=(none)
+[KbdLog][step= 251] target=link_1  pressed=(none)
+[KbdLog][step= 252] target=link_1  pressed=(none)
+[KbdLog][step= 253] target=link_1  pressed=(none)
+[KbdLog][step= 254] target=link_1  pressed=(none)
+[KbdLog][step= 255] target=link_1  pressed=(none)
+[KbdLog][step= 256] target=link_1  pressed=(none)
+[KbdLog][step= 257] target=link_1  pressed=(none)
+[KbdLog][step= 258] target=link_1  pressed=(none)
+[KbdLog][step= 259] target=link_1  pressed=(none)
+[KbdLog][step= 260] target=link_1  pressed=(none)
+[KbdLog][step= 261] target=link_1  pressed=(none)
+[KbdLog][step= 262] target=link_1  pressed=(none)
+[KbdLog][step= 263] target=link_1  pressed=(none)
+[KbdLog][step= 264] target=link_1  pressed=(none)
+[KbdLog][step= 265] target=link_1  pressed=(none)
+[KbdLog][step= 266] target=link_1  pressed=(none)
+[KbdLog][step= 267] target=link_1  pressed=(none)
+[KbdLog][step= 268] target=link_1  pressed=(none)
+[KbdLog][step= 269] target=link_1  pressed=(none)
+[KeyboardType-SP][step=270] global_seq=1/6 side=right key=1 finger=middle phase=DESCEND tip=[-0.224 -0.139  0.143] target_tip=[-0.224 -0.139  0.114] tip_err=0.029
+[KbdLog][step= 270] target=link_1  pressed=(none)
+[KbdLog][step= 271] target=link_1  pressed=(none)
+[KbdLog][step= 272] target=link_1  pressed=(none)
+[KbdLog][step= 273] target=link_1  pressed=(none)
+[KbdLog][step= 274] target=link_1  pressed=(none)
+[KbdLog][step= 275] target=link_1  pressed=(none)
+[KbdLog][step= 276] target=link_1  pressed=(none)
+[KbdLog][step= 277] target=link_1  pressed=(none)
+[KbdLog][step= 278] target=link_1  pressed=(none)
+[KbdLog][step= 279] target=link_1  pressed=(none)
+[KbdLog][step= 280] target=link_1  pressed=(none)
+[KbdLog][step= 281] target=link_1  pressed=link_1(0.0045)
+[KbdLog][step= 282] target=link_1  pressed=link_1(0.0133)
+[KbdLog][step= 283] target=link_48  pressed=link_1(0.0128)
+[KbdLog][step= 284] target=link_48  pressed=link_1(0.0127)
+[KbdLog][step= 285] target=link_48  pressed=link_1(0.0127)
+[KbdLog][step= 286] target=link_48  pressed=link_1(0.0126)
+[KbdLog][step= 287] target=link_48  pressed=link_1(0.0125)
+[KbdLog][step= 288] target=link_48  pressed=link_1(0.0125)
+[KbdLog][step= 289] target=link_48  pressed=link_1(0.0124)
+[KbdLog][step= 290] target=link_48  pressed=link_1(0.0123)
+[KbdLog][step= 291] target=link_48  pressed=link_1(0.0107)
+[KbdLog][step= 292] target=link_48  pressed=link_1(0.0084)
+[KbdLog][step= 293] target=link_48  pressed=link_1(0.0067)
+[KbdLog][step= 294] target=link_48  pressed=link_1(0.0054)
+[KbdLog][step= 295] target=link_48  pressed=link_1(0.0043)
+[KbdLog][step= 296] target=link_48  pressed=link_1(0.0036)
+[KbdLog][step= 297] target=link_48  pressed=link_1(0.0030)
+[KbdLog][step= 298] target=link_48  pressed=link_1(0.0025)
+[KbdLog][step= 299] target=link_48  pressed=link_1(0.0022)
+[KeyboardType-SP][step=300] global_seq=2/6 side=left key=48 finger=middle phase=HOVER tip=[-0.222 -0.377  0.187] target_tip=[-0.144 -0.311  0.184] tip_err=0.102
+[KbdLog][step= 300] target=link_48  pressed=link_1(0.0019)
+[KbdLog][step= 301] target=link_48  pressed=link_1(0.0018)
+  [ep 0/1, attempt 1] step 301/1500  terminated=False  truncated=False
+[KbdLog][step= 302] target=link_48  pressed=link_1(0.0016)
+[KbdLog][step= 303] target=link_48  pressed=(none)
+[KbdLog][step= 304] target=link_48  pressed=(none)
+[KbdLog][step= 305] target=link_48  pressed=(none)
+[KbdLog][step= 306] target=link_48  pressed=(none)
+[KbdLog][step= 307] target=link_48  pressed=(none)
+[KbdLog][step= 308] target=link_48  pressed=(none)
+[KbdLog][step= 309] target=link_48  pressed=(none)
+[KbdLog][step= 310] target=link_48  pressed=(none)
+[KbdLog][step= 311] target=link_48  pressed=(none)
+[KbdLog][step= 312] target=link_48  pressed=(none)
+[KbdLog][step= 313] target=link_48  pressed=(none)
+[KbdLog][step= 314] target=link_48  pressed=(none)
+[KbdLog][step= 315] target=link_48  pressed=(none)
+[KbdLog][step= 316] target=link_48  pressed=(none)
+[KbdLog][step= 317] target=link_48  pressed=(none)
+[KbdLog][step= 318] target=link_48  pressed=(none)
+[KbdLog][step= 319] target=link_48  pressed=(none)
+[KbdLog][step= 320] target=link_48  pressed=(none)
+[KbdLog][step= 321] target=link_48  pressed=(none)
+[KbdLog][step= 322] target=link_48  pressed=(none)
+[KbdLog][step= 323] target=link_48  pressed=(none)
+[KbdLog][step= 324] target=link_48  pressed=(none)
+[KbdLog][step= 325] target=link_48  pressed=(none)
+[KbdLog][step= 326] target=link_48  pressed=(none)
+[KbdLog][step= 327] target=link_48  pressed=(none)
+[KbdLog][step= 328] target=link_48  pressed=(none)
+[KbdLog][step= 329] target=link_48  pressed=(none)
+[KeyboardType-SP][step=330] global_seq=2/6 side=left key=48 finger=middle phase=HOVER tip=[-0.16  -0.317  0.184] target_tip=[-0.144 -0.311  0.184] tip_err=0.017
+[KbdLog][step= 330] target=link_48  pressed=(none)
+[KbdLog][step= 331] target=link_48  pressed=(none)
+[KbdLog][step= 332] target=link_48  pressed=(none)
+[KbdLog][step= 333] target=link_48  pressed=(none)
+[KbdLog][step= 334] target=link_48  pressed=(none)
+[KbdLog][step= 335] target=link_48  pressed=(none)
+[KbdLog][step= 336] target=link_48  pressed=(none)
+[KbdLog][step= 337] target=link_48  pressed=(none)
+[KbdLog][step= 338] target=link_48  pressed=(none)
+[KbdLog][step= 339] target=link_48  pressed=(none)
+[KbdLog][step= 340] target=link_48  pressed=(none)
+[KbdLog][step= 341] target=link_48  pressed=(none)
+[KbdLog][step= 342] target=link_48  pressed=(none)
+[KbdLog][step= 343] target=link_48  pressed=(none)
+[KbdLog][step= 344] target=link_48  pressed=(none)
+[KbdLog][step= 345] target=link_48  pressed=(none)
+[KbdLog][step= 346] target=link_48  pressed=(none)
+[KbdLog][step= 347] target=link_48  pressed=(none)
+[KbdLog][step= 348] target=link_48  pressed=(none)
+[KbdLog][step= 349] target=link_48  pressed=(none)
+[KbdLog][step= 350] target=link_48  pressed=(none)
+[KbdLog][step= 351] target=link_48  pressed=(none)
+[KbdLog][step= 352] target=link_48  pressed=(none)
+[KbdLog][step= 353] target=link_48  pressed=(none)
+[KbdLog][step= 354] target=link_48  pressed=(none)
+[KbdLog][step= 355] target=link_48  pressed=(none)
+[KbdLog][step= 356] target=link_48  pressed=(none)
+[KbdLog][step= 357] target=link_48  pressed=(none)
+[KbdLog][step= 358] target=link_48  pressed=(none)
+[KbdLog][step= 359] target=link_48  pressed=(none)
+[KeyboardType-SP][step=360] global_seq=2/6 side=left key=48 finger=middle phase=DESCEND tip=[-0.144 -0.311  0.127] target_tip=[-0.144 -0.311  0.109] tip_err=0.018
+[KbdLog][step= 360] target=link_48  pressed=(none)
+[KbdLog][step= 361] target=link_48  pressed=(none)
+[KbdLog][step= 362] target=link_48  pressed=(none)
+[KbdLog][step= 363] target=link_48  pressed=(none)
+[KbdLog][step= 364] target=link_48  pressed=(none)
+[KbdLog][step= 365] target=link_48  pressed=link_48(0.0028)
+[KbdLog][step= 366] target=link_48  pressed=link_48(0.0123)
+[KbdLog][step= 367] target=link_45  pressed=link_48(0.0119)
+[KbdLog][step= 368] target=link_45  pressed=link_48(0.0119)
+[KbdLog][step= 369] target=link_45  pressed=link_48(0.0119)
+[KbdLog][step= 370] target=link_45  pressed=link_48(0.0119)
+[KbdLog][step= 371] target=link_45  pressed=link_48(0.0118)
+[KbdLog][step= 372] target=link_45  pressed=link_48(0.0118)
+[KbdLog][step= 373] target=link_45  pressed=link_48(0.0117)
+[KbdLog][step= 374] target=link_45  pressed=link_48(0.0117)
+[KbdLog][step= 375] target=link_45  pressed=link_48(0.0101)
+[KbdLog][step= 376] target=link_45  pressed=link_48(0.0080)
+[KbdLog][step= 377] target=link_45  pressed=link_48(0.0064)
+[KbdLog][step= 378] target=link_45  pressed=link_48(0.0051)
+[KbdLog][step= 379] target=link_45  pressed=link_48(0.0042)
+[KbdLog][step= 380] target=link_45  pressed=link_48(0.0034)
+[KbdLog][step= 381] target=link_45  pressed=link_48(0.0029)
+[KbdLog][step= 382] target=link_45  pressed=link_48(0.0025)
+[KbdLog][step= 383] target=link_45  pressed=link_48(0.0021)
+[KbdLog][step= 384] target=link_45  pressed=link_48(0.0019)
+[KbdLog][step= 385] target=link_45  pressed=link_48(0.0017)
+[KbdLog][step= 386] target=link_45  pressed=link_48(0.0016)
+[KbdLog][step= 387] target=link_45  pressed=(none)
+[KbdLog][step= 388] target=link_45  pressed=(none)
+[KbdLog][step= 389] target=link_45  pressed=(none)
+[KeyboardType-SP][step=390] global_seq=3/6 side=right key=45 finger=index phase=HOVER tip=[-0.201 -0.147  0.189] target_tip=[-0.225 -0.181  0.19 ] tip_err=0.041
+[KbdLog][step= 390] target=link_45  pressed=(none)
+[KbdLog][step= 391] target=link_45  pressed=(none)
+[KbdLog][step= 392] target=link_45  pressed=(none)
+[KbdLog][step= 393] target=link_45  pressed=(none)
+[KbdLog][step= 394] target=link_45  pressed=(none)
+[KbdLog][step= 395] target=link_45  pressed=(none)
+[KbdLog][step= 396] target=link_45  pressed=(none)
+[KbdLog][step= 397] target=link_45  pressed=(none)
+[KbdLog][step= 398] target=link_45  pressed=(none)
+[KbdLog][step= 399] target=link_45  pressed=(none)
+[KbdLog][step= 400] target=link_45  pressed=(none)
+[KbdLog][step= 401] target=link_45  pressed=(none)
+  [ep 0/1, attempt 1] step 401/1500  terminated=False  truncated=False
+[KbdLog][step= 402] target=link_45  pressed=(none)
+[KbdLog][step= 403] target=link_45  pressed=(none)
+[KbdLog][step= 404] target=link_45  pressed=(none)
+[KbdLog][step= 405] target=link_45  pressed=(none)
+[KbdLog][step= 406] target=link_45  pressed=(none)
+[KbdLog][step= 407] target=link_45  pressed=(none)
+[KbdLog][step= 408] target=link_45  pressed=(none)
+[KbdLog][step= 409] target=link_45  pressed=(none)
+[KbdLog][step= 410] target=link_45  pressed=(none)
+[KbdLog][step= 411] target=link_45  pressed=(none)
+[KbdLog][step= 412] target=link_45  pressed=(none)
+[KbdLog][step= 413] target=link_45  pressed=(none)
+[KbdLog][step= 414] target=link_45  pressed=(none)
+[KbdLog][step= 415] target=link_45  pressed=(none)
+[KbdLog][step= 416] target=link_45  pressed=(none)
+[KbdLog][step= 417] target=link_45  pressed=(none)
+[KbdLog][step= 418] target=link_45  pressed=(none)
+[KbdLog][step= 419] target=link_45  pressed=(none)
+[KeyboardType-SP][step=420] global_seq=3/6 side=right key=45 finger=index phase=DESCEND tip=[-0.225 -0.18   0.151] target_tip=[-0.225 -0.181  0.115] tip_err=0.036
+[KbdLog][step= 420] target=link_45  pressed=(none)
+[KbdLog][step= 421] target=link_45  pressed=(none)
+[KbdLog][step= 422] target=link_45  pressed=(none)
+[KbdLog][step= 423] target=link_45  pressed=(none)
+[KbdLog][step= 424] target=link_45  pressed=(none)
+[KbdLog][step= 425] target=link_45  pressed=(none)
+[KbdLog][step= 426] target=link_45  pressed=(none)
+[KbdLog][step= 427] target=link_45  pressed=(none)
+[KbdLog][step= 428] target=link_45  pressed=(none)
+[KbdLog][step= 429] target=link_45  pressed=(none)
+[KbdLog][step= 430] target=link_45  pressed=(none)
+[KbdLog][step= 431] target=link_45  pressed=(none)
+[KbdLog][step= 432] target=link_45  pressed=(none)
+[KbdLog][step= 433] target=link_45  pressed=(none)
+[KbdLog][step= 434] target=link_45  pressed=link_45(0.0028)
+[KbdLog][step= 435] target=link_45  pressed=link_45(0.0126)
+[KbdLog][step= 436] target=link_37  pressed=link_45(0.0122)
+[KbdLog][step= 437] target=link_37  pressed=link_45(0.0120)
+[KbdLog][step= 438] target=link_37  pressed=link_45(0.0119)
+[KbdLog][step= 439] target=link_37  pressed=link_45(0.0119)
+[KbdLog][step= 440] target=link_37  pressed=link_45(0.0118)
+[KbdLog][step= 441] target=link_37  pressed=link_45(0.0117)
+[KbdLog][step= 442] target=link_37  pressed=link_45(0.0117)
+[KbdLog][step= 443] target=link_37  pressed=link_45(0.0116)
+[KbdLog][step= 444] target=link_37  pressed=link_45(0.0100)
+[KbdLog][step= 445] target=link_37  pressed=link_45(0.0080)
+[KbdLog][step= 446] target=link_37  pressed=link_45(0.0063)
+[KbdLog][step= 447] target=link_37  pressed=link_45(0.0051)
+[KbdLog][step= 448] target=link_37  pressed=link_45(0.0041)
+[KbdLog][step= 449] target=link_37  pressed=link_45(0.0034)
+[KeyboardType-SP][step=450] global_seq=4/6 side=left key=37 finger=index phase=HOVER tip=[-0.228 -0.338  0.191] target_tip=[-0.227 -0.306  0.191] tip_err=0.032
+[KbdLog][step= 450] target=link_37  pressed=link_45(0.0029)
+[KbdLog][step= 451] target=link_37  pressed=link_45(0.0025)
+[KbdLog][step= 452] target=link_37  pressed=link_45(0.0021)
+[KbdLog][step= 453] target=link_37  pressed=link_45(0.0019)
+[KbdLog][step= 454] target=link_37  pressed=link_45(0.0017)
+[KbdLog][step= 455] target=link_37  pressed=link_45(0.0016)
+[KbdLog][step= 456] target=link_37  pressed=(none)
+[KbdLog][step= 457] target=link_37  pressed=(none)
+[KbdLog][step= 458] target=link_37  pressed=(none)
+[KbdLog][step= 459] target=link_37  pressed=(none)
+[KbdLog][step= 460] target=link_37  pressed=(none)
+[KbdLog][step= 461] target=link_37  pressed=(none)
+[KbdLog][step= 462] target=link_37  pressed=(none)
+[KbdLog][step= 463] target=link_37  pressed=(none)
+[KbdLog][step= 464] target=link_37  pressed=(none)
+[KbdLog][step= 465] target=link_37  pressed=(none)
+[KbdLog][step= 466] target=link_37  pressed=(none)
+[KbdLog][step= 467] target=link_37  pressed=(none)
+[KbdLog][step= 468] target=link_37  pressed=(none)
+[KbdLog][step= 469] target=link_37  pressed=(none)
+[KbdLog][step= 470] target=link_37  pressed=(none)
+[KbdLog][step= 471] target=link_37  pressed=(none)
+[KbdLog][step= 472] target=link_37  pressed=(none)
+[KbdLog][step= 473] target=link_37  pressed=(none)
+[KbdLog][step= 474] target=link_37  pressed=(none)
+[KbdLog][step= 475] target=link_37  pressed=(none)
+[KbdLog][step= 476] target=link_37  pressed=(none)
+[KbdLog][step= 477] target=link_37  pressed=(none)
+[KbdLog][step= 478] target=link_37  pressed=(none)
+[KbdLog][step= 479] target=link_37  pressed=(none)
+[KeyboardType-SP][step=480] global_seq=4/6 side=left key=37 finger=index phase=DESCEND tip=[-0.227 -0.306  0.15 ] target_tip=[-0.227 -0.306  0.116] tip_err=0.034
+[KbdLog][step= 480] target=link_37  pressed=(none)
+[KbdLog][step= 481] target=link_37  pressed=(none)
+[KbdLog][step= 482] target=link_37  pressed=(none)
+[KbdLog][step= 483] target=link_37  pressed=(none)
+[KbdLog][step= 484] target=link_37  pressed=(none)
+[KbdLog][step= 485] target=link_37  pressed=(none)
+[KbdLog][step= 486] target=link_37  pressed=(none)
+[KbdLog][step= 487] target=link_37  pressed=(none)
+[KbdLog][step= 488] target=link_37  pressed=(none)
+[KbdLog][step= 489] target=link_37  pressed=(none)
+[KbdLog][step= 490] target=link_37  pressed=(none)
+[KbdLog][step= 491] target=link_37  pressed=(none)
+[KbdLog][step= 492] target=link_37  pressed=(none)
+[KbdLog][step= 493] target=link_37  pressed=link_37(0.0027)
+[KbdLog][step= 494] target=link_37  pressed=link_37(0.0122)
+[KbdLog][step= 495] target=link_6  pressed=link_37(0.0119)
+[KbdLog][step= 496] target=link_6  pressed=link_37(0.0118)
+[KbdLog][step= 497] target=link_6  pressed=link_37(0.0118)
+[KbdLog][step= 498] target=link_6  pressed=link_37(0.0117)
+[KbdLog][step= 499] target=link_6  pressed=link_37(0.0117)
+[KbdLog][step= 500] target=link_6  pressed=link_37(0.0117)
+[KbdLog][step= 501] target=link_6  pressed=link_37(0.0116)
+  [ep 0/1, attempt 1] step 501/1500  terminated=False  truncated=False
+[KbdLog][step= 502] target=link_6  pressed=link_37(0.0116)
+[KbdLog][step= 503] target=link_6  pressed=link_37(0.0100)
+[KbdLog][step= 504] target=link_6  pressed=link_37(0.0080)
+[KbdLog][step= 505] target=link_6  pressed=link_37(0.0063)
+[KbdLog][step= 506] target=link_6  pressed=link_37(0.0051)
+[KbdLog][step= 507] target=link_6  pressed=link_37(0.0041)
+[KbdLog][step= 508] target=link_6  pressed=link_37(0.0034)
+[KbdLog][step= 509] target=link_6  pressed=link_37(0.0029)
+[KeyboardType-SP][step=510] global_seq=5/6 side=left key=6 finger=middle phase=PRESS tip=[-0.227 -0.35   0.118] target_tip=[-0.228 -0.347  0.116] tip_err=0.004
+[KbdLog][step= 510] target=link_6  pressed=link_37(0.0025)
+[KbdLog][step= 511] target=link_6  pressed=link_6(0.0026) link_37(0.0021)
+[KbdLog][step= 512] target=link_6  pressed=link_6(0.0120) link_37(0.0019)
+  [ep 0/1, attempt 1] step 512/1500  terminated=True  truncated=False
+[KbdLog][step= 513] target=DONE  pressed=link_6(0.0117) link_37(0.0017)
+[KbdLog][step= 514] target=DONE  pressed=link_6(0.0116) link_37(0.0016)
+[KbdLog][step= 515] target=DONE  pressed=link_6(0.0116)
+[KbdLog][step= 516] target=DONE  pressed=link_6(0.0116)
+[KbdLog][step= 517] target=DONE  pressed=link_6(0.0115)
+[KbdLog][step= 518] target=DONE  pressed=link_6(0.0115)
+[KbdLog][step= 519] target=DONE  pressed=link_6(0.0115)
+[KbdLog][step= 520] target=DONE  pressed=link_6(0.0114)
+[KbdLog][step= 521] target=DONE  pressed=link_6(0.0099)
+[KbdLog][step= 522] target=DONE  pressed=link_6(0.0078)
+[KbdLog][step= 523] target=DONE  pressed=link_6(0.0062)
+[KbdLog][step= 524] target=DONE  pressed=link_6(0.0050)
+[KbdLog][step= 525] target=DONE  pressed=link_6(0.0041)
+[KbdLog][step= 526] target=DONE  pressed=link_6(0.0034)
+[KbdLog][step= 527] target=DONE  pressed=link_6(0.0028)
+[KbdLog][step= 528] target=DONE  pressed=link_6(0.0024)
+[KbdLog][step= 529] target=DONE  pressed=link_6(0.0021)
+[KbdLog][step= 530] target=DONE  pressed=link_6(0.0019)
+[KbdLog][step= 531] target=DONE  pressed=link_6(0.0017)
+[KbdLog][step= 532] target=DONE  pressed=link_6(0.0016)
+[KbdLog][step= 533] target=DONE  pressed=(none)
+[KbdLog][step= 534] target=DONE  pressed=(none)
+[KbdLog][step= 535] target=DONE  pressed=(none)
+[KbdLog][step= 536] target=DONE  pressed=(none)
+[KbdLog][step= 537] target=DONE  pressed=(none)
+[KbdLog][step= 538] target=DONE  pressed=(none)
+[KbdLog][step= 539] target=DONE  pressed=(none)
+[KbdLog][step= 540] target=DONE  pressed=(none)
+[KbdLog][step= 541] target=DONE  pressed=(none)
+[KbdLog][step= 542] target=DONE  pressed=(none)
+  [ep 0, attempt 1] Success at step 512, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmKeyboardType-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [18:26:44] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmKeyboardType-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [18:26:47] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/DualArmKeyboardType-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/DualArmKeyboardType-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [18:26:47] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

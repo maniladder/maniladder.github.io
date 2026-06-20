@@ -1,0 +1,22 @@
+[38;5;159m[Genesis] [18:33:04] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:33:04] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:33:04] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:33:04] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:33:04] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+Traceback (most recent call last):
+  File "/data/gck/maniladder/scripts/generate_demos.py", line 524, in <module>
+    main()
+  File "/data/gck/maniladder/scripts/generate_demos.py", line 352, in main
+    env = gym.make(args.env_id, **env_kwargs)
+  File "/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 682, in make
+    env_spec = _find_spec(id)
+  File "/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 527, in _find_spec
+    _check_version_exists(ns, name, version)
+  File "/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 391, in _check_version_exists
+    _check_name_exists(ns, name)
+  File "/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/gymnasium/envs/registration.py", line 368, in _check_name_exists
+    raise error.NameNotFound(
+gymnasium.error.NameNotFound: Environment `RubikCube` doesn't exist.
+
+[38;5;9m[Genesis] [18:33:05] [ERROR] NameNotFound: Environment `RubikCube` doesn't exist.[0m
+[38;5;159m[Genesis] [18:33:05] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

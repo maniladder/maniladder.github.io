@@ -1,0 +1,133 @@
+[38;5;159m[Genesis] [17:28:41] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:28:41] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:28:41] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:28:42] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [17:28:42] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:28:45] [INFO] Scene [38;5;121m[3m<0a14a77>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [17:28:45] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<0f7a1f1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:28:45] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [17:28:45] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [17:28:45] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [17:28:45] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [17:28:45] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [17:28:45] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<b7c0419>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:28:45] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [17:28:45] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<2319954>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<6fc7946>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<6016a90>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<6699e4e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<6224a65>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<e5c073e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/box/100129/mobility.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:46] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
+[38;5;159m[Genesis] [17:28:46] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+[38;5;159m[Genesis] [17:28:46] [INFO] Preprocessing geom idx [38;5;121m[4m25[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:46] [INFO] Preprocessing geom idx [38;5;121m[4m26[0m[38;5;159m.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:302: RuntimeWarning: divide by zero encountered in divide
+  center_mass = integrated[1:4] / volume
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:316: RuntimeWarning: invalid value encountered in scalar multiply
+  integrated[5] + integrated[6] - (volume * (center_mass[[1, 2]] ** 2).sum())
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:325: RuntimeWarning: invalid value encountered in scalar multiply
+  inertia[1, 2] = -(integrated[8] - (volume * np.prod(center_mass[[1, 2]])))
+[38;5;159m[Genesis] [17:28:46] [INFO] Preprocessing geom idx [38;5;121m[4m27[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:47] [INFO] Preprocessing geom idx [38;5;121m[4m28[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<02ab305>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:47] [INFO] Preprocessing geom idx [38;5;121m[4m29[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<a4628dd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/011_banana/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:47] [INFO] Convex hull is not accurate enough for collision detection (0.318). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [17:28:47] [INFO] Running convex decomposition.[0m
+[2026-06-16 17:28:47.958] [CoACD] [info] threshold               0.1
+[2026-06-16 17:28:47.958] [CoACD] [info] max # convex hull       -1
+[2026-06-16 17:28:47.958] [CoACD] [info] preprocess mode         auto
+[2026-06-16 17:28:47.958] [CoACD] [info] preprocess resolution   30
+[2026-06-16 17:28:47.958] [CoACD] [info] pca                     false
+[2026-06-16 17:28:47.958] [CoACD] [info] mcts max depth          3
+[2026-06-16 17:28:47.958] [CoACD] [info] mcts nodes              20
+[2026-06-16 17:28:47.958] [CoACD] [info] mcts iterations         100
+[2026-06-16 17:28:47.958] [CoACD] [info] merge                   true
+[2026-06-16 17:28:47.958] [CoACD] [info] decimate                false
+[2026-06-16 17:28:47.958] [CoACD] [info] max_ch_vertex           256
+[2026-06-16 17:28:47.958] [CoACD] [info] extrude                 false
+[2026-06-16 17:28:47.958] [CoACD] [info] extrude margin          0.1
+[2026-06-16 17:28:47.958] [CoACD] [info] approximate mode        ch
+[2026-06-16 17:28:47.958] [CoACD] [info] seed                    0
+[2026-06-16 17:28:47.960] [CoACD] [info]  - Manifold Check
+[2026-06-16 17:28:47.969] [CoACD] [info] 	Unclosed mesh
+[2026-06-16 17:28:47.969] [CoACD] [info] Manifold Check Time: 0.008757s
+[2026-06-16 17:28:47.971] [CoACD] [info] Mesh Manifoldness: false
+[2026-06-16 17:28:47.971] [CoACD] [info]  - Preprocess
+[2026-06-16 17:28:47.972] [CoACD] [info] Preprocess resolution: 30
+[2026-06-16 17:28:48.283] [CoACD] [info] Preprocess Time: 16.38093s
+[2026-06-16 17:28:48.284] [CoACD] [info] # Points: 5502
+[2026-06-16 17:28:48.284] [CoACD] [info] # Triangles: 11000
+[2026-06-16 17:28:48.284] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-16 17:28:48.284] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-16 17:28:48.293] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:28:51.091] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:28:51.091] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-16 17:28:51.091] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:28:51.091] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:28:51.126] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:28:51.126] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-16 17:28:51.237] [CoACD] [info] Compute Time: 2.953396583907306s
+[2026-06-16 17:28:51.237] [CoACD] [info] # Convex Hulls: 2
+[38;5;159m[Genesis] [17:28:51] [INFO] Preprocessing geom idx [38;5;121m[4m30[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:51] [INFO] Preprocessing geom idx [38;5;121m[4m31[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:28:51] [INFO] Building scene [38;5;121m[3m<0a14a77>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [17:28:54] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [17:28:54] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;159m[Genesis] [17:29:04] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [17:29:47] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return func(*args, **kwargs)
+Box yaw=-164.2°, quat_wxyz=[ 0.1373101   0.          0.         -0.99052811]
+REST TCP quat(xyzw)=[1.0000000e+00 9.7856940e-08 2.9802321e-08 3.4352776e-10], euler(xyz)=[ 1.80000000e+02 -3.41509437e-06  1.12135794e-05]
+Action space: Box(-1.0, 1.0, (7,), float32)
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/OpenBoxRetrieval-v1
+Box yaw=41.9°, quat_wxyz=[0.93397863 0.         0.         0.35732887]
+REST TCP quat(xyzw)=[1.0000000e+00 9.7856940e-08 2.9802321e-08 3.4352776e-10], euler(xyz)=[ 1.80000000e+02 -3.41509437e-06  1.12135794e-05]
+  [ep 0/1, attempt 1] step 1/700  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 101/700  terminated=False  truncated=False
+Lid0 push step=5, open=10.4 deg
+Lid0 push step=10, open=22.5 deg
+Lid0 push step=15, open=35.4 deg
+Lid0 push step=20, open=47.3 deg
+Lid0 push step=25, open=56.6 deg
+Lid0 push step=30, open=65.6 deg
+Lid0 push step=35, open=74.5 deg
+Lid0 push step=40, open=83.1 deg
+Lid0 push step=45, open=91.5 deg
+Lid0 inertia hold step=5, open=99.8 deg
+  [ep 0/1, attempt 1] step 201/700  terminated=False  truncated=False
+Lid0 inertia hold step=10, open=107.8 deg
+Lid0 inertia hold step=15, open=115.6 deg
+  [ep 0/1, attempt 1] step 301/700  terminated=False  truncated=False
+Lid1 push step=5, open=61.2 deg
+Lid1 push step=10, open=61.2 deg
+Lid1 push step=15, open=61.2 deg
+Lid1 push step=20, open=61.2 deg
+Lid1 push step=25, open=68.4 deg
+Lid1 push step=30, open=79.4 deg
+Lid1 push step=35, open=90.1 deg
+Lid1 push step=40, open=100.5 deg
+  [ep 0/1, attempt 1] step 401/700  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 501/700  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 566/700  terminated=True  truncated=False
+  [ep 0, attempt 1] Success at step 566, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/OpenBoxRetrieval-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [17:30:36] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/OpenBoxRetrieval-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:30:39] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/OpenBoxRetrieval-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/OpenBoxRetrieval-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [17:30:39] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

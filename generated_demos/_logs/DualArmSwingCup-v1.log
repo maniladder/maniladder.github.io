@@ -1,0 +1,188 @@
+[38;5;159m[Genesis] [17:00:22] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:00:22] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:00:22] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:00:23] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [17:00:23] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:00:25] [INFO] Scene [38;5;121m[3m<f73e465>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [17:00:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<56dd623>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand_left.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:30] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 17:00:32,574 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.2000, -0.8500,  0.0000,  0.0000,  0.0000, 90.0000]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [17:00:32] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<ae64e4f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:36] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 17:00:37,623 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[  0.2500,   0.8500,   0.0000,   0.0000,   0.0000, -90.0000]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [17:00:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<78ad7b4>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:00:37] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [17:00:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<cfbe7a8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<8919da1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<75f308e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<1f966f0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<2143bb0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<b002c55>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/cup/mobility.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:302: RuntimeWarning: divide by zero encountered in divide
+  center_mass = integrated[1:4] / volume
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:316: RuntimeWarning: invalid value encountered in scalar multiply
+  integrated[5] + integrated[6] - (volume * (center_mass[[1, 2]] ** 2).sum())
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:319: RuntimeWarning: invalid value encountered in scalar multiply
+  integrated[4] + integrated[6] - (volume * (center_mass[[0, 2]] ** 2).sum())
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:322: RuntimeWarning: invalid value encountered in scalar multiply
+  integrated[4] + integrated[5] - (volume * (center_mass[[0, 1]] ** 2).sum())
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:324: RuntimeWarning: invalid value encountered in scalar multiply
+  inertia[0, 1] = -(integrated[7] - (volume * np.prod(center_mass[[0, 1]])))
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:325: RuntimeWarning: invalid value encountered in scalar multiply
+  inertia[1, 2] = -(integrated[8] - (volume * np.prod(center_mass[[1, 2]])))
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:326: RuntimeWarning: invalid value encountered in scalar multiply
+  inertia[0, 2] = -(integrated[9] - (volume * np.prod(center_mass[[0, 2]])))
+[38;5;159m[Genesis] [17:00:38] [INFO] Collision mesh is not watertight and has ill-defined volume. It will be repaired by removing duplicate faces.[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Collision mesh is not watertight and has ill-defined volume. It will be repaired by removing duplicate faces.[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Collision mesh is not watertight and has ill-defined volume. It will be repaired by removing duplicate faces.[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Collision mesh is not watertight and has ill-defined volume. It will be repaired by removing duplicate faces.[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Collision mesh is not watertight and has ill-defined volume. It will be repaired by removing duplicate faces.[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Convex hull is not accurate enough for collision detection (3.896). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [17:00:38] [INFO] Running convex decomposition.[0m
+[2026-06-16 17:00:38.644] [CoACD] [info] threshold               0.1
+[2026-06-16 17:00:38.644] [CoACD] [info] max # convex hull       -1
+[2026-06-16 17:00:38.644] [CoACD] [info] preprocess mode         auto
+[2026-06-16 17:00:38.644] [CoACD] [info] preprocess resolution   30
+[2026-06-16 17:00:38.644] [CoACD] [info] pca                     false
+[2026-06-16 17:00:38.644] [CoACD] [info] mcts max depth          3
+[2026-06-16 17:00:38.644] [CoACD] [info] mcts nodes              20
+[2026-06-16 17:00:38.644] [CoACD] [info] mcts iterations         100
+[2026-06-16 17:00:38.644] [CoACD] [info] merge                   true
+[2026-06-16 17:00:38.644] [CoACD] [info] decimate                false
+[2026-06-16 17:00:38.644] [CoACD] [info] max_ch_vertex           256
+[2026-06-16 17:00:38.644] [CoACD] [info] extrude                 false
+[2026-06-16 17:00:38.644] [CoACD] [info] extrude margin          0.1
+[2026-06-16 17:00:38.644] [CoACD] [info] approximate mode        ch
+[2026-06-16 17:00:38.644] [CoACD] [info] seed                    0
+[2026-06-16 17:00:38.645] [CoACD] [info]  - Manifold Check
+[2026-06-16 17:00:38.658] [CoACD] [info] 	Unclosed mesh
+[2026-06-16 17:00:38.658] [CoACD] [info] Manifold Check Time: 0.0131s
+[2026-06-16 17:00:38.661] [CoACD] [info] Mesh Manifoldness: false
+[2026-06-16 17:00:38.661] [CoACD] [info]  - Preprocess
+[2026-06-16 17:00:38.662] [CoACD] [info] Preprocess resolution: 30
+[2026-06-16 17:00:39.127] [CoACD] [info] Preprocess Time: 22.103099s
+[2026-06-16 17:00:39.128] [CoACD] [info] # Points: 17668
+[2026-06-16 17:00:39.128] [CoACD] [info] # Triangles: 35340
+[2026-06-16 17:00:39.128] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-16 17:00:39.128] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-16 17:00:39.142] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:00:44.451] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:00:44.451] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-16 17:00:44.457] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:00:44.462] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:00:47.527] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:00:47.528] [CoACD] [info] iter 2 ---- waiting pool: 4
+[2026-06-16 17:00:47.529] [CoACD] [info] Processing [25.0%]
+[2026-06-16 17:00:47.529] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:00:47.529] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:00:47.529] [CoACD] [info] Processing [75.0%]
+[2026-06-16 17:00:49.454] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:00:49.454] [CoACD] [info] iter 3 ---- waiting pool: 8
+[2026-06-16 17:00:49.455] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:00:49.455] [CoACD] [info] Processing [37.5%]
+[2026-06-16 17:00:49.455] [CoACD] [info] Processing [12.5%]
+[2026-06-16 17:00:49.455] [CoACD] [info] Processing [25.0%]
+[2026-06-16 17:00:49.455] [CoACD] [info] Processing [75.0%]
+[2026-06-16 17:00:49.455] [CoACD] [info] Processing [87.5%]
+[2026-06-16 17:00:49.455] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:00:49.455] [CoACD] [info] Processing [62.5%]
+[2026-06-16 17:00:51.362] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:00:51.363] [CoACD] [info] iter 4 ---- waiting pool: 14
+[2026-06-16 17:00:51.368] [CoACD] [info] Processing [14.3%]
+[2026-06-16 17:00:51.368] [CoACD] [info] Processing [42.9%]
+[2026-06-16 17:00:51.368] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:00:51.368] [CoACD] [info] Processing [28.6%]
+[2026-06-16 17:00:51.368] [CoACD] [info] Processing [71.4%]
+[2026-06-16 17:00:51.368] [CoACD] [info] Processing [85.7%]
+[2026-06-16 17:00:51.368] [CoACD] [info] Processing [57.1%]
+[2026-06-16 17:00:52.805] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:00:52.805] [CoACD] [info] iter 5 ---- waiting pool: 18
+[2026-06-16 17:00:52.806] [CoACD] [info] Processing [44.4%]
+[2026-06-16 17:00:52.806] [CoACD] [info] Processing [22.2%]
+[2026-06-16 17:00:52.806] [CoACD] [info] Processing [11.1%]
+[2026-06-16 17:00:52.806] [CoACD] [info] Processing [33.3%]
+[2026-06-16 17:00:52.806] [CoACD] [info] Processing [55.6%]
+[2026-06-16 17:00:52.806] [CoACD] [info] Processing [66.7%]
+[2026-06-16 17:00:52.806] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:00:52.806] [CoACD] [info] Processing [77.8%]
+[2026-06-16 17:00:52.806] [CoACD] [info] Processing [88.9%]
+[2026-06-16 17:00:53.692] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:00:53.692] [CoACD] [info] iter 6 ---- waiting pool: 14
+[2026-06-16 17:00:53.695] [CoACD] [info] Processing [14.3%]
+[2026-06-16 17:00:53.695] [CoACD] [info] Processing [42.9%]
+[2026-06-16 17:00:53.695] [CoACD] [info] Processing [57.1%]
+[2026-06-16 17:00:53.695] [CoACD] [info] Processing [28.6%]
+[2026-06-16 17:00:53.695] [CoACD] [info] Processing [71.4%]
+[2026-06-16 17:00:53.695] [CoACD] [info] Processing [85.7%]
+[2026-06-16 17:00:53.695] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:00:54.362] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:00:54.362] [CoACD] [info] iter 7 ---- waiting pool: 2
+[2026-06-16 17:00:54.363] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:00:54.363] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:00:54.378] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:00:54.379] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-16 17:00:55.054] [CoACD] [info] Compute Time: 15.92654862254858s
+[2026-06-16 17:00:55.054] [CoACD] [info] # Convex Hulls: 28
+[38;5;159m[Genesis] [17:00:55] [INFO] Preprocessing geom idx [38;5;121m[4m164[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:55] [INFO] Preprocessing geom idx [38;5;121m[4m165[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:55] [INFO] Preprocessing geom idx [38;5;121m[4m166[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:56] [INFO] Preprocessing geom idx [38;5;121m[4m167[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:56] [INFO] Preprocessing geom idx [38;5;121m[4m168[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:56] [INFO] Preprocessing geom idx [38;5;121m[4m169[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m170[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m171[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m172[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m173[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m174[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:58] [INFO] Preprocessing geom idx [38;5;121m[4m175[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:58] [INFO] Preprocessing geom idx [38;5;121m[4m176[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:58] [INFO] Preprocessing geom idx [38;5;121m[4m177[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:58] [INFO] Preprocessing geom idx [38;5;121m[4m178[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:58] [INFO] Preprocessing geom idx [38;5;121m[4m179[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:59] [INFO] Preprocessing geom idx [38;5;121m[4m180[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:59] [INFO] Preprocessing geom idx [38;5;121m[4m181[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:59] [INFO] Preprocessing geom idx [38;5;121m[4m182[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:59] [INFO] Preprocessing geom idx [38;5;121m[4m183[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:59] [INFO] Preprocessing geom idx [38;5;121m[4m184[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:00:59] [INFO] Preprocessing geom idx [38;5;121m[4m185[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:00] [INFO] Preprocessing geom idx [38;5;121m[4m186[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:00] [INFO] Preprocessing geom idx [38;5;121m[4m187[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:00] [INFO] Preprocessing geom idx [38;5;121m[4m188[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:00] [INFO] Preprocessing geom idx [38;5;121m[4m189[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:00] [INFO] Preprocessing geom idx [38;5;121m[4m190[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:00] [INFO] Preprocessing geom idx [38;5;121m[4m191[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<35fe0d7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:00] [INFO] Preprocessing geom idx [38;5;121m[4m192[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<e23103f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Sphere>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<cc35b28>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Sphere>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:01] [INFO] Building scene [38;5;121m[3m<f73e465>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [17:01:04] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [17:01:07] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 17078, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [17:01:16] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [17:01:54] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+Action space: Dict('panda_leaphand-1': Box(-1.0, 1.0, (22,), float32), 'panda_leaphand_left-0': Box(-1.0, 1.0, (22,), float32))
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/DualArmSwingCup-v1
+  [ep 0/1, attempt 1] step 1/300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 101/300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 201/300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 233/300  terminated=True  truncated=False
+  [ep 0, attempt 1] Success at step 233, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmSwingCup-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [17:02:37] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmSwingCup-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:02:38] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/DualArmSwingCup-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/DualArmSwingCup-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [17:02:38] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

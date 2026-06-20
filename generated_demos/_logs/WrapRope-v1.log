@@ -1,0 +1,548 @@
+[38;5;159m[Genesis] [18:15:29] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:15:29] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:15:29] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:15:29] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:15:29] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:15:32] [INFO] Scene [38;5;121m[3m<4a2732e>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [18:15:32] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<3d088fa>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:15:32] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [18:15:32] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [18:15:32] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [18:15:32] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [18:15:32] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 18:15:33,188 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[-0.2000,  0.0000,  0.0000,  0.0000,  0.0000,  3.1416]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [18:15:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<01bf31f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:15:33] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:15:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<b3f3a1c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:15:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<4b03d2a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:15:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<77c92ae>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:15:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<984824a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:15:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<3afd28a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:15:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<c85a579>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/helix_groove_cylinder.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:15:33] [INFO] Preprocessing geom idx [38;5;121m[4m25[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:15:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<fa79840>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/deformable/wrap_rope.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:15:34] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:15:34] [INFO] Building scene [38;5;121m[3m<4a2732e>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [18:15:37] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [18:15:38] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [18:15:40] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 704, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [18:15:48] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [18:16:28] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+Action space: Box(-1.0, 1.0, (7,), float32)
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/WrapRope-v1
+  [ep 0/1, attempt 1] step 1/500  terminated=False  truncated=False
+[Step  11] Phase: 0  | Angle: 0.7°/360.0° | Progress: 0.2% | End OK: False
+[Step  12] Phase: 0  | Angle: 0.6°/360.0° | Progress: 0.2% | End OK: False
+[Step  13] Phase: 0  | Angle: 0.6°/360.0° | Progress: 0.2% | End OK: False
+[Step  14] Phase: 0  | Angle: 0.6°/360.0° | Progress: 0.2% | End OK: False
+[Step  15] Phase: 0  | Angle: 0.6°/360.0° | Progress: 0.2% | End OK: False
+[Step  16] Phase: 0  | Angle: 0.7°/360.0° | Progress: 0.2% | End OK: False
+[Step  17] Phase: 0  | Angle: 0.8°/360.0° | Progress: 0.2% | End OK: False
+[Step  18] Phase: 0  | Angle: 1.0°/360.0° | Progress: 0.3% | End OK: False
+[Step  19] Phase: 1  | Angle: 165.0°/360.0° | Progress: 45.8% | End OK: False
+[Step  20] Phase: 1  | Angle: 166.4°/360.0° | Progress: 46.2% | End OK: False
+[Step  21] Phase: 1  | Angle: 167.1°/360.0° | Progress: 46.4% | End OK: False
+[Step  22] Phase: 1  | Angle: 167.6°/360.0° | Progress: 46.6% | End OK: False
+[Step  23] Phase: 1  | Angle: 166.6°/360.0° | Progress: 46.3% | End OK: False
+[Step  24] Phase: 1  | Angle: 1.8°/360.0° | Progress: 0.5% | End OK: False
+[Step  25] Phase: 1  | Angle: 2.2°/360.0° | Progress: 0.6% | End OK: False
+[Step  26] Phase: 1  | Angle: 2.9°/360.0° | Progress: 0.8% | End OK: False
+[Step  27] Phase: 1  | Angle: 4.5°/360.0° | Progress: 1.2% | End OK: False
+[Step  28] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  29] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  30] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  31] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  32] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  33] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  34] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  35] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  36] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  37] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  38] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  39] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  40] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  41] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  42] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  43] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  44] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  45] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  46] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  47] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  48] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  49] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  50] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  51] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  52] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  53] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  54] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  55] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  56] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  57] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  58] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  59] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  60] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  61] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  62] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  63] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  64] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  65] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  66] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  67] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  68] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  69] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  70] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  71] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  72] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  73] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  74] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  75] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  76] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  77] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  78] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  79] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  80] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  81] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  82] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  83] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  84] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  85] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  86] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  87] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  88] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  89] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  90] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  91] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  92] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  93] Phase: 1  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  94] Phase: 2  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  95] Phase: 2  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  96] Phase: 2  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  97] Phase: 2  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step  98] Phase: 2  | Angle: 103.0°/360.0° | Progress: 28.6% | End OK: False
+[Step  99] Phase: 2  | Angle: 272.2°/360.0° | Progress: 75.6% | End OK: False
+[Step 100] Phase: 2  | Angle: 277.3°/360.0° | Progress: 77.0% | End OK: False
+  [ep 0/1, attempt 1] step 101/500  terminated=False  truncated=False
+[Step 101] Phase: 2  | Angle: 280.8°/360.0° | Progress: 78.0% | End OK: False
+[Step 102] Phase: 2  | Angle: 283.1°/360.0° | Progress: 78.6% | End OK: False
+[Step 103] Phase: 2  | Angle: 285.2°/360.0° | Progress: 79.2% | End OK: False
+[Step 104] Phase: 2  | Angle: 287.3°/360.0° | Progress: 79.8% | End OK: False
+[Step 105] Phase: 2  | Angle: 289.5°/360.0° | Progress: 80.4% | End OK: False
+[Step 106] Phase: 2  | Angle: 292.1°/360.0° | Progress: 81.1% | End OK: False
+[Step 107] Phase: 2  | Angle: 293.6°/360.0° | Progress: 81.6% | End OK: False
+[Step 108] Phase: 2  | Angle: 296.2°/360.0° | Progress: 82.3% | End OK: False
+[Step 109] Phase: 2  | Angle: 296.9°/360.0° | Progress: 82.5% | End OK: False
+[Step 110] Phase: 2  | Angle: 299.3°/360.0° | Progress: 83.1% | End OK: False
+[Step 111] Phase: 2  | Angle: 300.0°/360.0° | Progress: 83.3% | End OK: False
+[Step 112] Phase: 2  | Angle: 302.1°/360.0° | Progress: 83.9% | End OK: False
+[Step 113] Phase: 2  | Angle: 302.5°/360.0° | Progress: 84.0% | End OK: False
+[Step 114] Phase: 2  | Angle: 304.4°/360.0° | Progress: 84.6% | End OK: False
+[Step 115] Phase: 3  | Angle: 304.7°/360.0° | Progress: 84.6% | End OK: False
+[Step 116] Phase: 3  | Angle: 116.8°/360.0° | Progress: 32.5% | End OK: False
+[Step 117] Phase: 3  | Angle: 103.3°/360.0° | Progress: 28.7% | End OK: False
+[Step 118] Phase: 3  | Angle: 92.0°/360.0° | Progress: 25.5% | End OK: False
+[Step 119] Phase: 3  | Angle: 80.8°/360.0° | Progress: 22.4% | End OK: False
+[Step 120] Phase: 3  | Angle: 69.2°/360.0° | Progress: 19.2% | End OK: False
+[Step 121] Phase: 3  | Angle: 63.0°/360.0° | Progress: 17.5% | End OK: False
+[Step 122] Phase: 3  | Angle: 54.0°/360.0° | Progress: 15.0% | End OK: False
+[Step 123] Phase: 3  | Angle: 50.0°/360.0° | Progress: 13.9% | End OK: False
+[Step 124] Phase: 3  | Angle: 43.5°/360.0° | Progress: 12.1% | End OK: False
+[Step 125] Phase: 3  | Angle: 37.8°/360.0° | Progress: 10.5% | End OK: False
+[Step 126] Phase: 3  | Angle: 31.1°/360.0° | Progress: 8.6% | End OK: False
+[Step 127] Phase: 3  | Angle: 33.1°/360.0° | Progress: 9.2% | End OK: False
+[Step 128] Phase: 3  | Angle: 32.8°/360.0° | Progress: 9.1% | End OK: False
+[Step 129] Phase: 3  | Angle: 29.5°/360.0° | Progress: 8.2% | End OK: False
+[Step 130] Phase: 3  | Angle: 27.8°/360.0° | Progress: 7.7% | End OK: False
+[Step 131] Phase: 3  | Angle: 26.1°/360.0° | Progress: 7.3% | End OK: False
+[Step 132] Phase: 3  | Angle: 22.3°/360.0° | Progress: 6.2% | End OK: False
+[Step 133] Phase: 3  | Angle: 20.5°/360.0° | Progress: 5.7% | End OK: False
+[Step 134] Phase: 3  | Angle: 20.2°/360.0° | Progress: 5.6% | End OK: False
+[Step 135] Phase: 3  | Angle: 18.0°/360.0° | Progress: 5.0% | End OK: False
+[Step 136] Phase: 3  | Angle: 17.2°/360.0° | Progress: 4.8% | End OK: False
+[Step 137] Phase: 3  | Angle: 15.9°/360.0° | Progress: 4.4% | End OK: False
+[Step 138] Phase: 3  | Angle: 14.3°/360.0° | Progress: 4.0% | End OK: False
+[Step 139] Phase: 3  | Angle: 14.4°/360.0° | Progress: 4.0% | End OK: False
+[Step 140] Phase: 3  | Angle: 12.8°/360.0° | Progress: 3.5% | End OK: False
+[Step 141] Phase: 3  | Angle: 13.0°/360.0° | Progress: 3.6% | End OK: False
+[Step 142] Phase: 3  | Angle: 11.5°/360.0° | Progress: 3.2% | End OK: False
+[Step 143] Phase: 3  | Angle: 11.5°/360.0° | Progress: 3.2% | End OK: False
+[Step 144] Phase: 3  | Angle: 11.1°/360.0° | Progress: 3.1% | End OK: False
+[Step 145] Phase: 3  | Angle: 10.5°/360.0° | Progress: 2.9% | End OK: False
+[Step 146] Phase: 3  | Angle: 10.1°/360.0° | Progress: 2.8% | End OK: False
+[Step 147] Phase: 3  | Angle: 8.2°/360.0° | Progress: 2.3% | End OK: False
+[Step 148] Phase: 3  | Angle: 8.3°/360.0° | Progress: 2.3% | End OK: False
+[Step 149] Phase: 3  | Angle: 6.3°/360.0° | Progress: 1.7% | End OK: False
+[Step 150] Phase: 3  | Angle: 4.7°/360.0° | Progress: 1.3% | End OK: False
+[Step 151] Phase: 3  | Angle: 3.3°/360.0° | Progress: 0.9% | End OK: False
+[Step 152] Phase: 3  | Angle: 2.9°/360.0° | Progress: 0.8% | End OK: False
+[Step 153] Phase: 3  | Angle: 1.2°/360.0° | Progress: 0.3% | End OK: False
+[Step 154] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 155] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 156] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 157] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 158] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 159] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 160] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 161] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 162] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 163] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 164] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 165] Phase: 3  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 166] Phase: 4  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 167] Phase: 4  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 168] Phase: 4  | Angle: 2.9°/360.0° | Progress: 0.8% | End OK: False
+[Step 169] Phase: 4  | Angle: 3.6°/360.0° | Progress: 1.0% | End OK: False
+[Step 170] Phase: 4  | Angle: 0.8°/360.0° | Progress: 0.2% | End OK: False
+[Step 171] Phase: 4  | Angle: 159.1°/360.0° | Progress: 44.2% | End OK: False
+[Step 172] Phase: 4  | Angle: 165.8°/360.0° | Progress: 46.1% | End OK: False
+[Step 173] Phase: 4  | Angle: 168.5°/360.0° | Progress: 46.8% | End OK: False
+[Step 174] Phase: 4  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 175] Phase: 4  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 176] Phase: 4  | Angle: 168.0°/360.0° | Progress: 46.7% | End OK: False
+[Step 177] Phase: 4  | Angle: 4.4°/360.0° | Progress: 1.2% | End OK: False
+[Step 178] Phase: 4  | Angle: 8.3°/360.0° | Progress: 2.3% | End OK: False
+[Step 179] Phase: 4  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 180] Phase: 4  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 181] Phase: 4  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 182] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 183] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 184] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 185] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 186] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 187] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 188] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 189] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 190] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 191] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 192] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 193] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 194] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 195] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 196] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 197] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 198] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 199] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 200] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+  [ep 0/1, attempt 1] step 201/500  terminated=False  truncated=False
+[Step 201] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 202] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 203] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 204] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 205] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 206] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 207] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 208] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 209] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 210] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 211] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 212] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 213] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 214] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 215] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 216] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 217] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 218] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 219] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 220] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 221] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 222] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 223] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 224] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 225] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 226] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 227] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 228] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 229] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 230] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 231] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 232] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 233] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 234] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 235] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 236] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 237] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 238] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 239] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 240] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 241] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 242] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 243] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 244] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 245] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 246] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 247] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 248] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 249] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 250] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 251] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 252] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 253] Phase: 5  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 254] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 255] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 256] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 257] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 258] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 259] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 260] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 261] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 262] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 263] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 264] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 265] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 266] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 267] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 268] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 269] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 270] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 271] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 272] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 273] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 274] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 275] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 276] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 277] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 278] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 279] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 280] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 281] Phase: 6  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 282] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 283] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 284] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 285] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 286] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 287] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 288] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: True
+[Step 289] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 290] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 291] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 292] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 293] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 294] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 295] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 296] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 297] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 298] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 299] Phase: 7  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 300] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+  [ep 0/1, attempt 1] step 301/500  terminated=False  truncated=False
+[Step 301] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 302] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 303] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 304] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 305] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 306] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 307] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 308] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 309] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 310] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 311] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 312] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 313] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 314] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 315] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 316] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 317] Phase: 8  | Angle: 0.0°/360.0° | Progress: 0.0% | End OK: False
+[Step 318] Phase: 8  | Angle: 0.6°/360.0° | Progress: 0.2% | End OK: False
+[Step 319] Phase: 8  | Angle: 1.8°/360.0° | Progress: 0.5% | End OK: False
+[Step 320] Phase: 8  | Angle: 4.7°/360.0° | Progress: 1.3% | End OK: False
+[Step 321] Phase: 8  | Angle: 6.7°/360.0° | Progress: 1.9% | End OK: False
+[Step 322] Phase: 8  | Angle: 8.7°/360.0° | Progress: 2.4% | End OK: False
+[Step 323] Phase: 8  | Angle: 10.0°/360.0° | Progress: 2.8% | End OK: False
+[Step 324] Phase: 8  | Angle: 11.6°/360.0° | Progress: 3.2% | End OK: False
+[Step 325] Phase: 8  | Angle: 13.4°/360.0° | Progress: 3.7% | End OK: False
+[Step 326] Phase: 8  | Angle: 14.5°/360.0° | Progress: 4.0% | End OK: False
+[Step 327] Phase: 8  | Angle: 15.2°/360.0° | Progress: 4.2% | End OK: False
+[Step 328] Phase: 8  | Angle: 17.5°/360.0° | Progress: 4.9% | End OK: False
+[Step 329] Phase: 8  | Angle: 18.9°/360.0° | Progress: 5.2% | End OK: False
+[Step 330] Phase: 8  | Angle: 20.7°/360.0° | Progress: 5.7% | End OK: False
+[Step 331] Phase: 8  | Angle: 21.3°/360.0° | Progress: 5.9% | End OK: False
+[Step 332] Phase: 8  | Angle: 22.8°/360.0° | Progress: 6.3% | End OK: False
+[Step 333] Phase: 8  | Angle: 24.2°/360.0° | Progress: 6.7% | End OK: False
+[Step 334] Phase: 8  | Angle: 25.3°/360.0° | Progress: 7.0% | End OK: False
+[Step 335] Phase: 8  | Angle: 26.1°/360.0° | Progress: 7.3% | End OK: False
+[Step 336] Phase: 8  | Angle: 28.0°/360.0° | Progress: 7.8% | End OK: False
+[Step 337] Phase: 8  | Angle: 28.4°/360.0° | Progress: 7.9% | End OK: False
+[Step 338] Phase: 8  | Angle: 181.8°/360.0° | Progress: 50.5% | End OK: False
+[Step 339] Phase: 8  | Angle: 179.4°/360.0° | Progress: 49.8% | End OK: False
+[Step 340] Phase: 8  | Angle: 176.7°/360.0° | Progress: 49.1% | End OK: False
+[Step 341] Phase: 8  | Angle: 174.2°/360.0° | Progress: 48.4% | End OK: False
+[Step 342] Phase: 8  | Angle: 171.4°/360.0° | Progress: 47.6% | End OK: False
+[Step 343] Phase: 8  | Angle: 169.0°/360.0° | Progress: 46.9% | End OK: False
+[Step 344] Phase: 8  | Angle: 166.2°/360.0° | Progress: 46.2% | End OK: False
+[Step 345] Phase: 8  | Angle: 164.2°/360.0° | Progress: 45.6% | End OK: False
+[Step 346] Phase: 8  | Angle: 162.9°/360.0° | Progress: 45.3% | End OK: False
+[Step 347] Phase: 8  | Angle: 161.6°/360.0° | Progress: 44.9% | End OK: False
+[Step 348] Phase: 8  | Angle: 160.2°/360.0° | Progress: 44.5% | End OK: False
+[Step 349] Phase: 8  | Angle: 159.2°/360.0° | Progress: 44.2% | End OK: False
+[Step 350] Phase: 8  | Angle: 158.6°/360.0° | Progress: 44.1% | End OK: False
+[Step 351] Phase: 8  | Angle: 157.1°/360.0° | Progress: 43.6% | End OK: False
+[Step 352] Phase: 8  | Angle: 155.5°/360.0° | Progress: 43.2% | End OK: False
+[Step 353] Phase: 8  | Angle: 154.0°/360.0° | Progress: 42.8% | End OK: False
+[Step 354] Phase: 8  | Angle: 152.6°/360.0° | Progress: 42.4% | End OK: False
+[Step 355] Phase: 8  | Angle: 150.7°/360.0° | Progress: 41.9% | End OK: False
+[Step 356] Phase: 8  | Angle: 149.1°/360.0° | Progress: 41.4% | End OK: False
+[Step 357] Phase: 8  | Angle: 147.5°/360.0° | Progress: 41.0% | End OK: False
+[Step 358] Phase: 8  | Angle: 146.2°/360.0° | Progress: 40.6% | End OK: False
+[Step 359] Phase: 8  | Angle: 144.5°/360.0° | Progress: 40.1% | End OK: False
+[Step 360] Phase: 8  | Angle: 142.9°/360.0° | Progress: 39.7% | End OK: False
+[Step 361] Phase: 8  | Angle: 141.4°/360.0° | Progress: 39.3% | End OK: False
+[Step 362] Phase: 8  | Angle: 139.2°/360.0° | Progress: 38.7% | End OK: False
+[Step 363] Phase: 8  | Angle: 137.5°/360.0° | Progress: 38.2% | End OK: False
+[Step 364] Phase: 9  | Angle: 136.0°/360.0° | Progress: 37.8% | End OK: False
+[Step 365] Phase: 9  | Angle: 136.4°/360.0° | Progress: 37.9% | End OK: False
+[Step 366] Phase: 9  | Angle: 137.2°/360.0° | Progress: 38.1% | End OK: False
+[Step 367] Phase: 9  | Angle: 138.2°/360.0° | Progress: 38.4% | End OK: False
+[Step 368] Phase: 9  | Angle: 139.6°/360.0° | Progress: 38.8% | End OK: False
+[Step 369] Phase: 9  | Angle: 140.6°/360.0° | Progress: 39.1% | End OK: False
+[Step 370] Phase: 9  | Angle: 141.4°/360.0° | Progress: 39.3% | End OK: False
+[Step 371] Phase: 9  | Angle: 141.9°/360.0° | Progress: 39.4% | End OK: False
+[Step 372] Phase: 9  | Angle: 142.3°/360.0° | Progress: 39.5% | End OK: False
+[Step 373] Phase: 9  | Angle: 143.1°/360.0° | Progress: 39.8% | End OK: False
+[Step 374] Phase: 9  | Angle: 143.4°/360.0° | Progress: 39.8% | End OK: True
+[Step 375] Phase: 9  | Angle: 144.0°/360.0° | Progress: 40.0% | End OK: True
+[Step 376] Phase: 9  | Angle: 145.0°/360.0° | Progress: 40.3% | End OK: True
+[Step 377] Phase: 10 | Angle: 145.5°/360.0° | Progress: 40.4% | End OK: True
+[Step 378] Phase: 10 | Angle: 146.4°/360.0° | Progress: 40.7% | End OK: True
+[Step 379] Phase: 10 | Angle: 148.1°/360.0° | Progress: 41.1% | End OK: True
+[Step 380] Phase: 10 | Angle: 149.3°/360.0° | Progress: 41.5% | End OK: True
+[Step 381] Phase: 10 | Angle: 150.4°/360.0° | Progress: 41.8% | End OK: True
+[Step 382] Phase: 10 | Angle: 151.1°/360.0° | Progress: 42.0% | End OK: True
+[Step 383] Phase: 10 | Angle: 152.1°/360.0° | Progress: 42.2% | End OK: True
+[Step 384] Phase: 10 | Angle: 153.0°/360.0° | Progress: 42.5% | End OK: True
+[Step 385] Phase: 10 | Angle: 153.4°/360.0° | Progress: 42.6% | End OK: True
+[Step 386] Phase: 10 | Angle: 154.2°/360.0° | Progress: 42.8% | End OK: True
+[Step 387] Phase: 10 | Angle: 154.4°/360.0° | Progress: 42.9% | End OK: True
+[Step 388] Phase: 10 | Angle: 154.8°/360.0° | Progress: 43.0% | End OK: True
+[Step 389] Phase: 10 | Angle: 155.0°/360.0° | Progress: 43.1% | End OK: True
+[Step 390] Phase: 10 | Angle: 155.1°/360.0° | Progress: 43.1% | End OK: True
+[Step 391] Phase: 10 | Angle: 154.7°/360.0° | Progress: 43.0% | End OK: True
+[Step 392] Phase: 10 | Angle: 154.1°/360.0° | Progress: 42.8% | End OK: True
+[Step 393] Phase: 10 | Angle: 152.9°/360.0° | Progress: 42.5% | End OK: True
+[Step 394] Phase: 10 | Angle: 151.5°/360.0° | Progress: 42.1% | End OK: True
+[Step 395] Phase: 10 | Angle: 150.2°/360.0° | Progress: 41.7% | End OK: True
+[Step 396] Phase: 10 | Angle: 149.5°/360.0° | Progress: 41.5% | End OK: True
+[Step 397] Phase: 10 | Angle: 148.8°/360.0° | Progress: 41.3% | End OK: True
+[Step 398] Phase: 10 | Angle: 147.9°/360.0° | Progress: 41.1% | End OK: True
+[Step 399] Phase: 10 | Angle: 148.7°/360.0° | Progress: 41.3% | End OK: True
+[Step 400] Phase: 10 | Angle: 148.4°/360.0° | Progress: 41.2% | End OK: True
+  [ep 0/1, attempt 1] step 401/500  terminated=False  truncated=False
+[Step 401] Phase: 10 | Angle: 147.7°/360.0° | Progress: 41.0% | End OK: True
+[Step 402] Phase: 10 | Angle: 148.1°/360.0° | Progress: 41.1% | End OK: True
+[Step 403] Phase: 10 | Angle: 148.4°/360.0° | Progress: 41.2% | End OK: True
+[Step 404] Phase: 11 | Angle: 149.0°/360.0° | Progress: 41.4% | End OK: True
+[Step 405] Phase: 11 | Angle: 149.5°/360.0° | Progress: 41.5% | End OK: True
+[Step 406] Phase: 11 | Angle: 151.6°/360.0° | Progress: 42.1% | End OK: True
+[Step 407] Phase: 11 | Angle: 155.1°/360.0° | Progress: 43.1% | End OK: True
+[Step 408] Phase: 11 | Angle: 161.7°/360.0° | Progress: 44.9% | End OK: True
+[Step 409] Phase: 11 | Angle: 166.1°/360.0° | Progress: 46.1% | End OK: True
+[Step 410] Phase: 11 | Angle: 171.2°/360.0° | Progress: 47.6% | End OK: True
+[Step 411] Phase: 11 | Angle: 174.7°/360.0° | Progress: 48.5% | End OK: True
+[Step 412] Phase: 11 | Angle: 176.8°/360.0° | Progress: 49.1% | End OK: True
+[Step 413] Phase: 11 | Angle: 179.0°/360.0° | Progress: 49.7% | End OK: True
+[Step 414] Phase: 11 | Angle: 181.1°/360.0° | Progress: 50.3% | End OK: True
+[Step 415] Phase: 11 | Angle: 183.0°/360.0° | Progress: 50.8% | End OK: True
+[Step 416] Phase: 11 | Angle: 184.6°/360.0° | Progress: 51.3% | End OK: True
+[Step 417] Phase: 11 | Angle: 185.4°/360.0° | Progress: 51.5% | End OK: True
+[Step 418] Phase: 11 | Angle: 186.3°/360.0° | Progress: 51.8% | End OK: True
+[Step 419] Phase: 11 | Angle: 187.2°/360.0° | Progress: 52.0% | End OK: True
+[Step 420] Phase: 11 | Angle: 188.1°/360.0° | Progress: 52.3% | End OK: True
+[Step 421] Phase: 11 | Angle: 188.9°/360.0° | Progress: 52.5% | End OK: True
+[Step 422] Phase: 11 | Angle: 191.0°/360.0° | Progress: 53.0% | End OK: True
+[Step 423] Phase: 11 | Angle: 193.2°/360.0° | Progress: 53.7% | End OK: True
+[Step 424] Phase: 11 | Angle: 195.5°/360.0° | Progress: 54.3% | End OK: True
+[Step 425] Phase: 11 | Angle: 197.8°/360.0° | Progress: 55.0% | End OK: True
+[Step 426] Phase: 11 | Angle: 200.2°/360.0° | Progress: 55.6% | End OK: True
+[Step 427] Phase: 11 | Angle: 201.5°/360.0° | Progress: 56.0% | End OK: True
+[Step 428] Phase: 11 | Angle: 202.9°/360.0° | Progress: 56.4% | End OK: True
+[Step 429] Phase: 11 | Angle: 205.0°/360.0° | Progress: 57.0% | End OK: True
+[Step 430] Phase: 11 | Angle: 207.7°/360.0° | Progress: 57.7% | End OK: True
+[Step 431] Phase: 11 | Angle: 210.6°/360.0° | Progress: 58.5% | End OK: True
+[Step 432] Phase: 11 | Angle: 213.6°/360.0° | Progress: 59.3% | End OK: True
+[Step 433] Phase: 11 | Angle: 216.4°/360.0° | Progress: 60.1% | End OK: True
+[Step 434] Phase: 11 | Angle: 218.0°/360.0° | Progress: 60.6% | End OK: True
+[Step 435] Phase: 11 | Angle: 219.8°/360.0° | Progress: 61.0% | End OK: True
+[Step 436] Phase: 11 | Angle: 221.9°/360.0° | Progress: 61.6% | End OK: True
+[Step 437] Phase: 11 | Angle: 224.2°/360.0° | Progress: 62.3% | End OK: True
+[Step 438] Phase: 11 | Angle: 226.2°/360.0° | Progress: 62.8% | End OK: True
+[Step 439] Phase: 11 | Angle: 228.1°/360.0° | Progress: 63.4% | End OK: True
+[Step 440] Phase: 11 | Angle: 229.4°/360.0° | Progress: 63.7% | End OK: True
+[Step 441] Phase: 11 | Angle: 230.5°/360.0° | Progress: 64.0% | End OK: True
+[Step 442] Phase: 11 | Angle: 230.8°/360.0° | Progress: 64.1% | End OK: True
+[Step 443] Phase: 11 | Angle: 230.9°/360.0° | Progress: 64.1% | End OK: True
+[Step 444] Phase: 11 | Angle: 232.2°/360.0° | Progress: 64.5% | End OK: True
+[Step 445] Phase: 11 | Angle: 238.9°/360.0° | Progress: 66.3% | End OK: True
+[Step 446] Phase: 11 | Angle: 250.0°/360.0° | Progress: 69.4% | End OK: True
+[Step 447] Phase: 11 | Angle: 264.9°/360.0° | Progress: 73.6% | End OK: True
+[Step 448] Phase: 11 | Angle: 278.3°/360.0° | Progress: 77.3% | End OK: True
+[Step 449] Phase: 11 | Angle: 290.3°/360.0° | Progress: 80.6% | End OK: True
+[Step 450] Phase: 11 | Angle: 300.3°/360.0° | Progress: 83.4% | End OK: True
+[Step 451] Phase: 11 | Angle: 310.6°/360.0° | Progress: 86.3% | End OK: True
+[Step 452] Phase: 11 | Angle: 321.3°/360.0° | Progress: 89.2% | End OK: True
+[Step 453] Phase: 11 | Angle: 327.7°/360.0° | Progress: 91.0% | End OK: True
+[Step 454] Phase: 11 | Angle: 331.5°/360.0° | Progress: 92.1% | End OK: True
+[Step 455] Phase: 11 | Angle: 334.7°/360.0° | Progress: 93.0% | End OK: True
+[Step 456] Phase: 11 | Angle: 336.7°/360.0° | Progress: 93.5% | End OK: True
+[Step 457] Phase: 11 | Angle: 338.2°/360.0° | Progress: 93.9% | End OK: True
+[Step 458] Phase: 11 | Angle: 339.8°/360.0° | Progress: 94.4% | End OK: True
+[Step 459] Phase: 11 | Angle: 340.9°/360.0° | Progress: 94.7% | End OK: True
+[Step 460] Phase: 11 | Angle: 342.3°/360.0° | Progress: 95.1% | End OK: True
+[Step 461] Phase: 11 | Angle: 343.8°/360.0° | Progress: 95.5% | End OK: True
+
+=======================================================
+🧵 [Episode Report] 绕线任务透视面板 | SUCCESS Step: 462/600
+=======================================================
+📌 缠绕进度: 95.8% (要求: >= 90.0%)
+⏳ 稳态保持帧数: 达标 (>= 20 steps)
+-------------------------------------------------------
+🏆 终局裁定: ✅ 绝对成功 (SUCCESS)
+=======================================================
+
+[Step 462] Phase: 11 | Angle: 344.9°/360.0° | Progress: 95.8% | End OK: True
+  [ep 0/1, attempt 1] step 463/500  terminated=True  truncated=False
+[Step 463] Phase: 11 | Angle: 346.0°/360.0° | Progress: 96.1% | End OK: True
+[Step 464] Phase: 11 | Angle: 347.0°/360.0° | Progress: 96.4% | End OK: True
+[Step 465] Phase: 11 | Angle: 347.9°/360.0° | Progress: 96.6% | End OK: True
+[Step 466] Phase: 11 | Angle: 348.6°/360.0° | Progress: 96.8% | End OK: True
+[Step 467] Phase: 11 | Angle: 349.3°/360.0° | Progress: 97.0% | End OK: True
+[Step 468] Phase: 11 | Angle: 350.0°/360.0° | Progress: 97.2% | End OK: True
+[Step 469] Phase: 11 | Angle: 350.6°/360.0° | Progress: 97.4% | End OK: True
+[Step 470] Phase: 11 | Angle: 351.1°/360.0° | Progress: 97.5% | End OK: True
+[Step 471] Phase: 11 | Angle: 351.7°/360.0° | Progress: 97.7% | End OK: True
+[Step 472] Phase: 11 | Angle: 352.2°/360.0° | Progress: 97.8% | End OK: True
+[Step 473] Phase: 11 | Angle: 352.6°/360.0° | Progress: 98.0% | End OK: True
+[Step 474] Phase: 11 | Angle: 353.0°/360.0° | Progress: 98.1% | End OK: True
+[Step 475] Phase: 12 | Angle: 353.4°/360.0° | Progress: 98.2% | End OK: True
+[Step 476] Phase: 12 | Angle: 353.7°/360.0° | Progress: 98.2% | End OK: True
+[Step 477] Phase: 12 | Angle: 353.9°/360.0° | Progress: 98.3% | End OK: True
+[Step 478] Phase: 12 | Angle: 354.2°/360.0° | Progress: 98.4% | End OK: True
+[Step 479] Phase: 12 | Angle: 354.4°/360.0° | Progress: 98.4% | End OK: True
+[Step 480] Phase: 12 | Angle: 354.5°/360.0° | Progress: 98.5% | End OK: True
+[Step 481] Phase: 12 | Angle: 354.8°/360.0° | Progress: 98.5% | End OK: True
+[Step 482] Phase: 12 | Angle: 355.1°/360.0° | Progress: 98.6% | End OK: True
+[Step 483] Phase: 12 | Angle: 355.5°/360.0° | Progress: 98.8% | End OK: True
+[Step 484] Phase: 12 | Angle: 355.8°/360.0° | Progress: 98.8% | End OK: True
+[Step 485] Phase: 12 | Angle: 356.1°/360.0° | Progress: 98.9% | End OK: True
+[Step 486] Phase: 12 | Angle: 356.2°/360.0° | Progress: 98.9% | End OK: True
+[Step 487] Phase: 12 | Angle: 356.3°/360.0° | Progress: 99.0% | End OK: True
+[Step 488] Phase: 12 | Angle: 356.6°/360.0° | Progress: 99.0% | End OK: True
+[Step 489] Phase: 12 | Angle: 356.8°/360.0° | Progress: 99.1% | End OK: True
+[Step 490] Phase: 12 | Angle: 356.9°/360.0° | Progress: 99.1% | End OK: True
+[Step 491] Phase: 12 | Angle: 357.0°/360.0° | Progress: 99.2% | End OK: True
+[Step 492] Phase: 12 | Angle: 357.1°/360.0° | Progress: 99.2% | End OK: True
+  [ep 0, attempt 1] Success at step 463, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/WrapRope-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [18:19:55] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/WrapRope-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [18:19:58] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/WrapRope-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/WrapRope-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [18:19:58] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

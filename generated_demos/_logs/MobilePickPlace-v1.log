@@ -1,0 +1,190 @@
+[38;5;159m[Genesis] [18:03:43] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:03:43] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:03:43] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:03:43] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:03:43] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:03:46] [INFO] Scene [38;5;121m[3m<4e542c4>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [18:03:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<e496ca2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/mobile_panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:03:50] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 18:03:52,533 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[0.0000, 0.0000, 0.0000, 0.0000, 0.0000, 1.5708]], device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [18:03:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<d5050cf>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:03:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<0221c68>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:03:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<a9b7922>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:03:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<c9cfbc9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:03:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<d064d89>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:03:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<c68772b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/small_table/20411/mobility.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:03:54] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-11.obj[0m
+[38;5;226m[Genesis] [18:03:54] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-12.obj[0m
+[38;5;226m[Genesis] [18:03:54] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-13.obj[0m
+[38;5;226m[Genesis] [18:03:55] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-16.obj[0m
+[38;5;226m[Genesis] [18:03:55] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-15.obj[0m
+[38;5;226m[Genesis] [18:03:55] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-17.obj[0m
+[38;5;226m[Genesis] [18:03:56] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-14.obj[0m
+[38;5;226m[Genesis] [18:03:56] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-4.obj[0m
+[38;5;226m[Genesis] [18:03:57] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-3.obj[0m
+[38;5;226m[Genesis] [18:03:57] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-18.obj[0m
+[38;5;226m[Genesis] [18:03:57] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-23.obj[0m
+[38;5;226m[Genesis] [18:03:58] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-21.obj[0m
+[38;5;226m[Genesis] [18:03:58] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-24.obj[0m
+[38;5;226m[Genesis] [18:03:58] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-22.obj[0m
+[38;5;226m[Genesis] [18:03:59] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-19.obj[0m
+[38;5;226m[Genesis] [18:03:59] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-10.obj[0m
+[38;5;226m[Genesis] [18:03:59] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [18:03:59] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [18:04:00] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-7.obj[0m
+[38;5;226m[Genesis] [18:04:00] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-20.obj[0m
+[38;5;226m[Genesis] [18:04:01] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-5.obj[0m
+[38;5;226m[Genesis] [18:04:01] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-6.obj[0m
+[38;5;226m[Genesis] [18:04:01] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-9.obj[0m
+[38;5;226m[Genesis] [18:04:01] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-8.obj[0m
+[38;5;226m[Genesis] [18:04:02] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-25.obj[0m
+[38;5;159m[Genesis] [18:04:04] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
+[38;5;159m[Genesis] [18:04:04] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:302: RuntimeWarning: divide by zero encountered in divide
+  center_mass = integrated[1:4] / volume
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:319: RuntimeWarning: invalid value encountered in scalar multiply
+  integrated[4] + integrated[6] - (volume * (center_mass[[0, 2]] ** 2).sum())
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:326: RuntimeWarning: invalid value encountered in scalar multiply
+  inertia[0, 2] = -(integrated[9] - (volume * np.prod(center_mass[[0, 2]])))
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:316: RuntimeWarning: invalid value encountered in scalar multiply
+  integrated[5] + integrated[6] - (volume * (center_mass[[1, 2]] ** 2).sum())
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:322: RuntimeWarning: invalid value encountered in scalar multiply
+  integrated[4] + integrated[5] - (volume * (center_mass[[0, 1]] ** 2).sum())
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:324: RuntimeWarning: invalid value encountered in scalar multiply
+  inertia[0, 1] = -(integrated[7] - (volume * np.prod(center_mass[[0, 1]])))
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:325: RuntimeWarning: invalid value encountered in scalar multiply
+  inertia[1, 2] = -(integrated[8] - (volume * np.prod(center_mass[[1, 2]])))
+[38;5;159m[Genesis] [18:04:04] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<0e23f2c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/small_table/20411/mobility.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:04:06] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-11.obj[0m
+[38;5;226m[Genesis] [18:04:06] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-12.obj[0m
+[38;5;226m[Genesis] [18:04:06] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-13.obj[0m
+[38;5;226m[Genesis] [18:04:07] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-16.obj[0m
+[38;5;226m[Genesis] [18:04:07] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-15.obj[0m
+[38;5;226m[Genesis] [18:04:07] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-17.obj[0m
+[38;5;226m[Genesis] [18:04:07] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-14.obj[0m
+[38;5;226m[Genesis] [18:04:08] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-4.obj[0m
+[38;5;226m[Genesis] [18:04:09] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-3.obj[0m
+[38;5;226m[Genesis] [18:04:09] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-18.obj[0m
+[38;5;226m[Genesis] [18:04:09] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-23.obj[0m
+[38;5;226m[Genesis] [18:04:09] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-21.obj[0m
+[38;5;226m[Genesis] [18:04:10] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-24.obj[0m
+[38;5;226m[Genesis] [18:04:10] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-22.obj[0m
+[38;5;226m[Genesis] [18:04:10] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-19.obj[0m
+[38;5;226m[Genesis] [18:04:11] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-10.obj[0m
+[38;5;226m[Genesis] [18:04:11] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [18:04:11] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [18:04:12] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-7.obj[0m
+[38;5;226m[Genesis] [18:04:12] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-20.obj[0m
+[38;5;226m[Genesis] [18:04:13] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-5.obj[0m
+[38;5;226m[Genesis] [18:04:13] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-6.obj[0m
+[38;5;226m[Genesis] [18:04:13] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-9.obj[0m
+[38;5;226m[Genesis] [18:04:13] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-8.obj[0m
+[38;5;226m[Genesis] [18:04:14] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-25.obj[0m
+[38;5;159m[Genesis] [18:04:15] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
+[38;5;159m[Genesis] [18:04:15] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:04:16] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<1ec4642>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/small_table/20411/mobility.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:04:17] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-11.obj[0m
+[38;5;226m[Genesis] [18:04:18] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-12.obj[0m
+[38;5;226m[Genesis] [18:04:18] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-13.obj[0m
+[38;5;226m[Genesis] [18:04:18] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-16.obj[0m
+[38;5;226m[Genesis] [18:04:18] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-15.obj[0m
+[38;5;226m[Genesis] [18:04:19] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-17.obj[0m
+[38;5;226m[Genesis] [18:04:19] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-14.obj[0m
+[38;5;226m[Genesis] [18:04:20] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-4.obj[0m
+[38;5;226m[Genesis] [18:04:20] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-3.obj[0m
+[38;5;226m[Genesis] [18:04:20] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-18.obj[0m
+[38;5;226m[Genesis] [18:04:21] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-23.obj[0m
+[38;5;226m[Genesis] [18:04:21] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-21.obj[0m
+[38;5;226m[Genesis] [18:04:21] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-24.obj[0m
+[38;5;226m[Genesis] [18:04:22] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-22.obj[0m
+[38;5;226m[Genesis] [18:04:22] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-19.obj[0m
+[38;5;226m[Genesis] [18:04:22] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-10.obj[0m
+[38;5;226m[Genesis] [18:04:23] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [18:04:23] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [18:04:23] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-7.obj[0m
+[38;5;226m[Genesis] [18:04:23] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-20.obj[0m
+[38;5;226m[Genesis] [18:04:24] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-5.obj[0m
+[38;5;226m[Genesis] [18:04:24] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-6.obj[0m
+[38;5;226m[Genesis] [18:04:24] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-9.obj[0m
+[38;5;226m[Genesis] [18:04:25] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-8.obj[0m
+[38;5;226m[Genesis] [18:04:25] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-25.obj[0m
+[38;5;159m[Genesis] [18:04:26] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
+[38;5;159m[Genesis] [18:04:26] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:04:27] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<68a4fbe>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/small_table/20411/mobility.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:04:28] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-11.obj[0m
+[38;5;226m[Genesis] [18:04:28] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-12.obj[0m
+[38;5;226m[Genesis] [18:04:29] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-13.obj[0m
+[38;5;226m[Genesis] [18:04:29] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-16.obj[0m
+[38;5;226m[Genesis] [18:04:29] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-15.obj[0m
+[38;5;226m[Genesis] [18:04:30] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-17.obj[0m
+[38;5;226m[Genesis] [18:04:30] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-14.obj[0m
+[38;5;226m[Genesis] [18:04:30] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-4.obj[0m
+[38;5;226m[Genesis] [18:04:31] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-3.obj[0m
+[38;5;226m[Genesis] [18:04:31] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-18.obj[0m
+[38;5;226m[Genesis] [18:04:31] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-23.obj[0m
+[38;5;226m[Genesis] [18:04:32] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-21.obj[0m
+[38;5;226m[Genesis] [18:04:32] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-24.obj[0m
+[38;5;226m[Genesis] [18:04:32] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-22.obj[0m
+[38;5;226m[Genesis] [18:04:33] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-19.obj[0m
+[38;5;226m[Genesis] [18:04:33] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-10.obj[0m
+[38;5;226m[Genesis] [18:04:33] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [18:04:33] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [18:04:34] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-7.obj[0m
+[38;5;226m[Genesis] [18:04:34] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-20.obj[0m
+[38;5;226m[Genesis] [18:04:35] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-5.obj[0m
+[38;5;226m[Genesis] [18:04:35] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-6.obj[0m
+[38;5;226m[Genesis] [18:04:35] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-9.obj[0m
+[38;5;226m[Genesis] [18:04:35] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-8.obj[0m
+[38;5;226m[Genesis] [18:04:36] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-25.obj[0m
+[38;5;159m[Genesis] [18:04:37] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
+[38;5;159m[Genesis] [18:04:37] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:04:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<8513d94>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/001_chips_can/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:04:38] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<ec5603d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:04:38] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<33493e8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/002_master_chef_can/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:04:39] [INFO] Preprocessing geom idx [38;5;121m[4m207[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:04:39] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<9560dc9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:04:39] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m14[0m[38;5;159m, uid: [38;5;121m[3m<0e31c34>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/011_banana/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:04:39] [INFO] Convex hull is not accurate enough for collision detection (0.318). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:04:39] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m15[0m[38;5;159m, uid: [38;5;121m[3m<7d5a61d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:04:39] [INFO] Building scene [38;5;121m[3m<4e542c4>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [18:04:44] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [18:04:46] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 18122, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [18:04:57] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [18:05:35] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+Action space: Box([ -5.        -5.       -12.566371  -1.        -1.        -1.
+  -1.        -1.        -1.        -1.        -1.        -1.
+  -1.        -1.        -1.        -1.        -1.        -1.
+  -1.        -1.        -1.        -1.        -1.        -1.
+  -1.      ], [ 5.        5.       12.566371  1.        1.        1.        1.
+  1.        1.        1.        1.        1.        1.        1.
+  1.        1.        1.        1.        1.        1.        1.
+  1.        1.        1.        1.      ], (25,), float32)
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/MobilePickPlace-v1
+  [ep 0/1, attempt 1] step 1/1300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 101/1300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 201/1300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 301/1300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 401/1300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 501/1300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 601/1300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 701/1300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 801/1300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 901/1300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 979/1300  terminated=True  truncated=False
+  [ep 0, attempt 1] Success at step 979, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/MobilePickPlace-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [18:11:01] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/MobilePickPlace-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [18:11:05] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/MobilePickPlace-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/MobilePickPlace-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [18:11:05] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

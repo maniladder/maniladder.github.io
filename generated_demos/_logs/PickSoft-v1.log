@@ -1,0 +1,104 @@
+[38;5;159m[Genesis] [17:45:28] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:45:28] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:45:28] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:45:33] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [17:45:33] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[33;1m2026-06-16 17:45:33,582 - maniladder  - WARNING - panda_leaphand is not in the task's list of supported robots. Code may not run as intended[0m
+[38;5;159m[Genesis] [17:45:35] [INFO] Scene [38;5;121m[3m<b6b03f2>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [17:45:35] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<906ac08>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:39] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [17:45:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<04d1bf7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:45:41] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [17:45:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<a89b738>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<d659de4>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<ff01688>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<ab2ff06>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<65a5064>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<442a9d4>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<a86e4c8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<e43c18f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<4a6b266>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<404dd80>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/toy_box/moon.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Convex hull is not accurate enough for collision detection (1.087). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [17:45:42] [INFO] Running convex decomposition.[0m
+[2026-06-16 17:45:42.392] [CoACD] [info] threshold               0.1
+[2026-06-16 17:45:42.393] [CoACD] [info] max # convex hull       -1
+[2026-06-16 17:45:42.393] [CoACD] [info] preprocess mode         auto
+[2026-06-16 17:45:42.393] [CoACD] [info] preprocess resolution   30
+[2026-06-16 17:45:42.393] [CoACD] [info] pca                     false
+[2026-06-16 17:45:42.393] [CoACD] [info] mcts max depth          3
+[2026-06-16 17:45:42.393] [CoACD] [info] mcts nodes              20
+[2026-06-16 17:45:42.393] [CoACD] [info] mcts iterations         100
+[2026-06-16 17:45:42.393] [CoACD] [info] merge                   true
+[2026-06-16 17:45:42.393] [CoACD] [info] decimate                false
+[2026-06-16 17:45:42.393] [CoACD] [info] max_ch_vertex           256
+[2026-06-16 17:45:42.393] [CoACD] [info] extrude                 false
+[2026-06-16 17:45:42.393] [CoACD] [info] extrude margin          0.1
+[2026-06-16 17:45:42.393] [CoACD] [info] approximate mode        ch
+[2026-06-16 17:45:42.393] [CoACD] [info] seed                    0
+[2026-06-16 17:45:42.393] [CoACD] [info]  - Manifold Check
+[2026-06-16 17:45:42.395] [CoACD] [info] [1/3] Edge check finish
+[2026-06-16 17:45:42.425] [CoACD] [info] [2/3] Self-intersection check finish
+[2026-06-16 17:45:42.425] [CoACD] [info] [3/3] Triangle orientation check finish. Reversed: false
+[2026-06-16 17:45:42.426] [CoACD] [info] Manifold Check Time: 0.031379s
+[2026-06-16 17:45:42.426] [CoACD] [info] Mesh Manifoldness: true
+[2026-06-16 17:45:42.427] [CoACD] [info] # Points: 1028
+[2026-06-16 17:45:42.427] [CoACD] [info] # Triangles: 2052
+[2026-06-16 17:45:42.427] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-16 17:45:42.427] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-16 17:45:42.429] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:45:44.130] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:45:44.130] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-16 17:45:44.130] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:45:44.130] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:45:45.347] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:45:45.347] [CoACD] [info] iter 2 ---- waiting pool: 4
+[2026-06-16 17:45:45.347] [CoACD] [info] Processing [0.0%]
+[2026-06-16 17:45:45.347] [CoACD] [info] Processing [25.0%]
+[2026-06-16 17:45:45.347] [CoACD] [info] Processing [50.0%]
+[2026-06-16 17:45:45.347] [CoACD] [info] Processing [75.0%]
+[2026-06-16 17:45:45.367] [CoACD] [info] Processing [100.0%]
+[2026-06-16 17:45:45.367] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-16 17:45:45.486] [CoACD] [info] Compute Time: 3.0595864336937666s
+[2026-06-16 17:45:45.486] [CoACD] [info] # Convex Hulls: 4
+[38;5;159m[Genesis] [17:45:45] [INFO] Preprocessing geom idx [38;5;121m[4m87[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:45] [INFO] Preprocessing geom idx [38;5;121m[4m88[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:45] [INFO] Preprocessing geom idx [38;5;121m[4m89[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Preprocessing geom idx [38;5;121m[4m90[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<e5c1afd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/toy_box/cylinder.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Preprocessing geom idx [38;5;121m[4m91[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<f4706de>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/toy_box/star.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Convex hull is not accurate enough for collision detection (0.798). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Preprocessing geom idx [38;5;121m[4m92[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Preprocessing geom idx [38;5;121m[4m93[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Preprocessing geom idx [38;5;121m[4m94[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Preprocessing geom idx [38;5;121m[4m95[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m14[0m[38;5;159m, uid: [38;5;121m[3m<674dd2f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/toy_box/cyl.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Preprocessing geom idx [38;5;121m[4m96[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Adding [38;5;121m<gs.MPMEntity>[0m[38;5;159m. idx: [38;5;121m15[0m[38;5;159m, uid: [38;5;121m[3m<f7e3647>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/toy_box/heart.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.MPM.Elastic>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:45:46] [INFO] Sampling particles with [38;5;121mpbs-32[0m[38;5;159m sampler and generating `.ptc` file:[0m
+[38;5;159m[Genesis] [17:45:56] [INFO] Sampled [38;5;121m[4m5,769[0m[38;5;159m particles.[0m
+[38;5;159m[Genesis] [17:45:56] [INFO] Building scene [38;5;121m[3m<b6b03f2>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [17:46:00] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [17:46:01] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 4092, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;226m[Genesis] [17:46:08] [WARNING] Kernel compilation takes longer when running MPM solver in CPIC mode. Please be patient.[0m
+[38;5;226m[Genesis] [17:46:09] [WARNING] Current `substep_dt` (0.002) is greater than suggested_dt (0.0003125, calculated based on `grid_density`). Simulation might be unstable.[0m
+[38;5;159m[Genesis] [17:46:10] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [17:47:40] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  return func(*args, **kwargs)
+Action space: Box(-1.0, 1.0, (22,), float32)
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/PickSoft-v1
+Traceback (most recent call last):
+  File "/data/gck/maniladder/scripts/generate_demos.py", line 524, in <module>
+    main()
+  File "/data/gck/maniladder/scripts/generate_demos.py", line 399, in main
+    action = task_env.scripted_policy()
+AttributeError: 'PickSoftEnv' object has no attribute 'scripted_policy'
+
+[38;5;9m[Genesis] [17:47:43] [ERROR] AttributeError: 'PickSoftEnv' object has no attribute 'scripted_policy'[0m
+[38;5;159m[Genesis] [17:47:43] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

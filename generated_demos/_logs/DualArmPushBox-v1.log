@@ -1,0 +1,124 @@
+[38;5;159m[Genesis] [17:01:54] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:01:54] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:01:54] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:01:54] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [17:01:54] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [17:01:57] [INFO] Scene [38;5;121m[3m<fc067f6>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [17:01:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<eebe106>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:01:57] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [17:01:57] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [17:01:57] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [17:01:57] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [17:01:57] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 17:01:57,913 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[  0.0000,   0.5500,   0.0000,   0.0000,   0.0000, -90.0000]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [17:01:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<829b939>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:01:58] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [17:01:58] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [17:01:58] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [17:01:58] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [17:01:58] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 17:01:58,325 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000, -0.5500,  0.0000,  0.0000,  0.0000, 90.0000]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [17:01:58] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<25da1e5>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [17:01:58] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [17:01:58] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<200a23b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:58] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<2d731ed>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:58] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<0504105>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:58] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<cc89eec>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:58] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<31ae64d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:58] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<d7b0840>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:58] [INFO] Preprocessing geom idx [38;5;121m[4m48[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:58] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<4a237f9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [17:01:58] [INFO] Building scene [38;5;121m[3m<fc067f6>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [17:02:01] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [17:02:02] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [17:02:03] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 1056, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [17:02:11] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [17:02:47] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+Action space: Dict('panda-0': Box(-1.0, 1.0, (7,), float32), 'panda-1': Box(-1.0, 1.0, (7,), float32))
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/DualArmPushBox-v1
+  [ep 0/1, attempt 1] step 1/300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 101/300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 201/300  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 300/300  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 1 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/1) | moving avg (last 1): 0.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt1.mp4
+[38;5;159m[Genesis] [17:03:16] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt1.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:03:17] [INFO] Video saved.[0m
+  [ep 0/1, attempt 2] step 1/300  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 101/300  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 201/300  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 300/300  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 2 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/2) | moving avg (last 2): 0.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt2.mp4
+[38;5;159m[Genesis] [17:03:35] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt2.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:03:36] [INFO] Video saved.[0m
+  [ep 0/1, attempt 3] step 1/300  terminated=False  truncated=False
+  [ep 0/1, attempt 3] step 101/300  terminated=False  truncated=False
+  [ep 0/1, attempt 3] step 201/300  terminated=False  truncated=False
+  [ep 0/1, attempt 3] step 300/300  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 3 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/3) | moving avg (last 3): 0.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt3.mp4
+[38;5;159m[Genesis] [17:03:53] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt3.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:03:54] [INFO] Video saved.[0m
+  [ep 0/1, attempt 4] step 1/300  terminated=False  truncated=False
+  [ep 0/1, attempt 4] step 101/300  terminated=False  truncated=False
+  [ep 0/1, attempt 4] step 201/300  terminated=False  truncated=False
+  [ep 0/1, attempt 4] step 300/300  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 4 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/4) | moving avg (last 4): 0.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt4.mp4
+[38;5;159m[Genesis] [17:04:12] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt4.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:04:13] [INFO] Video saved.[0m
+  [ep 0/1, attempt 5] step 1/300  terminated=False  truncated=False
+  [ep 0/1, attempt 5] step 101/300  terminated=False  truncated=False
+  [ep 0/1, attempt 5] step 201/300  terminated=False  truncated=False
+  [ep 0/1, attempt 5] step 300/300  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 5 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/5) | moving avg (last 5): 0.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt5.mp4
+[38;5;159m[Genesis] [17:04:30] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt5.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:04:31] [INFO] Video saved.[0m
+  [ep 0/1, attempt 6] step 1/300  terminated=False  truncated=False
+  [ep 0/1, attempt 6] step 101/300  terminated=False  truncated=False
+  [ep 0/1, attempt 6] step 201/300  terminated=False  truncated=False
+  [ep 0/1, attempt 6] step 300/300  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 6 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/6) | moving avg (last 6): 0.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt6.mp4
+[38;5;159m[Genesis] [17:04:49] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt6.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:04:49] [INFO] Video saved.[0m
+  [ep 0/1, attempt 7] step 1/300  terminated=False  truncated=False
+  [ep 0/1, attempt 7] step 101/300  terminated=False  truncated=False
+  [ep 0/1, attempt 7] step 201/300  terminated=False  truncated=False
+  [ep 0/1, attempt 7] step 300/300  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 7 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/7) | moving avg (last 7): 0.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt7.mp4
+[38;5;159m[Genesis] [17:05:07] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_failed_ep0_attempt7.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:05:08] [INFO] Video saved.[0m
+  [ep 0/1, attempt 8] step 1/300  terminated=False  truncated=False
+  [ep 0/1, attempt 8] step 101/300  terminated=False  truncated=False
+  [ep 0/1, attempt 8] step 201/300  terminated=False  truncated=False
+  [ep 0/1, attempt 8] step 263/300  terminated=True  truncated=False
+  [ep 0, attempt 8] Success at step 263, collected 30 extra steps.
+  [Success Rate] overall: 12.5% (1/8) | moving avg (last 8): 12.5%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [17:05:25] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [17:05:26] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/DualArmPushBox-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 12.5% (1/8) | moving avg (last 8): 12.5%
+============================================================
+[38;5;159m[Genesis] [17:05:27] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

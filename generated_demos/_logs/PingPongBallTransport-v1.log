@@ -1,0 +1,202 @@
+[38;5;159m[Genesis] [18:29:57] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:29:57] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:29:57] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:29:58] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:29:58] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:30:00] [INFO] Scene [38;5;121m[3m<fe777ed>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [18:30:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<08cb381>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:30:00] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [18:30:00] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [18:30:00] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [18:30:00] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [18:30:00] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:30:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<56454de>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:30:01] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:30:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<d015ad6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<433957f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<662ca5b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<4c5e752>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<e66eda4>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<59e08b0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/paper_cup/simple-paper-cup/source/simple paper cup.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:01] [INFO] Convex hull is not accurate enough for collision detection (7.762). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:30:01] [INFO] Running convex decomposition.[0m
+[2026-06-16 18:30:01.490] [CoACD] [info] threshold               0.1
+[2026-06-16 18:30:01.490] [CoACD] [info] max # convex hull       -1
+[2026-06-16 18:30:01.490] [CoACD] [info] preprocess mode         auto
+[2026-06-16 18:30:01.490] [CoACD] [info] preprocess resolution   30
+[2026-06-16 18:30:01.490] [CoACD] [info] pca                     false
+[2026-06-16 18:30:01.490] [CoACD] [info] mcts max depth          3
+[2026-06-16 18:30:01.490] [CoACD] [info] mcts nodes              20
+[2026-06-16 18:30:01.490] [CoACD] [info] mcts iterations         100
+[2026-06-16 18:30:01.490] [CoACD] [info] merge                   true
+[2026-06-16 18:30:01.490] [CoACD] [info] decimate                false
+[2026-06-16 18:30:01.490] [CoACD] [info] max_ch_vertex           256
+[2026-06-16 18:30:01.490] [CoACD] [info] extrude                 false
+[2026-06-16 18:30:01.490] [CoACD] [info] extrude margin          0.1
+[2026-06-16 18:30:01.490] [CoACD] [info] approximate mode        ch
+[2026-06-16 18:30:01.490] [CoACD] [info] seed                    0
+[2026-06-16 18:30:01.490] [CoACD] [info]  - Manifold Check
+[2026-06-16 18:30:01.492] [CoACD] [info] 	Unclosed mesh
+[2026-06-16 18:30:01.492] [CoACD] [info] Manifold Check Time: 0.000683s
+[2026-06-16 18:30:01.492] [CoACD] [info] Mesh Manifoldness: false
+[2026-06-16 18:30:01.492] [CoACD] [info]  - Preprocess
+[2026-06-16 18:30:01.492] [CoACD] [info] Preprocess resolution: 30
+[2026-06-16 18:30:01.715] [CoACD] [info] Preprocess Time: 11.496838s
+[2026-06-16 18:30:01.717] [CoACD] [info] # Points: 25220
+[2026-06-16 18:30:01.717] [CoACD] [info] # Triangles: 50436
+[2026-06-16 18:30:01.717] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-16 18:30:01.717] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-16 18:30:01.729] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:30:06.950] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:30:06.951] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-16 18:30:06.956] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:30:06.956] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:30:09.948] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:30:09.949] [CoACD] [info] iter 2 ---- waiting pool: 4
+[2026-06-16 18:30:09.954] [CoACD] [info] Processing [25.0%]
+[2026-06-16 18:30:09.954] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:30:09.955] [CoACD] [info] Processing [75.0%]
+[2026-06-16 18:30:09.956] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:30:11.733] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:30:11.734] [CoACD] [info] iter 3 ---- waiting pool: 8
+[2026-06-16 18:30:11.734] [CoACD] [info] Processing [37.5%]
+[2026-06-16 18:30:11.734] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:30:11.734] [CoACD] [info] Processing [25.0%]
+[2026-06-16 18:30:11.734] [CoACD] [info] Processing [12.5%]
+[2026-06-16 18:30:11.734] [CoACD] [info] Processing [62.5%]
+[2026-06-16 18:30:11.734] [CoACD] [info] Processing [75.0%]
+[2026-06-16 18:30:11.734] [CoACD] [info] Processing [87.5%]
+[2026-06-16 18:30:11.734] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:30:13.540] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:30:13.540] [CoACD] [info] iter 4 ---- waiting pool: 8
+[2026-06-16 18:30:13.541] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:30:13.541] [CoACD] [info] Processing [12.5%]
+[2026-06-16 18:30:13.541] [CoACD] [info] Processing [25.0%]
+[2026-06-16 18:30:13.541] [CoACD] [info] Processing [75.0%]
+[2026-06-16 18:30:13.541] [CoACD] [info] Processing [37.5%]
+[2026-06-16 18:30:13.541] [CoACD] [info] Processing [62.5%]
+[2026-06-16 18:30:13.541] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:30:13.541] [CoACD] [info] Processing [87.5%]
+[2026-06-16 18:30:15.045] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:30:15.045] [CoACD] [info] iter 5 ---- waiting pool: 2
+[2026-06-16 18:30:15.046] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:30:15.046] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:30:15.062] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:30:15.062] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-16 18:30:15.455] [CoACD] [info] Compute Time: 13.738324964419007s
+[2026-06-16 18:30:15.455] [CoACD] [info] # Convex Hulls: 13
+[38;5;159m[Genesis] [18:30:15] [INFO] Preprocessing geom idx [38;5;121m[4m25[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:15] [INFO] Preprocessing geom idx [38;5;121m[4m26[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:16] [INFO] Preprocessing geom idx [38;5;121m[4m27[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:16] [INFO] Preprocessing geom idx [38;5;121m[4m28[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:17] [INFO] Preprocessing geom idx [38;5;121m[4m29[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:17] [INFO] Preprocessing geom idx [38;5;121m[4m30[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:17] [INFO] Preprocessing geom idx [38;5;121m[4m31[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:17] [INFO] Preprocessing geom idx [38;5;121m[4m32[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:17] [INFO] Preprocessing geom idx [38;5;121m[4m33[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:18] [INFO] Preprocessing geom idx [38;5;121m[4m34[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:18] [INFO] Preprocessing geom idx [38;5;121m[4m35[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:18] [INFO] Preprocessing geom idx [38;5;121m[4m36[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:18] [INFO] Preprocessing geom idx [38;5;121m[4m37[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<175147f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/paper_cup/simple-paper-cup/source/simple paper cup.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:18] [INFO] Convex hull is not accurate enough for collision detection (7.762). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:30:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<86fb2dd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/paper_cup/simple-paper-cup/source/simple paper cup.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:18] [INFO] Convex hull is not accurate enough for collision detection (7.762). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:30:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<ea34a18>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/paper_cup/simple-paper-cup/source/simple paper cup.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:18] [INFO] Convex hull is not accurate enough for collision detection (7.762). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:30:19] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<a4cd95e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/paper_cup/simple-paper-cup/source/simple paper cup.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:19] [INFO] Convex hull is not accurate enough for collision detection (7.762). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:30:19] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<274b61e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/paper_cup/simple-paper-cup/source/simple paper cup.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:19] [INFO] Convex hull is not accurate enough for collision detection (7.762). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:30:19] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<4b3d8da>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Sphere>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:19] [INFO] Preprocessing geom idx [38;5;121m[4m103[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:30:19] [INFO] Building scene [38;5;121m[3m<fe777ed>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [18:30:23] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [18:30:23] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [18:30:25] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 4828, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [18:30:33] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [18:31:10] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+Action space: Box(-1.0, 1.0, (7,), float32)
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/PingPongBallTransport-v1
+  [ep 0/1, attempt 1] step 1/1400  terminated=False  truncated=False
+[scripted_policy] [cup=5] phase <init> -> -1  TCP=[0.14910000562667847, -0.0, 0.4499000012874603]  cur=1  last_cur=1  step_target=None
+[scripted_policy] [cup=5] phase -1 -> 0  TCP=[0.14910000562667847, -0.0, 0.4499000012874603]  cur=1  last_cur=1  step_target=None
+[scripted_policy] [cup=5] phase 0 -> 1  TCP=[0.13770000636577606, -0.00019999999494757503, 0.45509999990463257]  cur=1  last_cur=1  step_target=None
+  [ep 0/1, attempt 1] step 101/1400  terminated=False  truncated=False
+[scripted_policy] [cup=5] phase 1 -> 2  TCP=[0.13089999556541443, -0.0003000000142492354, 0.3882000148296356]  cur=1  last_cur=1  step_target=None
+[scripted_policy] [cup=5] phase 2 -> 3  TCP=[0.13079999387264252, -0.0003000000142492354, 0.41029998660087585]  cur=1  last_cur=1  step_target=None
+[scripted_policy] [cup=5] phase 3 -> 4  TCP=[-0.003100000089034438, -0.00019999999494757503, 0.41780000925064087]  cur=1  last_cur=1  step_target=None
+[scripted_policy] [cup=5] phase 4 -> 41  TCP=[-0.009499999694526196, -0.0003000000142492354, 0.323199987411499]  cur=1  last_cur=1  step_target=None
+[scripted_policy] [cup=5] phase 41 -> 42  TCP=[0.0551999993622303, -0.0003000000142492354, 0.322299987077713]  cur=1  last_cur=1  step_target=None
+[scripted_policy] [cup=5] phase 42 -> 5  TCP=[0.0551999993622303, -0.0003000000142492354, 0.32179999351501465]  cur=1  last_cur=1  step_target=None
+[scripted_policy] [cup=5] phase 5 -> 6  TCP=[-0.04960000142455101, 0.1436000019311905, 0.3215999901294708]  cur=1  last_cur=1  step_target=None
+  [ep 0/1, attempt 1] step 201/1400  terminated=False  truncated=False
+[scripted_policy] [cup=5] phase 6 -> 61  TCP=[-0.04960000142455101, 0.1436000019311905, 0.3215999901294708]  cur=1  last_cur=1  step_target=None
+[scripted_policy] [cup=5] phase 61 -> 7  TCP=[-0.11569999903440475, 0.14419999718666077, 0.32170000672340393]  cur=1  last_cur=1  step_target=None
+[scripted_policy] [cup=3] phase 7 -> -1  TCP=[-0.010300000198185444, 0.004699999932199717, 0.3253999948501587]  cur=2  last_cur=2  step_target=None
+[scripted_policy] [cup=3] phase -1 -> 0  TCP=[-0.007199999876320362, 0.003800000064074993, 0.32850000262260437]  cur=2  last_cur=2  step_target=None
+[scripted_policy] [cup=3] phase 0 -> 1  TCP=[0.07119999825954437, 0.00019999999494757503, 0.41290000081062317]  cur=2  last_cur=2  step_target=None
+  [ep 0/1, attempt 1] step 301/1400  terminated=False  truncated=False
+[scripted_policy] [cup=3] phase 1 -> 2  TCP=[0.0794999971985817, -0.00019999999494757503, 0.28839999437332153]  cur=2  last_cur=2  step_target=None
+[scripted_policy] [cup=3] phase 2 -> 3  TCP=[0.07940000295639038, -0.00019999999494757503, 0.31060001254081726]  cur=2  last_cur=2  step_target=None
+[scripted_policy] [cup=3] phase 3 -> 41  TCP=[0.08429999649524689, -0.00019999999494757503, 0.3142000138759613]  cur=2  last_cur=2  step_target=None
+[scripted_policy] [cup=3] phase 41 -> 42  TCP=[0.14869999885559082, -0.0003000000142492354, 0.31290000677108765]  cur=2  last_cur=2  step_target=None
+[scripted_policy] [cup=3] phase 42 -> 5  TCP=[0.14869999885559082, -0.0003000000142492354, 0.3127000033855438]  cur=2  last_cur=2  step_target=None
+[scripted_policy] [cup=3] phase 5 -> 6  TCP=[-0.04349999874830246, -0.1590999960899353, 0.3124000132083893]  cur=2  last_cur=2  step_target=None
+[scripted_policy] [cup=3] phase 6 -> 61  TCP=[-0.04349999874830246, -0.1590999960899353, 0.3124000132083893]  cur=2  last_cur=2  step_target=None
+  [ep 0/1, attempt 1] step 401/1400  terminated=False  truncated=False
+[scripted_policy] [cup=3] phase 61 -> 7  TCP=[-0.10970000177621841, -0.15950000286102295, 0.3124000132083893]  cur=2  last_cur=2  step_target=None
+[scripted_policy] [cup=4] phase 7 -> -1  TCP=[-0.10980000346899033, -0.15929999947547913, 0.3125]  cur=3  last_cur=3  step_target=None
+[scripted_policy] [cup=4] phase -1 -> 0  TCP=[-0.10639999806880951, -0.1559000015258789, 0.3160000145435333]  cur=3  last_cur=3  step_target=None
+[scripted_policy] [cup=4] phase 0 -> 1  TCP=[0.17479999363422394, -0.0003000000142492354, 0.45820000767707825]  cur=3  last_cur=3  step_target=None
+  [ep 0/1, attempt 1] step 501/1400  terminated=False  truncated=False
+[scripted_policy] [cup=4] phase 1 -> 2  TCP=[0.18379999697208405, -9.999999747378752e-05, 0.28859999775886536]  cur=3  last_cur=3  step_target=None
+[scripted_policy] [cup=4] phase 2 -> 3  TCP=[0.18359999358654022, -9.999999747378752e-05, 0.310699999332428]  cur=3  last_cur=3  step_target=None
+  [ep 0/1, attempt 1] step 601/1400  terminated=False  truncated=False
+[scripted_policy] [cup=4] phase 3 -> 4  TCP=[-0.07119999825954437, -9.999999747378752e-05, 0.3181000053882599]  cur=3  last_cur=3  step_target=None
+[scripted_policy] [cup=4] phase 4 -> 41  TCP=[-0.07670000195503235, -9.999999747378752e-05, 0.22429999709129333]  cur=3  last_cur=3  step_target=None
+[scripted_policy] [cup=4] phase 41 -> 42  TCP=[-0.011099999770522118, -0.00019999999494757503, 0.2240000069141388]  cur=3  last_cur=3  step_target=None
+[scripted_policy] [cup=4] phase 42 -> 5  TCP=[-0.011500000022351742, -0.00019999999494757503, 0.22360000014305115]  cur=3  last_cur=3  step_target=None
+[scripted_policy] [cup=4] phase 5 -> 6  TCP=[-0.05009999871253967, 0.1436000019311905, 0.22360000014305115]  cur=3  last_cur=3  step_target=None
+[scripted_policy] [cup=4] phase 6 -> 61  TCP=[-0.050200000405311584, 0.1437000036239624, 0.22349999845027924]  cur=3  last_cur=3  step_target=None
+[scripted_policy] [cup=4] phase 61 -> 7  TCP=[-0.11699999868869781, 0.14390000700950623, 0.22370000183582306]  cur=3  last_cur=3  step_target=None
+  [ep 0/1, attempt 1] step 701/1400  terminated=False  truncated=False
+[scripted_policy] [cup=0] phase 7 -> -1  TCP=[-0.07699999958276749, 0.006599999964237213, 0.22679999470710754]  cur=4  last_cur=4  step_target=None
+[scripted_policy] [cup=0] phase -1 -> 0  TCP=[-0.07370000332593918, 0.005400000140070915, 0.23019999265670776]  cur=4  last_cur=4  step_target=None
+[scripted_policy] [cup=0] phase 0 -> 1  TCP=[0.01860000006854534, 0.0, 0.3294000029563904]  cur=4  last_cur=4  step_target=None
+  [ep 0/1, attempt 1] step 801/1400  terminated=False  truncated=False
+[scripted_policy] [cup=0] phase 1 -> 2  TCP=[0.02710000053048134, 0.0, 0.18880000710487366]  cur=4  last_cur=4  step_target=None
+[scripted_policy] [cup=0] phase 2 -> 3  TCP=[0.026900000870227814, 0.0, 0.2110999971628189]  cur=4  last_cur=4  step_target=None
+[scripted_policy] [cup=0] phase 3 -> 41  TCP=[0.03180000185966492, 0.0, 0.21480000019073486]  cur=4  last_cur=4  step_target=None
+[scripted_policy] [cup=0] phase 41 -> 42  TCP=[0.09700000286102295, 0.0, 0.2142000049352646]  cur=4  last_cur=4  step_target=None
+[scripted_policy] [cup=0] phase 42 -> 5  TCP=[0.0966000035405159, -0.0, 0.21389999985694885]  cur=4  last_cur=4  step_target=None
+[scripted_policy] [cup=0] phase 5 -> 6  TCP=[-0.045899998396635056, 0.14509999752044678, 0.21400000154972076]  cur=4  last_cur=4  step_target=None
+[scripted_policy] [cup=0] phase 6 -> 61  TCP=[-0.045899998396635056, 0.1451999992132187, 0.21400000154972076]  cur=4  last_cur=4  step_target=None
+[scripted_policy] [cup=0] phase 61 -> 7  TCP=[-0.11299999803304672, 0.1451999992132187, 0.2143000066280365]  cur=4  last_cur=4  step_target=None
+[scripted_policy] [cup=1] phase 7 -> -1  TCP=[-0.11270000040531158, 0.1453000009059906, 0.21459999680519104]  cur=5  last_cur=5  step_target=None
+[scripted_policy] [cup=1] phase -1 -> 0  TCP=[-0.10939999669790268, 0.14190000295639038, 0.21789999306201935]  cur=5  last_cur=5  step_target=None
+  [ep 0/1, attempt 1] step 901/1400  terminated=False  truncated=False
+[scripted_policy] [cup=1] phase 0 -> 1  TCP=[0.12200000137090683, 0.00019999999494757503, 0.451200008392334]  cur=5  last_cur=5  step_target=None
+  [ep 0/1, attempt 1] step 1001/1400  terminated=False  truncated=False
+[scripted_policy] [cup=1] phase 1 -> 2  TCP=[0.13109999895095825, 0.00019999999494757503, 0.18880000710487366]  cur=5  last_cur=5  step_target=None
+[scripted_policy] [cup=1] phase 2 -> 3  TCP=[0.13089999556541443, 0.00019999999494757503, 0.210999995470047]  cur=5  last_cur=5  step_target=None
+[scripted_policy] [cup=1] phase 3 -> 41  TCP=[0.13580000400543213, 0.00019999999494757503, 0.21469999849796295]  cur=5  last_cur=5  step_target=None
+[scripted_policy] [cup=1] phase 41 -> 42  TCP=[0.20170000195503235, 0.0003000000142492354, 0.21279999613761902]  cur=5  last_cur=5  step_target=None
+  [ep 0/1, attempt 1] step 1074/1400  terminated=True  truncated=False
+  [ep 0, attempt 1] Success at step 1074, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/PingPongBallTransport-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [18:39:28] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/PingPongBallTransport-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [18:39:32] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/PingPongBallTransport-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/PingPongBallTransport-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [18:39:33] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

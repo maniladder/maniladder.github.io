@@ -1,0 +1,127 @@
+[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:31] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:00:31] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:33] [INFO] Scene [38;5;121m[3m<c774af3>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [18:00:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<06b92a8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/mobile/tidybot_panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:00:34] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [18:00:34] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [18:00:34] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [18:00:34] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [18:00:34] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:00:34] [INFO] Preprocessing geom idx [38;5;121m[4m0[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:35] [INFO] Preprocessing geom idx [38;5;121m[4m1[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:36] [INFO] Preprocessing geom idx [38;5;121m[4m2[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:38] [INFO] Preprocessing geom idx [38;5;121m[4m3[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:39] [INFO] Preprocessing geom idx [38;5;121m[4m4[0m[38;5;159m.[0m
+[32m2026-06-16 18:00:40,782 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[0., 0., 0., 0., 0., 0.]], device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [18:00:40] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<fe895d3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/mobile/tidybot_panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:00:40] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [18:00:40] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [18:00:40] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [18:00:40] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [18:00:40] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 18:00:41,389 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[0., 0., 0., 0., 0., 0.]], device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<5e41707>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<77647ce>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<133b6a7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<9e868d3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<0cdf861>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<ada862a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/fridge/new_fridge.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Preprocessing geom idx [38;5;121m[4m56[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:41] [INFO] Preprocessing geom idx [38;5;121m[4m58[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:42] [INFO] Preprocessing geom idx [38;5;121m[4m60[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:42] [INFO] Preprocessing geom idx [38;5;121m[4m61[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:43] [INFO] Preprocessing geom idx [38;5;121m[4m62[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:44] [INFO] Preprocessing geom idx [38;5;121m[4m64[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:44] [INFO] Preprocessing geom idx [38;5;121m[4m65[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:44] [INFO] Preprocessing geom idx [38;5;121m[4m66[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:45] [INFO] Preprocessing geom idx [38;5;121m[4m67[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:45] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<a1ac958>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/small_table/20411/mobility.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:00:47] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-11.obj[0m
+[38;5;226m[Genesis] [18:00:47] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-12.obj[0m
+[38;5;226m[Genesis] [18:00:47] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-13.obj[0m
+[38;5;226m[Genesis] [18:00:47] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-16.obj[0m
+[38;5;226m[Genesis] [18:00:47] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-15.obj[0m
+[38;5;226m[Genesis] [18:00:48] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-17.obj[0m
+[38;5;226m[Genesis] [18:00:48] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-14.obj[0m
+[38;5;226m[Genesis] [18:00:48] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-4.obj[0m
+[38;5;226m[Genesis] [18:00:48] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-3.obj[0m
+[38;5;226m[Genesis] [18:00:49] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-18.obj[0m
+[38;5;226m[Genesis] [18:00:49] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-23.obj[0m
+[38;5;226m[Genesis] [18:00:49] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-21.obj[0m
+[38;5;226m[Genesis] [18:00:49] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-24.obj[0m
+[38;5;226m[Genesis] [18:00:49] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-22.obj[0m
+[38;5;226m[Genesis] [18:00:49] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-19.obj[0m
+[38;5;226m[Genesis] [18:00:50] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-10.obj[0m
+[38;5;226m[Genesis] [18:00:50] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [18:00:50] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [18:00:50] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-7.obj[0m
+[38;5;226m[Genesis] [18:00:50] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-20.obj[0m
+[38;5;226m[Genesis] [18:00:50] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-5.obj[0m
+[38;5;226m[Genesis] [18:00:50] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-6.obj[0m
+[38;5;226m[Genesis] [18:00:51] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-9.obj[0m
+[38;5;226m[Genesis] [18:00:51] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-8.obj[0m
+[38;5;226m[Genesis] [18:00:51] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-25.obj[0m
+[38;5;159m[Genesis] [18:00:53] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
+[38;5;159m[Genesis] [18:00:53] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:302: RuntimeWarning: divide by zero encountered in divide
+  center_mass = integrated[1:4] / volume
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:302: RuntimeWarning: invalid value encountered in divide
+  center_mass = integrated[1:4] / volume
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:319: RuntimeWarning: invalid value encountered in scalar multiply
+  integrated[4] + integrated[6] - (volume * (center_mass[[0, 2]] ** 2).sum())
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:326: RuntimeWarning: invalid value encountered in scalar multiply
+  inertia[0, 2] = -(integrated[9] - (volume * np.prod(center_mass[[0, 2]])))
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:316: RuntimeWarning: invalid value encountered in scalar multiply
+  integrated[5] + integrated[6] - (volume * (center_mass[[1, 2]] ** 2).sum())
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:322: RuntimeWarning: invalid value encountered in scalar multiply
+  integrated[4] + integrated[5] - (volume * (center_mass[[0, 1]] ** 2).sum())
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:324: RuntimeWarning: invalid value encountered in scalar multiply
+  inertia[0, 1] = -(integrated[7] - (volume * np.prod(center_mass[[0, 1]])))
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:325: RuntimeWarning: invalid value encountered in scalar multiply
+  inertia[1, 2] = -(integrated[8] - (volume * np.prod(center_mass[[1, 2]])))
+[38;5;159m[Genesis] [18:00:53] [INFO] Preprocessing geom idx [38;5;121m[4m68[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:53] [INFO] Preprocessing geom idx [38;5;121m[4m69[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:54] [INFO] Preprocessing geom idx [38;5;121m[4m70[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:54] [INFO] Preprocessing geom idx [38;5;121m[4m71[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:54] [INFO] Preprocessing geom idx [38;5;121m[4m72[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:54] [INFO] Preprocessing geom idx [38;5;121m[4m73[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:54] [INFO] Preprocessing geom idx [38;5;121m[4m74[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:55] [INFO] Preprocessing geom idx [38;5;121m[4m75[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:55] [INFO] Preprocessing geom idx [38;5;121m[4m76[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:55] [INFO] Preprocessing geom idx [38;5;121m[4m77[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:55] [INFO] Preprocessing geom idx [38;5;121m[4m78[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:55] [INFO] Preprocessing geom idx [38;5;121m[4m79[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:55] [INFO] Preprocessing geom idx [38;5;121m[4m80[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:56] [INFO] Preprocessing geom idx [38;5;121m[4m81[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:56] [INFO] Preprocessing geom idx [38;5;121m[4m82[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:56] [INFO] Preprocessing geom idx [38;5;121m[4m83[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:56] [INFO] Preprocessing geom idx [38;5;121m[4m84[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:56] [INFO] Preprocessing geom idx [38;5;121m[4m85[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:56] [INFO] Preprocessing geom idx [38;5;121m[4m86[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m87[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m88[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m89[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m90[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m91[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:57] [INFO] Preprocessing geom idx [38;5;121m[4m92[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:58] [INFO] Preprocessing geom idx [38;5;121m[4m93[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:58] [INFO] Preprocessing geom idx [38;5;121m[4m94[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:58] [INFO] Preprocessing geom idx [38;5;121m[4m95[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:58] [INFO] Preprocessing geom idx [38;5;121m[4m96[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:59] [INFO] Preprocessing geom idx [38;5;121m[4m97[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:59] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<31fa5f0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/010_potted_meat_can/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:01:00] [INFO] Preprocessing geom idx [38;5;121m[4m98[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:01:00] [INFO] Building scene [38;5;121m[3m<c774af3>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [18:01:04] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [18:01:04] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [18:01:07] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 4082, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [18:01:16] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [18:01:53] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+
+[TIMEOUT] exceeded --task_timeout_sec=900.0

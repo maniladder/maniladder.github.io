@@ -1,0 +1,30 @@
+{
+    "env_info": {
+        "env_id": "StackBlock-v1",
+        "env_kwargs": {
+            "num_envs": 1,
+            "obs_mode": "rgbd",
+            "reward_mode": "dense",
+            "control_mode": "pd_ee_delta_pose",
+            "enable_shadow": true,
+            "show_world_frame": false,
+            "show_fps": false,
+            "show_viewer": false,
+            "device": "cuda:0",
+            "front_camera": false,
+            "back_camera": false,
+            "left_camera": false,
+            "right_camera": false,
+            "top_camera": false,
+            "robot_camera": false,
+            "orbit_camera": true,
+            "custome_viewer_res": true,
+            "viewer_res": [
+                320,
+                240
+            ],
+            "camera_res_ratio": 0.75
+        }
+    },
+    "episodes": []
+}

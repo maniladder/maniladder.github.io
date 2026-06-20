@@ -1,0 +1,156 @@
+[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:31] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:00:31] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:00:33] [INFO] Scene [38;5;121m[3m<1af202d>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [18:00:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<a21e27e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand_left.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:38] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 18:00:40,883 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[-0.1500, -0.6500,  0.0000,  0.0000,  0.0000, 90.0000]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [18:00:40] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<ce1c713>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:45] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-06-16 18:00:46,829 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ -0.1500,   0.6500,   0.0000,   0.0000,   0.0000, -90.0000]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [18:00:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<84c1cf5>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:00:46] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<fbeee1b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<9d22331>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<6c87275>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<5d238f9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<bef8630>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<cd68110>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Preprocessing geom idx [38;5;121m[4m164[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<25207aa>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<d860a26>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Preprocessing geom idx [38;5;121m[4m166[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<022ef9c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<6bf44a0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Sphere>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Preprocessing geom idx [38;5;121m[4m168[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<6c1e6a5>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Preprocessing geom idx [38;5;121m[4m169[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m14[0m[38;5;159m, uid: [38;5;121m[3m<c71b6f3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/pingpong_paddle/Pingpong_paddle_v1_L3.123cf4e7968b-5c66-4017-8f3a-ec1648c1b330/10519_Pingpong_paddle_v1_L3.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Convex hull is not accurate enough for collision detection (0.743). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [18:00:47] [INFO] Running convex decomposition.[0m
+[2026-06-16 18:00:47.955] [CoACD] [info] threshold               0.1
+[2026-06-16 18:00:47.956] [CoACD] [info] max # convex hull       -1
+[2026-06-16 18:00:47.956] [CoACD] [info] preprocess mode         auto
+[2026-06-16 18:00:47.956] [CoACD] [info] preprocess resolution   30
+[2026-06-16 18:00:47.956] [CoACD] [info] pca                     false
+[2026-06-16 18:00:47.956] [CoACD] [info] mcts max depth          3
+[2026-06-16 18:00:47.956] [CoACD] [info] mcts nodes              20
+[2026-06-16 18:00:47.956] [CoACD] [info] mcts iterations         100
+[2026-06-16 18:00:47.956] [CoACD] [info] merge                   true
+[2026-06-16 18:00:47.956] [CoACD] [info] decimate                false
+[2026-06-16 18:00:47.956] [CoACD] [info] max_ch_vertex           256
+[2026-06-16 18:00:47.956] [CoACD] [info] extrude                 false
+[2026-06-16 18:00:47.956] [CoACD] [info] extrude margin          0.1
+[2026-06-16 18:00:47.956] [CoACD] [info] approximate mode        ch
+[2026-06-16 18:00:47.956] [CoACD] [info] seed                    0
+[2026-06-16 18:00:47.957] [CoACD] [info]  - Manifold Check
+[2026-06-16 18:00:47.963] [CoACD] [info] 	Unclosed mesh
+[2026-06-16 18:00:47.963] [CoACD] [info] Manifold Check Time: 0.005291s
+[2026-06-16 18:00:47.964] [CoACD] [info] Mesh Manifoldness: false
+[2026-06-16 18:00:47.964] [CoACD] [info]  - Preprocess
+[2026-06-16 18:00:47.964] [CoACD] [info] Preprocess resolution: 30
+[2026-06-16 18:00:48.254] [CoACD] [info] Preprocess Time: 14.531753s
+[2026-06-16 18:00:48.254] [CoACD] [info] # Points: 3356
+[2026-06-16 18:00:48.255] [CoACD] [info] # Triangles: 6708
+[2026-06-16 18:00:48.255] [CoACD] [info]  - Decomposition (MCTS)
+[2026-06-16 18:00:48.255] [CoACD] [info] iter 0 ---- waiting pool: 1
+[2026-06-16 18:00:48.261] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:00:49.879] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:00:49.879] [CoACD] [info] iter 1 ---- waiting pool: 2
+[2026-06-16 18:00:49.885] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:00:49.885] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:00:50.543] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:00:50.543] [CoACD] [info] iter 2 ---- waiting pool: 2
+[2026-06-16 18:00:50.543] [CoACD] [info] Processing [50.0%]
+[2026-06-16 18:00:50.543] [CoACD] [info] Processing [0.0%]
+[2026-06-16 18:00:50.552] [CoACD] [info] Processing [100.0%]
+[2026-06-16 18:00:50.552] [CoACD] [info]  - Merge Convex Hulls
+[2026-06-16 18:00:50.617] [CoACD] [info] Compute Time: 2.363298684358597s
+[2026-06-16 18:00:50.618] [CoACD] [info] # Convex Hulls: 3
+[38;5;159m[Genesis] [18:00:50] [INFO] Preprocessing geom idx [38;5;121m[4m170[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:51] [INFO] Preprocessing geom idx [38;5;121m[4m171[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:51] [INFO] Preprocessing geom idx [38;5;121m[4m172[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:00:51] [INFO] Building scene [38;5;121m[3m<1af202d>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [18:00:56] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [18:00:58] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 13777, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [18:01:08] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [18:01:44] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+Action space: Dict('panda_leaphand-1': Box(-1.0, 1.0, (22,), float32), 'panda_leaphand_left-0': Box(-1.0, 1.0, (22,), float32))
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/DualArmPingpongBalance-v1
+  [ep 0/1, attempt 1] step 1/400  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 101/400  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 201/400  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 301/400  terminated=False  truncated=False
+[eval] ball_z=0.2897(min=0.18), on=True, dur=0/20, success=False
+[eval] ball_z=0.2885(min=0.18), on=True, dur=1/20, success=False
+[eval] ball_z=0.2861(min=0.18), on=True, dur=2/20, success=False
+[eval] ball_z=0.2824(min=0.18), on=True, dur=3/20, success=False
+[eval] ball_z=0.2775(min=0.18), on=True, dur=4/20, success=False
+[eval] ball_z=0.2713(min=0.18), on=True, dur=5/20, success=False
+[eval] ball_z=0.2639(min=0.18), on=True, dur=6/20, success=False
+[eval] ball_z=0.2552(min=0.18), on=True, dur=7/20, success=False
+[eval] ball_z=0.2453(min=0.18), on=True, dur=8/20, success=False
+[eval] ball_z=0.2341(min=0.18), on=True, dur=9/20, success=False
+[eval] ball_z=0.2217(min=0.18), on=True, dur=10/20, success=False
+[eval] ball_z=0.2080(min=0.18), on=True, dur=11/20, success=False
+[eval] ball_z=0.1931(min=0.18), on=True, dur=12/20, success=False
+[eval] ball_z=0.1853(min=0.18), on=True, dur=13/20, success=False
+[eval] ball_z=0.1854(min=0.18), on=True, dur=14/20, success=False
+[eval] ball_z=0.1856(min=0.18), on=True, dur=15/20, success=False
+[eval] ball_z=0.1857(min=0.18), on=True, dur=16/20, success=False
+[eval] ball_z=0.1857(min=0.18), on=True, dur=17/20, success=False
+[eval] ball_z=0.1857(min=0.18), on=True, dur=18/20, success=False
+[eval] ball_z=0.1856(min=0.18), on=True, dur=19/20, success=False
+[eval] ball_z=0.1856(min=0.18), on=True, dur=20/20, success=True
+  [ep 0/1, attempt 1] step 346/400  terminated=True  truncated=False
+[eval] ball_z=0.1856(min=0.18), on=True, dur=21/20, success=True
+[eval] ball_z=0.1857(min=0.18), on=True, dur=22/20, success=True
+[eval] ball_z=0.1857(min=0.18), on=True, dur=23/20, success=True
+[eval] ball_z=0.1857(min=0.18), on=True, dur=24/20, success=True
+[eval] ball_z=0.1857(min=0.18), on=True, dur=25/20, success=True
+[eval] ball_z=0.1857(min=0.18), on=True, dur=26/20, success=True
+[eval] ball_z=0.1857(min=0.18), on=True, dur=27/20, success=True
+[eval] ball_z=0.1856(min=0.18), on=True, dur=28/20, success=True
+[eval] ball_z=0.1856(min=0.18), on=True, dur=29/20, success=True
+[eval] ball_z=0.1856(min=0.18), on=True, dur=30/20, success=True
+[eval] ball_z=0.1855(min=0.18), on=True, dur=31/20, success=True
+[eval] ball_z=0.1855(min=0.18), on=True, dur=32/20, success=True
+[eval] ball_z=0.1888(min=0.18), on=True, dur=33/20, success=True
+[eval] ball_z=0.1923(min=0.18), on=True, dur=34/20, success=True
+[eval] ball_z=0.1945(min=0.18), on=True, dur=35/20, success=True
+[eval] ball_z=0.1954(min=0.18), on=True, dur=36/20, success=True
+[eval] ball_z=0.1952(min=0.18), on=True, dur=37/20, success=True
+[eval] ball_z=0.1936(min=0.18), on=True, dur=38/20, success=True
+[eval] ball_z=0.1909(min=0.18), on=True, dur=39/20, success=True
+[eval] ball_z=0.1900(min=0.18), on=True, dur=40/20, success=True
+[eval] ball_z=0.1906(min=0.18), on=True, dur=41/20, success=True
+[eval] ball_z=0.1911(min=0.18), on=True, dur=42/20, success=True
+[eval] ball_z=0.1909(min=0.18), on=True, dur=43/20, success=True
+[eval] ball_z=0.1908(min=0.18), on=True, dur=44/20, success=True
+[eval] ball_z=0.1909(min=0.18), on=True, dur=45/20, success=True
+[eval] ball_z=0.1908(min=0.18), on=True, dur=46/20, success=True
+[eval] ball_z=0.1909(min=0.18), on=True, dur=47/20, success=True
+[eval] ball_z=0.1908(min=0.18), on=True, dur=48/20, success=True
+[eval] ball_z=0.1908(min=0.18), on=True, dur=49/20, success=True
+[eval] ball_z=0.1908(min=0.18), on=True, dur=50/20, success=True
+  [ep 0, attempt 1] Success at step 346, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmPingpongBalance-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [18:03:38] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmPingpongBalance-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [18:03:40] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/DualArmPingpongBalance-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/DualArmPingpongBalance-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [18:03:40] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m

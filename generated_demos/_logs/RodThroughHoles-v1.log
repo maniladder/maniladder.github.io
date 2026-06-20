@@ -1,0 +1,108 @@
+[38;5;159m[Genesis] [18:25:27] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:25:27] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:25:27] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:25:28] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [18:25:28] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [18:25:30] [INFO] Scene [38;5;121m[3m<40cac2a>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [18:25:30] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<bc59e59>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:34] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<1428e58>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [18:25:36] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<64f20be>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<7d3d194>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<b272faf>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<6e879c2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<2dcd47a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<a24c1f2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Preprocessing geom idx [38;5;121m[4m83[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<20f102f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<8b31bc3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<0364e79>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:36] [INFO] Preprocessing geom idx [38;5;121m[4m86[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<3bae9e1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<fdece3d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:37] [INFO] Preprocessing geom idx [38;5;121m[4m88[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<e99e8b7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m14[0m[38;5;159m, uid: [38;5;121m[3m<e9428a8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m15[0m[38;5;159m, uid: [38;5;121m[3m<06f83fd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m16[0m[38;5;159m, uid: [38;5;121m[3m<69ba9e6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m17[0m[38;5;159m, uid: [38;5;121m[3m<e64421c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [18:25:37] [INFO] Building scene [38;5;121m[3m<40cac2a>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [18:25:41] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [18:25:43] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 3762, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [18:25:52] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [18:26:28] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+Action space: Box(-1.0, 1.0, (22,), float32)
+Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/RodThroughHoles-v1
+[pcd] n_verts=66, centroid=[0.24107908 0.07049044 0.31      ], axis=[ 1.00000000e+00 -3.84994673e-20  7.27560214e-09], length=|pmax-pmin|=0.5000 (should ≈ rod_length=0.5), tip_minus=[-0.00892092  0.07049044  0.31      ], tip_plus=[0.49107909 0.07049044 0.31      ]
+  [ep 0/1, attempt 1] step 1/1500  terminated=False  truncated=False
+[step 10] phase=0 rod=(p=+0.00°,y=-1.16°) hole=(p=-6.30°,y=-4.11°)
+[step 20] phase=0 rod=(p=-0.00°,y=-1.16°) hole=(p=-6.30°,y=-4.11°)
+[step 30] phase=0 rod=(p=+0.00°,y=-1.16°) hole=(p=-6.30°,y=-4.11°)
+[step 40] phase=1 rod=(p=+0.00°,y=-1.16°) hole=(p=-6.30°,y=-4.11°)
+[step 50] phase=2 rod=(p=+0.00°,y=-1.16°) hole=(p=-6.30°,y=-4.11°)
+[step 60] phase=2 rod=(p=-0.07°,y=-0.65°) hole=(p=-6.30°,y=-4.11°)
+[step 70] phase=2 rod=(p=+2.45°,y=-0.32°) hole=(p=-6.30°,y=-4.11°)
+[step 80] phase=2 rod=(p=-1.17°,y=-5.02°) hole=(p=-6.30°,y=-4.11°)
+[step 90] phase=2 rod=(p=+0.44°,y=-3.77°) hole=(p=-6.30°,y=-4.11°)
+[step 100] phase=2 rod=(p=-0.46°,y=-4.73°) hole=(p=-6.30°,y=-4.11°)
+  [ep 0/1, attempt 1] step 101/1500  terminated=False  truncated=False
+[step 110] phase=3 rod=(p=-0.84°,y=-4.67°) hole=(p=-6.30°,y=-4.11°)
+[step 120] phase=3 rod=(p=-0.78°,y=-3.91°) hole=(p=-6.30°,y=-4.11°)
+[step 130] phase=4 rod=(p=-1.07°,y=-2.44°) hole=(p=-6.30°,y=-4.11°)
+[step 140] phase=4 rod=(p=-1.53°,y=-1.53°) hole=(p=-6.30°,y=-4.11°)
+[step 150] phase=4 rod=(p=-1.21°,y=-0.60°) hole=(p=-6.30°,y=-4.11°)
+[step 160] phase=4 rod=(p=-1.46°,y=-0.59°) hole=(p=-6.30°,y=-4.11°)
+[step 170] phase=4 rod=(p=-1.82°,y=-0.97°) hole=(p=-6.30°,y=-4.11°)
+[step 180] phase=4 rod=(p=-2.18°,y=-1.10°) hole=(p=-6.30°,y=-4.11°)
+[P5 position] center_err=161.5mm to pre_center
+[step 190] phase=5 rod=(p=-3.09°,y=-1.15°) hole=(p=-6.30°,y=-4.11°)
+[P5 position] center_err=62.6mm to pre_center
+[step 200] phase=5 rod=(p=-3.90°,y=-1.10°) hole=(p=-6.30°,y=-4.11°)
+  [ep 0/1, attempt 1] step 201/1500  terminated=False  truncated=False
+[P5 position] center_err=6.9mm to pre_center
+[step 210] phase=5 rod=(p=-4.03°,y=-1.22°) hole=(p=-6.30°,y=-4.11°)
+[P5 -> P6] center_err=4.0mm, wait=23
+[P6 rotate] rod=(p=-4.96°,y=-2.25°) hole=(p=-6.30°,y=-4.11°) Δ=(p=-1.34°,y=-1.85°)
+[step 220] phase=6 rod=(p=-5.48°,y=-2.91°) hole=(p=-6.30°,y=-4.11°)
+[P6 rotate] rod=(p=-5.59°,y=-3.03°) hole=(p=-6.30°,y=-4.11°) Δ=(p=-0.71°,y=-1.07°)
+[P6 done] Δp=-0.71°, Δy=-1.07°, push_target(center)=[ 0.2949634  -0.39995834  0.27560908]
+[P7] remaining=347.0mm  Δ=(p=-0.66°,y=-1.08°)
+[step 230] phase=7 rod=(p=-5.90°,y=-3.46°) hole=(p=-6.30°,y=-4.11°)
+[P7] remaining=315.0mm  Δ=(p=-0.65°,y=-0.65°)
+[step 240] phase=7 rod=(p=-4.89°,y=-2.36°) hole=(p=-6.30°,y=-4.11°)
+[P7] remaining=282.1mm  Δ=(p=-1.56°,y=-2.06°)
+[step 250] phase=7 rod=(p=-4.02°,y=-0.94°) hole=(p=-6.30°,y=-4.11°)
+[P7] remaining=249.1mm  Δ=(p=-2.47°,y=-3.35°)
+[step 260] phase=7 rod=(p=-3.40°,y=-0.15°) hole=(p=-6.30°,y=-4.11°)
+[P7] remaining=217.4mm  Δ=(p=-3.01°,y=-4.06°)
+[step 270] phase=7 rod=(p=-3.08°,y=+0.01°) hole=(p=-6.30°,y=-4.11°)
+[P7] remaining=183.3mm  Δ=(p=-3.24°,y=-4.09°)
+[step 280] phase=7 rod=(p=-2.99°,y=-0.27°) hole=(p=-6.30°,y=-4.11°)
+[P7] remaining=148.0mm  Δ=(p=-3.27°,y=-3.76°)
+[step 290] phase=7 rod=(p=-3.52°,y=-0.62°) hole=(p=-6.30°,y=-4.11°)
+[P7] remaining=112.2mm  Δ=(p=-2.90°,y=-3.34°)
+  [ep 0/1, attempt 1] step 294/1500  terminated=True  truncated=False
+[step 300] phase=7 rod=(p=-3.48°,y=-1.60°) hole=(p=-6.30°,y=-4.11°)
+[P7] remaining=77.1mm  Δ=(p=-2.78°,y=-2.37°)
+[step 310] phase=7 rod=(p=-4.02°,y=-2.06°) hole=(p=-6.30°,y=-4.11°)
+[P7] remaining=44.0mm  Δ=(p=-2.64°,y=-1.97°)
+[P7 done] final center=[ 0.2592164  -0.40806088  0.26513973]
+[step 320] phase=8 rod=(p=-4.12°,y=-2.59°) hole=(p=-6.30°,y=-4.11°)
+  [ep 0, attempt 1] Success at step 294, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/RodThroughHoles-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [18:28:35] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/RodThroughHoles-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [18:28:36] [INFO] Video saved.[0m
+  Saved video: /data/gck/maniladder/site/generated_demos/RodThroughHoles-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/RodThroughHoles-v1/videos
+
+============================================================
+Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [18:28:37] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
