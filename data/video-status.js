@@ -706,14 +706,6 @@ window.MANILADDER_VIDEO_STATUS = {
     "success": true,
     "video": "videos/tasks/RopePalmCageHoldDex-v1.mp4"
   },
-  "RubikCube-v1": {
-    "attempts": 50,
-    "error": "generate_demos.py exited with 1",
-    "gpu": "4",
-    "status": "skipped",
-    "success": false,
-    "video": ""
-  },
   "ScoopWater-v1": {
     "attempts": 50,
     "gpu": "4",

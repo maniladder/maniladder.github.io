@@ -10,13 +10,19 @@
   const labels = {
     rigid_body: "Rigid Body",
     deformable: "Deformable",
-    ultimate_task: "Ultimate",
     single_arm_gripper: "Single Arm Gripper",
     single_arm_dex: "Single Arm Dex",
     dual_arm_gripper: "Dual Arm Gripper",
     dual_arm_dex: "Dual Arm Dex",
-    ultimate: "Ultimate",
   };
+
+  const DOMAIN_ORDER = ["rigid_body", "deformable"];
+  const EMBODIMENT_ORDER = [
+    "single_arm_gripper",
+    "single_arm_dex",
+    "dual_arm_gripper",
+    "dual_arm_dex",
+  ];
 
   const gallery = document.getElementById("gallery");
   const emptyResults = document.getElementById("empty-results");
@@ -44,7 +50,7 @@
   }
 
   function levelLabel(level) {
-    return level === 5 ? "Ultimate" : `Level ${level}`;
+    return `Level ${level}`;
   }
 
   function statusFor(task) {
@@ -133,6 +139,28 @@
     return Array.from(levels.entries()).sort((a, b) => a[0] - b[0]);
   }
 
+  function renderTypeCell(domain, embodiment, tasksForCell) {
+    const cell = document.createElement("section");
+    cell.className = "type-cell";
+
+    const typeHeading = document.createElement("h3");
+    typeHeading.className = "type-heading";
+    const pill = document.createElement("span");
+    pill.className = `domain-pill domain-${domain}`;
+    pill.textContent = labelFor(domain);
+    typeHeading.append(pill, document.createTextNode(labelFor(embodiment)));
+
+    const stack = document.createElement("div");
+    stack.className = "type-stack";
+    tasksForCell
+      .slice()
+      .sort((a, b) => a.env_id.localeCompare(b.env_id))
+      .forEach((task) => stack.append(renderTask(task)));
+
+    cell.append(typeHeading, stack);
+    return cell;
+  }
+
   function renderTask(task) {
     const card = document.createElement("article");
     card.className = "task-card";
@@ -214,41 +242,21 @@
       levelHeading.append(title, count);
       levelBlock.append(levelHeading);
 
-      const orderedGroups = Array.from(typeGroups.entries()).sort((a, b) => a[0].localeCompare(b[0]));
-      for (const [typeKey, group] of orderedGroups) {
-        const [domain, embodiment] = typeKey.split("|");
-        const typeGroup = document.createElement("section");
-        typeGroup.className = "type-group";
-
-        const typeHeading = document.createElement("h3");
-        typeHeading.className = "type-heading";
-        const pill = document.createElement("span");
-        pill.className = `domain-pill domain-${domain}`;
-        pill.textContent = labelFor(domain);
-        typeHeading.append(pill, document.createTextNode(labelFor(embodiment)));
-
-        const grid = document.createElement("div");
-        grid.className = "task-grid";
-        group.sort((a, b) => a.env_id.localeCompare(b.env_id)).forEach((task) => grid.append(renderTask(task)));
-
-        typeGroup.append(typeHeading, grid);
-        levelBlock.append(typeGroup);
+      const grid = document.createElement("div");
+      grid.className = "level-grid";
+      for (const domain of DOMAIN_ORDER) {
+        for (const embodiment of EMBODIMENT_ORDER) {
+          const group = typeGroups.get(`${domain}|${embodiment}`) || [];
+          grid.append(renderTypeCell(domain, embodiment, group));
+        }
       }
+      levelBlock.append(grid);
 
       fragments.push(levelBlock);
     }
 
     gallery.replaceChildren(...fragments);
     emptyResults.hidden = items.length > 0;
-    updateStats();
-  }
-
-  function updateStats() {
-    const levels = new Set(tasks.map((task) => task.level));
-    const videos = Object.values(videoStatus).filter((status) => status && status.success).length;
-    document.getElementById("task-count").textContent = String(tasks.length);
-    document.getElementById("level-count").textContent = String(levels.size);
-    document.getElementById("video-count").textContent = String(videos);
   }
 
   searchInput.addEventListener("input", (event) => {

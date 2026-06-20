@@ -1024,14 +1024,5 @@ window.MANILADDER_TASKS = [
     "level": 4,
     "path": "rigid_body/single_arm_gripper/level_4/ring_tossing.py",
     "video": "videos/tasks/RingTossing-v1.mp4"
-  },
-  {
-    "display_name": "Rubik Cube",
-    "domain": "ultimate_task",
-    "embodiment": "ultimate",
-    "env_id": "RubikCube-v1",
-    "level": 5,
-    "path": "ultimate_task/rubik_cube.py",
-    "video": "videos/tasks/RubikCube-v1.mp4"
   }
 ];
