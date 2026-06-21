@@ -168,8 +168,7 @@ main {
 .intro-video-shell {
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 8;
-  min-height: 420px;
+  aspect-ratio: 16 / 9;
   background:
     radial-gradient(circle at 22% 26%, rgba(247, 201, 72, 0.34), transparent 18rem),
     radial-gradient(circle at 78% 72%, rgba(46, 101, 200, 0.24), transparent 20rem),
@@ -560,8 +559,7 @@ main {
   }
 
   .intro-video-shell {
-    min-height: 230px;
-    aspect-ratio: 16 / 10;
+    aspect-ratio: 16 / 9;
     border-radius: 18px;
   }
 }
