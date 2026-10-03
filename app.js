@@ -16,6 +16,8 @@
     dual_arm_dex: "Dual Arm Dex",
   };
 
+  const DIFFICULTY = { 1: "Easy", 2: "Medium", 3: "Hard", 4: "Unsolved" };
+
   const DOMAIN_ORDER = ["rigid_body", "deformable"];
   const EMBODIMENT_ORDER = [
     "single_arm_gripper",
@@ -250,6 +252,12 @@
       levelHeading.className = "level-heading";
       const title = document.createElement("h2");
       title.textContent = levelLabel(level);
+      if (DIFFICULTY[level]) {
+        const badge = document.createElement("span");
+        badge.className = `level-badge level-badge-${level}`;
+        badge.textContent = DIFFICULTY[level];
+        title.append(badge);
+      }
       const count = document.createElement("span");
       count.className = "level-count";
       const levelTotal = Array.from(typeGroups.values()).reduce((total, group) => total + group.length, 0);
