@@ -1,214 +1,1316 @@
-[38;5;159m[Genesis] [18:26:53] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:26:53] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:26:53] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:26:54] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
-[38;5;159m[Genesis] [18:26:54] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:26:56] [INFO] Scene [38;5;121m[3m<cecd022>[0m[38;5;159m created.[0m
-[38;5;159m[Genesis] [18:26:56] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<6a8ac0b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_allegro_hora/panda_allegro_hora.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:26:59] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
-[38;5;159m[Genesis] [18:26:59] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[38;5;159m[Genesis] [18:26:59] [INFO] Preprocessing geom idx [38;5;121m[4m0[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:26:59] [INFO] Preprocessing geom idx [38;5;121m[4m1[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:00] [INFO] Preprocessing geom idx [38;5;121m[4m2[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:00] [INFO] Preprocessing geom idx [38;5;121m[4m3[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:00] [INFO] Preprocessing geom idx [38;5;121m[4m4[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:00] [INFO] Preprocessing geom idx [38;5;121m[4m5[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:00] [INFO] Preprocessing geom idx [38;5;121m[4m6[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:01] [INFO] Preprocessing geom idx [38;5;121m[4m7[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:01] [INFO] Preprocessing geom idx [38;5;121m[4m8[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:01] [INFO] Preprocessing geom idx [38;5;121m[4m9[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:01] [INFO] Preprocessing geom idx [38;5;121m[4m10[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:01] [INFO] Preprocessing geom idx [38;5;121m[4m11[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:01] [INFO] Preprocessing geom idx [38;5;121m[4m12[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:01] [INFO] Preprocessing geom idx [38;5;121m[4m13[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:01] [INFO] Preprocessing geom idx [38;5;121m[4m17[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:01] [INFO] Preprocessing geom idx [38;5;121m[4m20[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:02] [INFO] Preprocessing geom idx [38;5;121m[4m21[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:02] [INFO] Preprocessing geom idx [38;5;121m[4m27[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:02] [INFO] Preprocessing geom idx [38;5;121m[4m28[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:02] [INFO] Preprocessing geom idx [38;5;121m[4m34[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:02] [INFO] Preprocessing geom idx [38;5;121m[4m36[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:02] [INFO] Preprocessing geom idx [38;5;121m[4m39[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:02] [INFO] Preprocessing geom idx [38;5;121m[4m41[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:02] [INFO] Preprocessing geom idx [38;5;121m[4m42[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:02] [INFO] Preprocessing geom idx [38;5;121m[4m44[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:02] [INFO] Preprocessing geom idx [38;5;121m[4m46[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<efa7ff5>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [18:27:03] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+[38;5;159m[Genesis] [09:10:56] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [09:10:56] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [09:10:56] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[W 09/29/26 09:10:57.462 4112821] [ptx_cache.cpp:PtxCache@73] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.
+[38;5;159m[Genesis] [09:10:57] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [09:10:57] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [09:10:59] [INFO] Scene [38;5;121m[3m<66f4f8a>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [09:10:59] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<7d907af>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/urdf/panda_allegro_hora/panda_allegro_hora.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:01] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
+[38;5;159m[Genesis] [09:11:01] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<826e6db>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [09:11:02] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
   warnings.warn("pygltflib currently does not remove image data "
-[38;5;159m[Genesis] [18:27:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<bfa5ebb>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<6bf6de3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<cd15ad2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<0623606>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<e3d7680>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<9c5b15d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/penspin/cylinder/pencil-5-7/0000.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:03] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[38;5;159m[Genesis] [18:27:03] [INFO] Preprocessing geom idx [38;5;121m[4m67[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:27:04] [INFO] Building scene [38;5;121m[3m<cecd022>[0m[38;5;159m...[0m
-[38;5;226m[Genesis] [18:27:07] [WARNING] Reference robot position exceeds joint limits.[0m
-[38;5;226m[Genesis] [18:27:08] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 2076, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
-[38;5;159m[Genesis] [18:27:16] [INFO] Compiling simulation kernels...[0m
-[38;5;159m[Genesis] [18:27:52] [INFO] Building visualizer...[0m
+[38;5;159m[Genesis] [09:11:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<feb308e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<9e9fbe2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<ebd2fbe>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<63f6afc>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<fe51328>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<2b24b56>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/urdf/penspin/cylinder/pencil-5-7/0000.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:03] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [09:11:03] [INFO] Building scene [38;5;121m[3m<66f4f8a>[0m[38;5;159m...[0m
+[W 09/29/26 09:11:03.544 4112821] [kernel_compilation_manager.cpp:KernelCompilationManager@69] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[38;5;226m[Genesis] [09:11:06] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [09:11:08] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 2076, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [09:11:16] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [09:11:54] [INFO] Building visualizer...[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
   return func(*args, **kwargs)
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:56] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:56] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:56] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:56] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:56] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:56] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:11:56] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
 Action space: Box(-1.0, 1.0, (16,), float32)
-Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/SpinPenHora-v1
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:27:59] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-  [ep 0/1, attempt 1] step 1/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 101/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 201/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 301/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 401/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 501/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 601/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 701/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 801/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 901/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 1001/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 1101/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 1201/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 1301/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 1401/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 1501/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 1601/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 1701/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 1801/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 1901/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 2000/2000  terminated=False  truncated=True
+Generating 1 orbit video-only demos → /mnt/gck_website/maniladder.github.io/generated_demos/SpinPenHora-v1
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:12:00] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 1] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 600/600  terminated=False  truncated=True
   [WARNING] Episode 0 attempt 1 truncated without success. Discarding and retrying...
   [Success Rate] overall: 0.0% (0/1) | moving avg (last 1): 0.0%
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:35:26] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-  [ep 0/1, attempt 2] step 1/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 101/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 201/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 301/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 401/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 501/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 601/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 701/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 801/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 901/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 1001/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 1101/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 1201/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 1301/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 1401/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 1501/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 1601/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 1701/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 1801/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 1901/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 2] step 2000/2000  terminated=False  truncated=True
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:14:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 2] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 600/600  terminated=False  truncated=True
   [WARNING] Episode 0 attempt 2 truncated without success. Discarding and retrying...
   [Success Rate] overall: 0.0% (0/2) | moving avg (last 2): 0.0%
-[38;5;226m[Genesis] [18:38:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:38:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-  [ep 0/1, attempt 3] step 1/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 101/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 201/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 301/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 401/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 501/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 601/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 701/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 801/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 901/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 1001/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 1101/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 1201/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 1301/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 1401/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 1501/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 1601/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 1701/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 1801/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 1901/2000  terminated=False  truncated=False
-  [ep 0/1, attempt 3] step 2000/2000  terminated=False  truncated=True
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:16:55] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 3] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 3] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 3] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 3] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 3] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 3] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 3] step 600/600  terminated=False  truncated=True
   [WARNING] Episode 0 attempt 3 truncated without success. Discarding and retrying...
   [Success Rate] overall: 0.0% (0/3) | moving avg (last 3): 0.0%
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
-[38;5;226m[Genesis] [18:40:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:19:32] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 4] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 4] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 4] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 4] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 4] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 4] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 4] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 4 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/4) | moving avg (last 4): 0.0%
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:20:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 5] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 5] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 5] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 5] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 5] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 5] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 5] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 5 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/5) | moving avg (last 5): 0.0%
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:21:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 6] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 6] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 6] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 6] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 6] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 6] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 6] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 6 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/6) | moving avg (last 6): 0.0%
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:22:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 7] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 7] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 7] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 7] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 7] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 7] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 7] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 7 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/7) | moving avg (last 7): 0.0%
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:23:49] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 8] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 8] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 8] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 8] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 8] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 8] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 8] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 8 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/8) | moving avg (last 8): 0.0%
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:25:03] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 9] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 9] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 9] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 9] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 9] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 9] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 9] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 9 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/9) | moving avg (last 9): 0.0%
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:26:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 10] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 10] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 10] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 10] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 10] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 10] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 10] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 10 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/10) | moving avg (last 10): 0.0%
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:27:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 11] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 11] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 11] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 11] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 11] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 11] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 11] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 11 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/11) | moving avg (last 11): 0.0%
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:28:21] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 12] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 12] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 12] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 12] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 12] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 12] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 12] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 12 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/12) | moving avg (last 12): 0.0%
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:29:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 13] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 13] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 13] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 13] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 13] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 13] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 13] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 13 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/13) | moving avg (last 13): 0.0%
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:30:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 14] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 14] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 14] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 14] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 14] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 14] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 14] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 14 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/14) | moving avg (last 14): 0.0%
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:31:31] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 15] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 15] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 15] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 15] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 15] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 15] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 15] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 15 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/15) | moving avg (last 15): 0.0%
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:32:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 16] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 16] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 16] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 16] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 16] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 16] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 16] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 16 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/16) | moving avg (last 16): 0.0%
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:33:53] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 17] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 17] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 17] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 17] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 17] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 17] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 17] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 17 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/17) | moving avg (last 17): 0.0%
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:35:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 18] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 18] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 18] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 18] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 18] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 18] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 18] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 18 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/18) | moving avg (last 18): 0.0%
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:36:19] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 19] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 19] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 19] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 19] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 19] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 19] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 19] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 19 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/19) | moving avg (last 19): 0.0%
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:37:25] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 20] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 20] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 20] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 20] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 20] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 20] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 20] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 20 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/20) | moving avg (last 20): 0.0%
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:38:24] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 21] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 21] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 21] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 21] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 21] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 21] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 21] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 21 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/21) | moving avg (last 21): 0.0%
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:39:28] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 22] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 22] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 22] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 22] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 22] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 22] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 22] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 22 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/22) | moving avg (last 22): 0.0%
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:40:34] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 23] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 23] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 23] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 23] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 23] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 23] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 23] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 23 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/23) | moving avg (last 23): 0.0%
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:41:40] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 24] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 24] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 24] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 24] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 24] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 24] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 24] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 24 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/24) | moving avg (last 24): 0.0%
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:42:51] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 25] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 25] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 25] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 25] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 25] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 25] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 25] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 25 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/25) | moving avg (last 25): 0.0%
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:43:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 26] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 26] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 26] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 26] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 26] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 26] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 26] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 26 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/26) | moving avg (last 26): 0.0%
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:44:54] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 27] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 27] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 27] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 27] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 27] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 27] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 27] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 27 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/27) | moving avg (last 27): 0.0%
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:46:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 28] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 28] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 28] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 28] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 28] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 28] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 28] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 28 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/28) | moving avg (last 28): 0.0%
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:47:05] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 29] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 29] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 29] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 29] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 29] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 29] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 29] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 29 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/29) | moving avg (last 29): 0.0%
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:48:16] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 30] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 30] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 30] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 30] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 30] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 30] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 30] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 30 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/30) | moving avg (last 30): 0.0%
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:49:23] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 31] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 31] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 31] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 31] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 31] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 31] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 31] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 31 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/31) | moving avg (last 31): 0.0%
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:50:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 32] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 32] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 32] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 32] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 32] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 32] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 32] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 32 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/32) | moving avg (last 32): 0.0%
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:51:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 33] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 33] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 33] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 33] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 33] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 33] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 33] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 33 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/33) | moving avg (last 33): 0.0%
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:52:38] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 34] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 34] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 34] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 34] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 34] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 34] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 34] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 34 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/34) | moving avg (last 34): 0.0%
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:53:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 35] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 35] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 35] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 35] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 35] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 35] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 35] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 35 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/35) | moving avg (last 35): 0.0%
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:55:04] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 36] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 36] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 36] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 36] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 36] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 36] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 36] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 36 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/36) | moving avg (last 36): 0.0%
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:56:02] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 37] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 37] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 37] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 37] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 37] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 37] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 37] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 37 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/37) | moving avg (last 37): 0.0%
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:57:13] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 38] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 38] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 38] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 38] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 38] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 38] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 38] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 38 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/38) | moving avg (last 38): 0.0%
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:58:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 39] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 39] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 39] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 39] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 39] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 39] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 39] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 39 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/39) | moving avg (last 39): 0.0%
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [09:59:29] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 40] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 40] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 40] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 40] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 40] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 40] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 40] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 40 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/40) | moving avg (last 40): 0.0%
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:00:30] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 41] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 41] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 41] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 41] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 41] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 41] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 41] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 41 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/41) | moving avg (last 41): 0.0%
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:01:37] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 42] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 42] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 42] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 42] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 42] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 42] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 42] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 42 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/42) | moving avg (last 42): 0.0%
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:02:42] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 43] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 43] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 43] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 43] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 43] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 43] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 43] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 43 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/43) | moving avg (last 43): 0.0%
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:03:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 44] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 44] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 44] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 44] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 44] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 44] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 44] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 44 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/44) | moving avg (last 44): 0.0%
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:04:50] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 45] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 45] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 45] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 45] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 45] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 45] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 45] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 45 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/45) | moving avg (last 45): 0.0%
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:06:06] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 46] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 46] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 46] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 46] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 46] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 46] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 46] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 46 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/46) | moving avg (last 46): 0.0%
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:07:07] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 47] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 47] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 47] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 47] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 47] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 47] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 47] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 47 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/47) | moving avg (last 47): 0.0%
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:08:22] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 48] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 48] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 48] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 48] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 48] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 48] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 48] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 48 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/48) | moving avg (last 48): 0.0%
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:09:36] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 49] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 49] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 49] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 49] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 49] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 49] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 49] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 49 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/49) | moving avg (last 49): 0.0%
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+[38;5;226m[Genesis] [10:10:35] [WARNING] This property is deprecated and will be removed in future release. Please use 'dofs_idx_local' instead.[0m
+  [ep 0/1, attempt 50] step 1/600  terminated=False  truncated=False
+  [ep 0/1, attempt 50] step 101/600  terminated=False  truncated=False
+  [ep 0/1, attempt 50] step 201/600  terminated=False  truncated=False
+  [ep 0/1, attempt 50] step 301/600  terminated=False  truncated=False
+  [ep 0/1, attempt 50] step 401/600  terminated=False  truncated=False
+  [ep 0/1, attempt 50] step 501/600  terminated=False  truncated=False
+  [ep 0/1, attempt 50] step 600/600  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 50 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/50) | moving avg (last 50): 0.0%
+Traceback (most recent call last):
+  File "/mnt4/gck/maniladder/scripts/generate_demos.py", line 472, in <module>
+    main()
+  File "/mnt4/gck/maniladder/scripts/generate_demos.py", line 437, in main
+    raise RuntimeError(
+RuntimeError: SpinPenHora-v1 did not succeed within --max_attempts=50
 
-[TIMEOUT] exceeded --task_timeout_sec=900.0
+[38;5;9m[Genesis] [10:11:32] [ERROR] RuntimeError: SpinPenHora-v1 did not succeed within --max_attempts=50[0m
+[38;5;159m[Genesis] [10:11:32] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[W 09/29/26 10:11:32.947 4112821] [offline_cache.h:run@186] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. You can run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 10:11:33.148 4112821] [kernel_compilation_manager.cpp:dump@104] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 10:11:33.408 4112821] [ptx_cache.cpp:dump@92] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.

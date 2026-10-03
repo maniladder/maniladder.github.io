@@ -369,13 +369,13 @@ window.MANILADDER_TASKS = [
     "video": "videos/tasks/StraightenTwoRopesSequential-v1.mp4"
   },
   {
-    "display_name": "Dual Arm Flip Table",
+    "display_name": "Dual Arm Juggling Ball",
     "domain": "rigid_body",
     "embodiment": "dual_arm_dex",
-    "env_id": "DualArmFlipTable-v1",
+    "env_id": "DualArmJugglingBall-v1",
     "level": 2,
-    "path": "rigid_body/dual_arm_dex/level_2/flip_table.py",
-    "video": "videos/tasks/DualArmFlipTable-v1.mp4"
+    "path": "rigid_body/dual_arm_dex/level_2/juggle_ball.py",
+    "video": "videos/tasks/DualArmJugglingBall-v1.mp4"
   },
   {
     "display_name": "Dual Arm Open Bottle",
@@ -603,6 +603,15 @@ window.MANILADDER_TASKS = [
     "video": "videos/tasks/PickSoft-v1.mp4"
   },
   {
+    "display_name": "Press Fit Soft Peg",
+    "domain": "deformable",
+    "embodiment": "single_arm_dex",
+    "env_id": "PressFitSoftPeg-v1",
+    "level": 3,
+    "path": "deformable/single_arm_dex/level_3/press_fit_peg.py",
+    "video": "videos/tasks/PressFitSoftPeg-v1.mp4"
+  },
+  {
     "display_name": "Bag Hanging",
     "domain": "deformable",
     "embodiment": "single_arm_gripper",
@@ -673,15 +682,6 @@ window.MANILADDER_TASKS = [
     "level": 3,
     "path": "rigid_body/dual_arm_gripper/level_3/fold_carton.py",
     "video": "videos/tasks/DualArmFoldCarton-v1.mp4"
-  },
-  {
-    "display_name": "Dual Arm Mahjong Setup",
-    "domain": "rigid_body",
-    "embodiment": "dual_arm_gripper",
-    "env_id": "DualArmMahjongSetup-v1",
-    "level": 3,
-    "path": "rigid_body/dual_arm_gripper/level_3/mahjong_setup.py",
-    "video": "videos/tasks/DualArmMahjongSetup-v1.mp4"
   },
   {
     "display_name": "Dual Arm Open Fridge",
@@ -765,13 +765,13 @@ window.MANILADDER_TASKS = [
     "video": "videos/tasks/Stack6Blocks-v1.mp4"
   },
   {
-    "display_name": "Dual Arm Bag Block Lift",
+    "display_name": "Dual Arm Cloth Cylinder Wipe",
     "domain": "deformable",
     "embodiment": "dual_arm_dex",
-    "env_id": "DualArmBagBlockLift-v1",
+    "env_id": "DualArmClothCylinderWipe-v1",
     "level": 4,
-    "path": "deformable/dual_arm_dex/level_4/lift_bag_block.py",
-    "video": "videos/tasks/DualArmBagBlockLift-v1.mp4"
+    "path": "deformable/dual_arm_dex/level_4/clean_stains.py",
+    "video": "videos/tasks/DualArmClothCylinderWipe-v1.mp4"
   },
   {
     "display_name": "Dual Arm Jump Rope",
@@ -783,13 +783,22 @@ window.MANILADDER_TASKS = [
     "video": "videos/tasks/DualArmJumpRope-v1.mp4"
   },
   {
-    "display_name": "Dual Arm Sand Shovel",
+    "display_name": "Dual Arm Liquid Mixing",
     "domain": "deformable",
     "embodiment": "dual_arm_dex",
-    "env_id": "DualArmSandShovel-v1",
+    "env_id": "DualArmLiquidMixing-v1",
     "level": 4,
-    "path": "deformable/dual_arm_dex/level_4/sand_shovel.py",
-    "video": "videos/tasks/DualArmSandShovel-v1.mp4"
+    "path": "deformable/dual_arm_dex/level_4/liquid_mixing.py",
+    "video": "videos/tasks/DualArmLiquidMixing-v1.mp4"
+  },
+  {
+    "display_name": "Dual Arm Build Canel",
+    "domain": "deformable",
+    "embodiment": "dual_arm_gripper",
+    "env_id": "DualArmBuildCanel-v1",
+    "level": 4,
+    "path": "deformable/dual_arm_gripper/level_4/build_canel.py",
+    "video": "videos/tasks/DualArmBuildCanel-v1.mp4"
   },
   {
     "display_name": "Dual Arm Cloth Hanger",
@@ -801,13 +810,13 @@ window.MANILADDER_TASKS = [
     "video": "videos/tasks/DualArmClothHanger-v1.mp4"
   },
   {
-    "display_name": "Dual Arm Liquid Mixing",
+    "display_name": "Dual Arm Sand Shovel",
     "domain": "deformable",
     "embodiment": "dual_arm_gripper",
-    "env_id": "DualArmLiquidMixing-v1",
+    "env_id": "DualArmSandShovel-v1",
     "level": 4,
-    "path": "deformable/dual_arm_gripper/level_4/liquid_mixing.py",
-    "video": "videos/tasks/DualArmLiquidMixing-v1.mp4"
+    "path": "deformable/dual_arm_gripper/level_4/sand_shovel.py",
+    "video": "videos/tasks/DualArmSandShovel-v1.mp4"
   },
   {
     "display_name": "Dual Arm Wall Rings",
@@ -826,6 +835,15 @@ window.MANILADDER_TASKS = [
     "level": 4,
     "path": "deformable/single_arm_dex/level_4/shape_clay.py",
     "video": "videos/tasks/ClayMolding-v1.mp4"
+  },
+  {
+    "display_name": "Clay Seal Stamp",
+    "domain": "deformable",
+    "embodiment": "single_arm_dex",
+    "env_id": "ClaySealStamp-v1",
+    "level": 4,
+    "path": "deformable/single_arm_dex/level_4/seal_stamp.py",
+    "video": "videos/tasks/ClaySealStamp-v1.mp4"
   },
   {
     "display_name": "Cover Pattern",
@@ -873,13 +891,13 @@ window.MANILADDER_TASKS = [
     "video": "videos/tasks/WrapRope-v1.mp4"
   },
   {
-    "display_name": "Dual Arm Juggling Ball",
+    "display_name": "Dual Arm Flip Table",
     "domain": "rigid_body",
     "embodiment": "dual_arm_dex",
-    "env_id": "DualArmJugglingBall-v1",
+    "env_id": "DualArmFlipTable-v1",
     "level": 4,
-    "path": "rigid_body/dual_arm_dex/level_4/juggle_ball.py",
-    "video": "videos/tasks/DualArmJugglingBall-v1.mp4"
+    "path": "rigid_body/dual_arm_dex/level_4/flip_table.py",
+    "video": "videos/tasks/DualArmFlipTable-v1.mp4"
   },
   {
     "display_name": "Dual Arm Keyboard Type",
@@ -927,6 +945,15 @@ window.MANILADDER_TASKS = [
     "video": "videos/tasks/DualArmBilliardBridge-v1.mp4"
   },
   {
+    "display_name": "Dual Arm Mahjong Setup",
+    "domain": "rigid_body",
+    "embodiment": "dual_arm_gripper",
+    "env_id": "DualArmMahjongSetup-v1",
+    "level": 4,
+    "path": "rigid_body/dual_arm_gripper/level_4/mahjong_setup.py",
+    "video": "videos/tasks/DualArmMahjongSetup-v1.mp4"
+  },
+  {
     "display_name": "Dual Arm Organize Cabinet",
     "domain": "rigid_body",
     "embodiment": "dual_arm_gripper",
@@ -934,6 +961,15 @@ window.MANILADDER_TASKS = [
     "level": 4,
     "path": "rigid_body/dual_arm_gripper/level_4/organize_cabinet.py",
     "video": "videos/tasks/DualArmOrganizeCabinet-v1.mp4"
+  },
+  {
+    "display_name": "Dual Arm Rubik Cube",
+    "domain": "rigid_body",
+    "embodiment": "dual_arm_gripper",
+    "env_id": "DualArmRubikCube-v1",
+    "level": 4,
+    "path": "rigid_body/dual_arm_gripper/level_4/rubik_cube.py",
+    "video": "videos/tasks/DualArmRubikCube-v1.mp4"
   },
   {
     "display_name": "Fitness Ball",
@@ -961,15 +997,6 @@ window.MANILADDER_TASKS = [
     "level": 4,
     "path": "rigid_body/single_arm_dex/level_4/rod_through_holes.py",
     "video": "videos/tasks/RodThroughHoles-v1.mp4"
-  },
-  {
-    "display_name": "Spin Pen",
-    "domain": "rigid_body",
-    "embodiment": "single_arm_dex",
-    "env_id": "SpinPen-v1",
-    "level": 4,
-    "path": "rigid_body/single_arm_dex/level_4/spin_pen.py",
-    "video": "videos/tasks/SpinPen-v1.mp4"
   },
   {
     "display_name": "Spin Pen Hora",

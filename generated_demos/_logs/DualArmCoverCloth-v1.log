@@ -1,129 +1,336 @@
-[38;5;159m[Genesis] [16:54:35] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
-[38;5;159m[Genesis] [16:54:35] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
-[38;5;159m[Genesis] [16:54:35] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
-[38;5;159m[Genesis] [16:54:40] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
-[38;5;159m[Genesis] [16:54:40] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
-[38;5;159m[Genesis] [16:54:42] [INFO] Scene [38;5;121m[3m<afacfcf>[0m[38;5;159m created.[0m
-[38;5;159m[Genesis] [16:54:42] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<616d47b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand_left.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [16:54:47] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[32m2026-06-16 16:54:49,312 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[-0.1500, -0.6000,  0.0000,  0.0000,  0.0000, 90.0000]],
+[38;5;159m[Genesis] [08:23:54] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:23:54] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:23:54] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[W 09/29/26 08:24:00.865 3565717] [ptx_cache.cpp:PtxCache@73] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.
+[38;5;159m[Genesis] [08:24:01] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [08:24:01] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:24:03] [INFO] Scene [38;5;121m[3m<802d695>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [08:24:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<458c2fa>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand_left.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:06] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:24:08,754 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[-0.1500, -0.6000,  0.0000,  0.0000,  0.0000, 90.0000]],
        device='cuda:0')), parallel loading has not been implemented yet.[0m
-[38;5;159m[Genesis] [16:54:49] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<2e07246>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [16:54:55] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[32m2026-06-16 16:54:57,167 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ -0.1500,   0.6000,   0.0000,   0.0000,   0.0000, -90.0000]],
+[38;5;159m[Genesis] [08:24:08] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<9811d2e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:11] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:24:13,394 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ -0.1500,   0.6000,   0.0000,   0.0000,   0.0000, -90.0000]],
        device='cuda:0')), parallel loading has not been implemented yet.[0m
-[38;5;159m[Genesis] [16:54:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<d02217c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [16:54:57] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<2276327>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:24:13] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
   warnings.warn("pygltflib currently does not remove image data "
-[38;5;159m[Genesis] [16:54:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<156b462>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [16:54:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<714ce54>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [16:54:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<1369f57>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [16:54:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<2c832da>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [16:54:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<df3fd76>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [16:54:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<876bbd2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [16:54:57] [INFO] Preprocessing geom idx [38;5;121m[4m164[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [16:54:58] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<4e47499>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/cloth.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [16:54:58] [INFO] Remeshing for tetrahedralization...[0m
-[38;5;159m[Genesis] [16:54:59] [INFO] Building scene [38;5;121m[3m<afacfcf>[0m[38;5;159m...[0m
-[38;5;226m[Genesis] [16:55:03] [WARNING] Reference robot position exceeds joint limits.[0m
-[38;5;226m[Genesis] [16:55:06] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 12462, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
-[38;5;159m[Genesis] [16:55:16] [INFO] Compiling simulation kernels...[0m
-[38;5;159m[Genesis] [16:55:58] [INFO] Building visualizer...[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<db99490>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<b59c750>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<007535d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<50dba96>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<feaf95b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<6880560>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<bed290b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/meshes/deformable/cloth.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Building scene [38;5;121m[3m<802d695>[0m[38;5;159m...[0m
+[W 09/29/26 08:24:14.220 3565717] [kernel_compilation_manager.cpp:KernelCompilationManager@69] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[38;5;226m[Genesis] [08:24:18] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [08:24:20] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 12462, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [08:24:30] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [08:25:19] [INFO] Building visualizer...[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
   return func(*args, **kwargs)
 Action space: Dict('panda_leaphand-1': Box(-1.0, 1.0, (22,), float32), 'panda_leaphand_left-0': Box(-1.0, 1.0, (22,), float32))
-Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/DualArmCoverCloth-v1
+Generating 1 orbit video-only demos → /mnt/gck_website/maniladder.github.io/generated_demos/DualArmCoverCloth-v1
 [DualDexCoverRotPolicy] cached hand offsets: L=[ 0.243  -0.0154 -0.0191], R=[ 0.243   0.0154 -0.0191]
-[DualDexCoverRotPolicy] phase=0 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.093 -0.141  0.354] R_hand=[0.093 0.141 0.354]
-[DualDexCoverRotPolicy] planned rotation-aware anchors: L_uv=[0.72 0.22] R_uv=[0.28 0.78] | L_anchor=[ 0.059 -0.104  0.005] R_anchor=[-0.059  0.116  0.005] | L_target=[ 0.333 -0.091] R_target=[0.168 0.096]
+[DualDexCoverRotPolicy] phase=0 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.093 -0.141  0.354] R_hand=[0.093 0.141 0.354]
+[DualDexCoverRotPolicy] planned rotation-aware anchors: L_uv=[0.72 0.22] R_uv=[0.28 0.78] | L_anchor=[-0.01  -0.054  0.005] R_anchor=[-0.2    0.043  0.005] | L_target=[ 0.275 -0.055] R_target=[0.176 0.134]
 [DualDexCoverRotPolicy] PHASE 0 -> 1. planned cloth-local to pedestal-local anchors
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.34 ] R_tgt=[-0.059  0.116  0.34 ] | L_tcp=[-0.184 -0.089  0.359] R_tcp=[-0.302  0.1    0.359] | L_q12=+0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.34 ] R_tgt=[-0.2    0.043  0.34 ] | L_tcp=[-0.253 -0.038  0.359] R_tcp=[-0.443  0.028  0.359] | L_q12=+0.000 R_q12=+0.000
   [ep 0/1, attempt 1] step 1/400  terminated=False  truncated=False
-[DualDexCoverRotPolicy] phase=1 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.089 -0.136  0.352] R_hand=[0.089 0.136 0.352]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.34 ] R_tgt=[-0.059  0.116  0.34 ] | L_tcp=[-0.184 -0.089  0.359] R_tcp=[-0.302  0.1    0.359] | L_q12=-0.000 R_q12=-0.000
-[DualDexCoverRotPolicy] phase=1 wait=10 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.061 -0.107  0.341] R_hand=[0.041 0.117 0.341]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.34 ] R_tgt=[-0.059  0.116  0.34 ] | L_tcp=[-0.184 -0.089  0.359] R_tcp=[-0.302  0.1    0.359] | L_q12=-0.000 R_q12=-0.000
-[DualDexCoverRotPolicy] phase=1 wait=20 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.105  0.34 ] R_hand=[-0.006  0.116  0.34 ]
+[DualDexCoverRotPolicy] phase=1 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.089 -0.136  0.352] R_hand=[0.089 0.136 0.352]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.34 ] R_tgt=[-0.2    0.043  0.34 ] | L_tcp=[-0.253 -0.038  0.359] R_tcp=[-0.443  0.028  0.359] | L_q12=-0.000 R_q12=-0.000
+[DualDexCoverRotPolicy] phase=1 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.041 -0.09   0.341] R_hand=[0.041 0.09  0.341]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.34 ] R_tgt=[-0.2    0.043  0.34 ] | L_tcp=[-0.253 -0.038  0.359] R_tcp=[-0.443  0.028  0.359] | L_q12=-0.000 R_q12=-0.000
+[DualDexCoverRotPolicy] phase=1 wait=20 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.001 -0.064  0.33 ] R_hand=[0.001 0.057 0.331]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.34 ] R_tgt=[-0.2    0.043  0.34 ] | L_tcp=[-0.253 -0.038  0.359] R_tcp=[-0.443  0.028  0.359] | L_q12=-0.000 R_q12=-0.000
+[DualDexCoverRotPolicy] phase=1 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.03  -0.068  0.327] R_hand=[-0.039  0.053  0.328]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.34 ] R_tgt=[-0.2    0.043  0.34 ] | L_tcp=[-0.253 -0.038  0.359] R_tcp=[-0.443  0.028  0.359] | L_q12=-0.000 R_q12=-0.000
+[DualDexCoverRotPolicy] phase=1 wait=40 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.046 -0.067  0.329] R_hand=[-0.072  0.051  0.332]
 [DualDexCoverRotPolicy] PHASE 1 -> 2. both hands reached above anchors
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.34 ] R_tgt=[-0.059  0.116  0.34 ] | L_tcp=[-0.184 -0.089  0.359] R_tcp=[-0.302  0.1    0.359] | L_q12=-0.000 R_q12=-0.000
-[DualDexCoverRotPolicy] phase=2 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.105  0.34 ] R_hand=[-0.025  0.116  0.34 ]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.095] R_tgt=[-0.059  0.116  0.095] | L_tcp=[-0.184 -0.089  0.114] R_tcp=[-0.302  0.1    0.114] | L_q12=-0.000 R_q12=+0.000
-[DualDexCoverRotPolicy] phase=2 wait=10 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.31 ] R_hand=[-0.053  0.116  0.309]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.095] R_tgt=[-0.059  0.116  0.095] | L_tcp=[-0.184 -0.089  0.114] R_tcp=[-0.302  0.1    0.114] | L_q12=-0.000 R_q12=+0.000
-[DualDexCoverRotPolicy] phase=2 wait=20 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.279] R_hand=[-0.058  0.116  0.278]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.095] R_tgt=[-0.059  0.116  0.095] | L_tcp=[-0.184 -0.089  0.114] R_tcp=[-0.302  0.1    0.114] | L_q12=-0.000 R_q12=+0.000
-[DualDexCoverRotPolicy] phase=2 wait=30 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.248] R_hand=[-0.058  0.116  0.248]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.095] R_tgt=[-0.059  0.116  0.095] | L_tcp=[-0.184 -0.089  0.114] R_tcp=[-0.302  0.1    0.114] | L_q12=-0.000 R_q12=+0.000
-[DualDexCoverRotPolicy] phase=2 wait=40 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.217] R_hand=[-0.059  0.116  0.217]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.34 ] R_tgt=[-0.2    0.043  0.34 ] | L_tcp=[-0.253 -0.038  0.359] R_tcp=[-0.443  0.028  0.359] | L_q12=-0.000 R_q12=-0.000
+[DualDexCoverRotPolicy] phase=2 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.053 -0.066  0.331] R_hand=[-0.087  0.049  0.334]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.095] R_tgt=[-0.2    0.043  0.095] | L_tcp=[-0.253 -0.038  0.114] R_tcp=[-0.443  0.028  0.114] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=2 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.049 -0.06   0.292] R_hand=[-0.108  0.046  0.292]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.095] R_tgt=[-0.2    0.043  0.095] | L_tcp=[-0.253 -0.038  0.114] R_tcp=[-0.443  0.028  0.114] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=2 wait=20 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.02  -0.055  0.261] R_hand=[-0.137  0.044  0.261]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.095] R_tgt=[-0.2    0.043  0.095] | L_tcp=[-0.253 -0.038  0.114] R_tcp=[-0.443  0.028  0.114] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=2 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.011 -0.054  0.23 ] R_hand=[-0.168  0.044  0.23 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.095] R_tgt=[-0.2    0.043  0.095] | L_tcp=[-0.253 -0.038  0.114] R_tcp=[-0.443  0.028  0.114] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=2 wait=40 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.01  -0.054  0.199] R_hand=[-0.195  0.044  0.199]
 [DualDexCoverRotPolicy] PHASE 2 -> 3. both hands reached grasp height
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.095] R_tgt=[-0.059  0.116  0.095] | L_tcp=[-0.184 -0.089  0.114] R_tcp=[-0.302  0.1    0.114] | L_q12=-0.000 R_q12=+0.000
-[DualDexCoverRotPolicy] phase=3 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.201] R_hand=[-0.059  0.116  0.201]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.095] R_tgt=[-0.059  0.116  0.095] | L_tcp=[-0.184 -0.089  0.114] R_tcp=[-0.302  0.1    0.114] | L_q12=-0.385 R_q12=+0.385
-[DualDexCoverRotPolicy] phase=3 wait=10 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.171] R_hand=[-0.059  0.116  0.17 ]
-[DualDexCoverRotPolicy] PHASE 3 -> 4. mirrored thumb pre-grasp finished
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.095] R_tgt=[-0.059  0.116  0.095] | L_tcp=[-0.184 -0.089  0.114] R_tcp=[-0.302  0.1    0.114] | L_q12=-0.642 R_q12=+0.642
-[DualDexCoverRotPolicy] phase=4 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.152] R_hand=[-0.059  0.116  0.152]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.099] R_tgt=[-0.059  0.116  0.099] | L_tcp=[-0.184 -0.089  0.118] R_tcp=[-0.302  0.1    0.118] | L_q12=-0.762 R_q12=+0.762
-[DualDexCoverRotPolicy] phase=4 wait=10 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.121] R_hand=[-0.059  0.116  0.121]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.095] R_tgt=[-0.2    0.043  0.095] | L_tcp=[-0.253 -0.038  0.114] R_tcp=[-0.443  0.028  0.114] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=3 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.01  -0.054  0.183] R_hand=[-0.198  0.044  0.183]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.095] R_tgt=[-0.2    0.043  0.095] | L_tcp=[-0.253 -0.038  0.114] R_tcp=[-0.443  0.028  0.114] | L_q12=-0.385 R_q12=+0.385
   [ep 0/1, attempt 1] step 101/400  terminated=False  truncated=False
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.099] R_tgt=[-0.059  0.116  0.099] | L_tcp=[-0.184 -0.089  0.118] R_tcp=[-0.302  0.1    0.118] | L_q12=-0.826 R_q12=+0.826
-[DualDexCoverRotPolicy] phase=4 wait=20 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.102] R_hand=[-0.052  0.113  0.103]
-[DualDexCoverRotPolicy] PHASE 4 -> 5. hands closed; attached L=True, R=True
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.099] R_tgt=[-0.059  0.116  0.099] | L_tcp=[-0.184 -0.089  0.118] R_tcp=[-0.302  0.1    0.118] | L_q12=-0.836 R_q12=+0.836
-[DualDexCoverRotPolicy] phase=5 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.06  -0.104  0.101] R_hand=[-0.051  0.113  0.103]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.24 ] R_tgt=[-0.059  0.116  0.24 ] | L_tcp=[-0.184 -0.089  0.259] R_tcp=[-0.302  0.1    0.259] | L_q12=-0.885 R_q12=+0.884
-[DualDexCoverRotPolicy] phase=5 wait=10 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.16 ] R_hand=[-0.058  0.116  0.161]
+[DualDexCoverRotPolicy] phase=3 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.01  -0.054  0.152] R_hand=[-0.2    0.044  0.152]
+[DualDexCoverRotPolicy] PHASE 3 -> 4. mirrored thumb pre-grasp finished
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.095] R_tgt=[-0.2    0.043  0.095] | L_tcp=[-0.253 -0.038  0.114] R_tcp=[-0.443  0.028  0.114] | L_q12=-0.642 R_q12=+0.642
+[DualDexCoverRotPolicy] phase=4 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.01  -0.054  0.134] R_hand=[-0.2    0.044  0.134]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.099] R_tgt=[-0.2    0.043  0.099] | L_tcp=[-0.253 -0.038  0.118] R_tcp=[-0.443  0.028  0.118] | L_q12=-0.762 R_q12=+0.762
+[DualDexCoverRotPolicy] phase=4 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.01  -0.054  0.106] R_hand=[-0.2    0.044  0.106]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.099] R_tgt=[-0.2    0.043  0.099] | L_tcp=[-0.253 -0.038  0.118] R_tcp=[-0.443  0.028  0.118] | L_q12=-0.826 R_q12=+0.826
+[DualDexCoverRotPolicy] phase=4 wait=20 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.003 -0.05   0.104] R_hand=[-0.195  0.042  0.101]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.099] R_tgt=[-0.2    0.043  0.099] | L_tcp=[-0.253 -0.038  0.118] R_tcp=[-0.443  0.028  0.118] | L_q12=-0.876 R_q12=+0.874
+[DualDexCoverRotPolicy] phase=4 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.004 -0.051  0.102] R_hand=[-0.195  0.041  0.1  ]
+[DualDexCoverRotPolicy] PHASE 4 -> 5. hands closed; attached L=True, R=False
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.099] R_tgt=[-0.2    0.043  0.099] | L_tcp=[-0.253 -0.038  0.118] R_tcp=[-0.443  0.028  0.118] | L_q12=-0.902 R_q12=+0.899
+[DualDexCoverRotPolicy] phase=5 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.008 -0.053  0.1  ] R_hand=[-0.198  0.043  0.1  ]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.24 ] R_tgt=[-0.2    0.043  0.24 ] | L_tcp=[-0.253 -0.038  0.259] R_tcp=[-0.443  0.028  0.259] | L_q12=-0.945 R_q12=+0.942
+[DualDexCoverRotPolicy] phase=5 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.01  -0.054  0.158] R_hand=[-0.2    0.044  0.158]
 [DualDexCoverRotPolicy] PHASE 5 -> 6. cloth lifted and hand-anchor offsets calibrated
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.059 -0.104  0.24 ] R_tgt=[-0.059  0.116  0.24 ] | L_tcp=[-0.184 -0.089  0.259] R_tcp=[-0.302  0.1    0.259] | L_q12=-0.928 R_q12=+0.927
-[DualDexCoverRotPolicy] phase=6 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.059 -0.104  0.219] R_hand=[-0.059  0.116  0.221]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.422 -0.105  0.24 ] R_tgt=[0.259 0.092 0.24 ] | L_tcp=[ 0.179 -0.09   0.259] R_tcp=[0.016 0.077 0.259] | L_q12=-0.971 R_q12=+0.977
-[DualDexCoverRotPolicy] phase=6 wait=10 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.118 -0.105  0.24 ] R_hand=[0.001 0.093 0.24 ]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.422 -0.105  0.24 ] R_tgt=[0.259 0.092 0.24 ] | L_tcp=[ 0.179 -0.09   0.259] R_tcp=[0.016 0.077 0.259] | L_q12=-1.006 R_q12=+1.005
-[DualDexCoverRotPolicy] phase=6 wait=20 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.178 -0.105  0.24 ] R_hand=[0.061 0.092 0.24 ]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.422 -0.105  0.24 ] R_tgt=[0.259 0.092 0.24 ] | L_tcp=[ 0.179 -0.09   0.259] R_tcp=[0.016 0.077 0.259] | L_q12=-0.983 R_q12=+1.011
-[DualDexCoverRotPolicy] phase=6 wait=30 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.238 -0.105  0.24 ] R_hand=[0.12  0.092 0.24 ]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.422 -0.105  0.24 ] R_tgt=[0.259 0.092 0.24 ] | L_tcp=[ 0.179 -0.09   0.259] R_tcp=[0.016 0.077 0.259] | L_q12=-0.946 R_q12=+0.978
-[DualDexCoverRotPolicy] phase=6 wait=40 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.298 -0.105  0.24 ] R_hand=[0.18  0.092 0.24 ]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.422 -0.105  0.24 ] R_tgt=[0.259 0.092 0.24 ] | L_tcp=[ 0.179 -0.09   0.259] R_tcp=[0.016 0.077 0.259] | L_q12=-0.917 R_q12=+0.950
-[DualDexCoverRotPolicy] phase=6 wait=50 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.357 -0.105  0.24 ] R_hand=[0.24  0.092 0.24 ]
-[DualDexCoverRotPolicy] PHASE 6 -> 7. start closed-loop cloth COM correction
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.422 -0.105  0.24 ] R_tgt=[0.259 0.092 0.24 ] | L_tcp=[ 0.179 -0.09   0.259] R_tcp=[0.016 0.077 0.259] | L_q12=-0.896 R_q12=+0.927
-[DualDexCoverRotPolicy] phase=7 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.399 -0.105  0.24 ] R_hand=[0.258 0.092 0.24 ]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.438 -0.105  0.24 ] R_tgt=[0.275 0.092 0.24 ] | L_tcp=[ 0.195 -0.09   0.259] R_tcp=[0.032 0.077 0.259] | L_q12=-0.868 R_q12=+0.896
-[DualDexCoverRotPolicy] phase=7 wait=10 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.422 -0.105  0.24 ] R_hand=[0.275 0.092 0.24 ]
-[DualDexCoverRotPolicy] PHASE 7 -> 8. cloth COM corrected before low-hover release
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.436 -0.105  0.24 ] R_tgt=[0.273 0.092 0.24 ] | L_tcp=[ 0.193 -0.09   0.259] R_tcp=[0.03  0.077 0.259] | L_q12=-0.866 R_q12=+0.893
-[DualDexCoverRotPolicy] phase=8 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.424 -0.105  0.24 ] R_hand=[0.275 0.092 0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.01  -0.054  0.24 ] R_tgt=[-0.2    0.043  0.24 ] | L_tcp=[-0.253 -0.038  0.259] R_tcp=[-0.443  0.028  0.259] | L_q12=-0.987 R_q12=+0.988
+[DualDexCoverRotPolicy] phase=6 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[-0.01  -0.054  0.218] R_hand=[-0.2    0.044  0.218]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.349 -0.068  0.24 ] R_tgt=[0.225 0.131 0.24 ] | L_tcp=[ 0.106 -0.052  0.259] R_tcp=[-0.018  0.116  0.259] | L_q12=-1.005 R_q12=+1.012
+[DualDexCoverRotPolicy] phase=6 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.049 -0.067  0.24 ] R_hand=[-0.142  0.099  0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.349 -0.068  0.24 ] R_tgt=[0.225 0.131 0.24 ] | L_tcp=[ 0.106 -0.052  0.259] R_tcp=[-0.018  0.116  0.259] | L_q12=-0.967 R_q12=+0.998
+[DualDexCoverRotPolicy] phase=6 wait=20 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.109 -0.068  0.24 ] R_hand=[-0.082  0.13   0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.349 -0.068  0.24 ] R_tgt=[0.225 0.131 0.24 ] | L_tcp=[ 0.106 -0.052  0.259] R_tcp=[-0.018  0.116  0.259] | L_q12=-0.935 R_q12=+0.968
+[DualDexCoverRotPolicy] phase=6 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.169 -0.068  0.24 ] R_hand=[-0.023  0.131  0.24 ]
   [ep 0/1, attempt 1] step 201/400  terminated=False  truncated=False
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.436 -0.105  0.135] R_tgt=[0.273 0.092 0.135] | L_tcp=[ 0.193 -0.09   0.154] R_tcp=[0.03  0.077 0.154] | L_q12=-0.840 R_q12=+0.871
-[DualDexCoverRotPolicy] phase=8 wait=10 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.435 -0.105  0.209] R_hand=[0.273 0.092 0.209]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.436 -0.105  0.135] R_tgt=[0.273 0.092 0.135] | L_tcp=[ 0.193 -0.09   0.154] R_tcp=[0.03  0.077 0.154] | L_q12=-0.811 R_q12=+0.852
-[DualDexCoverRotPolicy] phase=8 wait=20 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.436 -0.105  0.178] R_hand=[0.273 0.092 0.178]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.349 -0.068  0.24 ] R_tgt=[0.225 0.131 0.24 ] | L_tcp=[ 0.106 -0.052  0.259] R_tcp=[-0.018  0.116  0.259] | L_q12=-0.904 R_q12=+0.938
+[DualDexCoverRotPolicy] phase=6 wait=40 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.229 -0.068  0.24 ] R_hand=[0.037 0.131 0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.349 -0.068  0.24 ] R_tgt=[0.225 0.131 0.24 ] | L_tcp=[ 0.106 -0.052  0.259] R_tcp=[-0.018  0.116  0.259] | L_q12=-0.876 R_q12=+0.907
+[DualDexCoverRotPolicy] phase=6 wait=50 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.289 -0.068  0.24 ] R_hand=[0.097 0.131 0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.349 -0.068  0.24 ] R_tgt=[0.225 0.131 0.24 ] | L_tcp=[ 0.106 -0.052  0.259] R_tcp=[-0.018  0.116  0.259] | L_q12=-0.852 R_q12=+0.881
+[DualDexCoverRotPolicy] phase=6 wait=60 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.344 -0.068  0.24 ] R_hand=[0.156 0.132 0.24 ]
+[DualDexCoverRotPolicy] PHASE 6 -> 7. start closed-loop cloth COM correction
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.349 -0.068  0.24 ] R_tgt=[0.225 0.131 0.24 ] | L_tcp=[ 0.106 -0.052  0.259] R_tcp=[-0.018  0.116  0.259] | L_q12=-0.837 R_q12=+0.871
+[DualDexCoverRotPolicy] phase=7 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.349 -0.068  0.24 ] R_hand=[0.186 0.132 0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.372 -0.038  0.24 ] R_tgt=[0.247 0.161 0.24 ] | L_tcp=[ 0.129 -0.022  0.259] R_tcp=[0.004 0.146 0.259] | L_q12=-0.808 R_q12=+0.853
+[DualDexCoverRotPolicy] phase=7 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.368 -0.047  0.24 ] R_hand=[0.209 0.153 0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.356 -0.038  0.24 ] R_tgt=[0.232 0.161 0.24 ] | L_tcp=[ 0.113 -0.022  0.259] R_tcp=[-0.011  0.146  0.259] | L_q12=-0.782 R_q12=+0.832
+[DualDexCoverRotPolicy] phase=7 wait=20 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.361 -0.039  0.24 ] R_hand=[0.228 0.16  0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.353 -0.038  0.24 ] R_tgt=[0.228 0.161 0.24 ] | L_tcp=[ 0.11  -0.022  0.259] R_tcp=[-0.015  0.146  0.259] | L_q12=-0.763 R_q12=+0.817
+[DualDexCoverRotPolicy] phase=7 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.354 -0.038  0.24 ] R_hand=[0.229 0.16  0.24 ]
+[DualDexCoverRotPolicy] PHASE 7 -> 8. cloth COM corrected before low-hover release
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.038  0.24 ] R_tgt=[0.228 0.161 0.24 ] | L_tcp=[ 0.109 -0.022  0.259] R_tcp=[-0.015  0.146  0.259] | L_q12=-0.755 R_q12=+0.814
+[DualDexCoverRotPolicy] phase=8 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.354 -0.038  0.24 ] R_hand=[0.229 0.161 0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.038  0.135] R_tgt=[0.228 0.161 0.135] | L_tcp=[ 0.109 -0.022  0.154] R_tcp=[-0.015  0.146  0.154] | L_q12=-0.740 R_q12=+0.808
+[DualDexCoverRotPolicy] phase=8 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.038  0.209] R_hand=[0.228 0.161 0.209]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.038  0.135] R_tgt=[0.228 0.161 0.135] | L_tcp=[ 0.109 -0.022  0.154] R_tcp=[-0.015  0.146  0.154] | L_q12=-0.740 R_q12=+0.801
+[DualDexCoverRotPolicy] phase=8 wait=20 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.038  0.179] R_hand=[0.228 0.161 0.178]
 [DualDexCoverRotPolicy] PHASE 8 -> 9. both hands reached low-hover release height
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.436 -0.105  0.135] R_tgt=[0.273 0.092 0.135] | L_tcp=[ 0.193 -0.09   0.154] R_tcp=[0.03  0.077 0.154] | L_q12=-0.795 R_q12=+0.838
-[DualDexCoverRotPolicy] phase=9 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.436 -0.105  0.16 ] R_hand=[0.273 0.092 0.16 ]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.436 -0.105  0.135] R_tgt=[0.273 0.092 0.135] | L_tcp=[ 0.193 -0.09   0.154] R_tcp=[0.03  0.077 0.154] | L_q12=-0.572 R_q12=+0.604
-  [ep 0/1, attempt 1] step 232/400  terminated=True  truncated=False
-[DualDexCoverRotPolicy] phase=9 wait=10 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.436 -0.105  0.138] R_hand=[0.273 0.092 0.138]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.038  0.135] R_tgt=[0.228 0.161 0.135] | L_tcp=[ 0.109 -0.022  0.154] R_tcp=[-0.015  0.146  0.154] | L_q12=-0.746 R_q12=+0.796
+[DualDexCoverRotPolicy] phase=9 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.038  0.16 ] R_hand=[0.228 0.161 0.16 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.038  0.135] R_tgt=[0.228 0.161 0.135] | L_tcp=[ 0.109 -0.022  0.154] R_tcp=[-0.015  0.146  0.154] | L_q12=-0.544 R_q12=+0.586
+[DualDexCoverRotPolicy] phase=9 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.038  0.138] R_hand=[0.228 0.161 0.138]
+  [ep 0/1, attempt 1] step 301/400  terminated=False  truncated=False
 [DualDexCoverRotPolicy] PHASE 9 -> 10. cloth released; lift hands vertically first
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.436 -0.105  0.135] R_tgt=[0.273 0.092 0.135] | L_tcp=[ 0.193 -0.09   0.154] R_tcp=[0.03  0.077 0.154] | L_q12=-0.494 R_q12=+0.523
-[DualDexCoverRotPolicy] phase=10 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.436 -0.105  0.136] R_hand=[0.273 0.092 0.136]
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.436 -0.105  0.26 ] R_tgt=[0.273 0.092 0.26 ] | L_tcp=[ 0.193 -0.09   0.279] R_tcp=[0.03  0.077 0.279] | L_q12=-0.344 R_q12=+0.363
-[DualDexCoverRotPolicy] phase=10 wait=10 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.436 -0.105  0.167] R_hand=[0.273 0.092 0.167]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.038  0.135] R_tgt=[0.228 0.161 0.135] | L_tcp=[ 0.109 -0.022  0.154] R_tcp=[-0.015  0.146  0.154] | L_q12=-0.470 R_q12=+0.507
+[DualDexCoverRotPolicy] phase=10 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.038  0.136] R_hand=[0.228 0.161 0.136]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.038  0.26 ] R_tgt=[0.228 0.161 0.26 ] | L_tcp=[ 0.109 -0.022  0.279] R_tcp=[-0.015  0.146  0.279] | L_q12=-0.327 R_q12=+0.352
+[DualDexCoverRotPolicy] phase=10 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.038  0.167] R_hand=[0.228 0.161 0.167]
 [DualDexCoverRotPolicy] PHASE 10 -> 11. hands lifted vertically; now retreat sideways
-[DualDexCoverRotPolicy] return action: L_tgt=[ 0.436 -0.105  0.26 ] R_tgt=[0.273 0.092 0.26 ] | L_tcp=[ 0.193 -0.09   0.279] R_tcp=[0.03  0.077 0.279] | L_q12=-0.257 R_q12=+0.271
-[DualDexCoverRotPolicy] phase=11 wait=0 cloth_yaw=-10.1 ped_yaw=+3.2 L_hand=[ 0.436 -0.105  0.192] R_hand=[0.273 0.092 0.192]
-  [ep 0, attempt 1] Success at step 232, collected 30 extra steps.
-  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
-[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmCoverCloth-v1/videos/orbit_camera_ep0.mp4
-[38;5;159m[Genesis] [16:56:33] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmCoverCloth-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
-[38;5;159m[Genesis] [16:56:34] [INFO] Video saved.[0m
-  Saved video: /data/gck/maniladder/site/generated_demos/DualArmCoverCloth-v1/videos/orbit_camera_ep0.mp4 exists=True
-  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/DualArmCoverCloth-v1/videos
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.038  0.26 ] R_tgt=[0.228 0.161 0.26 ] | L_tcp=[ 0.109 -0.022  0.279] R_tcp=[-0.015  0.146  0.279] | L_q12=-0.244 R_q12=+0.263
+[DualDexCoverRotPolicy] phase=11 wait=0 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.038  0.192] R_hand=[0.228 0.161 0.192]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.170 R_q12=+0.183
+[DualDexCoverRotPolicy] phase=11 wait=10 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.068  0.222] R_hand=[0.228 0.192 0.222]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.118 R_q12=+0.127
+[DualDexCoverRotPolicy] phase=11 wait=20 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.099  0.253] R_hand=[0.228 0.223 0.253]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.082 R_q12=+0.088
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.13   0.284] R_hand=[0.228 0.253 0.283]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.079 R_q12=+0.085
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.133  0.287] R_hand=[0.228 0.257 0.286]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.076 R_q12=+0.082
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.136  0.29 ] R_hand=[0.228 0.26  0.289]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.073 R_q12=+0.079
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.139  0.293] R_hand=[0.228 0.263 0.292]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.071 R_q12=+0.076
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.142  0.296] R_hand=[0.228 0.266 0.295]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.068 R_q12=+0.074
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.145  0.299] R_hand=[0.228 0.269 0.298]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.066 R_q12=+0.071
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.148  0.302] R_hand=[0.228 0.271 0.301]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.064 R_q12=+0.068
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.15   0.305] R_hand=[0.228 0.273 0.304]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.061 R_q12=+0.066
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.151  0.309] R_hand=[0.228 0.275 0.307]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.059 R_q12=+0.064
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.153  0.312] R_hand=[0.228 0.276 0.311]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.057 R_q12=+0.061
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.154  0.315] R_hand=[0.228 0.277 0.314]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.055 R_q12=+0.059
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.154  0.318] R_hand=[0.228 0.278 0.317]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.053 R_q12=+0.057
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.155  0.321] R_hand=[0.228 0.279 0.32 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.051 R_q12=+0.055
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.156  0.324] R_hand=[0.228 0.279 0.323]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.049 R_q12=+0.053
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.156  0.327] R_hand=[0.228 0.28  0.326]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.047 R_q12=+0.051
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.156  0.33 ] R_hand=[0.228 0.28  0.329]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.046 R_q12=+0.049
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.157  0.332] R_hand=[0.228 0.28  0.331]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.044 R_q12=+0.048
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.157  0.333] R_hand=[0.228 0.28  0.333]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.043 R_q12=+0.046
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.157  0.335] R_hand=[0.228 0.281 0.334]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.041 R_q12=+0.044
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.157  0.336] R_hand=[0.228 0.281 0.335]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.040 R_q12=+0.043
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.157  0.337] R_hand=[0.228 0.281 0.336]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.038 R_q12=+0.041
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.157  0.337] R_hand=[0.228 0.281 0.337]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.037 R_q12=+0.040
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.157  0.338] R_hand=[0.228 0.281 0.338]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.035 R_q12=+0.038
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.338] R_hand=[0.228 0.281 0.338]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.034 R_q12=+0.037
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.338]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.033 R_q12=+0.036
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.032 R_q12=+0.034
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.031 R_q12=+0.033
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.030 R_q12=+0.032
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.029 R_q12=+0.031
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.027 R_q12=+0.030
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.027 R_q12=+0.029
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.026 R_q12=+0.028
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.025 R_q12=+0.027
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.024 R_q12=+0.026
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.023 R_q12=+0.025
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.022 R_q12=+0.024
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.021 R_q12=+0.023
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.021 R_q12=+0.022
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.020 R_q12=+0.021
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.019 R_q12=+0.021
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.018 R_q12=+0.020
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.018 R_q12=+0.019
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.017 R_q12=+0.018
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.017 R_q12=+0.018
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.016 R_q12=+0.017
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.015 R_q12=+0.017
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.015 R_q12=+0.016
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.014 R_q12=+0.015
+[DualDexCoverRotPolicy] phase=11 wait=30 cloth_yaw=+24.8 ped_yaw=-10.5 L_hand=[ 0.352 -0.158  0.339] R_hand=[0.228 0.281 0.339]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.352 -0.158  0.34 ] R_tgt=[0.228 0.281 0.34 ] | L_tcp=[ 0.109 -0.142  0.359] R_tcp=[-0.015  0.266  0.359] | L_q12=-0.014 R_q12=+0.015
+  [ep 0/1, attempt 1] step 400/400  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 1 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/1) | moving avg (last 1): 0.0%
+[DualDexCoverRotPolicy] cached hand offsets: L=[ 0.243  -0.0154 -0.0191], R=[ 0.243   0.0154 -0.0191]
+[DualDexCoverRotPolicy] phase=0 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.093 -0.141  0.354] R_hand=[0.093 0.141 0.354]
+[DualDexCoverRotPolicy] planned rotation-aware anchors: L_uv=[0.72 0.22] R_uv=[0.28 0.78] | L_anchor=[-0.008 -0.018  0.005] R_anchor=[-0.177  0.114  0.005] | L_target=[ 0.323 -0.022] R_target=[0.214 0.162]
+[DualDexCoverRotPolicy] PHASE 0 -> 1. planned cloth-local to pedestal-local anchors
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.34 ] R_tgt=[-0.177  0.114  0.34 ] | L_tcp=[-0.251 -0.002  0.359] R_tcp=[-0.42   0.099  0.359] | L_q12=+0.000 R_q12=+0.000
+  [ep 0/1, attempt 2] step 1/400  terminated=False  truncated=False
+[DualDexCoverRotPolicy] phase=1 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.089 -0.136  0.352] R_hand=[0.089 0.136 0.352]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.34 ] R_tgt=[-0.177  0.114  0.34 ] | L_tcp=[-0.251 -0.002  0.359] R_tcp=[-0.42   0.099  0.359] | L_q12=-0.000 R_q12=-0.000
+[DualDexCoverRotPolicy] phase=1 wait=10 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.041 -0.09   0.341] R_hand=[0.041 0.115 0.341]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.34 ] R_tgt=[-0.177  0.114  0.34 ] | L_tcp=[-0.251 -0.002  0.359] R_tcp=[-0.42   0.099  0.359] | L_q12=-0.000 R_q12=-0.000
+[DualDexCoverRotPolicy] phase=1 wait=20 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.002 -0.043  0.34 ] R_hand=[-0.006  0.114  0.34 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.34 ] R_tgt=[-0.177  0.114  0.34 ] | L_tcp=[-0.251 -0.002  0.359] R_tcp=[-0.42   0.099  0.359] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=1 wait=30 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.015 -0.022  0.339] R_hand=[-0.029  0.115  0.336]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.34 ] R_tgt=[-0.177  0.114  0.34 ] | L_tcp=[-0.251 -0.002  0.359] R_tcp=[-0.42   0.099  0.359] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=1 wait=40 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.024 -0.021  0.341] R_hand=[-0.046  0.113  0.336]
+[DualDexCoverRotPolicy] PHASE 1 -> 2. both hands reached above anchors
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.34 ] R_tgt=[-0.177  0.114  0.34 ] | L_tcp=[-0.251 -0.002  0.359] R_tcp=[-0.42   0.099  0.359] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=2 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.019 -0.02   0.34 ] R_hand=[-0.059  0.113  0.338]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.095] R_tgt=[-0.177  0.114  0.095] | L_tcp=[-0.251 -0.002  0.114] R_tcp=[-0.42   0.099  0.114] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=2 wait=10 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.013 -0.019  0.307] R_hand=[-0.085  0.114  0.307]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.095] R_tgt=[-0.177  0.114  0.095] | L_tcp=[-0.251 -0.002  0.114] R_tcp=[-0.42   0.099  0.114] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=2 wait=20 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.009 -0.018  0.276] R_hand=[-0.115  0.114  0.276]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.095] R_tgt=[-0.177  0.114  0.095] | L_tcp=[-0.251 -0.002  0.114] R_tcp=[-0.42   0.099  0.114] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=2 wait=30 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.008 -0.018  0.245] R_hand=[-0.146  0.114  0.245]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.095] R_tgt=[-0.177  0.114  0.095] | L_tcp=[-0.251 -0.002  0.114] R_tcp=[-0.42   0.099  0.114] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=2 wait=40 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.008 -0.018  0.214] R_hand=[-0.172  0.114  0.214]
+[DualDexCoverRotPolicy] PHASE 2 -> 3. both hands reached grasp height
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.095] R_tgt=[-0.177  0.114  0.095] | L_tcp=[-0.251 -0.002  0.114] R_tcp=[-0.42   0.099  0.114] | L_q12=-0.000 R_q12=+0.000
+[DualDexCoverRotPolicy] phase=3 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.008 -0.018  0.198] R_hand=[-0.175  0.114  0.199]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.095] R_tgt=[-0.177  0.114  0.095] | L_tcp=[-0.251 -0.002  0.114] R_tcp=[-0.42   0.099  0.114] | L_q12=-0.385 R_q12=+0.385
+  [ep 0/1, attempt 2] step 101/400  terminated=False  truncated=False
+[DualDexCoverRotPolicy] phase=3 wait=10 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.008 -0.018  0.167] R_hand=[-0.177  0.114  0.168]
+[DualDexCoverRotPolicy] PHASE 3 -> 4. mirrored thumb pre-grasp finished
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.095] R_tgt=[-0.177  0.114  0.095] | L_tcp=[-0.251 -0.002  0.114] R_tcp=[-0.42   0.099  0.114] | L_q12=-0.642 R_q12=+0.642
+[DualDexCoverRotPolicy] phase=4 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.008 -0.018  0.149] R_hand=[-0.177  0.114  0.149]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.099] R_tgt=[-0.177  0.114  0.099] | L_tcp=[-0.251 -0.002  0.118] R_tcp=[-0.42   0.099  0.118] | L_q12=-0.762 R_q12=+0.762
+[DualDexCoverRotPolicy] phase=4 wait=10 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.008 -0.018  0.118] R_hand=[-0.177  0.114  0.118]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.099] R_tgt=[-0.177  0.114  0.099] | L_tcp=[-0.251 -0.002  0.118] R_tcp=[-0.42   0.099  0.118] | L_q12=-0.826 R_q12=+0.826
+[DualDexCoverRotPolicy] phase=4 wait=20 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.001 -0.015  0.104] R_hand=[-0.177  0.114  0.101]
+[DualDexCoverRotPolicy] PHASE 4 -> 5. hands closed; attached L=True, R=True
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.099] R_tgt=[-0.177  0.114  0.099] | L_tcp=[-0.251 -0.002  0.118] R_tcp=[-0.42   0.099  0.118] | L_q12=-0.836 R_q12=+0.836
+[DualDexCoverRotPolicy] phase=5 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.    -0.014  0.104] R_hand=[-0.174  0.113  0.101]
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.24 ] R_tgt=[-0.177  0.114  0.24 ] | L_tcp=[-0.251 -0.002  0.259] R_tcp=[-0.42   0.099  0.259] | L_q12=-0.885 R_q12=+0.883
+[DualDexCoverRotPolicy] phase=5 wait=10 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.008 -0.018  0.162] R_hand=[-0.177  0.114  0.159]
+[DualDexCoverRotPolicy] PHASE 5 -> 6. cloth lifted and hand-anchor offsets calibrated
+[DualDexCoverRotPolicy] return action: L_tgt=[-0.008 -0.018  0.24 ] R_tgt=[-0.177  0.114  0.24 ] | L_tcp=[-0.251 -0.002  0.259] R_tcp=[-0.42   0.099  0.259] | L_q12=-0.929 R_q12=+0.922
+[DualDexCoverRotPolicy] phase=6 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[-0.008 -0.018  0.222] R_hand=[-0.177  0.114  0.219]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.381 -0.014  0.24 ] R_tgt=[0.248 0.161 0.24 ] | L_tcp=[0.138 0.001 0.259] R_tcp=[0.005 0.146 0.259] | L_q12=-0.972 R_q12=+0.972
+[DualDexCoverRotPolicy] phase=6 wait=10 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.051 -0.014  0.24 ] R_hand=[-0.118  0.158  0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.381 -0.014  0.24 ] R_tgt=[0.248 0.161 0.24 ] | L_tcp=[0.138 0.001 0.259] R_tcp=[0.005 0.146 0.259] | L_q12=-1.006 R_q12=+1.004
+[DualDexCoverRotPolicy] phase=6 wait=20 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.111 -0.014  0.24 ] R_hand=[-0.059  0.161  0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.381 -0.014  0.24 ] R_tgt=[0.248 0.161 0.24 ] | L_tcp=[0.138 0.001 0.259] R_tcp=[0.005 0.146 0.259] | L_q12=-0.982 R_q12=+1.013
+[DualDexCoverRotPolicy] phase=6 wait=30 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.171 -0.014  0.24 ] R_hand=[0.001 0.161 0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.381 -0.014  0.24 ] R_tgt=[0.248 0.161 0.24 ] | L_tcp=[0.138 0.001 0.259] R_tcp=[0.005 0.146 0.259] | L_q12=-0.945 R_q12=+0.979
+[DualDexCoverRotPolicy] phase=6 wait=40 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.231 -0.014  0.24 ] R_hand=[0.061 0.161 0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.381 -0.014  0.24 ] R_tgt=[0.248 0.161 0.24 ] | L_tcp=[0.138 0.001 0.259] R_tcp=[0.005 0.146 0.259] | L_q12=-0.916 R_q12=+0.952
+[DualDexCoverRotPolicy] phase=6 wait=50 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.291 -0.014  0.24 ] R_hand=[0.12  0.161 0.24 ]
+  [ep 0/1, attempt 2] step 201/400  terminated=False  truncated=False
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.381 -0.014  0.24 ] R_tgt=[0.248 0.161 0.24 ] | L_tcp=[0.138 0.001 0.259] R_tcp=[0.005 0.146 0.259] | L_q12=-0.887 R_q12=+0.920
+[DualDexCoverRotPolicy] phase=6 wait=60 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.351 -0.014  0.24 ] R_hand=[0.18  0.161 0.24 ]
+[DualDexCoverRotPolicy] PHASE 6 -> 7. start closed-loop cloth COM correction
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.381 -0.014  0.24 ] R_tgt=[0.248 0.161 0.24 ] | L_tcp=[0.138 0.001 0.259] R_tcp=[0.005 0.146 0.259] | L_q12=-0.874 R_q12=+0.904
+[DualDexCoverRotPolicy] phase=7 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.375 -0.015  0.24 ] R_hand=[0.21  0.161 0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.398 -0.006  0.24 ] R_tgt=[0.266 0.169 0.24 ] | L_tcp=[0.155 0.009 0.259] R_tcp=[0.023 0.154 0.259] | L_q12=-0.848 R_q12=+0.878
+[DualDexCoverRotPolicy] phase=7 wait=10 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.395 -0.006  0.24 ] R_hand=[0.233 0.17  0.24 ]
+[DualDexCoverRotPolicy] PHASE 7 -> 8. cloth COM corrected before low-hover release
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.393 -0.007  0.24 ] R_tgt=[0.26  0.169 0.24 ] | L_tcp=[0.15  0.009 0.259] R_tcp=[0.017 0.153 0.259] | L_q12=-0.839 R_q12=+0.872
+[DualDexCoverRotPolicy] phase=8 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.395 -0.006  0.24 ] R_hand=[0.24  0.169 0.24 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.393 -0.007  0.135] R_tgt=[0.26  0.169 0.135] | L_tcp=[0.15  0.009 0.154] R_tcp=[0.017 0.153 0.154] | L_q12=-0.813 R_q12=+0.855
+[DualDexCoverRotPolicy] phase=8 wait=10 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.393 -0.007  0.209] R_hand=[0.258 0.169 0.209]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.393 -0.007  0.135] R_tgt=[0.26  0.169 0.135] | L_tcp=[0.15  0.009 0.154] R_tcp=[0.017 0.153 0.154] | L_q12=-0.793 R_q12=+0.835
+[DualDexCoverRotPolicy] phase=8 wait=20 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.392 -0.007  0.178] R_hand=[0.26  0.169 0.179]
+[DualDexCoverRotPolicy] PHASE 8 -> 9. both hands reached low-hover release height
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.393 -0.007  0.135] R_tgt=[0.26  0.169 0.135] | L_tcp=[0.15  0.009 0.154] R_tcp=[0.017 0.153 0.154] | L_q12=-0.788 R_q12=+0.825
+[DualDexCoverRotPolicy] phase=9 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.392 -0.007  0.16 ] R_hand=[0.26  0.169 0.16 ]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.393 -0.007  0.135] R_tgt=[0.26  0.169 0.135] | L_tcp=[0.15  0.009 0.154] R_tcp=[0.017 0.153 0.154] | L_q12=-0.569 R_q12=+0.595
+  [ep 0/1, attempt 2] step 263/400  terminated=True  truncated=False
+[DualDexCoverRotPolicy] phase=9 wait=10 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.392 -0.007  0.138] R_hand=[0.26  0.169 0.138]
+[DualDexCoverRotPolicy] PHASE 9 -> 10. cloth released; lift hands vertically first
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.393 -0.007  0.135] R_tgt=[0.26  0.169 0.135] | L_tcp=[0.15  0.009 0.154] R_tcp=[0.017 0.153 0.154] | L_q12=-0.492 R_q12=+0.515
+[DualDexCoverRotPolicy] phase=10 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.392 -0.007  0.136] R_hand=[0.26  0.169 0.136]
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.393 -0.007  0.26 ] R_tgt=[0.26  0.169 0.26 ] | L_tcp=[0.15  0.009 0.279] R_tcp=[0.017 0.153 0.279] | L_q12=-0.342 R_q12=+0.358
+[DualDexCoverRotPolicy] phase=10 wait=10 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.393 -0.007  0.167] R_hand=[0.26  0.169 0.167]
+[DualDexCoverRotPolicy] PHASE 10 -> 11. hands lifted vertically; now retreat sideways
+[DualDexCoverRotPolicy] return action: L_tgt=[ 0.393 -0.007  0.26 ] R_tgt=[0.26  0.169 0.26 ] | L_tcp=[0.15  0.009 0.279] R_tcp=[0.017 0.153 0.279] | L_q12=-0.255 R_q12=+0.267
+[DualDexCoverRotPolicy] phase=11 wait=0 cloth_yaw=+13.9 ped_yaw=-7.5 L_hand=[ 0.393 -0.007  0.192] R_hand=[0.26  0.169 0.192]
+  [ep 0, attempt 2] Success at step 263, collected 30 extra steps.
+  [Success Rate] overall: 50.0% (1/2) | moving avg (last 2): 50.0%
+[ManiLadder Camera] stop_recording target=/mnt/gck_website/maniladder.github.io/generated_demos/DualArmCoverCloth-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [08:26:57] [INFO] Saving video to [38;5;121m"/mnt/gck_website/maniladder.github.io/generated_demos/DualArmCoverCloth-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [08:26:59] [INFO] Video saved.[0m
+  Saved video: /mnt/gck_website/maniladder.github.io/generated_demos/DualArmCoverCloth-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /mnt/gck_website/maniladder.github.io/generated_demos/DualArmCoverCloth-v1/videos
 
 ============================================================
-Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
-Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+Done. 1 demo trajectories (traj_0..traj_0) saved to /mnt/gck_website/maniladder.github.io/generated_demos
+Final   [Success Rate] overall: 50.0% (1/2) | moving avg (last 2): 50.0%
 ============================================================
-[38;5;159m[Genesis] [16:56:35] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[38;5;159m[Genesis] [08:26:59] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[W 09/29/26 08:26:59.466 3565717] [offline_cache.h:run@186] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. You can run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:26:59.667 3565717] [kernel_compilation_manager.cpp:dump@104] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:26:59.930 3565717] [ptx_cache.cpp:dump@92] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.

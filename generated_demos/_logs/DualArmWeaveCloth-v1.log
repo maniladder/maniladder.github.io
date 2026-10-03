@@ -1,103 +1,149 @@
-[38;5;159m[Genesis] [17:37:09] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:37:09] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:37:09] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:37:10] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
-[38;5;159m[Genesis] [17:37:10] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:37:12] [INFO] Scene [38;5;121m[3m<e5353fd>[0m[38;5;159m created.[0m
-[38;5;159m[Genesis] [17:37:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<0aa29ac>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [17:37:12] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
-[38;5;226m[Genesis] [17:37:12] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
-[38;5;226m[Genesis] [17:37:12] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
-[38;5;226m[Genesis] [17:37:12] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
-[38;5;159m[Genesis] [17:37:12] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[32m2026-06-16 17:37:13,354 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000,  0.6000,  0.0000,  0.0000,  0.0000, -1.5708]],
+[38;5;159m[Genesis] [08:36:44] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:36:44] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:36:44] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[W 09/29/26 08:36:45.395 3901917] [ptx_cache.cpp:PtxCache@73] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.
+[38;5;159m[Genesis] [08:36:45] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [08:36:45] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:36:47] [INFO] Scene [38;5;121m[3m<78698de>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [08:36:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<6529c22>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/mnt4/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:36:48] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [08:36:48] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [08:36:48] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [08:36:48] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [08:36:48] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:36:48,429 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000,  0.6000,  0.0000,  0.0000,  0.0000, -1.5708]],
        device='cuda:0')), parallel loading has not been implemented yet.[0m
-[38;5;159m[Genesis] [17:37:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<16aee31>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [17:37:13] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
-[38;5;226m[Genesis] [17:37:13] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
-[38;5;226m[Genesis] [17:37:13] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
-[38;5;226m[Genesis] [17:37:13] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
-[38;5;159m[Genesis] [17:37:13] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[32m2026-06-16 17:37:13,758 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000, -0.8000,  0.0000,  0.0000,  0.0000,  1.5708]],
+[38;5;159m[Genesis] [08:36:48] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<8620c6c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/mnt4/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:36:48] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [08:36:48] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [08:36:48] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [08:36:48] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [08:36:48] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:36:48,837 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000, -0.8000,  0.0000,  0.0000,  0.0000,  1.5708]],
        device='cuda:0')), parallel loading has not been implemented yet.[0m
-[38;5;159m[Genesis] [17:37:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<6bb1f97>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [17:37:13] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+[38;5;159m[Genesis] [08:36:48] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<5c134b1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:36:48] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
   warnings.warn("pygltflib currently does not remove image data "
-[38;5;159m[Genesis] [17:37:14] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<63af029>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<d3c32f6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<0f92634>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<de05b3e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<08d9543>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<85aa5f3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Preprocessing geom idx [38;5;121m[4m48[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<17b19b4>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Preprocessing geom idx [38;5;121m[4m49[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<1e769f3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<8e5d87a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<9159306>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/cloth_flat.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:37:14] [INFO] Remeshing for tetrahedralization...[0m
-[38;5;159m[Genesis] [17:37:15] [INFO] Building scene [38;5;121m[3m<e5353fd>[0m[38;5;159m...[0m
-[38;5;226m[Genesis] [17:37:18] [WARNING] Reference robot position exceeds joint limits.[0m
-[38;5;226m[Genesis] [17:37:19] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 1184, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
-[38;5;159m[Genesis] [17:37:26] [INFO] Compiling simulation kernels...[0m
-[38;5;159m[Genesis] [17:38:07] [INFO] Building visualizer...[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<fd674ef>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<bb25286>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<8d7fe8a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<095dcc8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<71a784c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<375bee6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<d057230>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<2a49b69>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<f8a94fd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<d69ab95>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/meshes/deformable/cloth_flat.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:36:49] [INFO] Building scene [38;5;121m[3m<78698de>[0m[38;5;159m...[0m
+[W 09/29/26 08:36:49.707 3901917] [kernel_compilation_manager.cpp:KernelCompilationManager@69] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[38;5;226m[Genesis] [08:36:53] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [08:36:54] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 1184, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [08:37:03] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [08:37:48] [INFO] Building visualizer...[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
   return func(*args, **kwargs)
 Action space: Dict('panda-0': Box(-1.0, 1.0, (7,), float32), 'panda-1': Box(-1.0, 1.0, (7,), float32))
-Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/DualArmWeaveCloth-v1
-[38;5;159m[Genesis] [17:38:11] [INFO] Scene [38;5;121m[3m<8983e96>[0m[38;5;159m created.[0m
-[38;5;159m[Genesis] [17:38:11] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<4c0829d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [17:38:11] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
-[38;5;226m[Genesis] [17:38:11] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
-[38;5;226m[Genesis] [17:38:11] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
-[38;5;226m[Genesis] [17:38:11] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
-[38;5;159m[Genesis] [17:38:11] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[32m2026-06-16 17:38:11,610 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000,  0.6000,  0.0000,  0.0000,  0.0000, -1.5708]],
+Generating 1 orbit video-only demos → /mnt/gck_website/maniladder.github.io/generated_demos/DualArmWeaveCloth-v1
+[38;5;159m[Genesis] [08:37:51] [INFO] Scene [38;5;121m[3m<e0bffe4>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [08:37:51] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<39e705a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/mnt4/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:37:51] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [08:37:51] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [08:37:51] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [08:37:51] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [08:37:51] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:37:52,033 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000,  0.6000,  0.0000,  0.0000,  0.0000, -1.5708]],
        device='cuda:0')), parallel loading has not been implemented yet.[0m
-[38;5;159m[Genesis] [17:38:11] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<415083c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [17:38:11] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
-[38;5;226m[Genesis] [17:38:11] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
-[38;5;226m[Genesis] [17:38:11] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
-[38;5;226m[Genesis] [17:38:11] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
-[38;5;159m[Genesis] [17:38:11] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[32m2026-06-16 17:38:12,040 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000, -0.8000,  0.0000,  0.0000,  0.0000,  1.5708]],
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<1eacd38>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/mnt4/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:37:52] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [08:37:52] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [08:37:52] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [08:37:52] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:37:52,481 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000, -0.8000,  0.0000,  0.0000,  0.0000,  1.5708]],
        device='cuda:0')), parallel loading has not been implemented yet.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<cbb0a93>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [17:38:12] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<2d6ef43>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:37:52] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
   warnings.warn("pygltflib currently does not remove image data "
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<f5eae98>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<467650f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<85f345d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<a1231c9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<15cb84d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<a97beaf>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<aa6327d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<3f2ac41>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<de7a428>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<9d81a73>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/cloth_flat.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:38:12] [INFO] Building scene [38;5;121m[3m<8983e96>[0m[38;5;159m...[0m
-[38;5;226m[Genesis] [17:38:15] [WARNING] Reference robot position exceeds joint limits.[0m
-[38;5;226m[Genesis] [17:38:16] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 1184, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
-[38;5;159m[Genesis] [17:38:24] [INFO] Compiling simulation kernels...[0m
-[38;5;159m[Genesis] [17:39:06] [INFO] Building visualizer...[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<248ae13>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<17b902d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<d8a1654>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<adce51c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<90cbb7f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<9e9032d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<931893d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<af0213b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<f678d21>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<6ae5664>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/meshes/deformable/cloth_flat.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] Building scene [38;5;121m[3m<e0bffe4>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [08:37:55] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [08:37:57] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 1184, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [08:38:05] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [08:38:46] [INFO] Building visualizer...[0m
   [ep 0/1, attempt 1] step 1/500  terminated=False  truncated=False
   [ep 0/1, attempt 1] step 101/500  terminated=False  truncated=False
   [ep 0/1, attempt 1] step 201/500  terminated=False  truncated=False
   [ep 0/1, attempt 1] step 301/500  terminated=False  truncated=False
   [ep 0/1, attempt 1] step 401/500  terminated=False  truncated=False
-  [ep 0/1, attempt 1] step 490/500  terminated=True  truncated=False
-  [ep 0, attempt 1] Success at step 490, collected 10 extra steps.
-  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
-[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/DualArmWeaveCloth-v1/videos/orbit_camera_ep0.mp4
-[38;5;159m[Genesis] [17:40:28] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/DualArmWeaveCloth-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
-[38;5;159m[Genesis] [17:40:30] [INFO] Video saved.[0m
-  Saved video: /data/gck/maniladder/site/generated_demos/DualArmWeaveCloth-v1/videos/orbit_camera_ep0.mp4 exists=True
-  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/DualArmWeaveCloth-v1/videos
+  [ep 0/1, attempt 1] step 500/500  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 1 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/1) | moving avg (last 1): 0.0%
+[38;5;159m[Genesis] [08:40:25] [INFO] Scene [38;5;121m[3m<dfdead1>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [08:40:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<289fba6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/mnt4/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:40:25] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [08:40:25] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [08:40:25] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [08:40:25] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [08:40:25] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:40:25,852 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000,  0.6000,  0.0000,  0.0000,  0.0000, -1.5708]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [08:40:25] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<afeb526>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/mnt4/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:40:26] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [08:40:26] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [08:40:26] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [08:40:26] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:40:26,299 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ 0.0000, -0.8000,  0.0000,  0.0000,  0.0000,  1.5708]],
+       device='cuda:0')), parallel loading has not been implemented yet.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<467b92f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:40:26] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
+  warnings.warn("pygltflib currently does not remove image data "
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<4c560b6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<bca4459>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<f160e0a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<299871d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<33157d0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<51f98f9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<f4bfcfa>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<c8136f0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<99058e3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Adding [38;5;121m<gs.PBD2DEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<9be5d12>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/meshes/deformable/cloth_flat.obj')>[0m[38;5;159m, material: [38;5;121m<gs.PBD.Cloth>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:26] [INFO] Building scene [38;5;121m[3m<dfdead1>[0m[38;5;159m...[0m
+[38;5;226m[Genesis] [08:40:29] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [08:40:31] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 1184, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [08:40:39] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [08:41:19] [INFO] Building visualizer...[0m
+  [ep 0/1, attempt 2] step 1/500  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 101/500  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 201/500  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 301/500  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 401/500  terminated=False  truncated=False
+  [ep 0/1, attempt 2] step 434/500  terminated=True  truncated=False
+  [ep 0, attempt 2] Success at step 434, collected 30 extra steps.
+  [Success Rate] overall: 50.0% (1/2) | moving avg (last 2): 50.0%
+[ManiLadder Camera] stop_recording target=/mnt/gck_website/maniladder.github.io/generated_demos/DualArmWeaveCloth-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [08:43:15] [INFO] Saving video to [38;5;121m"/mnt/gck_website/maniladder.github.io/generated_demos/DualArmWeaveCloth-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [08:43:18] [INFO] Video saved.[0m
+  Saved video: /mnt/gck_website/maniladder.github.io/generated_demos/DualArmWeaveCloth-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /mnt/gck_website/maniladder.github.io/generated_demos/DualArmWeaveCloth-v1/videos
 
 ============================================================
-Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
-Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+Done. 1 demo trajectories (traj_0..traj_0) saved to /mnt/gck_website/maniladder.github.io/generated_demos
+Final   [Success Rate] overall: 50.0% (1/2) | moving avg (last 2): 50.0%
 ============================================================
-[38;5;159m[Genesis] [17:40:30] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[38;5;159m[Genesis] [08:43:18] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[W 09/29/26 08:43:18.510 3901917] [offline_cache.h:run@186] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. You can run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:43:18.711 3901917] [kernel_compilation_manager.cpp:dump@104] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:43:19.082 3901917] [ptx_cache.cpp:dump@92] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.

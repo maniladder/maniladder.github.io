@@ -1,37 +1,38 @@
-[38;5;159m[Genesis] [18:22:51] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:22:51] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:22:51] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:22:52] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
-[38;5;159m[Genesis] [18:22:52] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:22:54] [INFO] Scene [38;5;121m[3m<9927ba0>[0m[38;5;159m created.[0m
-[38;5;159m[Genesis] [18:22:54] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<2a257ec>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:22:58] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[38;5;159m[Genesis] [18:23:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<f187e4e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [18:23:00] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+[38;5;159m[Genesis] [09:07:38] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [09:07:38] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [09:07:38] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[W 09/29/26 09:07:38.882 4101534] [ptx_cache.cpp:PtxCache@73] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.
+[38;5;159m[Genesis] [09:07:39] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [09:07:39] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [09:07:41] [INFO] Scene [38;5;121m[3m<e9314a0>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [09:07:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<d1e4b0a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:07:44] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [09:07:45] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<34d7beb>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [09:07:45] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
   warnings.warn("pygltflib currently does not remove image data "
-[38;5;159m[Genesis] [18:23:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<3db495f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:23:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<914785b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:23:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<91268f1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:23:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<79d54ec>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:23:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<41438a7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:23:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<1b34b2a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Sphere>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:23:00] [INFO] Preprocessing geom idx [38;5;121m[4m83[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:23:01] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<8706559>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Sphere>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:23:01] [INFO] Building scene [38;5;121m[3m<9927ba0>[0m[38;5;159m...[0m
-[38;5;226m[Genesis] [18:23:05] [WARNING] Reference robot position exceeds joint limits.[0m
-[38;5;226m[Genesis] [18:23:07] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 3036, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
-[38;5;159m[Genesis] [18:23:16] [INFO] Compiling simulation kernels...[0m
-[38;5;159m[Genesis] [18:23:52] [INFO] Building visualizer...[0m
+[38;5;159m[Genesis] [09:07:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<08b34e7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:07:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<e8792fd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:07:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<64d4c42>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:07:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<1afa5c5>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:07:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<ae72983>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:07:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<826ab2d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Sphere>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:07:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<9e8c8fe>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Sphere>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:07:46] [INFO] Building scene [38;5;121m[3m<e9314a0>[0m[38;5;159m...[0m
+[W 09/29/26 09:07:46.643 4101534] [kernel_compilation_manager.cpp:KernelCompilationManager@69] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[38;5;226m[Genesis] [09:07:49] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [09:07:51] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 3036, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [09:07:59] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [09:08:34] [INFO] Building visualizer...[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
   return func(*args, **kwargs)
 Action space: Box(-1.0, 1.0, (22,), float32)
-Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/FitnessBall-v1
+Generating 1 orbit video-only demos → /mnt/gck_website/maniladder.github.io/generated_demos/FitnessBall-v1
 [scripted_policy] ENTER phase=0 (GRASP)
   target  (sem): index=[+0.000, +0.600, +1.500, +1.800]  middle=[+0.000, +0.800, +0.800, +0.800]  ring=[+0.000, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[-0.000, +0.600, +1.500, +1.800]  middle=[-0.000, +0.800, +0.800, +0.800]  ring=[-0.000, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +1.970]
   err     (sem): index=[+0.000, -0.000, +0.000, +0.000]  middle=[+0.000, -0.000, -0.000, -0.000]  ring=[+0.000, -0.000, +0.000, +0.000]  thumb=[-0.000, +0.000, -0.000, +0.030]
-  [ep 0/1, attempt 1] step 1/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 1/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=0 (GRASP)
   target  (sem): index=[+0.000, +0.600, +1.500, +1.800]  middle=[+0.000, +0.800, +0.800, +0.800]  ring=[+0.000, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[-0.000, +0.600, +1.500, +1.800]  middle=[-0.000, +0.800, +0.800, +0.800]  ring=[+0.000, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +1.906]
@@ -56,7 +57,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.000, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+0.200, +1.200, +1.500, +1.800]  thumb=[+0.500, +0.700, +0.900, +2.000]
   current (sem): index=[+0.696, +0.556, +1.504, +1.800]  middle=[+0.049, +0.231, +0.815, +0.797]  ring=[+1.014, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +1.881]
   err     (sem): index=[-0.696, +0.044, -0.004, -0.000]  middle=[-0.049, -0.231, -0.015, +0.003]  ring=[-0.814, +0.000, +0.000, +0.000]  thumb=[+0.300, +0.000, -0.000, +0.119]
-  [ep 0/1, attempt 1] step 101/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 101/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=3 (p3)
   target  (sem): index=[+0.000, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+0.200, +1.200, +1.500, +1.800]  thumb=[+0.500, +0.700, +0.900, +2.000]
   current (sem): index=[+0.169, +0.589, +1.501, +1.800]  middle=[+0.012, +0.056, +0.804, +0.799]  ring=[+0.397, +1.200, +1.500, +1.800]  thumb=[+0.427, +0.700, +0.900, +1.881]
@@ -97,7 +98,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.800, +0.800, +0.800]  ring=[+0.100, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[-0.026, +0.477, +1.526, +1.854]  middle=[+0.001, +0.722, +0.553, +1.233]  ring=[-0.620, +1.200, +1.500, +1.800]  thumb=[+0.542, +0.554, +1.152, +1.663]
   err     (sem): index=[+0.826, +0.123, -0.026, -0.054]  middle=[-0.001, +0.078, +0.247, -0.433]  ring=[+0.720, -0.000, -0.000, +0.000]  thumb=[-0.342, +0.146, -0.252, +0.337]
-  [ep 0/1, attempt 1] step 201/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 201/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=1 (p1)
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.800, +0.800, +0.800]  ring=[+0.100, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[+0.509, +0.563, +1.537, +1.813]  middle=[+0.084, +0.788, +0.748, +0.905]  ring=[-0.074, +1.200, +1.500, +1.800]  thumb=[+0.283, +0.665, +0.961, +1.881]
@@ -114,7 +115,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.000, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+0.200, +1.200, +1.500, +1.800]  thumb=[+0.500, +0.700, +0.900, +2.000]
   current (sem): index=[+0.714, +0.570, +1.508, +1.803]  middle=[+0.036, +0.206, +0.795, +0.822]  ring=[+0.980, +1.200, +1.500, +1.800]  thumb=[+0.219, +0.692, +0.914, +1.881]
   err     (sem): index=[-0.714, +0.030, -0.008, -0.003]  middle=[-0.036, -0.206, +0.005, -0.022]  ring=[-0.780, +0.000, +0.000, +0.000]  thumb=[+0.281, +0.008, -0.014, +0.119]
-  [ep 0/1, attempt 1] step 301/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 301/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=3 (p3)
   target  (sem): index=[+0.000, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+0.200, +1.200, +1.500, +1.800]  thumb=[+0.500, +0.700, +0.900, +2.000]
   current (sem): index=[+0.173, +0.593, +1.502, +1.801]  middle=[+0.009, +0.050, +0.799, +0.805]  ring=[+0.389, +1.200, +1.500, +1.800]  thumb=[+0.432, +0.698, +0.903, +1.881]
@@ -155,7 +156,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.800, +0.800, +0.800]  ring=[+0.100, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[-0.026, +0.477, +1.526, +1.854]  middle=[+0.001, +0.721, +0.552, +1.234]  ring=[-0.620, +1.200, +1.500, +1.800]  thumb=[+0.542, +0.555, +1.153, +1.662]
   err     (sem): index=[+0.826, +0.123, -0.026, -0.054]  middle=[-0.001, +0.079, +0.248, -0.434]  ring=[+0.720, -0.000, -0.000, +0.000]  thumb=[-0.342, +0.145, -0.253, +0.338]
-  [ep 0/1, attempt 1] step 401/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 401/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=1 (p1)
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.800, +0.800, +0.800]  ring=[+0.100, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[+0.509, +0.563, +1.537, +1.813]  middle=[+0.084, +0.788, +0.748, +0.905]  ring=[-0.074, +1.200, +1.500, +1.800]  thumb=[+0.283, +0.665, +0.961, +1.881]
@@ -188,7 +189,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.000, +0.500, +1.500, +1.800]  middle=[+0.000, +0.800, +0.500, +1.600]  ring=[-0.800, +1.200, +1.500, +1.800]  thumb=[+0.700, +0.150, +1.750, +1.500]
   current (sem): index=[-0.127, +0.565, +1.501, +1.800]  middle=[+0.006, +0.277, +0.708, +1.047]  ring=[+0.022, +1.200, +1.500, +1.800]  thumb=[+0.454, +0.638, +0.902, +1.881]
   err     (sem): index=[+0.127, -0.065, -0.001, -0.000]  middle=[-0.006, +0.523, -0.208, +0.553]  ring=[-0.822, +0.000, -0.000, +0.000]  thumb=[+0.246, -0.488, +0.848, -0.381]
-  [ep 0/1, attempt 1] step 501/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 501/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=5 (p4)
   target  (sem): index=[+0.000, +0.500, +1.500, +1.800]  middle=[+0.000, +0.800, +0.500, +1.600]  ring=[-0.800, +1.200, +1.500, +1.800]  thumb=[+0.700, +0.150, +1.750, +1.500]
   current (sem): index=[-0.041, +0.457, +1.540, +1.882]  middle=[+0.001, +0.673, +0.550, +1.466]  ring=[-0.601, +1.200, +1.500, +1.800]  thumb=[+0.594, +0.476, +1.291, +1.491]
@@ -221,7 +222,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+1.300, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[+0.513, +0.564, +1.539, +1.813]  middle=[+0.087, +0.789, +0.750, +0.902]  ring=[-0.068, +1.200, +1.500, +1.800]  thumb=[+0.280, +0.666, +0.959, +1.881]
   err     (sem): index=[+0.287, +0.036, -0.039, -0.013]  middle=[-0.087, -0.789, +0.050, -0.102]  ring=[+1.368, +0.000, +0.000, +0.000]  thumb=[-0.080, +0.034, -0.059, +0.119]
-  [ep 0/1, attempt 1] step 601/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 601/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=2 (p2)
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+1.300, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[+0.711, +0.569, +1.508, +1.803]  middle=[+0.037, +0.214, +0.795, +0.823]  ring=[+0.969, +1.200, +1.500, +1.800]  thumb=[+0.219, +0.692, +0.914, +1.881]
@@ -246,7 +247,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.000, +0.500, +1.500, +1.800]  middle=[+0.000, +0.800, +0.500, +1.600]  ring=[-0.800, +1.200, +1.500, +1.800]  thumb=[+0.700, +0.150, +1.750, +1.500]
   current (sem): index=[-0.127, +0.565, +1.501, +1.800]  middle=[+0.006, +0.277, +0.708, +1.047]  ring=[+0.022, +1.200, +1.500, +1.800]  thumb=[+0.454, +0.638, +0.902, +1.881]
   err     (sem): index=[+0.127, -0.065, -0.001, -0.000]  middle=[-0.006, +0.523, -0.208, +0.553]  ring=[-0.822, +0.000, -0.000, +0.000]  thumb=[+0.246, -0.488, +0.848, -0.381]
-  [ep 0/1, attempt 1] step 701/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 701/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=5 (p4)
   target  (sem): index=[+0.000, +0.500, +1.500, +1.800]  middle=[+0.000, +0.800, +0.500, +1.600]  ring=[-0.800, +1.200, +1.500, +1.800]  thumb=[+0.700, +0.150, +1.750, +1.500]
   current (sem): index=[-0.041, +0.457, +1.540, +1.882]  middle=[+0.001, +0.673, +0.550, +1.466]  ring=[-0.601, +1.200, +1.500, +1.800]  thumb=[+0.594, +0.476, +1.291, +1.491]
@@ -279,7 +280,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+1.300, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[+0.513, +0.564, +1.539, +1.813]  middle=[+0.087, +0.789, +0.750, +0.902]  ring=[-0.068, +1.200, +1.500, +1.800]  thumb=[+0.280, +0.666, +0.959, +1.881]
   err     (sem): index=[+0.287, +0.036, -0.039, -0.013]  middle=[-0.087, -0.789, +0.050, -0.102]  ring=[+1.368, +0.000, +0.000, +0.000]  thumb=[-0.080, +0.034, -0.059, +0.119]
-  [ep 0/1, attempt 1] step 801/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 801/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=2 (p2)
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+1.300, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[+0.711, +0.569, +1.508, +1.803]  middle=[+0.037, +0.214, +0.795, +0.823]  ring=[+0.969, +1.200, +1.500, +1.800]  thumb=[+0.219, +0.692, +0.914, +1.881]
@@ -312,7 +313,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.000, +0.500, +1.500, +1.800]  middle=[+0.000, +0.800, +0.500, +0.800]  ring=[-0.800, +1.200, +1.500, +1.800]  thumb=[+0.500, +0.700, +0.900, +2.000]
   current (sem): index=[-0.040, +0.455, +1.541, +1.884]  middle=[+0.001, +0.678, +0.549, +1.471]  ring=[-0.608, +1.200, +1.500, +1.800]  thumb=[+0.596, +0.475, +1.295, +1.486]
   err     (sem): index=[+0.040, +0.045, -0.041, -0.084]  middle=[-0.001, +0.122, -0.049, -0.671]  ring=[-0.192, -0.000, -0.000, +0.000]  thumb=[-0.096, +0.225, -0.395, +0.514]
-  [ep 0/1, attempt 1] step 901/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 901/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=6 (phase6)
   target  (sem): index=[+0.000, +0.500, +1.500, +1.800]  middle=[+0.000, +0.800, +0.500, +0.800]  ring=[-0.800, +1.200, +1.500, +1.800]  thumb=[+0.500, +0.700, +0.900, +2.000]
   current (sem): index=[-0.029, +0.467, +1.529, +1.861]  middle=[+0.001, +0.712, +0.535, +1.284]  ring=[-0.662, +1.200, +1.500, +1.800]  thumb=[+0.570, +0.538, +1.182, +1.624]
@@ -345,7 +346,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.000, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+0.200, +1.200, +1.500, +1.800]  thumb=[+0.500, +0.700, +0.900, +2.000]
   current (sem): index=[+0.714, +0.570, +1.508, +1.803]  middle=[+0.036, +0.206, +0.795, +0.822]  ring=[+0.980, +1.200, +1.500, +1.800]  thumb=[+0.219, +0.692, +0.914, +1.881]
   err     (sem): index=[-0.714, +0.030, -0.008, -0.003]  middle=[-0.036, -0.206, +0.005, -0.022]  ring=[-0.780, +0.000, +0.000, +0.000]  thumb=[+0.281, +0.008, -0.014, +0.119]
-  [ep 0/1, attempt 1] step 1001/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 1001/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=3 (p3)
   target  (sem): index=[+0.000, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+0.200, +1.200, +1.500, +1.800]  thumb=[+0.500, +0.700, +0.900, +2.000]
   current (sem): index=[+0.173, +0.593, +1.502, +1.801]  middle=[+0.009, +0.050, +0.799, +0.805]  ring=[+0.389, +1.200, +1.500, +1.800]  thumb=[+0.432, +0.698, +0.903, +1.881]
@@ -386,7 +387,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.800, +0.800, +0.800]  ring=[+0.100, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[-0.026, +0.477, +1.526, +1.854]  middle=[+0.001, +0.721, +0.552, +1.234]  ring=[-0.620, +1.200, +1.500, +1.800]  thumb=[+0.542, +0.555, +1.153, +1.662]
   err     (sem): index=[+0.826, +0.123, -0.026, -0.054]  middle=[-0.001, +0.079, +0.248, -0.434]  ring=[+0.720, -0.000, -0.000, +0.000]  thumb=[-0.342, +0.145, -0.253, +0.338]
-  [ep 0/1, attempt 1] step 1101/2000  terminated=False  truncated=False
+  [ep 0/1, attempt 1] step 1101/1400  terminated=False  truncated=False
 [scripted_policy] EXIT  phase=1 (p1)
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.800, +0.800, +0.800]  ring=[+0.100, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[+0.509, +0.563, +1.537, +1.813]  middle=[+0.084, +0.788, +0.748, +0.905]  ring=[-0.074, +1.200, +1.500, +1.800]  thumb=[+0.283, +0.665, +0.961, +1.881]
@@ -395,7 +396,7 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+1.300, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[+0.513, +0.564, +1.539, +1.813]  middle=[+0.087, +0.789, +0.750, +0.902]  ring=[-0.068, +1.200, +1.500, +1.800]  thumb=[+0.280, +0.666, +0.959, +1.881]
   err     (sem): index=[+0.287, +0.036, -0.039, -0.013]  middle=[-0.087, -0.789, +0.050, -0.102]  ring=[+1.368, +0.000, +0.000, +0.000]  thumb=[-0.080, +0.034, -0.059, +0.119]
-  [ep 0/1, attempt 1] step 1151/2000  terminated=True  truncated=False
+  [ep 0/1, attempt 1] step 1151/1400  terminated=True  truncated=False
 [scripted_policy] EXIT  phase=2 (p2)
   target  (sem): index=[+0.800, +0.600, +1.500, +1.800]  middle=[+0.000, +0.000, +0.800, +0.800]  ring=[+1.300, +1.200, +1.500, +1.800]  thumb=[+0.200, +0.700, +0.900, +2.000]
   current (sem): index=[+0.711, +0.569, +1.508, +1.803]  middle=[+0.037, +0.214, +0.795, +0.823]  ring=[+0.969, +1.200, +1.500, +1.800]  thumb=[+0.219, +0.692, +0.914, +1.881]
@@ -406,14 +407,17 @@ Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demo
   err     (sem): index=[-0.714, +0.030, -0.008, -0.003]  middle=[-0.036, -0.206, +0.005, -0.022]  ring=[-0.780, +0.000, +0.000, +0.000]  thumb=[+0.281, +0.008, -0.014, +0.119]
   [ep 0, attempt 1] Success at step 1151, collected 30 extra steps.
   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
-[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/FitnessBall-v1/videos/orbit_camera_ep0.mp4
-[38;5;159m[Genesis] [18:28:55] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/FitnessBall-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
-[38;5;159m[Genesis] [18:28:59] [INFO] Video saved.[0m
-  Saved video: /data/gck/maniladder/site/generated_demos/FitnessBall-v1/videos/orbit_camera_ep0.mp4 exists=True
-  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/FitnessBall-v1/videos
+[ManiLadder Camera] stop_recording target=/mnt/gck_website/maniladder.github.io/generated_demos/FitnessBall-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [09:10:43] [INFO] Saving video to [38;5;121m"/mnt/gck_website/maniladder.github.io/generated_demos/FitnessBall-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [09:10:48] [INFO] Video saved.[0m
+  Saved video: /mnt/gck_website/maniladder.github.io/generated_demos/FitnessBall-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /mnt/gck_website/maniladder.github.io/generated_demos/FitnessBall-v1/videos
 
 ============================================================
-Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
+Done. 1 demo trajectories (traj_0..traj_0) saved to /mnt/gck_website/maniladder.github.io/generated_demos
 Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
 ============================================================
-[38;5;159m[Genesis] [18:29:00] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[38;5;159m[Genesis] [09:10:49] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[W 09/29/26 09:10:49.209 4101534] [offline_cache.h:run@186] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. You can run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 09:10:49.410 4101534] [kernel_compilation_manager.cpp:dump@104] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 09:10:49.661 4101534] [ptx_cache.cpp:dump@92] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.

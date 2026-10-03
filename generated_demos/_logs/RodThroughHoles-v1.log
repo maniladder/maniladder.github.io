@@ -1,108 +1,1147 @@
-[38;5;159m[Genesis] [18:25:27] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:25:27] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:25:27] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:25:28] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
-[38;5;159m[Genesis] [18:25:28] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:25:30] [INFO] Scene [38;5;121m[3m<40cac2a>[0m[38;5;159m created.[0m
-[38;5;159m[Genesis] [18:25:30] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<bc59e59>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:34] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<1428e58>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [18:25:36] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+[38;5;159m[Genesis] [09:10:54] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [09:10:54] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [09:10:54] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[W 09/29/26 09:10:55.090 4112653] [ptx_cache.cpp:PtxCache@73] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.
+[38;5;159m[Genesis] [09:10:55] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [09:10:55] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [09:10:57] [INFO] Scene [38;5;121m[3m<38f8c08>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [09:10:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<f20e2dd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:00] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<3ae8bfc>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [09:11:02] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
   warnings.warn("pygltflib currently does not remove image data "
-[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<64f20be>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<7d3d194>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<b272faf>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<6e879c2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<2dcd47a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<a24c1f2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Preprocessing geom idx [38;5;121m[4m83[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<20f102f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<8b31bc3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<0364e79>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:36] [INFO] Preprocessing geom idx [38;5;121m[4m86[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<3bae9e1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<fdece3d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:37] [INFO] Preprocessing geom idx [38;5;121m[4m88[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<e99e8b7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m14[0m[38;5;159m, uid: [38;5;121m[3m<e9428a8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m15[0m[38;5;159m, uid: [38;5;121m[3m<06f83fd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m16[0m[38;5;159m, uid: [38;5;121m[3m<69ba9e6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:37] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m17[0m[38;5;159m, uid: [38;5;121m[3m<e64421c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:25:37] [INFO] Building scene [38;5;121m[3m<40cac2a>[0m[38;5;159m...[0m
-[38;5;226m[Genesis] [18:25:41] [WARNING] Reference robot position exceeds joint limits.[0m
-[38;5;226m[Genesis] [18:25:43] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 3762, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
-[38;5;159m[Genesis] [18:25:52] [INFO] Compiling simulation kernels...[0m
-[38;5;159m[Genesis] [18:26:28] [INFO] Building visualizer...[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<a8a2e9f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<5eac665>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<6121f29>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<c9ac42a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<2095022>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<81b8ecb>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<79ae838>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<9c95582>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [09:11:02] [WARNING] FileMorph option 'decompose_nonconvex' is deprecated and will be removed in future release. Please use 'convexify' and 'decompose_(robot|object)_error_threshold' instead.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<ba0cfaa>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/ring_torus_r035.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Convex hull is not accurate enough for collision detection (0.637). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;226m[Genesis] [09:11:02] [WARNING] FileMorph option 'decompose_nonconvex' is deprecated and will be removed in future release. Please use 'convexify' and 'decompose_(robot|object)_error_threshold' instead.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<714de7a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/ring_torus_r035.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Convex hull is not accurate enough for collision detection (0.637). Falling back to more expensive convex decomposition (see FileMorph options).[0m
+[38;5;159m[Genesis] [09:11:02] [INFO] Building scene [38;5;121m[3m<38f8c08>[0m[38;5;159m...[0m
+[W 09/29/26 09:11:03.252 4112653] [kernel_compilation_manager.cpp:KernelCompilationManager@69] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[38;5;226m[Genesis] [09:11:06] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [09:11:07] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 4410, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [09:11:15] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [09:11:51] [INFO] Building visualizer...[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
   return func(*args, **kwargs)
 Action space: Box(-1.0, 1.0, (22,), float32)
-Generating 1 orbit video-only demos → /data/gck/maniladder/site/generated_demos/RodThroughHoles-v1
-[pcd] n_verts=66, centroid=[0.24107908 0.07049044 0.31      ], axis=[ 1.00000000e+00 -3.84994673e-20  7.27560214e-09], length=|pmax-pmin|=0.5000 (should ≈ rod_length=0.5), tip_minus=[-0.00892092  0.07049044  0.31      ], tip_plus=[0.49107909 0.07049044 0.31      ]
+Generating 1 orbit video-only demos → /mnt/gck_website/maniladder.github.io/generated_demos/RodThroughHoles-v1
+[pcd] n_verts=66, centroid=[ 0.25518226 -0.15319292  0.31      ], axis=[-1.00000000e+00  2.56657600e-20 -7.27560215e-09], length=|pmax-pmin|=0.5000 (should ≈ rod_length=0.5), tip_minus=[ 0.00518225 -0.15319292  0.31      ], tip_plus=[ 0.50518227 -0.15319292  0.31      ]
   [ep 0/1, attempt 1] step 1/1500  terminated=False  truncated=False
-[step 10] phase=0 rod=(p=+0.00°,y=-1.16°) hole=(p=-6.30°,y=-4.11°)
-[step 20] phase=0 rod=(p=-0.00°,y=-1.16°) hole=(p=-6.30°,y=-4.11°)
-[step 30] phase=0 rod=(p=+0.00°,y=-1.16°) hole=(p=-6.30°,y=-4.11°)
-[step 40] phase=1 rod=(p=+0.00°,y=-1.16°) hole=(p=-6.30°,y=-4.11°)
-[step 50] phase=2 rod=(p=+0.00°,y=-1.16°) hole=(p=-6.30°,y=-4.11°)
-[step 60] phase=2 rod=(p=-0.07°,y=-0.65°) hole=(p=-6.30°,y=-4.11°)
-[step 70] phase=2 rod=(p=+2.45°,y=-0.32°) hole=(p=-6.30°,y=-4.11°)
-[step 80] phase=2 rod=(p=-1.17°,y=-5.02°) hole=(p=-6.30°,y=-4.11°)
-[step 90] phase=2 rod=(p=+0.44°,y=-3.77°) hole=(p=-6.30°,y=-4.11°)
-[step 100] phase=2 rod=(p=-0.46°,y=-4.73°) hole=(p=-6.30°,y=-4.11°)
+[step 10] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=+19.52°,y=+6.89°)
+[step 20] phase=0 rod=(p=+0.00°,y=-0.00°) hole=(p=+19.52°,y=+6.89°)
+[step 30] phase=0 rod=(p=+0.00°,y=-0.00°) hole=(p=+19.52°,y=+6.89°)
+[step 40] phase=0 rod=(p=+0.00°,y=-0.00°) hole=(p=+19.52°,y=+6.89°)
+[step 50] phase=1 rod=(p=+0.00°,y=-0.00°) hole=(p=+19.52°,y=+6.89°)
+[step 60] phase=2 rod=(p=+0.00°,y=-0.00°) hole=(p=+19.52°,y=+6.89°)
+[step 70] phase=2 rod=(p=+0.00°,y=-0.00°) hole=(p=+19.52°,y=+6.89°)
+[step 80] phase=2 rod=(p=-2.37°,y=-0.52°) hole=(p=+19.52°,y=+6.89°)
+[step 90] phase=2 rod=(p=-3.24°,y=-0.91°) hole=(p=+19.52°,y=+6.89°)
+[step 100] phase=2 rod=(p=-1.01°,y=-4.33°) hole=(p=+19.52°,y=+6.89°)
   [ep 0/1, attempt 1] step 101/1500  terminated=False  truncated=False
-[step 110] phase=3 rod=(p=-0.84°,y=-4.67°) hole=(p=-6.30°,y=-4.11°)
-[step 120] phase=3 rod=(p=-0.78°,y=-3.91°) hole=(p=-6.30°,y=-4.11°)
-[step 130] phase=4 rod=(p=-1.07°,y=-2.44°) hole=(p=-6.30°,y=-4.11°)
-[step 140] phase=4 rod=(p=-1.53°,y=-1.53°) hole=(p=-6.30°,y=-4.11°)
-[step 150] phase=4 rod=(p=-1.21°,y=-0.60°) hole=(p=-6.30°,y=-4.11°)
-[step 160] phase=4 rod=(p=-1.46°,y=-0.59°) hole=(p=-6.30°,y=-4.11°)
-[step 170] phase=4 rod=(p=-1.82°,y=-0.97°) hole=(p=-6.30°,y=-4.11°)
-[step 180] phase=4 rod=(p=-2.18°,y=-1.10°) hole=(p=-6.30°,y=-4.11°)
-[P5 position] center_err=161.5mm to pre_center
-[step 190] phase=5 rod=(p=-3.09°,y=-1.15°) hole=(p=-6.30°,y=-4.11°)
-[P5 position] center_err=62.6mm to pre_center
-[step 200] phase=5 rod=(p=-3.90°,y=-1.10°) hole=(p=-6.30°,y=-4.11°)
+[step 110] phase=2 rod=(p=-5.37°,y=-6.94°) hole=(p=+19.52°,y=+6.89°)
+[step 120] phase=3 rod=(p=-18.55°,y=-58.64°) hole=(p=+19.52°,y=+6.89°)
+[step 130] phase=4 rod=(p=-20.05°,y=+88.36°) hole=(p=+19.52°,y=+6.89°)
+[step 140] phase=4 rod=(p=-18.35°,y=+89.29°) hole=(p=+19.52°,y=+6.89°)
+[step 150] phase=4 rod=(p=-17.14°,y=+89.59°) hole=(p=+19.52°,y=+6.89°)
+[step 160] phase=4 rod=(p=+16.82°,y=-89.98°) hole=(p=+19.52°,y=+6.89°)
+[step 170] phase=4 rod=(p=+16.52°,y=-89.67°) hole=(p=+19.52°,y=+6.89°)
+[step 180] phase=4 rod=(p=+16.40°,y=-89.32°) hole=(p=+19.52°,y=+6.89°)
+[step 190] phase=4 rod=(p=+16.65°,y=-88.08°) hole=(p=+19.52°,y=+6.89°)
+[step 200] phase=4 rod=(p=+23.54°,y=-88.21°) hole=(p=+19.52°,y=+6.89°)
   [ep 0/1, attempt 1] step 201/1500  terminated=False  truncated=False
-[P5 position] center_err=6.9mm to pre_center
-[step 210] phase=5 rod=(p=-4.03°,y=-1.22°) hole=(p=-6.30°,y=-4.11°)
-[P5 -> P6] center_err=4.0mm, wait=23
-[P6 rotate] rod=(p=-4.96°,y=-2.25°) hole=(p=-6.30°,y=-4.11°) Δ=(p=-1.34°,y=-1.85°)
-[step 220] phase=6 rod=(p=-5.48°,y=-2.91°) hole=(p=-6.30°,y=-4.11°)
-[P6 rotate] rod=(p=-5.59°,y=-3.03°) hole=(p=-6.30°,y=-4.11°) Δ=(p=-0.71°,y=-1.07°)
-[P6 done] Δp=-0.71°, Δy=-1.07°, push_target(center)=[ 0.2949634  -0.39995834  0.27560908]
-[P7] remaining=347.0mm  Δ=(p=-0.66°,y=-1.08°)
-[step 230] phase=7 rod=(p=-5.90°,y=-3.46°) hole=(p=-6.30°,y=-4.11°)
-[P7] remaining=315.0mm  Δ=(p=-0.65°,y=-0.65°)
-[step 240] phase=7 rod=(p=-4.89°,y=-2.36°) hole=(p=-6.30°,y=-4.11°)
-[P7] remaining=282.1mm  Δ=(p=-1.56°,y=-2.06°)
-[step 250] phase=7 rod=(p=-4.02°,y=-0.94°) hole=(p=-6.30°,y=-4.11°)
-[P7] remaining=249.1mm  Δ=(p=-2.47°,y=-3.35°)
-[step 260] phase=7 rod=(p=-3.40°,y=-0.15°) hole=(p=-6.30°,y=-4.11°)
-[P7] remaining=217.4mm  Δ=(p=-3.01°,y=-4.06°)
-[step 270] phase=7 rod=(p=-3.08°,y=+0.01°) hole=(p=-6.30°,y=-4.11°)
-[P7] remaining=183.3mm  Δ=(p=-3.24°,y=-4.09°)
-[step 280] phase=7 rod=(p=-2.99°,y=-0.27°) hole=(p=-6.30°,y=-4.11°)
-[P7] remaining=148.0mm  Δ=(p=-3.27°,y=-3.76°)
-[step 290] phase=7 rod=(p=-3.52°,y=-0.62°) hole=(p=-6.30°,y=-4.11°)
-[P7] remaining=112.2mm  Δ=(p=-2.90°,y=-3.34°)
-  [ep 0/1, attempt 1] step 294/1500  terminated=True  truncated=False
-[step 300] phase=7 rod=(p=-3.48°,y=-1.60°) hole=(p=-6.30°,y=-4.11°)
-[P7] remaining=77.1mm  Δ=(p=-2.78°,y=-2.37°)
-[step 310] phase=7 rod=(p=-4.02°,y=-2.06°) hole=(p=-6.30°,y=-4.11°)
-[P7] remaining=44.0mm  Δ=(p=-2.64°,y=-1.97°)
-[P7 done] final center=[ 0.2592164  -0.40806088  0.26513973]
-[step 320] phase=8 rod=(p=-4.12°,y=-2.59°) hole=(p=-6.30°,y=-4.11°)
-  [ep 0, attempt 1] Success at step 294, collected 30 extra steps.
-  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
-[ManiLadder Camera] stop_recording target=/data/gck/maniladder/site/generated_demos/RodThroughHoles-v1/videos/orbit_camera_ep0.mp4
-[38;5;159m[Genesis] [18:28:35] [INFO] Saving video to [38;5;121m"/data/gck/maniladder/site/generated_demos/RodThroughHoles-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
-[38;5;159m[Genesis] [18:28:36] [INFO] Video saved.[0m
-  Saved video: /data/gck/maniladder/site/generated_demos/RodThroughHoles-v1/videos/orbit_camera_ep0.mp4 exists=True
-  Videos for episode 0 saved to /data/gck/maniladder/site/generated_demos/RodThroughHoles-v1/videos
+[step 210] phase=4 rod=(p=+10.98°,y=-81.96°) hole=(p=+19.52°,y=+6.89°)
+[step 220] phase=4 rod=(p=-2.32°,y=-74.97°) hole=(p=+19.52°,y=+6.89°)
+[step 230] phase=4 rod=(p=+11.32°,y=-87.26°) hole=(p=+19.52°,y=+6.89°)
+[step 240] phase=4 rod=(p=-27.87°,y=-87.79°) hole=(p=+19.52°,y=+6.89°)
+[step 250] phase=4 rod=(p=-46.30°,y=-88.29°) hole=(p=+19.52°,y=+6.89°)
+[step 260] phase=4 rod=(p=-42.14°,y=-81.60°) hole=(p=+19.52°,y=+6.89°)
+[step 270] phase=4 rod=(p=-54.75°,y=-60.43°) hole=(p=+19.52°,y=+6.89°)
+[step 280] phase=5 rod=(p=-37.44°,y=+57.90°) hole=(p=+19.52°,y=+6.89°)
+[P5 position] center_err=468.5mm to pre_center
+[step 290] phase=5 rod=(p=-16.99°,y=+69.47°) hole=(p=+19.52°,y=+6.89°)
+[P5 position] center_err=505.6mm to pre_center
+[step 300] phase=5 rod=(p=-17.44°,y=+69.74°) hole=(p=+19.52°,y=+6.89°)
+[P5 position] center_err=423.3mm to pre_center
+  [ep 0/1, attempt 1] step 301/1500  terminated=False  truncated=False
+[step 310] phase=5 rod=(p=-18.27°,y=+69.83°) hole=(p=+19.52°,y=+6.89°)
+[P5 position] center_err=338.4mm to pre_center
+[step 320] phase=5 rod=(p=-18.65°,y=+69.95°) hole=(p=+19.52°,y=+6.89°)
+[P5 position] center_err=254.9mm to pre_center
+[step 330] phase=5 rod=(p=-19.03°,y=+70.07°) hole=(p=+19.52°,y=+6.89°)
+[P5 position] center_err=171.4mm to pre_center
+[step 340] phase=5 rod=(p=-19.26°,y=+70.17°) hole=(p=+19.52°,y=+6.89°)
+[P5 position] center_err=88.2mm to pre_center
+[step 350] phase=5 rod=(p=-19.50°,y=+70.22°) hole=(p=+19.52°,y=+6.89°)
+[P5 position] center_err=14.6mm to pre_center
+[P5 -> P6] center_err=3.1mm, wait=77
+[step 360] phase=6 rod=(p=-18.77°,y=+67.57°) hole=(p=+19.52°,y=+6.89°)
+[P6 rotate] rod=(p=-18.30°,y=66.17°) hole=(p=19.52°,y=6.89°) Δ=(p=37.82°,y=-59.28°)
+[P6 rotate] rod=(p=-16.00°,y=59.23°) hole=(p=19.52°,y=6.89°) Δ=(p=35.52°,y=-52.34°)
+[step 370] phase=6 rod=(p=-13.62°,y=+53.90°) hole=(p=+19.52°,y=+6.89°)
+[P6 rotate] rod=(p=-12.97°,y=52.61°) hole=(p=19.52°,y=6.89°) Δ=(p=32.49°,y=-45.72°)
+[P6 rotate] rod=(p=-9.45°,y=46.34°) hole=(p=19.52°,y=6.89°) Δ=(p=28.97°,y=-39.45°)
+[step 380] phase=6 rod=(p=-6.35°,y=+41.58°) hole=(p=+19.52°,y=+6.89°)
+[P6 rotate] rod=(p=-5.53°,y=40.43°) hole=(p=19.52°,y=6.89°) Δ=(p=25.05°,y=-33.54°)
+[P6 rotate] rod=(p=-1.26°,y=34.83°) hole=(p=19.52°,y=6.89°) Δ=(p=20.77°,y=-27.94°)
+[step 390] phase=6 rod=(p=+2.38°,y=+30.55°) hole=(p=+19.52°,y=+6.89°)
+[P6 rotate] rod=(p=3.30°,y=29.49°) hole=(p=19.52°,y=6.89°) Δ=(p=16.22°,y=-22.60°)
+[P6 rotate] rod=(p=7.05°,y=25.68°) hole=(p=19.52°,y=6.89°) Δ=(p=12.47°,y=-18.79°)
+[step 400] phase=6 rod=(p=+9.02°,y=+24.95°) hole=(p=+19.52°,y=+6.89°)
+[P6 rotate] rod=(p=9.39°,y=24.79°) hole=(p=19.52°,y=6.89°) Δ=(p=10.13°,y=-17.90°)
+  [ep 0/1, attempt 1] step 401/1500  terminated=False  truncated=False
+[P6 rotate] rod=(p=11.17°,y=23.57°) hole=(p=19.52°,y=6.89°) Δ=(p=8.35°,y=-16.68°)
+[step 410] phase=6 rod=(p=+12.41°,y=+21.95°) hole=(p=+19.52°,y=+6.89°)
+[P6 rotate] rod=(p=12.74°,y=21.35°) hole=(p=19.52°,y=6.89°) Δ=(p=6.78°,y=-14.46°)
+[P6 rotate] rod=(p=14.40°,y=18.05°) hole=(p=19.52°,y=6.89°) Δ=(p=5.12°,y=-11.16°)
+[step 420] phase=6 rod=(p=+15.87°,y=+14.86°) hole=(p=+19.52°,y=+6.89°)
+[P6 rotate] rod=(p=16.07°,y=14.24°) hole=(p=19.52°,y=6.89°) Δ=(p=3.45°,y=-7.35°)
+[P6 rotate] rod=(p=17.82°,y=10.46°) hole=(p=19.52°,y=6.89°) Δ=(p=1.70°,y=-3.57°)
+[step 430] phase=6 rod=(p=+18.75°,y=+8.29°) hole=(p=+19.52°,y=+6.89°)
+[P6 rotate] rod=(p=18.88°,y=8.02°) hole=(p=19.52°,y=6.89°) Δ=(p=0.64°,y=-1.13°)
+[P6 done] Δp=0.52°, Δy=-0.59°, push_target(center)=[0.3668142  0.3721976  0.29221407]
+[P7] remaining=319.7mm push  Δ=(p=+0.50°,y=-0.51°) mcp_lag=50.7mm tip+=[0.301, 0.364, 0.272]
+[step 440] phase=7 rod=(p=+18.61°,y=+6.74°) hole=(p=+19.52°,y=+6.89°)
+[P7] remaining=284.8mm push  Δ=(p=+0.98°,y=+0.31°) mcp_lag=50.9mm tip+=[0.334, 0.368, 0.281]
+[step 450] phase=7 rod=(p=+18.63°,y=+6.55°) hole=(p=+19.52°,y=+6.89°)
+[P7] remaining=252.1mm push  Δ=(p=+0.86°,y=+0.41°) mcp_lag=50.7mm tip+=[0.365, 0.371, 0.292]
+[step 460] phase=7 rod=(p=+18.64°,y=+6.53°) hole=(p=+19.52°,y=+6.89°)
+[P7] remaining=219.2mm push  Δ=(p=+0.81°,y=+0.31°) mcp_lag=50.6mm tip+=[0.396, 0.375, 0.303]
+[step 470] phase=7 rod=(p=+18.74°,y=+6.54°) hole=(p=+19.52°,y=+6.89°)
+[P7] remaining=187.7mm push  Δ=(p=+0.70°,y=+0.24°) mcp_lag=50.4mm tip+=[0.425, 0.378, 0.313]
+[step 480] phase=7 rod=(p=+18.99°,y=+6.77°) hole=(p=+19.52°,y=+6.89°)
+[P7] remaining=155.7mm push  Δ=(p=+0.41°,y=+0.01°) mcp_lag=50.2mm tip+=[0.455, 0.383, 0.324]
+[step 490] phase=7 rod=(p=+19.23°,y=+6.92°) hole=(p=+19.52°,y=+6.89°)
+[P7] remaining=123.6mm push  Δ=(p=+0.20°,y=-0.05°) mcp_lag=50.1mm tip+=[0.485, 0.386, 0.336]
+[step 500] phase=7 rod=(p=+19.41°,y=+6.96°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 501/1500  terminated=False  truncated=False
+[P7] remaining=91.5mm push  Δ=(p=+0.01°,y=-0.07°) mcp_lag=50.0mm tip+=[0.515, 0.39, 0.347]
+[step 510] phase=7 rod=(p=+19.53°,y=+6.87°) hole=(p=+19.52°,y=+6.89°)
+[P7] remaining=59.2mm push  Δ=(p=-0.03°,y=+0.00°) mcp_lag=50.0mm tip+=[0.545, 0.393, 0.357]
+[step 520] phase=7 rod=(p=+19.50°,y=+6.87°) hole=(p=+19.52°,y=+6.89°)
+[P7] remaining=25.9mm push  Δ=(p=-0.09°,y=-0.00°) mcp_lag=50.0mm tip+=[0.576, 0.397, 0.368]
+[P7 done] final center=[0.34886652 0.36942646 0.28704533]
+[step 530] phase=8 rod=(p=+19.76°,y=+6.89°) hole=(p=+19.52°,y=+6.89°)
+[step 540] phase=8 rod=(p=+19.81°,y=+7.01°) hole=(p=+19.52°,y=+6.89°)
+[step 550] phase=8 rod=(p=+19.67°,y=+6.91°) hole=(p=+19.52°,y=+6.89°)
+[step 560] phase=8 rod=(p=+19.33°,y=+6.81°) hole=(p=+19.52°,y=+6.89°)
+[step 570] phase=8 rod=(p=+19.12°,y=+6.85°) hole=(p=+19.52°,y=+6.89°)
+[step 580] phase=8 rod=(p=+18.95°,y=+6.75°) hole=(p=+19.52°,y=+6.89°)
+[step 590] phase=8 rod=(p=+18.61°,y=+6.40°) hole=(p=+19.52°,y=+6.89°)
+[step 600] phase=8 rod=(p=+18.61°,y=+6.41°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 601/1500  terminated=False  truncated=False
+[step 610] phase=8 rod=(p=+18.65°,y=+6.42°) hole=(p=+19.52°,y=+6.89°)
+[step 620] phase=8 rod=(p=+18.88°,y=+6.23°) hole=(p=+19.52°,y=+6.89°)
+[step 630] phase=8 rod=(p=+18.78°,y=+6.24°) hole=(p=+19.52°,y=+6.89°)
+[step 640] phase=8 rod=(p=+18.80°,y=+6.24°) hole=(p=+19.52°,y=+6.89°)
+[step 650] phase=8 rod=(p=+18.74°,y=+6.32°) hole=(p=+19.52°,y=+6.89°)
+[step 660] phase=8 rod=(p=+18.72°,y=+6.38°) hole=(p=+19.52°,y=+6.89°)
+[step 670] phase=8 rod=(p=+18.80°,y=+6.44°) hole=(p=+19.52°,y=+6.89°)
+[step 680] phase=8 rod=(p=+18.73°,y=+6.39°) hole=(p=+19.52°,y=+6.89°)
+[step 690] phase=8 rod=(p=+18.70°,y=+6.40°) hole=(p=+19.52°,y=+6.89°)
+[step 700] phase=8 rod=(p=+18.72°,y=+6.42°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 701/1500  terminated=False  truncated=False
+[step 710] phase=8 rod=(p=+18.74°,y=+6.46°) hole=(p=+19.52°,y=+6.89°)
+[step 720] phase=8 rod=(p=+18.71°,y=+6.43°) hole=(p=+19.52°,y=+6.89°)
+[step 730] phase=8 rod=(p=+18.72°,y=+6.39°) hole=(p=+19.52°,y=+6.89°)
+[step 740] phase=8 rod=(p=+18.72°,y=+6.40°) hole=(p=+19.52°,y=+6.89°)
+[step 750] phase=8 rod=(p=+18.72°,y=+6.41°) hole=(p=+19.52°,y=+6.89°)
+[step 760] phase=8 rod=(p=+18.72°,y=+6.43°) hole=(p=+19.52°,y=+6.89°)
+[step 770] phase=8 rod=(p=+18.74°,y=+6.44°) hole=(p=+19.52°,y=+6.89°)
+[step 780] phase=8 rod=(p=+18.75°,y=+6.47°) hole=(p=+19.52°,y=+6.89°)
+[step 790] phase=8 rod=(p=+18.78°,y=+6.51°) hole=(p=+19.52°,y=+6.89°)
+[step 800] phase=8 rod=(p=+18.80°,y=+6.62°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 801/1500  terminated=False  truncated=False
+[step 810] phase=8 rod=(p=+18.77°,y=+6.69°) hole=(p=+19.52°,y=+6.89°)
+[step 820] phase=8 rod=(p=+18.78°,y=+6.68°) hole=(p=+19.52°,y=+6.89°)
+[step 830] phase=8 rod=(p=+18.79°,y=+6.73°) hole=(p=+19.52°,y=+6.89°)
+[step 840] phase=8 rod=(p=+18.80°,y=+6.75°) hole=(p=+19.52°,y=+6.89°)
+[step 850] phase=8 rod=(p=+18.80°,y=+6.77°) hole=(p=+19.52°,y=+6.89°)
+[step 860] phase=8 rod=(p=+18.81°,y=+6.79°) hole=(p=+19.52°,y=+6.89°)
+[step 870] phase=8 rod=(p=+18.81°,y=+6.82°) hole=(p=+19.52°,y=+6.89°)
+[step 880] phase=8 rod=(p=+18.77°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 890] phase=8 rod=(p=+18.79°,y=+6.71°) hole=(p=+19.52°,y=+6.89°)
+[step 900] phase=8 rod=(p=+18.80°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 901/1500  terminated=False  truncated=False
+[step 910] phase=8 rod=(p=+18.78°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 920] phase=8 rod=(p=+18.80°,y=+6.72°) hole=(p=+19.52°,y=+6.89°)
+[step 930] phase=8 rod=(p=+18.79°,y=+6.72°) hole=(p=+19.52°,y=+6.89°)
+[step 940] phase=8 rod=(p=+18.77°,y=+6.71°) hole=(p=+19.52°,y=+6.89°)
+[step 950] phase=8 rod=(p=+18.82°,y=+6.75°) hole=(p=+19.52°,y=+6.89°)
+[step 960] phase=8 rod=(p=+18.76°,y=+6.73°) hole=(p=+19.52°,y=+6.89°)
+[step 970] phase=8 rod=(p=+18.76°,y=+6.71°) hole=(p=+19.52°,y=+6.89°)
+[step 980] phase=8 rod=(p=+18.77°,y=+6.72°) hole=(p=+19.52°,y=+6.89°)
+[step 990] phase=8 rod=(p=+18.76°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 1000] phase=8 rod=(p=+18.76°,y=+6.71°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 1001/1500  terminated=False  truncated=False
+[step 1010] phase=8 rod=(p=+18.76°,y=+6.72°) hole=(p=+19.52°,y=+6.89°)
+[step 1020] phase=8 rod=(p=+18.75°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 1030] phase=8 rod=(p=+18.73°,y=+6.69°) hole=(p=+19.52°,y=+6.89°)
+[step 1040] phase=8 rod=(p=+18.75°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 1050] phase=8 rod=(p=+18.75°,y=+6.68°) hole=(p=+19.52°,y=+6.89°)
+[step 1060] phase=8 rod=(p=+18.71°,y=+6.66°) hole=(p=+19.52°,y=+6.89°)
+[step 1070] phase=8 rod=(p=+18.74°,y=+6.69°) hole=(p=+19.52°,y=+6.89°)
+[step 1080] phase=8 rod=(p=+18.77°,y=+6.71°) hole=(p=+19.52°,y=+6.89°)
+[step 1090] phase=8 rod=(p=+18.73°,y=+6.67°) hole=(p=+19.52°,y=+6.89°)
+[step 1100] phase=8 rod=(p=+18.74°,y=+6.68°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 1101/1500  terminated=False  truncated=False
+[step 1110] phase=8 rod=(p=+18.79°,y=+6.71°) hole=(p=+19.52°,y=+6.89°)
+[step 1120] phase=8 rod=(p=+18.76°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 1130] phase=8 rod=(p=+18.76°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 1140] phase=8 rod=(p=+18.77°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 1150] phase=8 rod=(p=+18.75°,y=+6.69°) hole=(p=+19.52°,y=+6.89°)
+[step 1160] phase=8 rod=(p=+18.77°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 1170] phase=8 rod=(p=+18.75°,y=+6.69°) hole=(p=+19.52°,y=+6.89°)
+[step 1180] phase=8 rod=(p=+18.76°,y=+6.68°) hole=(p=+19.52°,y=+6.89°)
+[step 1190] phase=8 rod=(p=+18.77°,y=+6.69°) hole=(p=+19.52°,y=+6.89°)
+[step 1200] phase=8 rod=(p=+18.73°,y=+6.67°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 1201/1500  terminated=False  truncated=False
+[step 1210] phase=8 rod=(p=+18.76°,y=+6.69°) hole=(p=+19.52°,y=+6.89°)
+[step 1220] phase=8 rod=(p=+18.74°,y=+6.69°) hole=(p=+19.52°,y=+6.89°)
+[step 1230] phase=8 rod=(p=+18.75°,y=+6.67°) hole=(p=+19.52°,y=+6.89°)
+[step 1240] phase=8 rod=(p=+18.73°,y=+6.67°) hole=(p=+19.52°,y=+6.89°)
+[step 1250] phase=8 rod=(p=+18.73°,y=+6.68°) hole=(p=+19.52°,y=+6.89°)
+[step 1260] phase=8 rod=(p=+18.73°,y=+6.66°) hole=(p=+19.52°,y=+6.89°)
+[step 1270] phase=8 rod=(p=+18.71°,y=+6.65°) hole=(p=+19.52°,y=+6.89°)
+[step 1280] phase=8 rod=(p=+18.71°,y=+6.65°) hole=(p=+19.52°,y=+6.89°)
+[step 1290] phase=8 rod=(p=+18.73°,y=+6.65°) hole=(p=+19.52°,y=+6.89°)
+[step 1300] phase=8 rod=(p=+18.72°,y=+6.65°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 1301/1500  terminated=False  truncated=False
+[step 1310] phase=8 rod=(p=+18.74°,y=+6.66°) hole=(p=+19.52°,y=+6.89°)
+[step 1320] phase=8 rod=(p=+18.75°,y=+6.76°) hole=(p=+19.52°,y=+6.89°)
+[step 1330] phase=8 rod=(p=+18.71°,y=+6.77°) hole=(p=+19.52°,y=+6.89°)
+[step 1340] phase=8 rod=(p=+18.73°,y=+6.78°) hole=(p=+19.52°,y=+6.89°)
+[step 1350] phase=8 rod=(p=+18.75°,y=+6.82°) hole=(p=+19.52°,y=+6.89°)
+[step 1360] phase=8 rod=(p=+18.75°,y=+6.81°) hole=(p=+19.52°,y=+6.89°)
+[step 1370] phase=8 rod=(p=+18.69°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 1380] phase=8 rod=(p=+18.74°,y=+6.68°) hole=(p=+19.52°,y=+6.89°)
+[step 1390] phase=8 rod=(p=+18.72°,y=+6.67°) hole=(p=+19.52°,y=+6.89°)
+[step 1400] phase=8 rod=(p=+18.76°,y=+6.75°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 1401/1500  terminated=False  truncated=False
+[step 1410] phase=8 rod=(p=+18.75°,y=+6.77°) hole=(p=+19.52°,y=+6.89°)
+[step 1420] phase=8 rod=(p=+18.75°,y=+6.78°) hole=(p=+19.52°,y=+6.89°)
+[step 1430] phase=8 rod=(p=+18.78°,y=+6.81°) hole=(p=+19.52°,y=+6.89°)
+[step 1440] phase=8 rod=(p=+18.72°,y=+6.77°) hole=(p=+19.52°,y=+6.89°)
+[step 1450] phase=8 rod=(p=+18.73°,y=+6.79°) hole=(p=+19.52°,y=+6.89°)
+[step 1460] phase=8 rod=(p=+18.76°,y=+6.81°) hole=(p=+19.52°,y=+6.89°)
+[step 1470] phase=8 rod=(p=+18.76°,y=+6.84°) hole=(p=+19.52°,y=+6.89°)
+[step 1480] phase=8 rod=(p=+18.74°,y=+6.80°) hole=(p=+19.52°,y=+6.89°)
+[step 1490] phase=8 rod=(p=+18.73°,y=+6.70°) hole=(p=+19.52°,y=+6.89°)
+[step 1500] phase=8 rod=(p=+18.75°,y=+6.68°) hole=(p=+19.52°,y=+6.89°)
+  [ep 0/1, attempt 1] step 1500/1500  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 1 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/1) | moving avg (last 1): 0.0%
+  [ep 0/1, attempt 2] step 1/1500  terminated=False  truncated=False
+[step 1510] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=+1.52°,y=+29.64°)
+[step 1520] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=+1.52°,y=+29.64°)
+[step 1530] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=+1.52°,y=+29.64°)
+[step 1540] phase=1 rod=(p=+0.00°,y=+0.00°) hole=(p=+1.52°,y=+29.64°)
+[step 1550] phase=2 rod=(p=+0.00°,y=+0.00°) hole=(p=+1.52°,y=+29.64°)
+[step 1560] phase=2 rod=(p=+0.00°,y=+0.00°) hole=(p=+1.52°,y=+29.64°)
+[step 1570] phase=2 rod=(p=+1.23°,y=+0.90°) hole=(p=+1.52°,y=+29.64°)
+[step 1580] phase=2 rod=(p=+1.33°,y=-2.15°) hole=(p=+1.52°,y=+29.64°)
+[step 1590] phase=2 rod=(p=-1.61°,y=-5.75°) hole=(p=+1.52°,y=+29.64°)
+[step 1600] phase=2 rod=(p=-1.95°,y=-6.37°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 101/1500  terminated=False  truncated=False
+[step 1610] phase=3 rod=(p=-2.66°,y=-5.86°) hole=(p=+1.52°,y=+29.64°)
+[step 1620] phase=3 rod=(p=-2.19°,y=-5.79°) hole=(p=+1.52°,y=+29.64°)
+[step 1630] phase=4 rod=(p=-1.73°,y=-4.27°) hole=(p=+1.52°,y=+29.64°)
+[step 1640] phase=4 rod=(p=-2.61°,y=-2.93°) hole=(p=+1.52°,y=+29.64°)
+[step 1650] phase=4 rod=(p=-2.87°,y=-2.99°) hole=(p=+1.52°,y=+29.64°)
+[step 1660] phase=4 rod=(p=-3.23°,y=-3.68°) hole=(p=+1.52°,y=+29.64°)
+[step 1670] phase=4 rod=(p=-3.56°,y=-4.24°) hole=(p=+1.52°,y=+29.64°)
+[step 1680] phase=4 rod=(p=-3.84°,y=-4.82°) hole=(p=+1.52°,y=+29.64°)
+[step 1690] phase=5 rod=(p=-4.34°,y=-5.18°) hole=(p=+1.52°,y=+29.64°)
+[P5 position] center_err=213.2mm to pre_center
+[step 1700] phase=5 rod=(p=+0.51°,y=-0.12°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 201/1500  terminated=False  truncated=False
+[P5 position] center_err=134.8mm to pre_center
+[step 1710] phase=5 rod=(p=+6.53°,y=-0.73°) hole=(p=+1.52°,y=+29.64°)
+[P5 position] center_err=35.8mm to pre_center
+[step 1720] phase=5 rod=(p=+6.47°,y=-1.47°) hole=(p=+1.52°,y=+29.64°)
+[P5 -> P6] center_err=3.9mm, wait=32
+[P6 rotate] rod=(p=4.86°,y=2.44°) hole=(p=1.52°,y=29.64°) Δ=(p=-3.34°,y=27.20°)
+[step 1730] phase=6 rod=(p=+3.66°,y=+5.13°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=3.66°,y=5.13°) hole=(p=1.52°,y=29.64°) Δ=(p=-2.13°,y=24.51°)
+[P6 rotate] rod=(p=3.04°,y=6.11°) hole=(p=1.52°,y=29.64°) Δ=(p=-1.52°,y=23.53°)
+[step 1740] phase=6 rod=(p=+2.84°,y=+6.57°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=2.84°,y=6.57°) hole=(p=1.52°,y=29.64°) Δ=(p=-1.32°,y=23.07°)
+[P6 rotate] rod=(p=1.43°,y=11.73°) hole=(p=1.52°,y=29.64°) Δ=(p=0.09°,y=17.91°)
+[step 1750] phase=6 rod=(p=-15.98°,y=+33.09°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-15.98°,y=33.09°) hole=(p=1.52°,y=29.64°) Δ=(p=17.50°,y=-3.45°)
+[P6 rotate] rod=(p=-37.36°,y=32.26°) hole=(p=1.52°,y=29.64°) Δ=(p=38.88°,y=-2.62°)
+[step 1760] phase=6 rod=(p=-29.39°,y=+28.71°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-29.39°,y=28.71°) hole=(p=1.52°,y=29.64°) Δ=(p=30.91°,y=0.93°)
+[P6 rotate] rod=(p=-1.73°,y=40.77°) hole=(p=1.52°,y=29.64°) Δ=(p=3.25°,y=-11.13°)
+[step 1770] phase=6 rod=(p=+1.64°,y=+36.11°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=1.64°,y=36.11°) hole=(p=1.52°,y=29.64°) Δ=(p=-0.12°,y=-6.47°)
+[P6 rotate] rod=(p=18.64°,y=33.79°) hole=(p=1.52°,y=29.64°) Δ=(p=-17.11°,y=-4.15°)
+[step 1780] phase=6 rod=(p=+17.45°,y=+26.54°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=17.45°,y=26.54°) hole=(p=1.52°,y=29.64°) Δ=(p=-15.93°,y=3.10°)
+[P6 rotate] rod=(p=15.70°,y=26.10°) hole=(p=1.52°,y=29.64°) Δ=(p=-14.18°,y=3.54°)
+[step 1790] phase=6 rod=(p=+24.87°,y=+35.95°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=24.87°,y=35.95°) hole=(p=1.52°,y=29.64°) Δ=(p=-23.35°,y=-6.31°)
+[P6 rotate] rod=(p=20.51°,y=33.06°) hole=(p=1.52°,y=29.64°) Δ=(p=-18.99°,y=-3.42°)
+[step 1800] phase=6 rod=(p=+15.30°,y=+30.96°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=15.30°,y=30.96°) hole=(p=1.52°,y=29.64°) Δ=(p=-13.78°,y=-1.32°)
+  [ep 0/1, attempt 2] step 301/1500  terminated=False  truncated=False
+[P6 rotate] rod=(p=13.87°,y=31.12°) hole=(p=1.52°,y=29.64°) Δ=(p=-12.35°,y=-1.48°)
+[step 1810] phase=6 rod=(p=+17.16°,y=+32.36°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=17.16°,y=32.36°) hole=(p=1.52°,y=29.64°) Δ=(p=-15.64°,y=-2.72°)
+[P6 rotate] rod=(p=18.12°,y=32.72°) hole=(p=1.52°,y=29.64°) Δ=(p=-16.60°,y=-3.08°)
+[step 1820] phase=6 rod=(p=+15.96°,y=+33.00°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=15.96°,y=33.00°) hole=(p=1.52°,y=29.64°) Δ=(p=-14.44°,y=-3.36°)
+[P6 rotate] rod=(p=11.43°,y=32.38°) hole=(p=1.52°,y=29.64°) Δ=(p=-9.91°,y=-2.75°)
+[step 1830] phase=6 rod=(p=+8.23°,y=+22.32°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=8.23°,y=22.32°) hole=(p=1.52°,y=29.64°) Δ=(p=-6.71°,y=7.32°)
+[P6 rotate] rod=(p=2.80°,y=18.92°) hole=(p=1.52°,y=29.64°) Δ=(p=-1.28°,y=10.72°)
+[step 1840] phase=6 rod=(p=+5.29°,y=+20.88°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=5.29°,y=20.88°) hole=(p=1.52°,y=29.64°) Δ=(p=-3.76°,y=8.76°)
+[P6 rotate] rod=(p=6.95°,y=21.74°) hole=(p=1.52°,y=29.64°) Δ=(p=-5.43°,y=7.90°)
+[step 1850] phase=6 rod=(p=+4.81°,y=+21.66°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=4.81°,y=21.66°) hole=(p=1.52°,y=29.64°) Δ=(p=-3.29°,y=7.98°)
+[P6 rotate] rod=(p=4.92°,y=21.05°) hole=(p=1.52°,y=29.64°) Δ=(p=-3.40°,y=8.59°)
+[step 1860] phase=6 rod=(p=-1.36°,y=+20.86°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-1.36°,y=20.86°) hole=(p=1.52°,y=29.64°) Δ=(p=2.88°,y=8.78°)
+[P6 rotate] rod=(p=-8.77°,y=20.00°) hole=(p=1.52°,y=29.64°) Δ=(p=10.29°,y=9.64°)
+[step 1870] phase=6 rod=(p=-28.54°,y=+17.15°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-28.54°,y=17.15°) hole=(p=1.52°,y=29.64°) Δ=(p=30.06°,y=12.49°)
+[P6 rotate] rod=(p=-39.09°,y=15.53°) hole=(p=1.52°,y=29.64°) Δ=(p=40.61°,y=14.11°)
+[step 1880] phase=6 rod=(p=-33.39°,y=+17.69°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-33.39°,y=17.69°) hole=(p=1.52°,y=29.64°) Δ=(p=34.91°,y=11.95°)
+[P6 rotate] rod=(p=-25.33°,y=24.22°) hole=(p=1.52°,y=29.64°) Δ=(p=26.85°,y=5.42°)
+[step 1890] phase=6 rod=(p=-19.50°,y=+25.61°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-19.50°,y=25.61°) hole=(p=1.52°,y=29.64°) Δ=(p=21.02°,y=4.03°)
+[P6 rotate] rod=(p=-16.56°,y=24.79°) hole=(p=1.52°,y=29.64°) Δ=(p=18.08°,y=4.85°)
+[step 1900] phase=6 rod=(p=-17.70°,y=+23.33°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-17.70°,y=23.33°) hole=(p=1.52°,y=29.64°) Δ=(p=19.22°,y=6.31°)
+  [ep 0/1, attempt 2] step 401/1500  terminated=False  truncated=False
+[P6 rotate] rod=(p=-16.94°,y=22.44°) hole=(p=1.52°,y=29.64°) Δ=(p=18.46°,y=7.20°)
+[step 1910] phase=6 rod=(p=-15.49°,y=+21.89°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-15.49°,y=21.89°) hole=(p=1.52°,y=29.64°) Δ=(p=17.01°,y=7.75°)
+[P6 rotate] rod=(p=-14.54°,y=21.96°) hole=(p=1.52°,y=29.64°) Δ=(p=16.06°,y=7.68°)
+[step 1920] phase=6 rod=(p=-14.84°,y=+22.02°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-14.84°,y=22.02°) hole=(p=1.52°,y=29.64°) Δ=(p=16.36°,y=7.62°)
+[P6 rotate] rod=(p=-15.75°,y=21.70°) hole=(p=1.52°,y=29.64°) Δ=(p=17.27°,y=7.94°)
+[step 1930] phase=6 rod=(p=-15.99°,y=+21.74°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-15.99°,y=21.74°) hole=(p=1.52°,y=29.64°) Δ=(p=17.51°,y=7.90°)
+[P6 rotate] rod=(p=-19.94°,y=21.81°) hole=(p=1.52°,y=29.64°) Δ=(p=21.46°,y=7.83°)
+[step 1940] phase=6 rod=(p=-19.89°,y=+23.59°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-19.89°,y=23.59°) hole=(p=1.52°,y=29.64°) Δ=(p=21.41°,y=6.05°)
+[P6 rotate] rod=(p=-24.75°,y=20.52°) hole=(p=1.52°,y=29.64°) Δ=(p=26.27°,y=9.12°)
+[step 1950] phase=6 rod=(p=-21.20°,y=+22.75°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-21.20°,y=22.75°) hole=(p=1.52°,y=29.64°) Δ=(p=22.73°,y=6.89°)
+[P6 rotate] rod=(p=-19.85°,y=23.71°) hole=(p=1.52°,y=29.64°) Δ=(p=21.37°,y=5.93°)
+[step 1960] phase=6 rod=(p=-18.80°,y=+24.74°) hole=(p=+1.52°,y=+29.64°)
+[P6 rotate] rod=(p=-18.80°,y=24.74°) hole=(p=1.52°,y=29.64°) Δ=(p=20.32°,y=4.90°)
+[P6 done] Δp=20.32°, Δy=4.90°, push_target(center)=[ 0.40752313 -0.4296907   0.31446874]
+[P7] remaining=340.3mm BACKOFF  Δ=(p=+13.39°,y=+2.45°) mcp_lag=77.2mm tip+=[0.324, -0.477, 0.264]
+[step 1970] phase=7 rod=(p=-9.62°,y=+27.40°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=361.8mm hold  Δ=(p=+3.10°,y=-0.25°) mcp_lag=45.3mm tip+=[0.306, -0.476, 0.329]
+[step 1980] phase=7 rod=(p=+0.03°,y=+30.41°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=326.6mm push  Δ=(p=-2.38°,y=-2.25°) mcp_lag=55.3mm tip+=[0.324, -0.435, 0.35]
+[step 1990] phase=7 rod=(p=+4.33°,y=+31.97°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=328.6mm hold  Δ=(p=-3.14°,y=-2.57°) mcp_lag=5.1mm tip+=[0.325, -0.445, 0.341]
+[step 2000] phase=7 rod=(p=+4.54°,y=+32.07°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 501/1500  terminated=False  truncated=False
+[P7] remaining=324.7mm push  Δ=(p=-2.06°,y=-0.91°) mcp_lag=51.5mm tip+=[0.332, -0.449, 0.33]
+[step 2010] phase=7 rod=(p=+3.31°,y=+30.10°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=319.5mm push  Δ=(p=-1.16°,y=+0.79°) mcp_lag=54.5mm tip+=[0.34, -0.451, 0.32]
+[step 2020] phase=7 rod=(p=+2.24°,y=+28.38°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=302.3mm push  Δ=(p=-0.12°,y=+2.34°) mcp_lag=54.4mm tip+=[0.362, -0.455, 0.312]
+[step 2030] phase=7 rod=(p=+1.54°,y=+27.28°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=295.3mm push  Δ=(p=+0.22°,y=+2.52°) mcp_lag=54.4mm tip+=[0.368, -0.453, 0.312]
+[step 2040] phase=7 rod=(p=+1.23°,y=+27.06°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=288.7mm push  Δ=(p=+0.33°,y=+2.48°) mcp_lag=54.3mm tip+=[0.374, -0.449, 0.312]
+[step 2050] phase=7 rod=(p=+1.21°,y=+27.14°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=277.8mm push  Δ=(p=+0.26°,y=+2.47°) mcp_lag=54.0mm tip+=[0.384, -0.444, 0.313]
+[step 2060] phase=7 rod=(p=+1.34°,y=+27.17°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=267.8mm push  Δ=(p=+0.02°,y=+2.59°) mcp_lag=54.4mm tip+=[0.393, -0.44, 0.313]
+[step 2070] phase=7 rod=(p=+1.63°,y=+27.00°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=259.1mm push  Δ=(p=-0.07°,y=+2.86°) mcp_lag=54.9mm tip+=[0.401, -0.436, 0.314]
+[step 2080] phase=7 rod=(p=+1.62°,y=+27.16°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=251.1mm push  Δ=(p=-0.46°,y=+2.56°) mcp_lag=53.9mm tip+=[0.408, -0.432, 0.315]
+[step 2090] phase=7 rod=(p=+2.07°,y=+26.86°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=243.0mm push  Δ=(p=-0.41°,y=+2.59°) mcp_lag=53.9mm tip+=[0.415, -0.429, 0.315]
+[step 2100] phase=7 rod=(p=+1.92°,y=+26.82°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 601/1500  terminated=False  truncated=False
+[P7] remaining=237.7mm push  Δ=(p=-1.65°,y=+2.22°) mcp_lag=54.4mm tip+=[0.42, -0.426, 0.316]
+[step 2110] phase=7 rod=(p=+2.70°,y=+27.09°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=231.7mm push  Δ=(p=+1.84°,y=+2.35°) mcp_lag=54.3mm tip+=[0.425, -0.423, 0.311]
+[step 2120] phase=7 rod=(p=+0.07°,y=+27.03°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=226.8mm hold  Δ=(p=+3.46°,y=+1.21°) mcp_lag=26.1mm tip+=[0.428, -0.419, 0.309]
+[step 2130] phase=7 rod=(p=-1.12°,y=+28.63°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=221.0mm hold  Δ=(p=+0.65°,y=+2.93°) mcp_lag=22.0mm tip+=[0.435, -0.419, 0.313]
+[step 2140] phase=7 rod=(p=+1.04°,y=+27.02°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=217.4mm push  Δ=(p=+0.18°,y=+2.58°) mcp_lag=53.5mm tip+=[0.437, -0.416, 0.314]
+[step 2150] phase=7 rod=(p=+1.40°,y=+26.74°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=213.9mm push  Δ=(p=+0.06°,y=+2.86°) mcp_lag=54.1mm tip+=[0.441, -0.416, 0.315]
+[step 2160] phase=7 rod=(p=+1.43°,y=+27.17°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=210.7mm hold  Δ=(p=+0.10°,y=+2.89°) mcp_lag=20.2mm tip+=[0.444, -0.415, 0.314]
+[step 2170] phase=7 rod=(p=+1.41°,y=+26.96°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=207.7mm push  Δ=(p=+0.13°,y=+2.84°) mcp_lag=53.7mm tip+=[0.447, -0.413, 0.314]
+[step 2180] phase=7 rod=(p=+1.48°,y=+27.07°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=204.9mm push  Δ=(p=-0.02°,y=+2.63°) mcp_lag=53.4mm tip+=[0.449, -0.411, 0.315]
+[step 2190] phase=7 rod=(p=+1.69°,y=+26.69°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=201.9mm hold  Δ=(p=-0.25°,y=+3.03°) mcp_lag=20.9mm tip+=[0.452, -0.411, 0.316]
+[step 2200] phase=7 rod=(p=+1.68°,y=+26.89°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 701/1500  terminated=False  truncated=False
+[P7] remaining=199.7mm hold  Δ=(p=-0.15°,y=+2.92°) mcp_lag=19.9mm tip+=[0.454, -0.41, 0.315]
+[step 2210] phase=7 rod=(p=+1.63°,y=+26.98°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=197.5mm push  Δ=(p=-0.19°,y=+2.86°) mcp_lag=53.6mm tip+=[0.456, -0.409, 0.315]
+[step 2220] phase=7 rod=(p=+1.78°,y=+27.09°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=195.3mm hold  Δ=(p=-0.30°,y=+2.87°) mcp_lag=19.5mm tip+=[0.458, -0.408, 0.315]
+[step 2230] phase=7 rod=(p=+1.80°,y=+26.98°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=193.2mm hold  Δ=(p=-0.45°,y=+2.92°) mcp_lag=20.2mm tip+=[0.46, -0.407, 0.316]
+[step 2240] phase=7 rod=(p=+2.06°,y=+26.95°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=191.0mm hold  Δ=(p=-0.79°,y=+3.02°) mcp_lag=21.3mm tip+=[0.461, -0.406, 0.317]
+[step 2250] phase=7 rod=(p=+2.27°,y=+26.78°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=189.5mm push  Δ=(p=-0.71°,y=+2.62°) mcp_lag=53.2mm tip+=[0.463, -0.405, 0.316]
+[step 2260] phase=7 rod=(p=+2.21°,y=+26.59°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=187.8mm hold  Δ=(p=-0.70°,y=+2.96°) mcp_lag=20.4mm tip+=[0.464, -0.404, 0.316]
+[step 2270] phase=7 rod=(p=+2.30°,y=+26.92°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=187.3mm push  Δ=(p=+0.44°,y=+2.59°) mcp_lag=53.0mm tip+=[0.464, -0.403, 0.314]
+[step 2280] phase=7 rod=(p=+1.38°,y=+26.63°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=185.6mm push  Δ=(p=-0.24°,y=+2.77°) mcp_lag=53.5mm tip+=[0.466, -0.403, 0.316]
+[step 2290] phase=7 rod=(p=+1.79°,y=+27.05°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=184.2mm push  Δ=(p=-0.61°,y=+2.50°) mcp_lag=53.0mm tip+=[0.467, -0.401, 0.317]
+[step 2300] phase=7 rod=(p=+2.07°,y=+26.67°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 801/1500  terminated=False  truncated=False
+[P7] remaining=182.4mm hold  Δ=(p=-0.60°,y=+2.88°) mcp_lag=19.9mm tip+=[0.469, -0.401, 0.317]
+[step 2310] phase=7 rod=(p=+2.08°,y=+26.90°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=181.2mm push  Δ=(p=-0.69°,y=+2.70°) mcp_lag=53.4mm tip+=[0.47, -0.401, 0.317]
+[step 2320] phase=7 rod=(p=+2.21°,y=+27.13°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=180.2mm push  Δ=(p=-0.54°,y=+2.50°) mcp_lag=52.8mm tip+=[0.471, -0.4, 0.317]
+[step 2330] phase=7 rod=(p=+2.02°,y=+26.66°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=178.3mm hold  Δ=(p=-0.39°,y=+2.99°) mcp_lag=19.8mm tip+=[0.473, -0.4, 0.317]
+[step 2340] phase=7 rod=(p=+1.91°,y=+26.83°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=177.1mm push  Δ=(p=-0.27°,y=+2.75°) mcp_lag=53.2mm tip+=[0.474, -0.399, 0.317]
+[step 2350] phase=7 rod=(p=+1.81°,y=+27.04°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=175.6mm push  Δ=(p=-0.22°,y=+2.59°) mcp_lag=52.8mm tip+=[0.475, -0.398, 0.316]
+[step 2360] phase=7 rod=(p=+1.66°,y=+26.58°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=173.9mm hold  Δ=(p=-0.05°,y=+3.06°) mcp_lag=19.7mm tip+=[0.477, -0.398, 0.316]
+[step 2370] phase=7 rod=(p=+1.61°,y=+26.78°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=176.9mm push  Δ=(p=-2.55°,y=+2.00°) mcp_lag=54.2mm tip+=[0.473, -0.398, 0.322]
+[step 2380] phase=7 rod=(p=+12.72°,y=+30.66°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=175.8mm push  Δ=(p=-2.25°,y=-1.19°) mcp_lag=53.0mm tip+=[0.47, -0.391, 0.32]
+[step 2390] phase=7 rod=(p=+0.13°,y=+30.61°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=167.7mm push  Δ=(p=+2.78°,y=+0.25°) mcp_lag=52.3mm tip+=[0.48, -0.391, 0.308]
+[step 2400] phase=7 rod=(p=-1.28°,y=+29.19°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 901/1500  terminated=False  truncated=False
+[P7] remaining=157.6mm push  Δ=(p=+2.54°,y=+1.34°) mcp_lag=52.5mm tip+=[0.489, -0.387, 0.308]
+[step 2410] phase=7 rod=(p=-0.92°,y=+27.94°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=150.7mm hold  Δ=(p=+5.40°,y=+0.36°) mcp_lag=30.6mm tip+=[0.495, -0.383, 0.301]
+[step 2420] phase=7 rod=(p=-2.70°,y=+29.09°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=144.6mm push  Δ=(p=+0.98°,y=+2.31°) mcp_lag=52.1mm tip+=[0.502, -0.383, 0.313]
+[step 2430] phase=7 rod=(p=+0.87°,y=+26.78°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=136.8mm push  Δ=(p=-0.83°,y=+2.66°) mcp_lag=52.6mm tip+=[0.51, -0.381, 0.319]
+[step 2440] phase=7 rod=(p=+2.37°,y=+27.10°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=131.9mm hold  Δ=(p=+5.31°,y=+1.98°) mcp_lag=31.0mm tip+=[0.513, -0.377, 0.3]
+[step 2450] phase=7 rod=(p=-3.09°,y=+28.25°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.0mm push  Δ=(p=+0.59°,y=+2.69°) mcp_lag=52.4mm tip+=[0.519, -0.376, 0.316]
+[step 2460] phase=7 rod=(p=+1.39°,y=+27.05°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.0mm push  Δ=(p=-0.76°,y=+2.67°) mcp_lag=52.3mm tip+=[0.519, -0.376, 0.32]
+[step 2470] phase=7 rod=(p=+2.38°,y=+26.58°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.8mm push  Δ=(p=+0.83°,y=+2.63°) mcp_lag=52.3mm tip+=[0.519, -0.375, 0.314]
+[step 2480] phase=7 rod=(p=+1.00°,y=+26.63°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=127.0mm push  Δ=(p=+2.35°,y=+2.64°) mcp_lag=54.3mm tip+=[0.518, -0.375, 0.312]
+[step 2490] phase=7 rod=(p=-0.34°,y=+27.17°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.6mm hold  Δ=(p=+0.31°,y=+2.99°) mcp_lag=17.2mm tip+=[0.52, -0.376, 0.316]
+[step 2500] phase=7 rod=(p=+1.50°,y=+26.82°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 1001/1500  terminated=False  truncated=False
+[P7] remaining=126.1mm hold  Δ=(p=-0.72°,y=+2.94°) mcp_lag=17.2mm tip+=[0.519, -0.376, 0.32]
+[step 2510] phase=7 rod=(p=+4.40°,y=+27.59°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=128.3mm BACKOFF  Δ=(p=-18.46°,y=+0.05°) mcp_lag=104.0mm tip+=[0.501, -0.374, 0.376]
+[step 2520] phase=7 rod=(p=+19.03°,y=+29.84°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=131.3mm BACKOFF  Δ=(p=-16.93°,y=-1.26°) mcp_lag=97.7mm tip+=[0.499, -0.372, 0.37]
+[step 2530] phase=7 rod=(p=+21.80°,y=+31.41°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=135.5mm BACKOFF  Δ=(p=-18.11°,y=-1.50°) mcp_lag=106.3mm tip+=[0.495, -0.375, 0.371]
+[step 2540] phase=7 rod=(p=+19.44°,y=+31.25°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=139.8mm BACKOFF  Δ=(p=-10.01°,y=-1.02°) mcp_lag=65.5mm tip+=[0.499, -0.375, 0.346]
+[step 2550] phase=7 rod=(p=+11.23°,y=+30.32°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=144.7mm BACKOFF  Δ=(p=-15.03°,y=+0.11°) mcp_lag=91.6mm tip+=[0.493, -0.383, 0.36]
+[step 2560] phase=7 rod=(p=+22.53°,y=+27.30°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=139.8mm BACKOFF  Δ=(p=+8.45°,y=+2.05°) mcp_lag=56.7mm tip+=[0.505, -0.381, 0.29]
+[step 2570] phase=7 rod=(p=-17.32°,y=+26.55°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=138.5mm BACKOFF  Δ=(p=+17.89°,y=+1.60°) mcp_lag=105.2mm tip+=[0.499, -0.384, 0.264]
+[step 2580] phase=7 rod=(p=-13.38°,y=+28.91°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=140.1mm BACKOFF  Δ=(p=+10.37°,y=+2.54°) mcp_lag=68.4mm tip+=[0.504, -0.383, 0.287]
+[step 2590] phase=7 rod=(p=-4.92°,y=+26.06°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=134.4mm hold  Δ=(p=+0.23°,y=+3.01°) mcp_lag=17.4mm tip+=[0.512, -0.38, 0.318]
+[step 2600] phase=7 rod=(p=+1.28°,y=+27.47°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 1101/1500  terminated=False  truncated=False
+[P7] remaining=129.2mm hold  Δ=(p=+1.21°,y=+3.00°) mcp_lag=18.0mm tip+=[0.517, -0.378, 0.313]
+[step 2610] phase=7 rod=(p=+0.89°,y=+26.96°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.5mm push  Δ=(p=+0.78°,y=+2.82°) mcp_lag=52.7mm tip+=[0.52, -0.375, 0.314]
+[step 2620] phase=7 rod=(p=+1.15°,y=+27.02°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.7mm hold  Δ=(p=+0.77°,y=+2.94°) mcp_lag=17.2mm tip+=[0.52, -0.376, 0.314]
+[step 2630] phase=7 rod=(p=+1.07°,y=+26.99°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.0mm hold  Δ=(p=+2.27°,y=+2.99°) mcp_lag=21.1mm tip+=[0.519, -0.376, 0.31]
+[step 2640] phase=7 rod=(p=-0.24°,y=+27.03°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.4mm hold  Δ=(p=+0.12°,y=+3.07°) mcp_lag=17.7mm tip+=[0.52, -0.376, 0.317]
+[step 2650] phase=7 rod=(p=+1.60°,y=+26.76°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.7mm hold  Δ=(p=+1.41°,y=+2.90°) mcp_lag=17.7mm tip+=[0.519, -0.376, 0.312]
+[step 2660] phase=7 rod=(p=-0.01°,y=+27.13°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.6mm push  Δ=(p=+0.08°,y=+2.85°) mcp_lag=52.7mm tip+=[0.519, -0.375, 0.317]
+[step 2670] phase=7 rod=(p=+2.19°,y=+27.27°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.3mm push  Δ=(p=+1.88°,y=+2.73°) mcp_lag=53.2mm tip+=[0.519, -0.376, 0.311]
+[step 2680] phase=7 rod=(p=+0.05°,y=+27.20°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.4mm hold  Δ=(p=+2.90°,y=+2.93°) mcp_lag=24.0mm tip+=[0.519, -0.377, 0.31]
+[step 2690] phase=7 rod=(p=-1.53°,y=+27.20°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.6mm push  Δ=(p=+1.02°,y=+2.79°) mcp_lag=52.7mm tip+=[0.519, -0.375, 0.313]
+[step 2700] phase=7 rod=(p=+0.66°,y=+27.18°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 1201/1500  terminated=False  truncated=False
+[P7] remaining=126.2mm push  Δ=(p=+0.61°,y=+2.48°) mcp_lag=52.0mm tip+=[0.519, -0.375, 0.315]
+[step 2710] phase=7 rod=(p=+1.02°,y=+26.81°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.8mm push  Δ=(p=+0.63°,y=+2.73°) mcp_lag=52.6mm tip+=[0.519, -0.375, 0.315]
+[step 2720] phase=7 rod=(p=+0.89°,y=+27.23°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.1mm push  Δ=(p=+0.70°,y=+2.79°) mcp_lag=52.4mm tip+=[0.519, -0.376, 0.314]
+[step 2730] phase=7 rod=(p=+0.82°,y=+27.10°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.4mm push  Δ=(p=+0.72°,y=+2.43°) mcp_lag=52.0mm tip+=[0.518, -0.375, 0.315]
+[step 2740] phase=7 rod=(p=+0.63°,y=+26.83°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.0mm push  Δ=(p=+1.03°,y=+2.55°) mcp_lag=52.4mm tip+=[0.519, -0.375, 0.314]
+[step 2750] phase=7 rod=(p=+0.45°,y=+26.80°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.0mm hold  Δ=(p=+1.24°,y=+2.97°) mcp_lag=17.4mm tip+=[0.52, -0.377, 0.312]
+[step 2760] phase=7 rod=(p=+0.19°,y=+26.90°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.1mm hold  Δ=(p=+1.02°,y=+2.90°) mcp_lag=17.5mm tip+=[0.519, -0.376, 0.314]
+[step 2770] phase=7 rod=(p=+0.45°,y=+26.88°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.1mm hold  Δ=(p=+0.92°,y=+2.99°) mcp_lag=17.8mm tip+=[0.519, -0.376, 0.314]
+[step 2780] phase=7 rod=(p=+0.58°,y=+26.95°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.7mm push  Δ=(p=+0.92°,y=+2.48°) mcp_lag=52.1mm tip+=[0.518, -0.375, 0.313]
+[step 2790] phase=7 rod=(p=+0.70°,y=+26.79°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.8mm push  Δ=(p=+0.58°,y=+2.47°) mcp_lag=52.0mm tip+=[0.518, -0.375, 0.315]
+[step 2800] phase=7 rod=(p=+0.84°,y=+26.75°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 1301/1500  terminated=False  truncated=False
+[P7] remaining=126.4mm push  Δ=(p=+0.32°,y=+2.66°) mcp_lag=52.3mm tip+=[0.519, -0.375, 0.316]
+[step 2810] phase=7 rod=(p=+1.32°,y=+27.24°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.6mm push  Δ=(p=+0.24°,y=+2.86°) mcp_lag=52.5mm tip+=[0.519, -0.376, 0.316]
+[step 2820] phase=7 rod=(p=+1.41°,y=+27.15°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.5mm push  Δ=(p=-0.05°,y=+2.76°) mcp_lag=52.4mm tip+=[0.519, -0.376, 0.318]
+[step 2830] phase=7 rod=(p=+1.59°,y=+27.10°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.4mm push  Δ=(p=-0.31°,y=+2.61°) mcp_lag=52.2mm tip+=[0.519, -0.376, 0.318]
+[step 2840] phase=7 rod=(p=+1.76°,y=+26.78°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.3mm hold  Δ=(p=-0.41°,y=+2.89°) mcp_lag=16.9mm tip+=[0.519, -0.376, 0.319]
+[step 2850] phase=7 rod=(p=+1.90°,y=+27.18°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.0mm hold  Δ=(p=-0.58°,y=+2.87°) mcp_lag=17.1mm tip+=[0.519, -0.376, 0.319]
+[step 2860] phase=7 rod=(p=+2.24°,y=+27.32°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.1mm push  Δ=(p=-0.62°,y=+2.68°) mcp_lag=52.3mm tip+=[0.519, -0.376, 0.319]
+[step 2870] phase=7 rod=(p=+2.17°,y=+27.07°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=126.2mm hold  Δ=(p=-0.72°,y=+2.87°) mcp_lag=16.6mm tip+=[0.519, -0.377, 0.319]
+[step 2880] phase=7 rod=(p=+2.26°,y=+27.20°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.8mm push  Δ=(p=-0.92°,y=+2.67°) mcp_lag=52.5mm tip+=[0.519, -0.375, 0.321]
+[step 2890] phase=7 rod=(p=+2.52°,y=+26.97°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.8mm push  Δ=(p=-1.17°,y=+2.67°) mcp_lag=52.7mm tip+=[0.519, -0.376, 0.321]
+[step 2900] phase=7 rod=(p=+2.69°,y=+26.99°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 1401/1500  terminated=False  truncated=False
+[P7] remaining=125.8mm push  Δ=(p=-1.04°,y=+2.57°) mcp_lag=52.5mm tip+=[0.519, -0.375, 0.32]
+[step 2910] phase=7 rod=(p=+2.52°,y=+27.08°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.8mm push  Δ=(p=-0.79°,y=+2.51°) mcp_lag=52.2mm tip+=[0.519, -0.375, 0.319]
+[step 2920] phase=7 rod=(p=+2.28°,y=+27.16°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.8mm push  Δ=(p=-0.73°,y=+2.45°) mcp_lag=52.1mm tip+=[0.519, -0.375, 0.319]
+[step 2930] phase=7 rod=(p=+2.26°,y=+27.21°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.7mm push  Δ=(p=-0.73°,y=+2.43°) mcp_lag=52.1mm tip+=[0.519, -0.375, 0.319]
+[step 2940] phase=7 rod=(p=+2.25°,y=+27.21°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.6mm push  Δ=(p=-0.61°,y=+2.45°) mcp_lag=52.0mm tip+=[0.519, -0.375, 0.319]
+[step 2950] phase=7 rod=(p=+2.10°,y=+27.20°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.3mm push  Δ=(p=-0.55°,y=+2.39°) mcp_lag=51.9mm tip+=[0.519, -0.375, 0.319]
+[step 2960] phase=7 rod=(p=+2.02°,y=+27.25°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.4mm push  Δ=(p=-0.45°,y=+2.35°) mcp_lag=51.8mm tip+=[0.519, -0.374, 0.318]
+[step 2970] phase=7 rod=(p=+1.98°,y=+27.31°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.6mm push  Δ=(p=-0.42°,y=+2.39°) mcp_lag=51.9mm tip+=[0.519, -0.375, 0.318]
+[step 2980] phase=7 rod=(p=+1.94°,y=+27.26°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.6mm push  Δ=(p=-0.34°,y=+2.44°) mcp_lag=52.0mm tip+=[0.519, -0.375, 0.318]
+[step 2990] phase=7 rod=(p=+1.88°,y=+27.22°) hole=(p=+1.52°,y=+29.64°)
+[P7] remaining=125.6mm push  Δ=(p=-0.29°,y=+2.39°) mcp_lag=51.9mm tip+=[0.519, -0.375, 0.318]
+[step 3000] phase=7 rod=(p=+1.79°,y=+27.24°) hole=(p=+1.52°,y=+29.64°)
+  [ep 0/1, attempt 2] step 1500/1500  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 2 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/2) | moving avg (last 2): 0.0%
+  [ep 0/1, attempt 3] step 1/1500  terminated=False  truncated=False
+[step 3010] phase=0 rod=(p=-0.00°,y=+0.00°) hole=(p=+16.54°,y=-5.12°)
+[step 3020] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=+16.54°,y=-5.12°)
+[step 3030] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=+16.54°,y=-5.12°)
+[step 3040] phase=1 rod=(p=+0.00°,y=+0.00°) hole=(p=+16.54°,y=-5.12°)
+[step 3050] phase=2 rod=(p=+0.00°,y=+0.00°) hole=(p=+16.54°,y=-5.12°)
+[step 3060] phase=2 rod=(p=+0.00°,y=+0.00°) hole=(p=+16.54°,y=-5.12°)
+[step 3070] phase=2 rod=(p=-2.37°,y=-0.34°) hole=(p=+16.54°,y=-5.12°)
+[step 3080] phase=2 rod=(p=-2.92°,y=-1.39°) hole=(p=+16.54°,y=-5.12°)
+[step 3090] phase=2 rod=(p=-1.01°,y=-4.09°) hole=(p=+16.54°,y=-5.12°)
+[step 3100] phase=2 rod=(p=-0.65°,y=-5.41°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 101/1500  terminated=False  truncated=False
+[step 3110] phase=3 rod=(p=-9.15°,y=-9.74°) hole=(p=+16.54°,y=-5.12°)
+[step 3120] phase=3 rod=(p=-24.47°,y=-17.95°) hole=(p=+16.54°,y=-5.12°)
+[step 3130] phase=4 rod=(p=+2.25°,y=-79.95°) hole=(p=+16.54°,y=-5.12°)
+[step 3140] phase=4 rod=(p=+0.96°,y=-79.36°) hole=(p=+16.54°,y=-5.12°)
+[step 3150] phase=4 rod=(p=-0.08°,y=-79.04°) hole=(p=+16.54°,y=-5.12°)
+[step 3160] phase=4 rod=(p=-0.54°,y=-78.73°) hole=(p=+16.54°,y=-5.12°)
+[step 3170] phase=4 rod=(p=-0.55°,y=-78.38°) hole=(p=+16.54°,y=-5.12°)
+[step 3180] phase=4 rod=(p=-0.57°,y=-78.13°) hole=(p=+16.54°,y=-5.12°)
+[step 3190] phase=4 rod=(p=-0.46°,y=-77.76°) hole=(p=+16.54°,y=-5.12°)
+[step 3200] phase=4 rod=(p=-15.14°,y=-67.86°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 201/1500  terminated=False  truncated=False
+[step 3210] phase=4 rod=(p=-31.92°,y=-62.35°) hole=(p=+16.54°,y=-5.12°)
+[step 3220] phase=4 rod=(p=-71.53°,y=-31.69°) hole=(p=+16.54°,y=-5.12°)
+[step 3230] phase=4 rod=(p=-64.31°,y=+23.08°) hole=(p=+16.54°,y=-5.12°)
+[P5 position] center_err=370.1mm to pre_center
+[step 3240] phase=5 rod=(p=-51.03°,y=+45.19°) hole=(p=+16.54°,y=-5.12°)
+[P5 position] center_err=253.8mm to pre_center
+[step 3250] phase=5 rod=(p=-51.41°,y=+45.51°) hole=(p=+16.54°,y=-5.12°)
+[P5 position] center_err=151.1mm to pre_center
+[step 3260] phase=5 rod=(p=-51.63°,y=+45.86°) hole=(p=+16.54°,y=-5.12°)
+[P5 position] center_err=65.7mm to pre_center
+[step 3270] phase=5 rod=(p=-51.95°,y=+45.93°) hole=(p=+16.54°,y=-5.12°)
+[P5 position] center_err=11.0mm to pre_center
+[step 3280] phase=5 rod=(p=-50.74°,y=+45.88°) hole=(p=+16.54°,y=-5.12°)
+[P5 position] center_err=7.9mm to pre_center
+[step 3290] phase=5 rod=(p=-49.49°,y=+45.94°) hole=(p=+16.54°,y=-5.12°)
+[P5 position] center_err=5.4mm to pre_center
+[step 3300] phase=5 rod=(p=-48.50°,y=+45.99°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 301/1500  terminated=False  truncated=False
+[P5 -> P6] center_err=3.8mm, wait=71
+[step 3310] phase=6 rod=(p=-45.06°,y=+40.69°) hole=(p=+16.54°,y=-5.12°)
+[P6 rotate] rod=(p=-45.06°,y=40.69°) hole=(p=16.54°,y=-5.12°) Δ=(p=61.60°,y=-45.81°)
+[P6 rotate] rod=(p=-40.35°,y=31.81°) hole=(p=16.54°,y=-5.12°) Δ=(p=56.90°,y=-36.93°)
+[step 3320] phase=6 rod=(p=-35.46°,y=+24.20°) hole=(p=+16.54°,y=-5.12°)
+[P6 rotate] rod=(p=-35.46°,y=24.20°) hole=(p=16.54°,y=-5.12°) Δ=(p=52.01°,y=-29.32°)
+[P6 rotate] rod=(p=-30.31°,y=17.44°) hole=(p=16.54°,y=-5.12°) Δ=(p=46.85°,y=-22.56°)
+[step 3330] phase=6 rod=(p=-24.72°,y=+11.36°) hole=(p=+16.54°,y=-5.12°)
+[P6 rotate] rod=(p=-24.72°,y=11.36°) hole=(p=16.54°,y=-5.12°) Δ=(p=41.26°,y=-16.48°)
+[P6 rotate] rod=(p=-19.13°,y=5.64°) hole=(p=16.54°,y=-5.12°) Δ=(p=35.67°,y=-10.76°)
+[step 3340] phase=6 rod=(p=-13.62°,y=+1.37°) hole=(p=+16.54°,y=-5.12°)
+[P6 rotate] rod=(p=-13.62°,y=1.37°) hole=(p=16.54°,y=-5.12°) Δ=(p=30.16°,y=-6.49°)
+[P6 rotate] rod=(p=-7.87°,y=-1.02°) hole=(p=16.54°,y=-5.12°) Δ=(p=24.42°,y=-4.11°)
+[step 3350] phase=6 rod=(p=-4.49°,y=-1.52°) hole=(p=+16.54°,y=-5.12°)
+[P6 rotate] rod=(p=-4.49°,y=-1.52°) hole=(p=16.54°,y=-5.12°) Δ=(p=21.03°,y=-3.60°)
+[P6 rotate] rod=(p=-2.81°,y=-1.00°) hole=(p=16.54°,y=-5.12°) Δ=(p=19.36°,y=-4.12°)
+[step 3360] phase=6 rod=(p=-1.50°,y=-1.48°) hole=(p=+16.54°,y=-5.12°)
+[P6 rotate] rod=(p=-1.50°,y=-1.48°) hole=(p=16.54°,y=-5.12°) Δ=(p=18.05°,y=-3.64°)
+[P6 rotate] rod=(p=0.26°,y=-1.96°) hole=(p=16.54°,y=-5.12°) Δ=(p=16.29°,y=-3.16°)
+[step 3370] phase=6 rod=(p=+3.02°,y=-2.54°) hole=(p=+16.54°,y=-5.12°)
+[P6 rotate] rod=(p=3.02°,y=-2.54°) hole=(p=16.54°,y=-5.12°) Δ=(p=13.52°,y=-2.58°)
+[P6 rotate] rod=(p=6.44°,y=-3.03°) hole=(p=16.54°,y=-5.12°) Δ=(p=10.10°,y=-2.09°)
+[step 3380] phase=6 rod=(p=+9.13°,y=-3.38°) hole=(p=+16.54°,y=-5.12°)
+[P6 rotate] rod=(p=9.13°,y=-3.38°) hole=(p=16.54°,y=-5.12°) Δ=(p=7.42°,y=-1.74°)
+[P6 rotate] rod=(p=11.45°,y=-3.98°) hole=(p=16.54°,y=-5.12°) Δ=(p=5.09°,y=-1.14°)
+[step 3390] phase=6 rod=(p=+13.33°,y=-4.71°) hole=(p=+16.54°,y=-5.12°)
+[P6 rotate] rod=(p=13.33°,y=-4.71°) hole=(p=16.54°,y=-5.12°) Δ=(p=3.22°,y=-0.41°)
+[P6 rotate] rod=(p=14.76°,y=-5.32°) hole=(p=16.54°,y=-5.12°) Δ=(p=1.78°,y=0.20°)
+[step 3400] phase=6 rod=(p=+15.47°,y=-5.32°) hole=(p=+16.54°,y=-5.12°)
+[P6 rotate] rod=(p=15.47°,y=-5.32°) hole=(p=16.54°,y=-5.12°) Δ=(p=1.08°,y=0.20°)
+  [ep 0/1, attempt 3] step 401/1500  terminated=False  truncated=False
+[P6 rotate] rod=(p=15.90°,y=-5.27°) hole=(p=16.54°,y=-5.12°) Δ=(p=0.65°,y=0.15°)
+[P6 done] Δp=0.65°, Δy=0.15°, push_target(center)=[0.45287567 0.38137746 0.29119676]
+[step 3410] phase=7 rod=(p=+15.73°,y=-5.14°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=305.7mm push  Δ=(p=+0.86°,y=-0.23°) mcp_lag=50.8mm tip+=[0.399, 0.385, 0.276]
+[step 3420] phase=7 rod=(p=+15.74°,y=-4.86°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=274.0mm push  Δ=(p=+0.76°,y=-0.31°) mcp_lag=50.6mm tip+=[0.43, 0.383, 0.285]
+[step 3430] phase=7 rod=(p=+15.90°,y=-4.80°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=242.9mm push  Δ=(p=+0.67°,y=-0.29°) mcp_lag=50.5mm tip+=[0.46, 0.38, 0.293]
+[step 3440] phase=7 rod=(p=+16.05°,y=-4.81°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=212.3mm push  Δ=(p=+0.50°,y=-0.28°) mcp_lag=50.3mm tip+=[0.489, 0.377, 0.302]
+[step 3450] phase=7 rod=(p=+16.14°,y=-4.89°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=182.8mm push  Δ=(p=+0.35°,y=-0.22°) mcp_lag=50.2mm tip+=[0.517, 0.375, 0.311]
+[step 3460] phase=7 rod=(p=+16.30°,y=-4.93°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=153.8mm push  Δ=(p=+0.17°,y=-0.18°) mcp_lag=50.1mm tip+=[0.544, 0.372, 0.32]
+[step 3470] phase=7 rod=(p=+16.42°,y=-5.01°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=124.9mm push  Δ=(p=+0.02°,y=-0.10°) mcp_lag=50.1mm tip+=[0.572, 0.37, 0.328]
+[step 3480] phase=7 rod=(p=+16.62°,y=-5.07°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=96.1mm push  Δ=(p=-0.05°,y=-0.02°) mcp_lag=50.0mm tip+=[0.599, 0.367, 0.337]
+[step 3490] phase=7 rod=(p=+16.48°,y=-5.09°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=66.7mm push  Δ=(p=-0.02°,y=-0.01°) mcp_lag=50.0mm tip+=[0.627, 0.365, 0.345]
+[step 3500] phase=7 rod=(p=+16.59°,y=-5.08°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 501/1500  terminated=False  truncated=False
+[P7] remaining=36.8mm push  Δ=(p=-0.05°,y=+0.02°) mcp_lag=50.0mm tip+=[0.656, 0.362, 0.353]
+[step 3510] phase=7 rod=(p=+16.38°,y=-5.13°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=23.7mm push  Δ=(p=+0.34°,y=+0.15°) mcp_lag=50.1mm tip+=[0.67, 0.364, 0.354]
+[step 3520] phase=7 rod=(p=+16.33°,y=-4.65°) hole=(p=+16.54°,y=-5.12°)
+[P7] remaining=20.3mm push  Δ=(p=+0.49°,y=-0.70°) mcp_lag=50.1mm tip+=[0.673, 0.366, 0.355]
+[P7 done] final center=[0.43360424 0.3831849  0.28674275]
+[step 3530] phase=8 rod=(p=+15.74°,y=-3.21°) hole=(p=+16.54°,y=-5.12°)
+[step 3540] phase=8 rod=(p=+15.82°,y=-3.52°) hole=(p=+16.54°,y=-5.12°)
+[step 3550] phase=8 rod=(p=+15.89°,y=-3.63°) hole=(p=+16.54°,y=-5.12°)
+[step 3560] phase=8 rod=(p=+15.96°,y=-3.70°) hole=(p=+16.54°,y=-5.12°)
+[step 3570] phase=8 rod=(p=+16.01°,y=-3.77°) hole=(p=+16.54°,y=-5.12°)
+[step 3580] phase=8 rod=(p=+16.03°,y=-3.83°) hole=(p=+16.54°,y=-5.12°)
+[step 3590] phase=8 rod=(p=+16.05°,y=-3.86°) hole=(p=+16.54°,y=-5.12°)
+[step 3600] phase=8 rod=(p=+16.04°,y=-3.86°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 601/1500  terminated=False  truncated=False
+[step 3610] phase=8 rod=(p=+16.05°,y=-3.85°) hole=(p=+16.54°,y=-5.12°)
+[step 3620] phase=8 rod=(p=+16.05°,y=-3.87°) hole=(p=+16.54°,y=-5.12°)
+[step 3630] phase=8 rod=(p=+16.05°,y=-3.88°) hole=(p=+16.54°,y=-5.12°)
+[step 3640] phase=8 rod=(p=+16.04°,y=-3.91°) hole=(p=+16.54°,y=-5.12°)
+[step 3650] phase=8 rod=(p=+16.04°,y=-3.91°) hole=(p=+16.54°,y=-5.12°)
+[step 3660] phase=8 rod=(p=+16.05°,y=-3.93°) hole=(p=+16.54°,y=-5.12°)
+[step 3670] phase=8 rod=(p=+16.04°,y=-3.93°) hole=(p=+16.54°,y=-5.12°)
+[step 3680] phase=8 rod=(p=+16.04°,y=-3.96°) hole=(p=+16.54°,y=-5.12°)
+[step 3690] phase=8 rod=(p=+16.00°,y=-3.97°) hole=(p=+16.54°,y=-5.12°)
+[step 3700] phase=8 rod=(p=+15.98°,y=-4.02°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 701/1500  terminated=False  truncated=False
+[step 3710] phase=8 rod=(p=+15.95°,y=-4.09°) hole=(p=+16.54°,y=-5.12°)
+[step 3720] phase=8 rod=(p=+15.90°,y=-4.14°) hole=(p=+16.54°,y=-5.12°)
+[step 3730] phase=8 rod=(p=+15.92°,y=-4.24°) hole=(p=+16.54°,y=-5.12°)
+[step 3740] phase=8 rod=(p=+15.98°,y=-4.25°) hole=(p=+16.54°,y=-5.12°)
+[step 3750] phase=8 rod=(p=+15.97°,y=-4.22°) hole=(p=+16.54°,y=-5.12°)
+[step 3760] phase=8 rod=(p=+15.98°,y=-4.21°) hole=(p=+16.54°,y=-5.12°)
+[step 3770] phase=8 rod=(p=+15.95°,y=-4.23°) hole=(p=+16.54°,y=-5.12°)
+[step 3780] phase=8 rod=(p=+15.95°,y=-4.21°) hole=(p=+16.54°,y=-5.12°)
+[step 3790] phase=8 rod=(p=+15.89°,y=-4.21°) hole=(p=+16.54°,y=-5.12°)
+[step 3800] phase=8 rod=(p=+15.87°,y=-4.21°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 801/1500  terminated=False  truncated=False
+[step 3810] phase=8 rod=(p=+15.82°,y=-4.22°) hole=(p=+16.54°,y=-5.12°)
+[step 3820] phase=8 rod=(p=+15.83°,y=-4.18°) hole=(p=+16.54°,y=-5.12°)
+[step 3830] phase=8 rod=(p=+15.85°,y=-4.17°) hole=(p=+16.54°,y=-5.12°)
+[step 3840] phase=8 rod=(p=+15.84°,y=-4.17°) hole=(p=+16.54°,y=-5.12°)
+[step 3850] phase=8 rod=(p=+15.83°,y=-4.16°) hole=(p=+16.54°,y=-5.12°)
+[step 3860] phase=8 rod=(p=+15.83°,y=-4.17°) hole=(p=+16.54°,y=-5.12°)
+[step 3870] phase=8 rod=(p=+15.81°,y=-4.19°) hole=(p=+16.54°,y=-5.12°)
+[step 3880] phase=8 rod=(p=+15.80°,y=-4.18°) hole=(p=+16.54°,y=-5.12°)
+[step 3890] phase=8 rod=(p=+15.80°,y=-4.16°) hole=(p=+16.54°,y=-5.12°)
+[step 3900] phase=8 rod=(p=+15.81°,y=-4.17°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 901/1500  terminated=False  truncated=False
+[step 3910] phase=8 rod=(p=+15.81°,y=-4.16°) hole=(p=+16.54°,y=-5.12°)
+[step 3920] phase=8 rod=(p=+15.81°,y=-4.16°) hole=(p=+16.54°,y=-5.12°)
+[step 3930] phase=8 rod=(p=+15.82°,y=-4.14°) hole=(p=+16.54°,y=-5.12°)
+[step 3940] phase=8 rod=(p=+15.81°,y=-4.13°) hole=(p=+16.54°,y=-5.12°)
+[step 3950] phase=8 rod=(p=+15.82°,y=-4.13°) hole=(p=+16.54°,y=-5.12°)
+[step 3960] phase=8 rod=(p=+15.81°,y=-4.15°) hole=(p=+16.54°,y=-5.12°)
+[step 3970] phase=8 rod=(p=+15.81°,y=-4.14°) hole=(p=+16.54°,y=-5.12°)
+[step 3980] phase=8 rod=(p=+15.81°,y=-4.14°) hole=(p=+16.54°,y=-5.12°)
+[step 3990] phase=8 rod=(p=+15.83°,y=-4.13°) hole=(p=+16.54°,y=-5.12°)
+[step 4000] phase=8 rod=(p=+15.84°,y=-4.11°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 1001/1500  terminated=False  truncated=False
+[step 4010] phase=8 rod=(p=+15.86°,y=-4.05°) hole=(p=+16.54°,y=-5.12°)
+[step 4020] phase=8 rod=(p=+15.85°,y=-4.01°) hole=(p=+16.54°,y=-5.12°)
+[step 4030] phase=8 rod=(p=+15.84°,y=-4.04°) hole=(p=+16.54°,y=-5.12°)
+[step 4040] phase=8 rod=(p=+15.82°,y=-4.04°) hole=(p=+16.54°,y=-5.12°)
+[step 4050] phase=8 rod=(p=+15.79°,y=-4.06°) hole=(p=+16.54°,y=-5.12°)
+[step 4060] phase=8 rod=(p=+15.83°,y=-4.11°) hole=(p=+16.54°,y=-5.12°)
+[step 4070] phase=8 rod=(p=+15.78°,y=-4.10°) hole=(p=+16.54°,y=-5.12°)
+[step 4080] phase=8 rod=(p=+15.68°,y=-4.19°) hole=(p=+16.54°,y=-5.12°)
+[step 4090] phase=8 rod=(p=+15.54°,y=-4.27°) hole=(p=+16.54°,y=-5.12°)
+[step 4100] phase=8 rod=(p=+15.87°,y=-3.86°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 1101/1500  terminated=False  truncated=False
+[step 4110] phase=8 rod=(p=+15.81°,y=-3.88°) hole=(p=+16.54°,y=-5.12°)
+[step 4120] phase=8 rod=(p=+15.89°,y=-3.80°) hole=(p=+16.54°,y=-5.12°)
+[step 4130] phase=8 rod=(p=+15.86°,y=-3.83°) hole=(p=+16.54°,y=-5.12°)
+[step 4140] phase=8 rod=(p=+15.84°,y=-3.83°) hole=(p=+16.54°,y=-5.12°)
+[step 4150] phase=8 rod=(p=+15.84°,y=-3.81°) hole=(p=+16.54°,y=-5.12°)
+[step 4160] phase=8 rod=(p=+15.84°,y=-3.80°) hole=(p=+16.54°,y=-5.12°)
+[step 4170] phase=8 rod=(p=+15.92°,y=-3.83°) hole=(p=+16.54°,y=-5.12°)
+[step 4180] phase=8 rod=(p=+15.99°,y=-3.79°) hole=(p=+16.54°,y=-5.12°)
+[step 4190] phase=8 rod=(p=+16.00°,y=-3.77°) hole=(p=+16.54°,y=-5.12°)
+[step 4200] phase=8 rod=(p=+15.95°,y=-3.76°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 1201/1500  terminated=False  truncated=False
+[step 4210] phase=8 rod=(p=+15.90°,y=-3.79°) hole=(p=+16.54°,y=-5.12°)
+[step 4220] phase=8 rod=(p=+15.86°,y=-3.81°) hole=(p=+16.54°,y=-5.12°)
+[step 4230] phase=8 rod=(p=+15.85°,y=-3.80°) hole=(p=+16.54°,y=-5.12°)
+[step 4240] phase=8 rod=(p=+15.94°,y=-3.80°) hole=(p=+16.54°,y=-5.12°)
+[step 4250] phase=8 rod=(p=+15.99°,y=-3.79°) hole=(p=+16.54°,y=-5.12°)
+[step 4260] phase=8 rod=(p=+16.01°,y=-3.79°) hole=(p=+16.54°,y=-5.12°)
+[step 4270] phase=8 rod=(p=+16.02°,y=-3.78°) hole=(p=+16.54°,y=-5.12°)
+[step 4280] phase=8 rod=(p=+16.02°,y=-3.78°) hole=(p=+16.54°,y=-5.12°)
+[step 4290] phase=8 rod=(p=+16.01°,y=-3.79°) hole=(p=+16.54°,y=-5.12°)
+[step 4300] phase=8 rod=(p=+16.02°,y=-3.77°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 1301/1500  terminated=False  truncated=False
+[step 4310] phase=8 rod=(p=+16.03°,y=-3.75°) hole=(p=+16.54°,y=-5.12°)
+[step 4320] phase=8 rod=(p=+16.03°,y=-3.75°) hole=(p=+16.54°,y=-5.12°)
+[step 4330] phase=8 rod=(p=+16.03°,y=-3.74°) hole=(p=+16.54°,y=-5.12°)
+[step 4340] phase=8 rod=(p=+16.01°,y=-3.77°) hole=(p=+16.54°,y=-5.12°)
+[step 4350] phase=8 rod=(p=+16.03°,y=-3.73°) hole=(p=+16.54°,y=-5.12°)
+[step 4360] phase=8 rod=(p=+16.04°,y=-3.72°) hole=(p=+16.54°,y=-5.12°)
+[step 4370] phase=8 rod=(p=+15.99°,y=-3.73°) hole=(p=+16.54°,y=-5.12°)
+[step 4380] phase=8 rod=(p=+15.94°,y=-3.72°) hole=(p=+16.54°,y=-5.12°)
+[step 4390] phase=8 rod=(p=+15.92°,y=-3.68°) hole=(p=+16.54°,y=-5.12°)
+[step 4400] phase=8 rod=(p=+15.91°,y=-3.66°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 1401/1500  terminated=False  truncated=False
+[step 4410] phase=8 rod=(p=+15.89°,y=-3.67°) hole=(p=+16.54°,y=-5.12°)
+[step 4420] phase=8 rod=(p=+15.88°,y=-3.67°) hole=(p=+16.54°,y=-5.12°)
+[step 4430] phase=8 rod=(p=+15.86°,y=-3.69°) hole=(p=+16.54°,y=-5.12°)
+[step 4440] phase=8 rod=(p=+15.69°,y=-3.86°) hole=(p=+16.54°,y=-5.12°)
+[step 4450] phase=8 rod=(p=+15.75°,y=-3.77°) hole=(p=+16.54°,y=-5.12°)
+[step 4460] phase=8 rod=(p=+16.47°,y=-3.01°) hole=(p=+16.54°,y=-5.12°)
+[step 4470] phase=8 rod=(p=+15.64°,y=-3.95°) hole=(p=+16.54°,y=-5.12°)
+[step 4480] phase=8 rod=(p=+15.09°,y=-4.22°) hole=(p=+16.54°,y=-5.12°)
+[step 4490] phase=8 rod=(p=+15.97°,y=-3.32°) hole=(p=+16.54°,y=-5.12°)
+[step 4500] phase=8 rod=(p=+15.21°,y=-3.86°) hole=(p=+16.54°,y=-5.12°)
+  [ep 0/1, attempt 3] step 1500/1500  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 3 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/3) | moving avg (last 3): 0.0%
+  [ep 0/1, attempt 4] step 1/1500  terminated=False  truncated=False
+[step 4510] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=-7.56°,y=-14.29°)
+[step 4520] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=-7.56°,y=-14.29°)
+[step 4530] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=-7.56°,y=-14.29°)
+[step 4540] phase=1 rod=(p=+0.00°,y=+0.00°) hole=(p=-7.56°,y=-14.29°)
+[step 4550] phase=1 rod=(p=+0.00°,y=+0.00°) hole=(p=-7.56°,y=-14.29°)
+[step 4560] phase=2 rod=(p=+0.00°,y=+0.00°) hole=(p=-7.56°,y=-14.29°)
+[step 4570] phase=2 rod=(p=-0.91°,y=-0.66°) hole=(p=-7.56°,y=-14.29°)
+[step 4580] phase=2 rod=(p=-2.85°,y=-0.93°) hole=(p=-7.56°,y=-14.29°)
+[step 4590] phase=2 rod=(p=-1.39°,y=-3.19°) hole=(p=-7.56°,y=-14.29°)
+[step 4600] phase=2 rod=(p=-1.03°,y=-5.13°) hole=(p=-7.56°,y=-14.29°)
+  [ep 0/1, attempt 4] step 101/1500  terminated=False  truncated=False
+[step 4610] phase=2 rod=(p=-21.96°,y=-17.68°) hole=(p=-7.56°,y=-14.29°)
+[step 4620] phase=3 rod=(p=-29.95°,y=-49.19°) hole=(p=-7.56°,y=-14.29°)
+[step 4630] phase=3 rod=(p=-23.84°,y=-64.07°) hole=(p=-7.56°,y=-14.29°)
+[step 4640] phase=4 rod=(p=+13.01°,y=-83.51°) hole=(p=-7.56°,y=-14.29°)
+[step 4650] phase=4 rod=(p=-22.16°,y=-89.58°) hole=(p=-7.56°,y=-14.29°)
+[step 4660] phase=4 rod=(p=-22.99°,y=-89.35°) hole=(p=-7.56°,y=-14.29°)
+[step 4670] phase=4 rod=(p=-23.01°,y=-89.24°) hole=(p=-7.56°,y=-14.29°)
+[step 4680] phase=4 rod=(p=-25.37°,y=-79.72°) hole=(p=-7.56°,y=-14.29°)
+[step 4690] phase=4 rod=(p=-22.86°,y=-70.90°) hole=(p=-7.56°,y=-14.29°)
+[step 4700] phase=4 rod=(p=-18.29°,y=-65.95°) hole=(p=-7.56°,y=-14.29°)
+  [ep 0/1, attempt 4] step 201/1500  terminated=False  truncated=False
+[step 4710] phase=4 rod=(p=-11.08°,y=-56.36°) hole=(p=-7.56°,y=-14.29°)
+[step 4720] phase=4 rod=(p=-3.57°,y=-45.75°) hole=(p=-7.56°,y=-14.29°)
+[step 4730] phase=4 rod=(p=-1.79°,y=-34.26°) hole=(p=-7.56°,y=-14.29°)
+[step 4740] phase=4 rod=(p=-1.83°,y=-34.05°) hole=(p=-7.56°,y=-14.29°)
+[step 4750] phase=4 rod=(p=-4.48°,y=-32.93°) hole=(p=-7.56°,y=-14.29°)
+[P5 position] center_err=130.0mm to pre_center
+[step 4760] phase=5 rod=(p=-5.37°,y=-29.16°) hole=(p=-7.56°,y=-14.29°)
+[P5 position] center_err=46.6mm to pre_center
+[step 4770] phase=5 rod=(p=-5.46°,y=-29.32°) hole=(p=-7.56°,y=-14.29°)
+[P5 position] center_err=3.4mm to pre_center
+[P5 -> P6] center_err=3.4mm, wait=21
+[step 4780] phase=6 rod=(p=-5.48°,y=-29.35°) hole=(p=-7.56°,y=-14.29°)
+[P6 rotate] rod=(p=-6.78°,y=-25.86°) hole=(p=-7.56°,y=-14.29°) Δ=(p=-0.78°,y=11.57°)
+[P6 rotate] rod=(p=-7.21°,y=-21.15°) hole=(p=-7.56°,y=-14.29°) Δ=(p=-0.36°,y=6.86°)
+[step 4790] phase=6 rod=(p=-7.30°,y=-20.51°) hole=(p=-7.56°,y=-14.29°)
+[P6 rotate] rod=(p=-7.41°,y=-18.33°) hole=(p=-7.56°,y=-14.29°) Δ=(p=-0.15°,y=4.04°)
+[P6 rotate] rod=(p=-7.56°,y=-16.71°) hole=(p=-7.56°,y=-14.29°) Δ=(p=-0.00°,y=2.43°)
+[step 4800] phase=6 rod=(p=-7.56°,y=-16.46°) hole=(p=-7.56°,y=-14.29°)
+  [ep 0/1, attempt 4] step 301/1500  terminated=False  truncated=False
+[P6 rotate] rod=(p=-7.59°,y=-15.69°) hole=(p=-7.56°,y=-14.29°) Δ=(p=0.03°,y=1.40°)
+[P6 rotate] rod=(p=-7.62°,y=-15.11°) hole=(p=-7.56°,y=-14.29°) Δ=(p=0.06°,y=0.82°)
+[step 4810] phase=6 rod=(p=-7.66°,y=-15.07°) hole=(p=-7.56°,y=-14.29°)
+[P6 done] Δp=0.08°, Δy=0.60°, push_target(center)=[0.41411245 0.44177344 0.30510348]
+[step 4820] phase=7 rod=(p=-7.25°,y=-14.07°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=310.9mm push  Δ=(p=-0.31°,y=-0.22°) mcp_lag=50.5mm tip+=[0.354, 0.453, 0.312]
+[step 4830] phase=7 rod=(p=-7.36°,y=-13.53°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=283.5mm push  Δ=(p=-0.20°,y=-0.76°) mcp_lag=50.6mm tip+=[0.382, 0.45, 0.308]
+[step 4840] phase=7 rod=(p=-7.43°,y=-13.61°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=255.4mm push  Δ=(p=-0.13°,y=-0.68°) mcp_lag=50.5mm tip+=[0.409, 0.443, 0.304]
+[step 4850] phase=7 rod=(p=-7.53°,y=-13.73°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=228.9mm push  Δ=(p=-0.03°,y=-0.55°) mcp_lag=50.3mm tip+=[0.434, 0.436, 0.301]
+[step 4860] phase=7 rod=(p=-7.61°,y=-13.92°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=204.0mm push  Δ=(p=+0.05°,y=-0.37°) mcp_lag=50.2mm tip+=[0.458, 0.43, 0.297]
+[step 4870] phase=7 rod=(p=-7.69°,y=-14.06°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=180.6mm push  Δ=(p=+0.12°,y=-0.23°) mcp_lag=50.1mm tip+=[0.48, 0.424, 0.294]
+[step 4880] phase=7 rod=(p=-7.72°,y=-14.19°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=158.0mm push  Δ=(p=+0.16°,y=-0.10°) mcp_lag=50.0mm tip+=[0.502, 0.418, 0.291]
+[step 4890] phase=7 rod=(p=-7.73°,y=-14.27°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=135.4mm push  Δ=(p=+0.17°,y=-0.02°) mcp_lag=50.0mm tip+=[0.524, 0.413, 0.288]
+[step 4900] phase=7 rod=(p=-7.72°,y=-14.37°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=112.5mm push  Δ=(p=+0.16°,y=+0.08°) mcp_lag=50.0mm tip+=[0.545, 0.407, 0.285]
+  [ep 0/1, attempt 4] step 401/1500  terminated=False  truncated=False
+[step 4910] phase=7 rod=(p=-7.68°,y=-14.42°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=89.3mm push  Δ=(p=+0.12°,y=+0.13°) mcp_lag=50.0mm tip+=[0.568, 0.401, 0.282]
+[step 4920] phase=7 rod=(p=-7.56°,y=-14.30°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=65.3mm push  Δ=(p=-0.00°,y=+0.01°) mcp_lag=50.0mm tip+=[0.591, 0.395, 0.279]
+[step 4930] phase=7 rod=(p=-7.53°,y=-14.34°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=41.4mm push  Δ=(p=-0.03°,y=+0.05°) mcp_lag=50.0mm tip+=[0.614, 0.39, 0.276]
+[step 4940] phase=7 rod=(p=-8.07°,y=-14.33°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=29.5mm push  Δ=(p=+0.51°,y=+0.04°) mcp_lag=50.0mm tip+=[0.626, 0.388, 0.273]
+[step 4950] phase=7 rod=(p=-8.55°,y=-12.49°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.9mm push  Δ=(p=+0.99°,y=-1.80°) mcp_lag=51.7mm tip+=[0.628, 0.391, 0.273]
+[step 4960] phase=7 rod=(p=-8.34°,y=-14.79°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=28.1mm push  Δ=(p=+0.78°,y=+0.50°) mcp_lag=50.2mm tip+=[0.626, 0.386, 0.272]
+[step 4970] phase=7 rod=(p=-7.55°,y=-14.38°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=28.8mm push  Δ=(p=-0.01°,y=+0.09°) mcp_lag=50.0mm tip+=[0.626, 0.387, 0.274]
+[step 4980] phase=7 rod=(p=-8.16°,y=-14.04°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=28.2mm push  Δ=(p=+0.60°,y=-0.25°) mcp_lag=50.1mm tip+=[0.627, 0.387, 0.273]
+[step 4990] phase=7 rod=(p=-7.02°,y=-13.49°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.7mm push  Δ=(p=-0.54°,y=-0.80°) mcp_lag=50.4mm tip+=[0.628, 0.389, 0.276]
+[step 5000] phase=7 rod=(p=-8.28°,y=-14.09°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=28.2mm push  Δ=(p=+0.72°,y=-0.20°) mcp_lag=50.1mm tip+=[0.627, 0.387, 0.273]
+  [ep 0/1, attempt 4] step 501/1500  terminated=False  truncated=False
+[step 5010] phase=7 rod=(p=-8.35°,y=-14.63°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=28.1mm push  Δ=(p=+0.79°,y=+0.34°) mcp_lag=50.2mm tip+=[0.627, 0.387, 0.272]
+[step 5020] phase=7 rod=(p=-6.86°,y=-14.38°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.1mm push  Δ=(p=-0.70°,y=+0.10°) mcp_lag=50.2mm tip+=[0.629, 0.388, 0.278]
+[step 5030] phase=7 rod=(p=-8.31°,y=-14.77°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.2mm push  Δ=(p=+0.75°,y=+0.49°) mcp_lag=50.2mm tip+=[0.627, 0.386, 0.273]
+[step 5040] phase=7 rod=(p=-8.60°,y=-13.55°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=26.3mm push  Δ=(p=+1.04°,y=-0.74°) mcp_lag=50.5mm tip+=[0.629, 0.39, 0.273]
+[step 5050] phase=7 rod=(p=-7.03°,y=-13.48°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=24.4mm push  Δ=(p=-0.53°,y=-0.81°) mcp_lag=50.3mm tip+=[0.632, 0.39, 0.276]
+[step 5060] phase=7 rod=(p=-6.75°,y=-12.52°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.6mm push  Δ=(p=-0.82°,y=-1.77°) mcp_lag=51.3mm tip+=[0.631, 0.391, 0.278]
+[step 5070] phase=7 rod=(p=-7.50°,y=-13.29°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=22.5mm push  Δ=(p=-0.07°,y=-1.00°) mcp_lag=50.3mm tip+=[0.634, 0.389, 0.276]
+[step 5080] phase=7 rod=(p=-7.48°,y=-13.83°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=23.7mm push  Δ=(p=-0.08°,y=-0.46°) mcp_lag=50.0mm tip+=[0.632, 0.389, 0.276]
+[step 5090] phase=7 rod=(p=-7.41°,y=-13.73°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=23.9mm push  Δ=(p=-0.15°,y=-0.56°) mcp_lag=50.1mm tip+=[0.632, 0.389, 0.276]
+[step 5100] phase=7 rod=(p=-7.44°,y=-13.40°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=24.1mm push  Δ=(p=-0.12°,y=-0.89°) mcp_lag=50.3mm tip+=[0.632, 0.389, 0.275]
+  [ep 0/1, attempt 4] step 601/1500  terminated=False  truncated=False
+[step 5110] phase=7 rod=(p=-7.08°,y=-13.84°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=24.3mm push  Δ=(p=-0.48°,y=-0.45°) mcp_lag=50.2mm tip+=[0.632, 0.389, 0.276]
+[step 5120] phase=7 rod=(p=-7.43°,y=-14.38°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.3mm push  Δ=(p=-0.13°,y=+0.09°) mcp_lag=50.1mm tip+=[0.63, 0.388, 0.275]
+[step 5130] phase=7 rod=(p=-7.49°,y=-14.46°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.3mm push  Δ=(p=-0.07°,y=+0.17°) mcp_lag=50.1mm tip+=[0.63, 0.387, 0.275]
+[step 5140] phase=7 rod=(p=-7.28°,y=-14.33°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.1mm push  Δ=(p=-0.28°,y=+0.04°) mcp_lag=50.0mm tip+=[0.631, 0.388, 0.277]
+[step 5150] phase=7 rod=(p=-7.13°,y=-14.31°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.0mm push  Δ=(p=-0.43°,y=+0.02°) mcp_lag=50.1mm tip+=[0.631, 0.388, 0.276]
+[step 5160] phase=7 rod=(p=-6.53°,y=-14.40°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.6mm push  Δ=(p=-1.03°,y=+0.11°) mcp_lag=50.4mm tip+=[0.63, 0.386, 0.278]
+[step 5170] phase=7 rod=(p=-7.49°,y=-14.44°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.6mm push  Δ=(p=-0.08°,y=+0.16°) mcp_lag=50.1mm tip+=[0.63, 0.388, 0.276]
+[step 5180] phase=7 rod=(p=-8.30°,y=-14.92°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=26.2mm push  Δ=(p=+0.74°,y=+0.63°) mcp_lag=50.3mm tip+=[0.628, 0.386, 0.272]
+[step 5190] phase=7 rod=(p=-7.81°,y=-13.42°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=24.2mm push  Δ=(p=+0.25°,y=-0.86°) mcp_lag=50.2mm tip+=[0.632, 0.39, 0.275]
+[step 5200] phase=7 rod=(p=-6.46°,y=-13.90°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.0mm push  Δ=(p=-1.10°,y=-0.39°) mcp_lag=50.6mm tip+=[0.631, 0.388, 0.277]
+  [ep 0/1, attempt 4] step 701/1500  terminated=False  truncated=False
+[step 5210] phase=7 rod=(p=-8.76°,y=-13.65°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=24.5mm push  Δ=(p=+1.19°,y=-0.64°) mcp_lag=50.6mm tip+=[0.631, 0.389, 0.272]
+[step 5220] phase=7 rod=(p=-6.32°,y=-13.63°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=24.4mm push  Δ=(p=-1.24°,y=-0.66°) mcp_lag=50.8mm tip+=[0.632, 0.389, 0.278]
+[step 5230] phase=7 rod=(p=-6.89°,y=-14.43°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.3mm push  Δ=(p=-0.67°,y=+0.14°) mcp_lag=50.3mm tip+=[0.63, 0.386, 0.276]
+[step 5240] phase=7 rod=(p=-7.98°,y=-13.54°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=24.4mm push  Δ=(p=+0.42°,y=-0.75°) mcp_lag=50.2mm tip+=[0.631, 0.389, 0.274]
+[step 5250] phase=7 rod=(p=-5.65°,y=-14.40°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=26.2mm push  Δ=(p=-1.91°,y=+0.11°) mcp_lag=51.6mm tip+=[0.63, 0.387, 0.28]
+[step 5260] phase=7 rod=(p=-7.90°,y=-14.49°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=26.2mm push  Δ=(p=+0.34°,y=+0.20°) mcp_lag=50.0mm tip+=[0.628, 0.386, 0.272]
+[step 5270] phase=7 rod=(p=-7.30°,y=-15.01°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=26.6mm push  Δ=(p=-0.26°,y=+0.72°) mcp_lag=50.3mm tip+=[0.628, 0.385, 0.276]
+[step 5280] phase=7 rod=(p=-8.00°,y=-13.40°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=24.7mm push  Δ=(p=+0.44°,y=-0.89°) mcp_lag=50.3mm tip+=[0.631, 0.39, 0.275]
+[step 5290] phase=7 rod=(p=-8.12°,y=-11.92°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.0mm push  Δ=(p=+0.56°,y=-2.36°) mcp_lag=52.2mm tip+=[0.632, 0.393, 0.275]
+[step 5300] phase=7 rod=(p=-7.51°,y=-13.34°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=24.7mm push  Δ=(p=-0.06°,y=-0.95°) mcp_lag=50.3mm tip+=[0.631, 0.39, 0.276]
+  [ep 0/1, attempt 4] step 801/1500  terminated=False  truncated=False
+[step 5310] phase=7 rod=(p=-7.30°,y=-13.78°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.3mm push  Δ=(p=-0.26°,y=-0.51°) mcp_lag=50.1mm tip+=[0.631, 0.389, 0.276]
+[step 5320] phase=7 rod=(p=-7.58°,y=-13.30°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.1mm push  Δ=(p=+0.01°,y=-0.99°) mcp_lag=50.3mm tip+=[0.631, 0.39, 0.275]
+[step 5330] phase=7 rod=(p=-8.18°,y=-13.72°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.6mm push  Δ=(p=+0.62°,y=-0.57°) mcp_lag=50.2mm tip+=[0.63, 0.389, 0.273]
+[step 5340] phase=7 rod=(p=-7.40°,y=-13.72°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.3mm push  Δ=(p=-0.16°,y=-0.57°) mcp_lag=50.1mm tip+=[0.631, 0.39, 0.276]
+[step 5350] phase=7 rod=(p=-7.11°,y=-13.48°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.1mm push  Δ=(p=-0.45°,y=-0.81°) mcp_lag=50.3mm tip+=[0.631, 0.39, 0.276]
+[step 5360] phase=7 rod=(p=-6.97°,y=-13.84°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.6mm push  Δ=(p=-0.59°,y=-0.44°) mcp_lag=50.2mm tip+=[0.63, 0.389, 0.276]
+[step 5370] phase=7 rod=(p=-6.97°,y=-13.95°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=26.1mm push  Δ=(p=-0.59°,y=-0.34°) mcp_lag=50.2mm tip+=[0.63, 0.389, 0.276]
+[step 5380] phase=7 rod=(p=-7.79°,y=-13.43°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.5mm push  Δ=(p=+0.23°,y=-0.85°) mcp_lag=50.2mm tip+=[0.63, 0.39, 0.275]
+[step 5390] phase=7 rod=(p=-7.82°,y=-13.32°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.4mm push  Δ=(p=+0.26°,y=-0.97°) mcp_lag=50.3mm tip+=[0.63, 0.39, 0.275]
+[step 5400] phase=7 rod=(p=-7.38°,y=-13.60°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.7mm push  Δ=(p=-0.18°,y=-0.68°) mcp_lag=50.1mm tip+=[0.63, 0.39, 0.276]
+  [ep 0/1, attempt 4] step 901/1500  terminated=False  truncated=False
+[step 5410] phase=7 rod=(p=-7.19°,y=-13.94°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=26.2mm push  Δ=(p=-0.37°,y=-0.35°) mcp_lag=50.1mm tip+=[0.63, 0.389, 0.276]
+[step 5420] phase=7 rod=(p=-8.09°,y=-14.42°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=26.9mm push  Δ=(p=+0.53°,y=+0.14°) mcp_lag=50.1mm tip+=[0.628, 0.388, 0.274]
+[step 5430] phase=7 rod=(p=-6.48°,y=-13.42°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=25.6mm push  Δ=(p=-1.08°,y=-0.87°) mcp_lag=50.7mm tip+=[0.631, 0.39, 0.278]
+[step 5440] phase=7 rod=(p=-8.27°,y=-14.58°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=28.0mm push  Δ=(p=+0.71°,y=+0.29°) mcp_lag=50.1mm tip+=[0.627, 0.387, 0.273]
+[step 5450] phase=7 rod=(p=-7.22°,y=-14.29°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.5mm push  Δ=(p=-0.34°,y=-0.00°) mcp_lag=50.1mm tip+=[0.628, 0.389, 0.276]
+[step 5460] phase=7 rod=(p=-8.40°,y=-14.36°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.5mm push  Δ=(p=+0.84°,y=+0.08°) mcp_lag=50.2mm tip+=[0.627, 0.387, 0.273]
+[step 5470] phase=7 rod=(p=-7.20°,y=-13.81°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.0mm push  Δ=(p=-0.36°,y=-0.48°) mcp_lag=50.1mm tip+=[0.629, 0.389, 0.276]
+[step 5480] phase=7 rod=(p=-6.89°,y=-13.97°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.4mm push  Δ=(p=-0.67°,y=-0.32°) mcp_lag=50.3mm tip+=[0.628, 0.388, 0.277]
+[step 5490] phase=7 rod=(p=-8.53°,y=-14.91°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=28.5mm push  Δ=(p=+0.97°,y=+0.62°) mcp_lag=50.3mm tip+=[0.626, 0.386, 0.272]
+[step 5500] phase=7 rod=(p=-7.81°,y=-13.67°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.1mm push  Δ=(p=+0.25°,y=-0.61°) mcp_lag=50.1mm tip+=[0.629, 0.389, 0.275]
+  [ep 0/1, attempt 4] step 1001/1500  terminated=False  truncated=False
+[step 5510] phase=7 rod=(p=-7.94°,y=-13.48°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=26.9mm push  Δ=(p=+0.37°,y=-0.81°) mcp_lag=50.2mm tip+=[0.629, 0.39, 0.274]
+[step 5520] phase=7 rod=(p=-8.15°,y=-14.09°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=28.1mm push  Δ=(p=+0.58°,y=-0.20°) mcp_lag=50.0mm tip+=[0.627, 0.388, 0.272]
+[step 5530] phase=7 rod=(p=-7.39°,y=-14.10°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.7mm push  Δ=(p=-0.17°,y=-0.19°) mcp_lag=50.0mm tip+=[0.628, 0.389, 0.276]
+[step 5540] phase=7 rod=(p=-7.63°,y=-13.44°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=26.9mm push  Δ=(p=+0.06°,y=-0.85°) mcp_lag=50.2mm tip+=[0.629, 0.39, 0.275]
+[step 5550] phase=7 rod=(p=-7.22°,y=-13.74°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.2mm push  Δ=(p=-0.35°,y=-0.55°) mcp_lag=50.1mm tip+=[0.629, 0.39, 0.276]
+[step 5560] phase=7 rod=(p=-7.01°,y=-13.34°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.0mm push  Δ=(p=-0.55°,y=-0.95°) mcp_lag=50.4mm tip+=[0.629, 0.39, 0.276]
+[step 5570] phase=7 rod=(p=-7.00°,y=-13.84°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.8mm push  Δ=(p=-0.57°,y=-0.44°) mcp_lag=50.2mm tip+=[0.628, 0.389, 0.277]
+[step 5580] phase=7 rod=(p=-7.10°,y=-14.26°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=28.6mm push  Δ=(p=-0.47°,y=-0.03°) mcp_lag=50.2mm tip+=[0.627, 0.388, 0.276]
+[step 5590] phase=7 rod=(p=-8.80°,y=-13.55°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.8mm push  Δ=(p=+1.23°,y=-0.74°) mcp_lag=50.7mm tip+=[0.625, 0.39, 0.272]
+[step 5600] phase=7 rod=(p=-7.18°,y=-14.15°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.1mm push  Δ=(p=-0.39°,y=-0.13°) mcp_lag=50.1mm tip+=[0.626, 0.389, 0.276]
+  [ep 0/1, attempt 4] step 1101/1500  terminated=False  truncated=False
+[step 5610] phase=7 rod=(p=-6.78°,y=-14.57°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=29.4mm push  Δ=(p=-0.79°,y=+0.29°) mcp_lag=50.3mm tip+=[0.626, 0.387, 0.278]
+[step 5620] phase=7 rod=(p=-7.32°,y=-14.27°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=28.8mm push  Δ=(p=-0.24°,y=-0.02°) mcp_lag=50.0mm tip+=[0.627, 0.388, 0.277]
+[step 5630] phase=7 rod=(p=-8.72°,y=-15.28°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.9mm push  Δ=(p=+1.16°,y=+0.99°) mcp_lag=50.6mm tip+=[0.623, 0.386, 0.272]
+[step 5640] phase=7 rod=(p=-8.69°,y=-14.29°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=29.5mm push  Δ=(p=+1.13°,y=-0.00°) mcp_lag=50.3mm tip+=[0.625, 0.388, 0.272]
+[step 5650] phase=7 rod=(p=-7.85°,y=-13.39°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=27.8mm push  Δ=(p=+0.29°,y=-0.90°) mcp_lag=50.3mm tip+=[0.628, 0.39, 0.275]
+[step 5660] phase=7 rod=(p=-6.06°,y=-14.09°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=29.3mm push  Δ=(p=-1.50°,y=-0.20°) mcp_lag=51.1mm tip+=[0.627, 0.389, 0.279]
+[step 5670] phase=7 rod=(p=-7.18°,y=-14.88°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.1mm push  Δ=(p=-0.38°,y=+0.59°) mcp_lag=50.2mm tip+=[0.625, 0.386, 0.276]
+[step 5680] phase=7 rod=(p=-6.64°,y=-14.58°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.2mm push  Δ=(p=-0.92°,y=+0.29°) mcp_lag=50.4mm tip+=[0.625, 0.387, 0.278]
+[step 5690] phase=7 rod=(p=-7.20°,y=-14.28°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=29.8mm push  Δ=(p=-0.36°,y=-0.01°) mcp_lag=50.2mm tip+=[0.626, 0.387, 0.275]
+[step 5700] phase=7 rod=(p=-7.45°,y=-14.16°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.1mm push  Δ=(p=-0.12°,y=-0.13°) mcp_lag=50.1mm tip+=[0.625, 0.388, 0.274]
+  [ep 0/1, attempt 4] step 1201/1500  terminated=False  truncated=False
+[step 5710] phase=7 rod=(p=-7.57°,y=-14.38°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=29.8mm push  Δ=(p=+0.00°,y=+0.09°) mcp_lag=50.0mm tip+=[0.626, 0.389, 0.276]
+[step 5720] phase=7 rod=(p=-7.98°,y=-13.54°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=29.7mm push  Δ=(p=+0.41°,y=-0.75°) mcp_lag=50.3mm tip+=[0.626, 0.389, 0.274]
+[step 5730] phase=7 rod=(p=-7.74°,y=-14.08°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=29.9mm push  Δ=(p=+0.17°,y=-0.21°) mcp_lag=50.0mm tip+=[0.625, 0.388, 0.274]
+[step 5740] phase=7 rod=(p=-8.59°,y=-14.06°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.4mm push  Δ=(p=+1.03°,y=-0.23°) mcp_lag=50.3mm tip+=[0.625, 0.388, 0.272]
+[step 5750] phase=7 rod=(p=-7.26°,y=-13.89°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=29.7mm push  Δ=(p=-0.30°,y=-0.40°) mcp_lag=50.1mm tip+=[0.626, 0.39, 0.276]
+[step 5760] phase=7 rod=(p=-6.86°,y=-14.47°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=31.0mm push  Δ=(p=-0.70°,y=+0.18°) mcp_lag=50.2mm tip+=[0.625, 0.388, 0.278]
+[step 5770] phase=7 rod=(p=-7.97°,y=-15.21°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=32.0mm push  Δ=(p=+0.40°,y=+0.92°) mcp_lag=50.4mm tip+=[0.623, 0.387, 0.274]
+[step 5780] phase=7 rod=(p=-9.27°,y=-14.00°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=31.7mm push  Δ=(p=+1.71°,y=-0.28°) mcp_lag=51.0mm tip+=[0.624, 0.39, 0.272]
+[step 5790] phase=7 rod=(p=-7.28°,y=-13.60°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.1mm push  Δ=(p=-0.28°,y=-0.69°) mcp_lag=50.2mm tip+=[0.626, 0.39, 0.276]
+[step 5800] phase=7 rod=(p=-7.80°,y=-14.16°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.7mm push  Δ=(p=+0.23°,y=-0.12°) mcp_lag=50.0mm tip+=[0.625, 0.39, 0.275]
+  [ep 0/1, attempt 4] step 1301/1500  terminated=False  truncated=False
+[step 5810] phase=7 rod=(p=-7.13°,y=-14.89°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=31.3mm push  Δ=(p=-0.44°,y=+0.60°) mcp_lag=50.2mm tip+=[0.624, 0.387, 0.277]
+[step 5820] phase=7 rod=(p=-7.75°,y=-14.32°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=32.0mm push  Δ=(p=+0.19°,y=+0.04°) mcp_lag=50.0mm tip+=[0.623, 0.388, 0.274]
+[step 5830] phase=7 rod=(p=-7.49°,y=-13.26°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.9mm push  Δ=(p=-0.07°,y=-1.03°) mcp_lag=50.4mm tip+=[0.625, 0.391, 0.276]
+[step 5840] phase=7 rod=(p=-7.31°,y=-13.83°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.2mm push  Δ=(p=-0.25°,y=-0.46°) mcp_lag=50.1mm tip+=[0.626, 0.39, 0.276]
+[step 5850] phase=7 rod=(p=-7.32°,y=-14.32°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=31.1mm push  Δ=(p=-0.24°,y=+0.03°) mcp_lag=50.1mm tip+=[0.624, 0.388, 0.275]
+[step 5860] phase=7 rod=(p=-7.52°,y=-14.56°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=31.3mm push  Δ=(p=-0.04°,y=+0.27°) mcp_lag=50.1mm tip+=[0.624, 0.388, 0.278]
+[step 5870] phase=7 rod=(p=-7.99°,y=-13.88°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=32.9mm push  Δ=(p=+0.42°,y=-0.41°) mcp_lag=50.1mm tip+=[0.622, 0.389, 0.274]
+[step 5880] phase=7 rod=(p=-7.20°,y=-12.88°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=33.7mm push  Δ=(p=-0.36°,y=-1.41°) mcp_lag=50.8mm tip+=[0.623, 0.393, 0.277]
+[step 5890] phase=7 rod=(p=-8.64°,y=-14.60°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=31.3mm push  Δ=(p=+1.08°,y=+0.31°) mcp_lag=50.4mm tip+=[0.624, 0.388, 0.273]
+[step 5900] phase=7 rod=(p=-7.50°,y=-14.25°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=31.8mm push  Δ=(p=-0.06°,y=-0.04°) mcp_lag=50.1mm tip+=[0.624, 0.388, 0.274]
+  [ep 0/1, attempt 4] step 1401/1500  terminated=False  truncated=False
+[step 5910] phase=7 rod=(p=-8.98°,y=-13.82°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=32.3mm push  Δ=(p=+1.41°,y=-0.47°) mcp_lag=50.6mm tip+=[0.623, 0.39, 0.272]
+[step 5920] phase=7 rod=(p=-6.94°,y=-13.26°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=30.4mm push  Δ=(p=-0.62°,y=-1.03°) mcp_lag=50.5mm tip+=[0.626, 0.391, 0.277]
+[step 5930] phase=7 rod=(p=-7.15°,y=-14.09°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=32.0mm push  Δ=(p=-0.41°,y=-0.20°) mcp_lag=50.1mm tip+=[0.624, 0.39, 0.276]
+[step 5940] phase=7 rod=(p=-7.42°,y=-14.37°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=32.3mm push  Δ=(p=-0.14°,y=+0.09°) mcp_lag=50.0mm tip+=[0.624, 0.389, 0.277]
+[step 5950] phase=7 rod=(p=-8.80°,y=-13.72°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=32.5mm push  Δ=(p=+1.23°,y=-0.57°) mcp_lag=50.6mm tip+=[0.623, 0.39, 0.273]
+[step 5960] phase=7 rod=(p=-7.95°,y=-13.89°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=32.0mm push  Δ=(p=+0.38°,y=-0.40°) mcp_lag=50.1mm tip+=[0.624, 0.39, 0.275]
+[step 5970] phase=7 rod=(p=-7.78°,y=-13.41°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=31.0mm push  Δ=(p=+0.22°,y=-0.88°) mcp_lag=50.2mm tip+=[0.625, 0.391, 0.276]
+[step 5980] phase=7 rod=(p=-6.14°,y=-13.52°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=31.7mm push  Δ=(p=-1.43°,y=-0.77°) mcp_lag=51.1mm tip+=[0.625, 0.39, 0.279]
+[step 5990] phase=7 rod=(p=-6.66°,y=-13.92°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=32.1mm push  Δ=(p=-0.90°,y=-0.37°) mcp_lag=50.4mm tip+=[0.624, 0.39, 0.278]
+[step 6000] phase=7 rod=(p=-8.25°,y=-13.65°) hole=(p=-7.56°,y=-14.29°)
+[P7] remaining=33.5mm push  Δ=(p=+0.69°,y=-0.64°) mcp_lag=50.3mm tip+=[0.622, 0.39, 0.274]
+  [ep 0/1, attempt 4] step 1500/1500  terminated=False  truncated=True
+  [WARNING] Episode 0 attempt 4 truncated without success. Discarding and retrying...
+  [Success Rate] overall: 0.0% (0/4) | moving avg (last 4): 0.0%
+  [ep 0/1, attempt 5] step 1/1500  terminated=False  truncated=False
+[step 6010] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=-13.72°,y=+0.04°)
+[step 6020] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=-13.72°,y=+0.04°)
+[step 6030] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=-13.72°,y=+0.04°)
+[step 6040] phase=0 rod=(p=+0.00°,y=+0.00°) hole=(p=-13.72°,y=+0.04°)
+[step 6050] phase=1 rod=(p=+0.00°,y=+0.00°) hole=(p=-13.72°,y=+0.04°)
+[step 6060] phase=2 rod=(p=+0.00°,y=+0.00°) hole=(p=-13.72°,y=+0.04°)
+[step 6070] phase=2 rod=(p=-0.15°,y=+0.12°) hole=(p=-13.72°,y=+0.04°)
+[step 6080] phase=2 rod=(p=+1.70°,y=+1.52°) hole=(p=-13.72°,y=+0.04°)
+[step 6090] phase=2 rod=(p=-0.55°,y=-4.31°) hole=(p=-13.72°,y=+0.04°)
+[step 6100] phase=2 rod=(p=-1.78°,y=-5.77°) hole=(p=-13.72°,y=+0.04°)
+  [ep 0/1, attempt 5] step 101/1500  terminated=False  truncated=False
+[step 6110] phase=2 rod=(p=-2.35°,y=-7.20°) hole=(p=-13.72°,y=+0.04°)
+[step 6120] phase=3 rod=(p=-2.58°,y=-6.52°) hole=(p=-13.72°,y=+0.04°)
+[step 6130] phase=3 rod=(p=-2.46°,y=-6.21°) hole=(p=-13.72°,y=+0.04°)
+[step 6140] phase=4 rod=(p=-2.27°,y=-4.00°) hole=(p=-13.72°,y=+0.04°)
+[step 6150] phase=4 rod=(p=-2.49°,y=-3.01°) hole=(p=-13.72°,y=+0.04°)
+[step 6160] phase=4 rod=(p=-2.63°,y=-3.52°) hole=(p=-13.72°,y=+0.04°)
+[step 6170] phase=4 rod=(p=-3.03°,y=-4.22°) hole=(p=-13.72°,y=+0.04°)
+[step 6180] phase=4 rod=(p=-3.45°,y=-4.86°) hole=(p=-13.72°,y=+0.04°)
+[step 6190] phase=5 rod=(p=-5.15°,y=-5.60°) hole=(p=-13.72°,y=+0.04°)
+[P5 position] center_err=22.7mm to pre_center
+[step 6200] phase=5 rod=(p=-5.58°,y=-5.62°) hole=(p=-13.72°,y=+0.04°)
+  [ep 0/1, attempt 5] step 201/1500  terminated=False  truncated=False
+[P5 -> P6] center_err=3.6mm, wait=18
+[P6 rotate] rod=(p=-8.29°,y=-3.84°) hole=(p=-13.72°,y=0.04°) Δ=(p=-5.43°,y=3.88°)
+[step 6210] phase=6 rod=(p=-8.77°,y=-3.53°) hole=(p=-13.72°,y=+0.04°)
+[P6 rotate] rod=(p=-9.92°,y=-2.87°) hole=(p=-13.72°,y=0.04°) Δ=(p=-3.80°,y=2.91°)
+[P6 rotate] rod=(p=-11.89°,y=-1.56°) hole=(p=-13.72°,y=0.04°) Δ=(p=-1.83°,y=1.60°)
+[step 6220] phase=6 rod=(p=-12.12°,y=-1.41°) hole=(p=-13.72°,y=+0.04°)
+[P6 rotate] rod=(p=-12.80°,y=-0.95°) hole=(p=-13.72°,y=0.04°) Δ=(p=-0.92°,y=0.99°)
+[P6 done] Δp=-0.50°, Δy=0.69°, push_target(center)=[ 0.41113907 -0.37008846  0.3223261 ]
+[step 6230] phase=7 rod=(p=-13.30°,y=-0.65°) hole=(p=-13.72°,y=+0.04°)
+[P7] remaining=293.5mm push  Δ=(p=-0.64°,y=+0.25°) mcp_lag=50.6mm tip+=[0.368, -0.372, 0.331]
+[step 6240] phase=7 rod=(p=-13.08°,y=-0.18°) hole=(p=-13.72°,y=+0.04°)
+[P7] remaining=260.7mm push  Δ=(p=-0.52°,y=+0.14°) mcp_lag=50.4mm tip+=[0.4, -0.372, 0.323]
+[step 6250] phase=7 rod=(p=-13.22°,y=-0.08°) hole=(p=-13.72°,y=+0.04°)
+[P7] remaining=228.2mm push  Δ=(p=-0.33°,y=+0.05°) mcp_lag=50.3mm tip+=[0.432, -0.372, 0.315]
+[step 6260] phase=7 rod=(p=-13.51°,y=-0.02°) hole=(p=-13.72°,y=+0.04°)
+[P7] remaining=195.1mm push  Δ=(p=-0.17°,y=+0.01°) mcp_lag=50.2mm tip+=[0.464, -0.372, 0.307]
+[step 6270] phase=7 rod=(p=-13.55°,y=+0.06°) hole=(p=-13.72°,y=+0.04°)
+[P7] remaining=162.9mm push  Δ=(p=-0.17°,y=-0.14°) mcp_lag=50.2mm tip+=[0.495, -0.371, 0.3]
+[step 6280] phase=7 rod=(p=-13.67°,y=+0.19°) hole=(p=-13.72°,y=+0.04°)
+[P7] remaining=130.5mm push  Δ=(p=-0.12°,y=-0.20°) mcp_lag=50.2mm tip+=[0.527, -0.371, 0.292]
+[step 6290] phase=7 rod=(p=-13.68°,y=+0.28°) hole=(p=-13.72°,y=+0.04°)
+[P7] remaining=99.4mm push  Δ=(p=+0.00°,y=-0.41°) mcp_lag=50.2mm tip+=[0.557, -0.37, 0.284]
+[step 6300] phase=7 rod=(p=-13.78°,y=+0.47°) hole=(p=-13.72°,y=+0.04°)
+  [ep 0/1, attempt 5] step 301/1500  terminated=False  truncated=False
+[P7] remaining=69.2mm push  Δ=(p=-0.11°,y=-0.22°) mcp_lag=50.2mm tip+=[0.586, -0.371, 0.277]
+[step 6310] phase=7 rod=(p=-13.66°,y=+0.21°) hole=(p=-13.72°,y=+0.04°)
+  [ep 0/1, attempt 5] step 316/1500  terminated=True  truncated=False
+[P7] remaining=38.2mm push  Δ=(p=+0.05°,y=-0.00°) mcp_lag=50.1mm tip+=[0.616, -0.372, 0.269]
+[step 6320] phase=7 rod=(p=-13.81°,y=+0.09°) hole=(p=-13.72°,y=+0.04°)
+[P7 done] final center=[ 0.39231363 -0.3719829   0.32476988]
+[step 6330] phase=8 rod=(p=-13.95°,y=-0.18°) hole=(p=-13.72°,y=+0.04°)
+[step 6340] phase=8 rod=(p=-13.85°,y=-0.20°) hole=(p=-13.72°,y=+0.04°)
+  [ep 0, attempt 5] Success at step 316, collected 30 extra steps.
+  [Success Rate] overall: 20.0% (1/5) | moving avg (last 5): 20.0%
+[ManiLadder Camera] stop_recording target=/mnt/gck_website/maniladder.github.io/generated_demos/RodThroughHoles-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [09:33:43] [INFO] Saving video to [38;5;121m"/mnt/gck_website/maniladder.github.io/generated_demos/RodThroughHoles-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [09:33:46] [INFO] Video saved.[0m
+  Saved video: /mnt/gck_website/maniladder.github.io/generated_demos/RodThroughHoles-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /mnt/gck_website/maniladder.github.io/generated_demos/RodThroughHoles-v1/videos
 
 ============================================================
-Done. 1 demo trajectories saved to /data/gck/maniladder/site/generated_demos
-Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+Done. 1 demo trajectories (traj_0..traj_0) saved to /mnt/gck_website/maniladder.github.io/generated_demos
+Final   [Success Rate] overall: 20.0% (1/5) | moving avg (last 5): 20.0%
 ============================================================
-[38;5;159m[Genesis] [18:28:37] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[38;5;159m[Genesis] [09:33:46] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[W 09/29/26 09:33:46.634 4112653] [offline_cache.h:run@186] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. You can run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 09:33:46.835 4112653] [kernel_compilation_manager.cpp:dump@104] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 09:33:47.085 4112653] [ptx_cache.cpp:dump@92] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.

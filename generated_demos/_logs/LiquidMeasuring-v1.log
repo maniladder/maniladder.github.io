@@ -1,39 +1,903 @@
-[38;5;159m[Genesis] [17:45:28] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:45:28] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:45:28] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:45:33] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
-[38;5;159m[Genesis] [17:45:33] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:45:35] [INFO] Scene [38;5;121m[3m<cdae3db>[0m[38;5;159m created.[0m
-[38;5;159m[Genesis] [17:45:35] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<3c790c3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [17:45:35] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
-[38;5;226m[Genesis] [17:45:35] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
-[38;5;226m[Genesis] [17:45:35] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
-[38;5;226m[Genesis] [17:45:35] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
-[38;5;159m[Genesis] [17:45:35] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<3f50596>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [17:45:36] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:37:52] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[W 09/29/26 08:37:53.557 3916322] [ptx_cache.cpp:PtxCache@73] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.
+[38;5;159m[Genesis] [08:37:54] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [08:37:54] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:37:56] [INFO] Scene [38;5;121m[3m<6ee737c>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [08:37:56] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<8228455>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/mnt4/gck/maniladder/maniladder/assets/xml/franka_emika_panda/panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:37:56] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [08:37:56] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [08:37:56] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [08:37:56] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [08:37:56] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [08:37:56] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<3709356>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:37:56] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
   warnings.warn("pygltflib currently does not remove image data "
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<775545c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<dbe7ec0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<792e1ea>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<e748596>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<7d571b9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<c2a333c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/lab_ware/tube.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<0af0aa6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/lab_ware/tube.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<66f3f0a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/lab_ware/tube.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<e8ac278>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/lab_ware/tube.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<efc15e3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/lab_ware/tube.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:36] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<918e665>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/meshes/deformable/cup.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:37] [INFO] Adding [38;5;121m<gs.SPHEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<6036e64>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.SPH.Liquid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:45:37] [INFO] Sampled [38;5;121m[4m1,280[0m[38;5;159m particles.[0m
-[38;5;159m[Genesis] [17:45:37] [INFO] Building scene [38;5;121m[3m<cdae3db>[0m[38;5;159m...[0m
-[38;5;226m[Genesis] [17:45:39] [WARNING] Reference robot position exceeds joint limits.[0m
-[38;5;226m[Genesis] [17:45:41] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 380, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
-[38;5;226m[Genesis] [17:45:48] [WARNING] Current timestep (0.001) is larger than the stable timestep (0.0008) for SPH solver. Please consider reducing the timestep, liquid viscosity (mu), or increasing the particle size.[0m
-[38;5;159m[Genesis] [17:45:49] [INFO] Compiling simulation kernels...[0m
-[38;5;159m[Genesis] [17:46:37] [INFO] Building visualizer...[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<ccc6eb8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<f472310>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<2f7a53e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<0af8556>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<a1d39b7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<840f94e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/meshes/deformable/lab_ware/tube.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<2a0a05e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/meshes/deformable/lab_ware/tube.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<cf5b961>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/meshes/deformable/lab_ware/tube.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<6eee50e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/meshes/deformable/lab_ware/tube.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<bba6b06>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/meshes/deformable/lab_ware/tube.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m12[0m[38;5;159m, uid: [38;5;121m[3m<ea98dc2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/meshes/deformable/cup.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Adding [38;5;121m<gs.SPHEntity>[0m[38;5;159m. idx: [38;5;121m13[0m[38;5;159m, uid: [38;5;121m[3m<98519bd>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.SPH.Liquid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Sampled [38;5;121m[4m1,280[0m[38;5;159m particles.[0m
+[38;5;159m[Genesis] [08:37:57] [INFO] Building scene [38;5;121m[3m<6ee737c>[0m[38;5;159m...[0m
+[W 09/29/26 08:37:58.265 3916322] [kernel_compilation_manager.cpp:KernelCompilationManager@69] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[38;5;226m[Genesis] [08:38:01] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [08:38:03] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 380, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;226m[Genesis] [08:38:10] [WARNING] Current timestep (0.001) is larger than the stable timestep (0.0008) for SPH solver. Please consider reducing the timestep, liquid viscosity (mu), or increasing the particle size.[0m
+[38;5;159m[Genesis] [08:38:11] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [08:38:56] [INFO] Building visualizer...[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
   return func(*args, **kwargs)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+Action space: Box(-1.0, 1.0, (7,), float32)
+Generating 1 orbit video-only demos → /mnt/gck_website/maniladder.github.io/generated_demos/LiquidMeasuring-v1
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step   0] phase 1  theta=0.00 psi=0.00 level -1.000/0.105 粒子 0   weld=0 tcp=(-0.093,-0.000,0.590)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+  [ep 0/1, attempt 1] step 1/1000  terminated=False  truncated=False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step  20] phase 1  theta=0.00 psi=0.00 level -1.000/0.105 粒子 0   weld=0 tcp=(0.015,-0.112,0.477)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step  40] phase 2  theta=0.00 psi=0.00 level -1.000/0.105 粒子 0   weld=0 tcp=(0.073,-0.167,0.367)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step  60] phase 2  theta=0.00 psi=0.00 level -1.000/0.105 粒子 0   weld=0 tcp=(0.074,-0.168,0.255)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step  80] phase 3  theta=0.00 psi=0.00 level -1.000/0.105 粒子 0   weld=1 tcp=(0.080,-0.171,0.184)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step 100] phase 3  theta=0.00 psi=0.00 level -1.000/0.105 粒子 0   weld=1 tcp=(0.084,-0.170,0.185)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+  [ep 0/1, attempt 1] step 101/1000  terminated=False  truncated=False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step 120] phase 4  theta=0.00 psi=0.00 level -1.000/0.105 粒子 0   weld=1 tcp=(0.076,-0.167,0.279)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step 140] phase 4  theta=0.00 psi=0.00 level -1.000/0.105 粒子 0   weld=1 tcp=(0.077,-0.167,0.383)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step 160] phase 5  theta=0.00 psi=0.00 level -1.000/0.105 粒子 0   weld=1 tcp=(0.156,-0.070,0.407)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step 180] phase 5  theta=0.00 psi=0.00 level -1.000/0.105 粒子 0   weld=1 tcp=(0.161,0.042,0.408)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 22 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 22 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 44 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 44 success_this_round False overall_success False
+[Step 200] phase 6  theta=0.00 psi=0.24 level -1.000/0.105 粒子 0   weld=1 tcp=(0.138,0.131,0.406)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 80 success_this_round False overall_success False
+  [ep 0/1, attempt 1] step 201/1000  terminated=False  truncated=False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 80 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 117 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 117 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 155 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 155 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 193 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 193 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 217 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 217 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 222 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 222 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 212 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 212 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 218 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 218 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 212 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 212 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 218 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 218 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 217 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 217 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 209 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 209 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 229 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 229 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 210 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 210 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 193 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 193 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 172 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 172 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 151 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 151 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 135 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 135 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 127 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 127 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 122 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 122 success_this_round False overall_success False
+[Step 220] phase 6  theta=0.00 psi=0.84 level -1.000/0.105 粒子 0   weld=1 tcp=(0.117,0.174,0.405)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 115 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 115 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 108 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 108 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 103 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 103 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 100 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 100 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 99 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 99 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 98 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 98 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 97 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 97 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 97 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 97 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 95 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 95 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 96 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 95 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 95 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 94 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 94 success_this_round False overall_success False
+[Step 240] phase 6  theta=0.00 psi=1.44 level -1.000/0.105 粒子 0   weld=1 tcp=(0.145,0.136,0.405)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 94 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 94 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 93 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 93 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 93 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 93 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 93 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 93 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 93 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 93 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 93 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 93 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 95 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 95 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 100 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 100 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 123 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 123 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 147 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 147 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 173 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 173 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 200 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 200 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 217 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 217 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 220 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 220 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 208 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 208 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 217 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 217 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 224 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 224 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 220 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 220 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 222 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 222 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 228 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 228 success_this_round False overall_success False
+[Step 260] phase 7  theta=0.29 psi=1.57 level -1.000/0.105 粒子 0   weld=1 tcp=(0.190,0.089,0.433)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 223 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 223 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 203 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 203 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 180 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 180 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 143 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 143 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 111 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 111 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 77 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 77 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 49 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 49 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 30 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 30 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 18 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 18 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 7 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 7 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step 280] phase 7  theta=0.73 psi=1.57 level -1.000/0.105 粒子 0   weld=1 tcp=(0.204,0.069,0.478)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+[Step 300] phase 7  theta=1.17 psi=1.57 level -1.000/0.105 粒子 0   weld=1 tcp=(0.204,0.124,0.470)
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+  [ep 0/1, attempt 1] step 301/1000  terminated=False  truncated=False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level None goal 0.10450000000000001 count_in 0 count_above_z_in_radius 0 success_this_round False overall_success False
+level 0.165 goal 0.10450000000000001 count_in 2 count_above_z_in_radius 0 success_this_round False overall_success False
+level 0.165 goal 0.10450000000000001 count_in 2 count_above_z_in_radius 0 success_this_round False overall_success False
+level 0.16 goal 0.10450000000000001 count_in 18 count_above_z_in_radius 0 success_this_round False overall_success False
+level 0.16 goal 0.10450000000000001 count_in 18 count_above_z_in_radius 0 success_this_round False overall_success False
+level 0.15 goal 0.10450000000000001 count_in 36 count_above_z_in_radius 0 success_this_round False overall_success False
+level 0.15 goal 0.10450000000000001 count_in 36 count_above_z_in_radius 0 success_this_round False overall_success False
+level 0.18 goal 0.10450000000000001 count_in 47 count_above_z_in_radius 3 success_this_round True overall_success False
+level 0.18 goal 0.10450000000000001 count_in 47 count_above_z_in_radius 3 success_this_round True overall_success False
+level 0.12499999999999999 goal 0.10450000000000001 count_in 49 count_above_z_in_radius 8 success_this_round True overall_success False
+level 0.12499999999999999 goal 0.10450000000000001 count_in 49 count_above_z_in_radius 8 success_this_round True overall_success False
+level 0.19 goal 0.10450000000000001 count_in 52 count_above_z_in_radius 14 success_this_round False overall_success False
+level 0.19 goal 0.10450000000000001 count_in 52 count_above_z_in_radius 14 success_this_round False overall_success False
+level 0.19 goal 0.10450000000000001 count_in 66 count_above_z_in_radius 19 success_this_round False overall_success False
+level 0.19 goal 0.10450000000000001 count_in 66 count_above_z_in_radius 19 success_this_round False overall_success False
+level 0.185 goal 0.10450000000000001 count_in 74 count_above_z_in_radius 26 success_this_round False overall_success False
+level 0.185 goal 0.10450000000000001 count_in 74 count_above_z_in_radius 26 success_this_round False overall_success False
+level 0.19 goal 0.10450000000000001 count_in 93 count_above_z_in_radius 28 success_this_round False overall_success False
+level 0.19 goal 0.10450000000000001 count_in 93 count_above_z_in_radius 28 success_this_round False overall_success False
+level 0.19 goal 0.10450000000000001 count_in 94 count_above_z_in_radius 22 success_this_round False overall_success False
+level 0.19 goal 0.10450000000000001 count_in 94 count_above_z_in_radius 22 success_this_round False overall_success False
+level 0.185 goal 0.10450000000000001 count_in 108 count_above_z_in_radius 18 success_this_round False overall_success False
+level 0.185 goal 0.10450000000000001 count_in 108 count_above_z_in_radius 18 success_this_round False overall_success False
+level 0.185 goal 0.10450000000000001 count_in 101 count_above_z_in_radius 19 success_this_round False overall_success False
+level 0.185 goal 0.10450000000000001 count_in 101 count_above_z_in_radius 19 success_this_round False overall_success False
+DEBUG: 触碰断流线 level=0.185 theta=1.30 → 回正断流
+level 0.19 goal 0.10450000000000001 count_in 113 count_above_z_in_radius 15 success_this_round False overall_success False
+level 0.19 goal 0.10450000000000001 count_in 113 count_above_z_in_radius 15 success_this_round False overall_success False
+level 0.18 goal 0.10450000000000001 count_in 116 count_above_z_in_radius 9 success_this_round True overall_success False
+level 0.18 goal 0.10450000000000001 count_in 116 count_above_z_in_radius 9 success_this_round True overall_success False
+level 0.145 goal 0.10450000000000001 count_in 116 count_above_z_in_radius 10 success_this_round True overall_success False
+level 0.145 goal 0.10450000000000001 count_in 116 count_above_z_in_radius 10 success_this_round True overall_success False
+[Step 320] phase 17 theta=1.22 psi=1.57 level 0.145/0.105 粒子 116 weld=1 tcp=(0.205,0.158,0.453)
+level 0.14 goal 0.10450000000000001 count_in 116 count_above_z_in_radius 19 success_this_round False overall_success False
+level 0.14 goal 0.10450000000000001 count_in 116 count_above_z_in_radius 19 success_this_round False overall_success False
+level 0.19 goal 0.10450000000000001 count_in 126 count_above_z_in_radius 15 success_this_round False overall_success False
+level 0.19 goal 0.10450000000000001 count_in 126 count_above_z_in_radius 15 success_this_round False overall_success False
+level 0.17 goal 0.10450000000000001 count_in 132 count_above_z_in_radius 9 success_this_round True overall_success False
+level 0.17 goal 0.10450000000000001 count_in 132 count_above_z_in_radius 9 success_this_round True overall_success False
+level 0.15 goal 0.10450000000000001 count_in 127 count_above_z_in_radius 10 success_this_round True overall_success False
+level 0.15 goal 0.10450000000000001 count_in 127 count_above_z_in_radius 10 success_this_round True overall_success False
+level 0.16 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 11 success_this_round False overall_success False
+level 0.16 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 11 success_this_round False overall_success False
+level 0.15 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 15 success_this_round False overall_success False
+level 0.15 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 15 success_this_round False overall_success False
+level 0.15 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 19 success_this_round False overall_success False
+level 0.15 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 19 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 20 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 20 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 20 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 20 success_this_round False overall_success False
+level 0.15 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 20 success_this_round False overall_success False
+level 0.15 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 20 success_this_round False overall_success False
+level 0.165 goal 0.10450000000000001 count_in 145 count_above_z_in_radius 13 success_this_round False overall_success False
+level 0.165 goal 0.10450000000000001 count_in 145 count_above_z_in_radius 13 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 13 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 13 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 14 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 14 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 14 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 14 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 15 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 15 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 16 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 16 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 140 count_above_z_in_radius 17 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 140 count_above_z_in_radius 17 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 140 count_above_z_in_radius 18 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 140 count_above_z_in_radius 18 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 140 count_above_z_in_radius 19 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 140 count_above_z_in_radius 19 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 140 count_above_z_in_radius 22 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 140 count_above_z_in_radius 22 success_this_round False overall_success False
+[Step 340] phase 17 theta=0.42 psi=1.57 level 0.145/0.105 粒子 140 weld=1 tcp=(0.204,0.102,0.473)
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 24 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 24 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 29 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 29 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 32 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 32 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 35 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 35 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 43 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 43 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 54 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 54 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 62 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 141 count_above_z_in_radius 62 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 71 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 71 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 80 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 139 count_above_z_in_radius 80 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 92 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 92 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 113 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 113 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 129 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 129 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 140 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 140 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 150 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 150 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 153 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 153 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 157 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 157 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 164 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 164 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 159 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 159 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 156 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 156 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 149 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 149 success_this_round False overall_success False
+[Step 360] phase 18 theta=0.00 psi=1.57 level 0.145/0.105 粒子 135 weld=1 tcp=(0.201,0.049,0.415)
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 146 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 146 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 133 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 133 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 127 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 127 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 120 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 120 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 108 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 108 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 100 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 100 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 89 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 89 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 82 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 82 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 72 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 72 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 63 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 63 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 54 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 54 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 41 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 41 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 31 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 31 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 25 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 25 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 18 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 18 success_this_round False overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 9 success_this_round True overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 9 success_this_round True overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+  [ep 0/1, attempt 1] step 378/1000  terminated=True  truncated=False
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
 
-[TIMEOUT] exceeded --task_timeout_sec=900.0
+🏆 SUCCESS @ step 378: 液面 0.145 / 目标 0.105, 管内 136 粒
+
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 134 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 134 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 134 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 134 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 135 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 136 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 138 count_above_z_in_radius 0 success_this_round True overall_success True
+level 0.145 goal 0.10450000000000001 count_in 137 count_above_z_in_radius 0 success_this_round True overall_success True
+  [ep 0, attempt 1] Success at step 378, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/mnt/gck_website/maniladder.github.io/generated_demos/LiquidMeasuring-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [08:46:46] [INFO] Saving video to [38;5;121m"/mnt/gck_website/maniladder.github.io/generated_demos/LiquidMeasuring-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [08:46:48] [INFO] Video saved.[0m
+  Saved video: /mnt/gck_website/maniladder.github.io/generated_demos/LiquidMeasuring-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /mnt/gck_website/maniladder.github.io/generated_demos/LiquidMeasuring-v1/videos
+
+============================================================
+Done. 1 demo trajectories (traj_0..traj_0) saved to /mnt/gck_website/maniladder.github.io/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [08:46:49] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[W 09/29/26 08:46:49.227 3916322] [offline_cache.h:run@186] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. You can run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:46:49.428 3916322] [kernel_compilation_manager.cpp:dump@104] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:46:49.690 3916322] [ptx_cache.cpp:dump@92] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.

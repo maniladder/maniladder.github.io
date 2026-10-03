@@ -1,50 +1,51 @@
-[38;5;159m[Genesis] [18:05:35] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:05:35] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:05:35] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:05:36] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
-[38;5;159m[Genesis] [18:05:36] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:05:38] [INFO] Scene [38;5;121m[3m<0dc7857>[0m[38;5;159m created.[0m
-[38;5;159m[Genesis] [18:05:38] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<65f7334>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/mobile/tidybot_panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [18:05:38] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
-[38;5;226m[Genesis] [18:05:38] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
-[38;5;226m[Genesis] [18:05:38] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
-[38;5;226m[Genesis] [18:05:38] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
-[38;5;159m[Genesis] [18:05:38] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[38;5;159m[Genesis] [18:05:39] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<4a4169b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:39] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<c47eeb2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:39] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<119850a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:39] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<cab4f64>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:39] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<7097cb6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:39] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<a4846f7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/fridge/new_fridge.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:39] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[38;5;159m[Genesis] [18:05:39] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<c9103d2>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/small_table/20411/mobility.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [18:05:41] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-11.obj[0m
-[38;5;226m[Genesis] [18:05:41] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-12.obj[0m
-[38;5;226m[Genesis] [18:05:41] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-13.obj[0m
-[38;5;226m[Genesis] [18:05:41] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-16.obj[0m
-[38;5;226m[Genesis] [18:05:41] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-15.obj[0m
-[38;5;226m[Genesis] [18:05:41] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-17.obj[0m
-[38;5;226m[Genesis] [18:05:42] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-14.obj[0m
-[38;5;226m[Genesis] [18:05:42] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-4.obj[0m
-[38;5;226m[Genesis] [18:05:42] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-3.obj[0m
-[38;5;226m[Genesis] [18:05:42] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-18.obj[0m
-[38;5;226m[Genesis] [18:05:42] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-23.obj[0m
-[38;5;226m[Genesis] [18:05:43] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-21.obj[0m
-[38;5;226m[Genesis] [18:05:43] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-24.obj[0m
-[38;5;226m[Genesis] [18:05:43] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-22.obj[0m
-[38;5;226m[Genesis] [18:05:43] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-19.obj[0m
-[38;5;226m[Genesis] [18:05:43] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-10.obj[0m
-[38;5;226m[Genesis] [18:05:43] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
-[38;5;226m[Genesis] [18:05:43] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
-[38;5;226m[Genesis] [18:05:44] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-7.obj[0m
-[38;5;226m[Genesis] [18:05:44] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-20.obj[0m
-[38;5;226m[Genesis] [18:05:44] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-5.obj[0m
-[38;5;226m[Genesis] [18:05:44] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-6.obj[0m
-[38;5;226m[Genesis] [18:05:44] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-9.obj[0m
-[38;5;226m[Genesis] [18:05:44] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-8.obj[0m
-[38;5;226m[Genesis] [18:05:44] [WARNING] Texture given but asset missing uv info (or failed to load): /data/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-25.obj[0m
-[38;5;159m[Genesis] [18:05:46] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
-[38;5;159m[Genesis] [18:05:46] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [08:45:37] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:45:37] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:45:37] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[W 09/29/26 08:45:38.098 3948151] [ptx_cache.cpp:PtxCache@73] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.
+[38;5;159m[Genesis] [08:45:38] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [08:45:38] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:45:40] [INFO] Scene [38;5;121m[3m<cdec5ca>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [08:45:40] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<20b2fee>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/mnt4/gck/maniladder/maniladder/assets/xml/mobile/tidybot_panda.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:45:40] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint1`[0m
+[38;5;226m[Genesis] [08:45:40] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint1`.[0m
+[38;5;226m[Genesis] [08:45:40] [WARNING] (MJCF) Approximating tendon by joint actuator for `finger_joint2`[0m
+[38;5;226m[Genesis] [08:45:40] [WARNING] (MJCF) Actuator control gain and bias parameters cannot be reduced to a unique PD control position gain. Using max between gain and bias for joint `finger_joint2`.[0m
+[38;5;159m[Genesis] [08:45:40] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [08:45:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<ef4ed76>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:45:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<45be473>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:45:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<980fb69>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:45:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<4984d0a>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:45:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<be5736f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:45:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<6f2f939>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/models/fridge/new_fridge.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:45:41] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [08:45:41] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<3066c61>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/mobility.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:45:42] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-11.obj[0m
+[38;5;226m[Genesis] [08:45:42] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-12.obj[0m
+[38;5;226m[Genesis] [08:45:42] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-13.obj[0m
+[38;5;226m[Genesis] [08:45:42] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-16.obj[0m
+[38;5;226m[Genesis] [08:45:42] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-15.obj[0m
+[38;5;226m[Genesis] [08:45:42] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-17.obj[0m
+[38;5;226m[Genesis] [08:45:43] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-14.obj[0m
+[38;5;226m[Genesis] [08:45:43] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-4.obj[0m
+[38;5;226m[Genesis] [08:45:43] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-3.obj[0m
+[38;5;226m[Genesis] [08:45:43] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-18.obj[0m
+[38;5;226m[Genesis] [08:45:43] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-23.obj[0m
+[38;5;226m[Genesis] [08:45:43] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-21.obj[0m
+[38;5;226m[Genesis] [08:45:43] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-24.obj[0m
+[38;5;226m[Genesis] [08:45:44] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-22.obj[0m
+[38;5;226m[Genesis] [08:45:44] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-19.obj[0m
+[38;5;226m[Genesis] [08:45:44] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-10.obj[0m
+[38;5;226m[Genesis] [08:45:44] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [08:45:44] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-31.obj[0m
+[38;5;226m[Genesis] [08:45:44] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-7.obj[0m
+[38;5;226m[Genesis] [08:45:44] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-20.obj[0m
+[38;5;226m[Genesis] [08:45:44] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-5.obj[0m
+[38;5;226m[Genesis] [08:45:44] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-6.obj[0m
+[38;5;226m[Genesis] [08:45:44] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-9.obj[0m
+[38;5;226m[Genesis] [08:45:45] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-8.obj[0m
+[38;5;226m[Genesis] [08:45:45] [WARNING] Texture given but asset missing uv info (or failed to load): /mnt4/gck/maniladder/maniladder/assets/models/small_table/20411/textured_objs/original-25.obj[0m
+[38;5;159m[Genesis] [08:45:46] [INFO] Falling back to legacy URDF parser. Default values of physics properties may be off.[0m
+[38;5;159m[Genesis] [08:45:46] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:302: RuntimeWarning: divide by zero encountered in divide
   center_mass = integrated[1:4] / volume
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:302: RuntimeWarning: invalid value encountered in divide
@@ -61,18 +62,159 @@
   inertia[0, 1] = -(integrated[7] - (volume * np.prod(center_mass[[0, 1]])))
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/trimesh/triangles.py:325: RuntimeWarning: invalid value encountered in scalar multiply
   inertia[1, 2] = -(integrated[8] - (volume * np.prod(center_mass[[1, 2]])))
-[38;5;159m[Genesis] [18:05:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<a8e31b7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<e21dd9e>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/010_potted_meat_can/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<7a231c5>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/010_potted_meat_can/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:47] [INFO] Preprocessing geom idx [38;5;121m[4m71[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<9ac966f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/ycb/010_potted_meat_can/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:05:48] [INFO] Building scene [38;5;121m[3m<0dc7857>[0m[38;5;159m...[0m
-[38;5;226m[Genesis] [18:05:51] [WARNING] Reference robot position exceeds joint limits.[0m
-[38;5;226m[Genesis] [18:05:51] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
-[38;5;226m[Genesis] [18:05:54] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 1931, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
-[38;5;159m[Genesis] [18:06:01] [INFO] Compiling simulation kernels...[0m
-[38;5;159m[Genesis] [18:06:38] [INFO] Building visualizer...[0m
+[38;5;159m[Genesis] [08:45:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<ec1f941>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Cylinder>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:45:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<d214db8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/ycb/010_potted_meat_can/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:45:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<d548e21>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/ycb/010_potted_meat_can/poisson/textured.obj')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:45:47] [INFO] Building scene [38;5;121m[3m<cdec5ca>[0m[38;5;159m...[0m
+[W 09/29/26 08:45:47.542 3948151] [kernel_compilation_manager.cpp:KernelCompilationManager@69] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[38;5;226m[Genesis] [08:45:50] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [08:45:50] [WARNING] Constraint solver time constant should be greater than 2*substep_dt. timeconst is changed from `0.005` to `0.02`). Decrease simulation timestep or increase timeconst to avoid altering the original value.[0m
+[38;5;226m[Genesis] [08:45:52] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 1859, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [08:45:59] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [08:46:36] [INFO] Building visualizer...[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
   return func(*args, **kwargs)
+Action space: Box([-inf -inf -inf  -1.  -1.  -1.  -1.  -1.  -1.  -1.], [inf inf inf  1.  1.  1.  1.  1.  1.  1.], (10,), float32)
+Generating 1 orbit video-only demos → /mnt/gck_website/maniladder.github.io/generated_demos/GroceryPrepare-v1
+  [ep 0/1, attempt 1] step 1/1600  terminated=False  truncated=False
 
-[TIMEOUT] exceeded --task_timeout_sec=900.0
+>>> [GroceryPrepare-v1] Phase 0 -> 1 <<<
+Evaluation results - Success: False Can on table: False Potted meat cans in fridge: False Fridge closed: True
+
+>>> [GroceryPrepare-v1] Phase 1 -> 2 <<<
+
+>>> [GroceryPrepare-v1] Phase 2 -> 3 <<<
+Evaluation results - Success: False Can on table: False Potted meat cans in fridge: False Fridge closed: False
+  [ep 0/1, attempt 1] step 101/1600  terminated=False  truncated=False
+
+>>> [GroceryPrepare-v1] Phase 3 -> 4 <<<
+Evaluation results - Success: False Can on table: False Potted meat cans in fridge: False Fridge closed: False
+
+>>> [GroceryPrepare-v1] Phase 4 -> 5 <<<
+
+>>> [GroceryPrepare-v1] Phase 5 -> 55 <<<
+Evaluation results - Success: False Can on table: False Potted meat cans in fridge: False Fridge closed: False
+  [ep 0/1, attempt 1] step 201/1600  terminated=False  truncated=False
+
+>>> [GroceryPrepare-v1] Phase 55 -> 6 <<<
+Evaluation results - Success: False Can on table: False Potted meat cans in fridge: False Fridge closed: False
+
+>>> [GroceryPrepare-v1] Phase 6 -> 7 <<<
+
+>>> [GroceryPrepare-v1] Phase 7 -> 75 <<<
+
+>>> [GroceryPrepare-v1] Phase 75 -> 8 <<<
+Evaluation results - Success: False Can on table: False Potted meat cans in fridge: False Fridge closed: False
+  [ep 0/1, attempt 1] step 301/1600  terminated=False  truncated=False
+
+>>> [GroceryPrepare-v1] Phase 8 -> 9 <<<
+
+>>> [GroceryPrepare-v1] Phase 9 -> 10 <<<
+
+>>> [GroceryPrepare-v1] Phase 10 -> 11 <<<
+Evaluation results - Success: False Can on table: False Potted meat cans in fridge: False Fridge closed: False
+
+>>> [GroceryPrepare-v1] Phase 11 -> 12 <<<
+Evaluation results - Success: False Can on table: False Potted meat cans in fridge: False Fridge closed: False
+
+>>> [GroceryPrepare-v1] Phase 12 -> 13 <<<
+  [ep 0/1, attempt 1] step 401/1600  terminated=False  truncated=False
+
+>>> [GroceryPrepare-v1] Phase 13 -> 14 <<<
+
+>>> [GroceryPrepare-v1] Phase 14 -> 145 <<<
+Evaluation results - Success: False Can on table: True Potted meat cans in fridge: False Fridge closed: False
+
+>>> [GroceryPrepare-v1] Phase 145 -> 15 <<<
+
+>>> [GroceryPrepare-v1] Phase 15 -> 155 <<<
+
+>>> [GroceryPrepare-v1] Phase 155 -> 156 <<<
+
+>>> [GroceryPrepare-v1] Phase 156 -> 16 <<<
+Evaluation results - Success: False Can on table: True Potted meat cans in fridge: False Fridge closed: False
+  [ep 0/1, attempt 1] step 501/1600  terminated=False  truncated=False
+
+>>> [GroceryPrepare-v1] Phase 16 -> 165 <<<
+
+>>> [GroceryPrepare-v1] Phase 165 -> 17 <<<
+
+>>> [GroceryPrepare-v1] Phase 17 -> 18 <<<
+
+>>> [GroceryPrepare-v1] Phase 18 -> 185 <<<
+
+>>> [GroceryPrepare-v1] Phase 185 -> 186 <<<
+Evaluation results - Success: False Can on table: True Potted meat cans in fridge: False Fridge closed: False
+
+>>> [GroceryPrepare-v1] Phase 186 -> 19 <<<
+
+>>> [GroceryPrepare-v1] Phase 19 -> 20 <<<
+Evaluation results - Success: False Can on table: True Potted meat cans in fridge: False Fridge closed: False
+  [ep 0/1, attempt 1] step 601/1600  terminated=False  truncated=False
+
+>>> [GroceryPrepare-v1] Phase 20 -> 21 <<<
+
+>>> [GroceryPrepare-v1] Phase 21 -> 235 <<<
+Evaluation results - Success: False Can on table: True Potted meat cans in fridge: False Fridge closed: False
+
+>>> [GroceryPrepare-v1] Phase 235 -> 22 <<<
+
+>>> [GroceryPrepare-v1] Phase 22 -> 23 <<<
+Evaluation results - Success: False Can on table: True Potted meat cans in fridge: False Fridge closed: False
+  [ep 0/1, attempt 1] step 701/1600  terminated=False  truncated=False
+
+>>> [GroceryPrepare-v1] Phase 23 -> 24 <<<
+
+>>> [GroceryPrepare-v1] Phase 24 -> 25 <<<
+
+>>> [GroceryPrepare-v1] Phase 25 -> 255 <<<
+
+>>> [GroceryPrepare-v1] Phase 255 -> 26 <<<
+Evaluation results - Success: False Can on table: True Potted meat cans in fridge: True Fridge closed: False
+
+>>> [GroceryPrepare-v1] Phase 26 -> 265 <<<
+
+>>> [GroceryPrepare-v1] Phase 265 -> 266 <<<
+
+>>> [GroceryPrepare-v1] Phase 266 -> 27 <<<
+
+>>> [GroceryPrepare-v1] Phase 27 -> 28 <<<
+Evaluation results - Success: False Can on table: True Potted meat cans in fridge: True Fridge closed: False
+  [ep 0/1, attempt 1] step 801/1600  terminated=False  truncated=False
+
+>>> [GroceryPrepare-v1] Phase 28 -> 42 <<<
+
+>>> [GroceryPrepare-v1] Phase 42 -> 43 <<<
+Evaluation results - Success: False Can on table: True Potted meat cans in fridge: True Fridge closed: False
+
+>>> [GroceryPrepare-v1] Phase 43 -> 44 <<<
+
+>>> [GroceryPrepare-v1] Phase 44 -> 45 <<<
+
+>>> [GroceryPrepare-v1] Phase 45 -> 46 <<<
+Evaluation results - Success: False Can on table: True Potted meat cans in fridge: True Fridge closed: False
+  [ep 0/1, attempt 1] step 901/1600  terminated=False  truncated=False
+
+>>> [GroceryPrepare-v1] Phase 46 -> 47 <<<
+
+>>> [GroceryPrepare-v1] Phase 47 -> 48 <<<
+  [ep 0/1, attempt 1] step 939/1600  terminated=True  truncated=False
+
+>>> [GroceryPrepare-v1] Phase 48 -> 49 <<<
+Evaluation results - Success: True Can on table: True Potted meat cans in fridge: True Fridge closed: True
+  [ep 0, attempt 1] Success at step 939, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/mnt/gck_website/maniladder.github.io/generated_demos/GroceryPrepare-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [08:48:39] [INFO] Saving video to [38;5;121m"/mnt/gck_website/maniladder.github.io/generated_demos/GroceryPrepare-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [08:48:44] [INFO] Video saved.[0m
+  Saved video: /mnt/gck_website/maniladder.github.io/generated_demos/GroceryPrepare-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /mnt/gck_website/maniladder.github.io/generated_demos/GroceryPrepare-v1/videos
+
+============================================================
+Done. 1 demo trajectories (traj_0..traj_0) saved to /mnt/gck_website/maniladder.github.io/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [08:48:44] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[W 09/29/26 08:48:44.477 3948151] [offline_cache.h:run@186] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. You can run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:48:44.678 3948151] [kernel_compilation_manager.cpp:dump@104] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:48:44.993 3948151] [ptx_cache.cpp:dump@92] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.

@@ -23,7 +23,7 @@
                 320,
                 240
             ],
-            "camera_res_ratio": 0.75
+            "camera_res_ratio": 1.0
         }
     },
     "episodes": []

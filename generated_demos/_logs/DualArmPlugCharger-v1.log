@@ -1,44 +1,175 @@
-[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:00:28] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:00:31] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
-[38;5;159m[Genesis] [18:00:31] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
-[38;5;159m[Genesis] [18:00:33] [INFO] Scene [38;5;121m[3m<a6cfeac>[0m[38;5;159m created.[0m
-[38;5;159m[Genesis] [18:00:33] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<606269f>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand_left.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:38] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[32m2026-06-16 18:00:40,789 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[-0.1000, -0.7000,  0.0000,  0.0000,  0.0000, 90.0000]],
+[38;5;159m[Genesis] [08:40:05] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:40:05] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:40:05] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[W 09/29/26 08:40:06.162 3926756] [ptx_cache.cpp:PtxCache@73] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.
+[38;5;159m[Genesis] [08:40:06] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [08:40:06] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:40:08] [INFO] Scene [38;5;121m[3m<928f54a>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [08:40:08] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<ba3b801>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand_left.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:11] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:40:13,468 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[-0.1000, -0.7000,  0.0000,  0.0000,  0.0000, 90.0000]],
        device='cuda:0')), parallel loading has not been implemented yet.[0m
-[38;5;159m[Genesis] [18:00:40] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<2d1f22d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:45] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[32m2026-06-16 18:00:46,783 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ -0.1000,   0.6000,   0.0000,   0.0000,   0.0000, -90.0000]],
+[38;5;159m[Genesis] [08:40:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<09763ef>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:16] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:40:17,924 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ -0.1000,   0.6000,   0.0000,   0.0000,   0.0000, -90.0000]],
        device='cuda:0')), parallel loading has not been implemented yet.[0m
-[38;5;159m[Genesis] [18:00:46] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<d329b8b>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [18:00:46] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+[38;5;159m[Genesis] [08:40:17] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<5062d52>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:40:17] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
   warnings.warn("pygltflib currently does not remove image data "
-[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<9d5dfbb>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<86458b7>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<29dc740>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<7975a86>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<bf7d320>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<db801d6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/charger_receptacle/charger.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Collision meshes are not visualized by default. To visualize them, please use `vis_mode='collision'` when calling `scene.add_entity`.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Preprocessing geom idx [38;5;121m[4m164[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Preprocessing geom idx [38;5;121m[4m165[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<86c49f1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/models/charger_receptacle/receptacle.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Collision meshes are not visualized by default. To visualize them, please use `vis_mode='collision'` when calling `scene.add_entity`.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Preprocessing geom idx [38;5;121m[4m167[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:47] [INFO] Preprocessing geom idx [38;5;121m[4m169[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:48] [INFO] Preprocessing geom idx [38;5;121m[4m170[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:48] [INFO] Preprocessing geom idx [38;5;121m[4m172[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [18:00:48] [INFO] Building scene [38;5;121m[3m<a6cfeac>[0m[38;5;159m...[0m
-[38;5;226m[Genesis] [18:00:53] [WARNING] Reference robot position exceeds joint limits.[0m
-[38;5;226m[Genesis] [18:00:55] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 13792, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
-[38;5;159m[Genesis] [18:01:06] [INFO] Compiling simulation kernels...[0m
-[38;5;159m[Genesis] [18:01:43] [INFO] Building visualizer...[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<e83cf1d>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<e091358>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<acdcc10>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<608eed3>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<6467d30>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<f5eef99>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/models/charger_receptacle/charger.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Collision meshes are not visualized by default. To visualize them, please use `vis_mode='collision'` when calling `scene.add_entity`.[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<0894d39>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/models/charger_receptacle/receptacle.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [08:40:18] [INFO] Building scene [38;5;121m[3m<928f54a>[0m[38;5;159m...[0m
+[W 09/29/26 08:40:18.876 3926756] [kernel_compilation_manager.cpp:KernelCompilationManager@69] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[38;5;226m[Genesis] [08:40:22] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [08:40:24] [WARNING] max_collision_pairs 500 is smaller than the theoretical maximal possible pairs 13792, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [08:40:33] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [08:41:09] [INFO] Building visualizer...[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
   return func(*args, **kwargs)
+[link-discover] <gs.RigidEntity> links: ['slider', 'receptacle']
+[link-discover] <gs.RigidEntity>: using body_link = 'receptacle'
+[link-discover] <gs.RigidEntity> links: ['base']
+[link-discover] <gs.RigidEntity>: using body_link = 'base'
+Action space: Dict('panda_leaphand-1': Box(-1.0, 1.0, (22,), float32), 'panda_leaphand_left-0': Box(-1.0, 1.0, (22,), float32))
+Generating 1 orbit video-only demos → /mnt/gck_website/maniladder.github.io/generated_demos/DualArmPlugCharger-v1
+[dbg] phase=0 tilted=False R_tcp_z=0.374 R_mcp_z=0.355 charger_z=0.002 target_z(at)=0.121
+  [ep 0/1, attempt 1] step 1/2000  terminated=False  truncated=False
+[dbg] phase=0 tilted=False R_tcp_z=0.373 R_mcp_z=0.354 charger_z=-0.000 target_z(at)=0.119
+[dbg] phase=2 tilted=True R_tcp_z=0.328 R_mcp_z=0.226 charger_z=-0.000 target_z(at)=0.201
+  [ep 0/1, attempt 1] step 101/2000  terminated=False  truncated=False
+[dbg] phase=2 tilted=True R_tcp_z=0.208 R_mcp_z=0.109 charger_z=-0.000 target_z(at)=0.198
+[dbg] phase=3 tilted=True R_tcp_z=0.208 R_mcp_z=0.111 charger_z=0.007 target_z(at)=0.204
+  [ep 0/1, attempt 1] step 201/2000  terminated=False  truncated=False
+[grasp] T_offset_tcp captured: p=[0.1104 0.1041 0.2349] euler_deg=[-116.09    2.76   94.22]
+[grasp] charger body link pos=[0.    0.089 0.01 ] entity.get_pos=[0.    0.089 0.01 ]
+[dbg] phase=4 tilted=True R_tcp_z=0.317 R_mcp_z=0.219 charger_z=0.120 target_z(at)=0.318
+[left-push.0] approach edge; left_tcp=[-0.1   -0.309  0.605] target=[-0.169 -0.357  0.102] contact_point=[ 0.115 -0.38   0.08 ] rot_err=30.00deg
+[dbg] phase=5 tilted=True R_tcp_z=0.457 R_mcp_z=0.360 charger_z=0.261 target_z(at)=0.459
+  [ep 0/1, attempt 1] step 301/2000  terminated=False  truncated=False
+[left-push.0] approach edge; left_tcp=[-0.168 -0.349  0.507] target=[-0.169 -0.349  0.088] contact_point=[ 0.115 -0.38   0.08 ] rot_err=0.02deg
+[dbg] phase=5 tilted=True R_tcp_z=0.457 R_mcp_z=0.360 charger_z=0.261 target_z(at)=0.459
+[left-push.0] approach edge; left_tcp=[-0.169 -0.349  0.409] target=[-0.169 -0.349  0.088] contact_point=[ 0.115 -0.38   0.08 ] rot_err=0.02deg
+[left-push.0] approach edge; left_tcp=[-0.169 -0.349  0.31 ] target=[-0.169 -0.349  0.088] contact_point=[ 0.115 -0.38   0.08 ] rot_err=0.02deg
+[dbg] phase=5 tilted=True R_tcp_z=0.458 R_mcp_z=0.360 charger_z=0.261 target_z(at)=0.458
+  [ep 0/1, attempt 1] step 401/2000  terminated=False  truncated=False
+[left-push.0] approach edge; left_tcp=[-0.169 -0.349  0.212] target=[-0.169 -0.349  0.088] contact_point=[ 0.115 -0.38   0.08 ] rot_err=0.02deg
+[left-push.0] approach edge; left_tcp=[-0.169 -0.349  0.113] target=[-0.169 -0.349  0.088] contact_point=[ 0.115 -0.38   0.08 ] rot_err=0.01deg
+[dbg] phase=5 tilted=True R_tcp_z=0.457 R_mcp_z=0.360 charger_z=0.260 target_z(at)=0.458
+[left-push.1] vertical descend; tcp_z=0.094 target_z=0.088 fingertip_z=0.086 rot_err=0.01deg xy_err=0.0001 stuck=1
+[left-push.1] vertical descend; tcp_z=0.089 target_z=0.088 fingertip_z=0.081 rot_err=0.00deg xy_err=0.0001 stuck=31
+[left-push.1] DONE descend (normal) z_err=0.0009m stuck=31
+[left-push.2] body_xy=[ 0.  -0.3] target=[0. 0.] err=0.3000m rot_err=0.0deg (friction)
+[dbg] phase=5 tilted=True R_tcp_z=0.457 R_mcp_z=0.360 charger_z=0.260 target_z(at)=0.457
+  [ep 0/1, attempt 1] step 501/2000  terminated=False  truncated=False
+[left-push.2] body_xy=[ 0.    -0.242] target=[0. 0.] err=0.2417m rot_err=0.0deg (friction)
+[left-push.2] body_xy=[ 0.    -0.176] target=[0. 0.] err=0.1763m rot_err=0.0deg (friction)
+[left-push.2] body_xy=[ 0.    -0.111] target=[0. 0.] err=0.1111m rot_err=0.0deg (friction)
+[dbg] phase=5 tilted=True R_tcp_z=0.458 R_mcp_z=0.360 charger_z=0.260 target_z(at)=0.457
+[left-push.2] body_xy=[ 0.    -0.046] target=[0. 0.] err=0.0460m rot_err=0.0deg (friction)
+[left-push.2] DONE (done=True timeout=False err=0.0031)
+[left-camera] backoff target captured: tcp=[-0.168 -0.4    0.09 ]
+[left-camera] backoff; left_tcp=[-0.168 -0.047  0.09 ] target=[-0.168 -0.4    0.09 ] pos_err=0.3527
+[dbg] phase=5 tilted=True R_tcp_z=0.457 R_mcp_z=0.360 charger_z=0.259 target_z(at)=0.457
+  [ep 0/1, attempt 1] step 601/2000  terminated=False  truncated=False
+[left-camera] backoff; left_tcp=[-0.168 -0.145  0.09 ] target=[-0.168 -0.4    0.09 ] pos_err=0.2547
+[left-camera] backoff; left_tcp=[-0.168 -0.244  0.09 ] target=[-0.168 -0.4    0.09 ] pos_err=0.1563
+[dbg] phase=5 tilted=True R_tcp_z=0.458 R_mcp_z=0.360 charger_z=0.259 target_z(at)=0.456
+[left-camera] backoff; left_tcp=[-0.168 -0.342  0.09 ] target=[-0.168 -0.4    0.09 ] pos_err=0.0578
+[left-camera] backoff DONE (reached=True timeout=False pos_err=0.0075) → phase 5.5 (rotate charger vertical)
+[vertical-5.5] one-shot compensation: angle=88.30deg axis=[-0.999 -0.042 -0.   ] x_now=[-0.042  0.999 -0.03 ]
+[vertical-5.5] pivot at plug_center=[-0.0038  0.1198  0.2816]
+[vertical-5.5] step=1 rot_err=91.23deg plane_angle=87.03deg
+[dbg] phase=55 tilted=True R_tcp_z=0.495 R_mcp_z=0.389 charger_z=0.282 target_z(at)=0.488
+  [ep 0/1, attempt 1] step 701/2000  terminated=False  truncated=False
+[vertical-5.5] step=21 rot_err=77.38deg plane_angle=74.10deg
+[vertical-5.5] step=41 rot_err=63.59deg plane_angle=60.27deg
+[vertical-5.5] step=61 rot_err=49.84deg plane_angle=46.47deg
+[dbg] phase=55 tilted=True R_tcp_z=0.509 R_mcp_z=0.404 charger_z=0.307 target_z(at)=0.513
+[vertical-5.5] step=81 rot_err=36.16deg plane_angle=32.72deg
+[vertical-5.5] step=101 rot_err=22.52deg plane_angle=19.00deg
+[dbg] phase=55 tilted=True R_tcp_z=0.443 R_mcp_z=0.376 charger_z=0.323 target_z(at)=0.491
+  [ep 0/1, attempt 1] step 801/2000  terminated=False  truncated=False
+[vertical-5.5] step=121 rot_err=8.94deg plane_angle=5.33deg
+[vertical-5.5] DONE parallel=True timeout=False plane_angle=0.58deg rot_err=4.21deg rot_frozen=True → phase 6
+[diag] socket body pos=[0.    0.016 0.03 ]; socket BODY link(receptacle) pos=[0.    0.016 0.03 ]
+[diag] charger entity pos=[-0.005  0.109  0.324]; charger BODY link(base) pos=[-0.005  0.109  0.324]
+[diag] hole_upper=[-0.014  0.016  0.03 ] hole_lower=[0.014 0.016 0.03 ] hole_center=[0.    0.016 0.03 ]
+[diag] peg_L=[0.007 0.134 0.292] peg_R=[-0.021  0.133  0.292] plug_center=[-0.007  0.133  0.292]
+[hover] step=1 pos_err=0.1952m rot_err=9.93deg plug=[-0.007  0.133  0.292] target=[0.   0.   0.15] hole=[0. 0. 0.]
+[hover] step=21 pos_err=0.1661m rot_err=9.98deg plug=[0.007 0.113 0.271] target=[0.   0.   0.15] hole=[0. 0. 0.]
+[dbg] phase=6 tilted=True R_tcp_z=0.381 R_mcp_z=0.325 charger_z=0.284 target_z(at)=0.440
+[hover] step=41 pos_err=0.1370m rot_err=10.00deg plug=[0.007 0.093 0.251] target=[0.   0.   0.15] hole=[0. 0. 0.]
+[hover] step=61 pos_err=0.1080m rot_err=10.01deg plug=[0.007 0.072 0.23 ] target=[0.   0.   0.15] hole=[0. 0. 0.]
+[hover] step=81 pos_err=0.0790m rot_err=10.03deg plug=[0.007 0.052 0.209] target=[0.   0.   0.15] hole=[0. 0. 0.]
+[dbg] phase=6 tilted=True R_tcp_z=0.330 R_mcp_z=0.273 charger_z=0.232 target_z(at)=0.389
+  [ep 0/1, attempt 1] step 901/2000  terminated=False  truncated=False
+[hover] step=101 pos_err=0.0501m rot_err=10.05deg plug=[0.007 0.031 0.188] target=[0.   0.   0.15] hole=[0. 0. 0.]
+[hover] step=121 pos_err=0.0282m rot_err=10.06deg plug=[0.007 0.021 0.168] target=[0.   0.   0.15] hole=[0. 0. 0.]
+[dbg] phase=6 tilted=True R_tcp_z=0.278 R_mcp_z=0.221 charger_z=0.180 target_z(at)=0.337
+[hover] step=141 pos_err=0.0220m rot_err=10.07deg plug=[0.007 0.021 0.147] target=[0.   0.   0.15] hole=[0. 0. 0.]
+[hover] step=161 pos_err=0.0322m rot_err=10.09deg plug=[0.007 0.021 0.126] target=[0.   0.   0.15] hole=[0. 0. 0.]
+[hover] step=181 pos_err=0.0430m rot_err=10.10deg plug=[0.007 0.02  0.113] target=[0.   0.   0.15] hole=[0. 0. 0.]
+[dbg] phase=6 tilted=True R_tcp_z=0.243 R_mcp_z=0.186 charger_z=0.145 target_z(at)=0.302
+  [ep 0/1, attempt 1] step 1001/2000  terminated=False  truncated=False
+[hover] DONE aligned=False timeout=True pos_err=0.0430m rot_err=10.10deg → phase 6.5 (horizontal align)
+[align] step=1 e_upper=0.0077m e_lower=0.0085m yaw_err=-3.59deg rot_err=6.62deg
+[align] DONE aligned=True timeout=False max_err=0.0025m yaw_err=0.68deg → phase 7 (descend)
+[insert] step=1 progress=0.00 hover=+0.0827m plug→hole=0.0827m e_u=0.0020 e_l=0.0023 rot_err=8.93deg
+[insert] step=16 progress=0.05 hover=+0.0783m plug→hole=0.0796m e_u=0.0001 e_l=0.0003 rot_err=8.93deg
+[dbg] phase=7 tilted=True R_tcp_z=0.239 R_mcp_z=0.182 charger_z=0.141 target_z(at)=0.298
+[insert] step=31 progress=0.10 hover=+0.0739m plug→hole=0.0753m e_u=0.0001 e_l=0.0002 rot_err=8.93deg
+[insert] step=46 progress=0.15 hover=+0.0695m plug→hole=0.0709m e_u=0.0002 e_l=0.0002 rot_err=8.94deg
+[insert] step=61 progress=0.20 hover=+0.0651m plug→hole=0.0665m e_u=0.0002 e_l=0.0002 rot_err=8.95deg
+[dbg] phase=7 tilted=True R_tcp_z=0.225 R_mcp_z=0.167 charger_z=0.126 target_z(at)=0.284
+  [ep 0/1, attempt 1] step 1101/2000  terminated=False  truncated=False
+[insert] step=76 progress=0.25 hover=+0.0607m plug→hole=0.0621m e_u=0.0002 e_l=0.0002 rot_err=8.95deg
+[insert] step=91 progress=0.30 hover=+0.0564m plug→hole=0.0578m e_u=0.0002 e_l=0.0002 rot_err=8.96deg
+[insert] step=106 progress=0.35 hover=+0.0520m plug→hole=0.0534m e_u=0.0002 e_l=0.0002 rot_err=8.96deg
+[dbg] phase=7 tilted=True R_tcp_z=0.210 R_mcp_z=0.153 charger_z=0.112 target_z(at)=0.269
+[insert] step=121 progress=0.40 hover=+0.0476m plug→hole=0.0490m e_u=0.0002 e_l=0.0002 rot_err=8.97deg
+[insert] step=136 progress=0.45 hover=+0.0432m plug→hole=0.0446m e_u=0.0002 e_l=0.0002 rot_err=8.97deg
+[insert] step=151 progress=0.50 hover=+0.0388m plug→hole=0.0402m e_u=0.0002 e_l=0.0002 rot_err=8.98deg
+[insert] step=166 progress=0.55 hover=+0.0344m plug→hole=0.0359m e_u=0.0002 e_l=0.0002 rot_err=8.99deg
+[dbg] phase=7 tilted=True R_tcp_z=0.196 R_mcp_z=0.138 charger_z=0.097 target_z(at)=0.255
+  [ep 0/1, attempt 1] step 1201/2000  terminated=False  truncated=False
+[insert] step=181 progress=0.60 hover=+0.0301m plug→hole=0.0315m e_u=0.0002 e_l=0.0002 rot_err=8.99deg
+[insert] step=196 progress=0.65 hover=+0.0257m plug→hole=0.0271m e_u=0.0002 e_l=0.0002 rot_err=9.00deg
+[insert] step=211 progress=0.70 hover=+0.0213m plug→hole=0.0227m e_u=0.0002 e_l=0.0002 rot_err=9.00deg
+[dbg] phase=7 tilted=True R_tcp_z=0.182 R_mcp_z=0.124 charger_z=0.083 target_z(at)=0.240
+[insert] step=226 progress=0.75 hover=+0.0169m plug→hole=0.0183m e_u=0.0002 e_l=0.0002 rot_err=9.01deg
+[insert] step=241 progress=0.80 hover=+0.0125m plug→hole=0.0139m e_u=0.0002 e_l=0.0002 rot_err=9.01deg
+[insert] step=256 progress=0.85 hover=+0.0081m plug→hole=0.0095m e_u=0.0002 e_l=0.0002 rot_err=9.02deg
+[dbg] phase=7 tilted=True R_tcp_z=0.167 R_mcp_z=0.109 charger_z=0.068 target_z(at)=0.226
+  [ep 0/1, attempt 1] step 1301/2000  terminated=False  truncated=False
+[insert] step=271 progress=0.90 hover=+0.0038m plug→hole=0.0052m e_u=0.0002 e_l=0.0002 rot_err=9.02deg
+[insert] step=286 progress=0.95 hover=-0.0006m plug→hole=0.0008m e_u=0.0002 e_l=0.0002 rot_err=9.03deg
+[insert] step=301 progress=1.00 hover=-0.0050m plug→hole=0.0036m e_u=0.0002 e_l=0.0002 rot_err=9.04deg
+[insert] step=316 progress=1.00 hover=-0.0050m plug→hole=0.0042m e_u=0.0002 e_l=0.0002 rot_err=9.04deg
+[dbg] phase=7 tilted=True R_tcp_z=0.158 R_mcp_z=0.100 charger_z=0.058 target_z(at)=0.216
+  [ep 0/1, attempt 1] step 1359/2000  terminated=True  truncated=False
+[insert] DONE plug→hole=0.0043m
+  [ep 0, attempt 1] Success at step 1359, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/mnt/gck_website/maniladder.github.io/generated_demos/DualArmPlugCharger-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [08:43:45] [INFO] Saving video to [38;5;121m"/mnt/gck_website/maniladder.github.io/generated_demos/DualArmPlugCharger-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [08:43:52] [INFO] Video saved.[0m
+  Saved video: /mnt/gck_website/maniladder.github.io/generated_demos/DualArmPlugCharger-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /mnt/gck_website/maniladder.github.io/generated_demos/DualArmPlugCharger-v1/videos
 
-[TIMEOUT] exceeded --task_timeout_sec=900.0
+============================================================
+Done. 1 demo trajectories (traj_0..traj_0) saved to /mnt/gck_website/maniladder.github.io/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [08:43:52] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[W 09/29/26 08:43:52.509 3926756] [offline_cache.h:run@186] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. You can run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:43:52.710 3926756] [kernel_compilation_manager.cpp:dump@104] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:43:52.962 3926756] [ptx_cache.cpp:dump@92] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.

@@ -1,32 +1,263 @@
-[38;5;159m[Genesis] [17:42:53] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:42:53] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:42:53] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:42:58] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
-[38;5;159m[Genesis] [17:42:58] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
-[38;5;159m[Genesis] [17:43:00] [INFO] Scene [38;5;121m[3m<dc5bdfe>[0m[38;5;159m created.[0m
-[38;5;159m[Genesis] [17:43:00] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<f82c668>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand_left.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:05] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[32m2026-06-16 17:43:07,241 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[-0.1500, -0.6500,  0.0000,  0.0000,  0.0000, 90.0000]],
+[38;5;159m[Genesis] [08:23:54] [INFO] [38;5;121m╭───────────────────────────────────────────────╮[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:23:54] [INFO] [38;5;121m│┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈[0m[38;5;159m [38;5;121m[1m[3mGenesis[0m[38;5;159m [38;5;121m┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈┉┈│[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:23:54] [INFO] [38;5;121m╰───────────────────────────────────────────────╯[0m[38;5;159m[0m
+[W 09/29/26 08:24:01.313 3565720] [ptx_cache.cpp:PtxCache@73] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.
+[38;5;159m[Genesis] [08:24:01] [INFO] Running on [38;5;121m[4m[NVIDIA A100-SXM4-80GB][0m[38;5;159m with backend [38;5;121m[4mgs.cuda[0m[38;5;159m. Device memory: [38;5;121m[4m79.25[0m[38;5;159m GB.[0m
+[38;5;159m[Genesis] [08:24:01] [INFO] 🚀 Genesis initialized. 🔖 version: [38;5;121m[4m0.3.6[0m[38;5;159m, 🎨 theme: [38;5;121m[4mdark[0m[38;5;159m, 🌱 seed: [38;5;121m[4mNone[0m[38;5;159m, 🐛 debug: [38;5;121m[4mFalse[0m[38;5;159m, 📏 precision: [38;5;121m[4m32[0m[38;5;159m, 🏎️ performance: [38;5;121m[4mFalse[0m[38;5;159m, 💬 verbose: [38;5;121m[4mINFO[0m[38;5;159m[0m
+[38;5;159m[Genesis] [08:24:03] [INFO] Scene [38;5;121m[3m<4fb0abc>[0m[38;5;159m created.[0m
+[38;5;159m[Genesis] [08:24:03] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m0[0m[38;5;159m, uid: [38;5;121m[3m<ed32ec6>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand_left.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:07] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:24:08,877 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[-0.1500, -0.6500,  0.0000,  0.0000,  0.0000, 90.0000]],
        device='cuda:0')), parallel loading has not been implemented yet.[0m
-[38;5;159m[Genesis] [17:43:07] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<a532ef9>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/data/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:11] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[32m2026-06-16 17:43:12,943 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ -0.1500,   0.6500,   0.0000,   0.0000,   0.0000, -90.0000]],
+[38;5;159m[Genesis] [08:24:08] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m1[0m[38;5;159m, uid: [38;5;121m[3m<bfa46ca>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.URDF(file='/mnt4/gck/maniladder/maniladder/assets/urdf/panda_leaphand/panda_leaphand.urdf')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:11] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[32m2026-09-29 08:24:13,505 - maniladder  - INFO - only loading the first pose of the given initial pose Pose(raw_pose=tensor([[ -0.1500,   0.6500,   0.0000,   0.0000,   0.0000, -90.0000]],
        device='cuda:0')), parallel loading has not been implemented yet.[0m
-[38;5;159m[Genesis] [17:43:12] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<7ecde2c>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/data/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;226m[Genesis] [17:43:12] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m2[0m[38;5;159m, uid: [38;5;121m[3m<1cb9daa>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Mesh(file='/mnt4/gck/maniladder/maniladder/assets/models/table.glb')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;226m[Genesis] [08:24:13] [WARNING] GLTF is using y-up while Genesis uses z-up. Please set parse_glb_with_zup=True in morph options if you find the mesh is 90-degree rotated. We will set parse_glb_with_zup=True and rotate glb mesh by default later and gradually enforce this option.[0m
 /data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/pygltflib/__init__.py:830: UserWarning: pygltflib currently does not remove image data from the buffer when converting to data uri.Please open an issue at https://gitlab.com/dodgyville/pygltflib/issues
   warnings.warn("pygltflib currently does not remove image data "
-[38;5;159m[Genesis] [17:43:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<477a4a0>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<c1db465>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<7ee5fd8>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<de46dd1>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<ef67963>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<48449be>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<c559855>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<964f849>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<d337350>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/data/gck/maniladder/maniladder/assets/xml/deformable/rope_stretch.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
-[38;5;159m[Genesis] [17:43:13] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
-[38;5;159m[Genesis] [17:43:13] [INFO] Building scene [38;5;121m[3m<dc5bdfe>[0m[38;5;159m...[0m
-[38;5;226m[Genesis] [17:43:17] [WARNING] Reference robot position exceeds joint limits.[0m
-[38;5;226m[Genesis] [17:43:19] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 15194, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
-[38;5;159m[Genesis] [17:43:28] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m3[0m[38;5;159m, uid: [38;5;121m[3m<1a66b37>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m4[0m[38;5;159m, uid: [38;5;121m[3m<b109391>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Plane>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m5[0m[38;5;159m, uid: [38;5;121m[3m<36d3b10>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m6[0m[38;5;159m, uid: [38;5;121m[3m<0f8c637>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m7[0m[38;5;159m, uid: [38;5;121m[3m<e69c555>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m8[0m[38;5;159m, uid: [38;5;121m[3m<df0ce30>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m9[0m[38;5;159m, uid: [38;5;121m[3m<2e88246>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m10[0m[38;5;159m, uid: [38;5;121m[3m<4898f68>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.Box>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:13] [INFO] Adding [38;5;121m<gs.RigidEntity>[0m[38;5;159m. idx: [38;5;121m11[0m[38;5;159m, uid: [38;5;121m[3m<ec21086>[0m[38;5;159m, morph: [38;5;121m<gs.morphs.MJCF(file='/mnt4/gck/maniladder/maniladder/assets/xml/deformable/rope_stretch.xml')>[0m[38;5;159m, material: [38;5;121m<gs.materials.Rigid>[0m[38;5;159m.[0m
+[38;5;159m[Genesis] [08:24:14] [INFO] Applying offset to base link's pose with user provided value in morph.[0m
+[38;5;159m[Genesis] [08:24:14] [INFO] Building scene [38;5;121m[3m<4fb0abc>[0m[38;5;159m...[0m
+[W 09/29/26 08:24:14.737 3565720] [kernel_compilation_manager.cpp:KernelCompilationManager@69] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[38;5;226m[Genesis] [08:24:18] [WARNING] Reference robot position exceeds joint limits.[0m
+[38;5;226m[Genesis] [08:24:20] [WARNING] max_collision_pairs 300 is smaller than the theoretical maximal possible pairs 15194, it uses less memory but might lead to missing some collision pairs if there are too many collision pairs[0m
+[38;5;159m[Genesis] [08:24:30] [INFO] Compiling simulation kernels...[0m
+[38;5;159m[Genesis] [08:25:12] [INFO] Building visualizer...[0m
+/data/gck/miniconda3/envs/maniladder/lib/python3.10/site-packages/torch/utils/_device.py:109: UserWarning: The given NumPy array is not writable, and PyTorch does not support non-writable tensors. This means writing to this tensor will result in undefined behavior. You may want to copy the array to protect its data or make it writable before converting it to a tensor. This type of warning will be suppressed for the rest of this program. (Triggered internally at /pytorch/torch/csrc/utils/tensor_numpy.cpp:213.)
+  return func(*args, **kwargs)
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.909 local_y_span=0.818 head_tail_dist=0.835 mid_z=0.303 rope_mean_h=0.303 rope_min_h=0.298 success=False
+Action space: Dict('panda_leaphand-1': Box(-1.0, 1.0, (22,), float32), 'panda_leaphand_left-0': Box(-1.0, 1.0, (22,), float32))
+Generating 1 orbit video-only demos → /mnt/gck_website/maniladder.github.io/generated_demos/DualArmRopeStretch-v1
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.909 local_y_span=0.818 head_tail_dist=0.835 mid_z=0.303 rope_mean_h=0.303 rope_min_h=0.298 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.909 local_y_span=0.818 head_tail_dist=0.835 mid_z=0.289 rope_mean_h=0.288 rope_min_h=0.283 success=False
+  [ep 0/1, attempt 1] step 1/300  terminated=False  truncated=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.909 local_y_span=0.818 head_tail_dist=0.835 mid_z=0.249 rope_mean_h=0.249 rope_min_h=0.244 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.908 local_y_span=0.817 head_tail_dist=0.834 mid_z=0.204 rope_mean_h=0.205 rope_min_h=0.201 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.908 local_y_span=0.817 head_tail_dist=0.834 mid_z=0.211 rope_mean_h=0.209 rope_min_h=0.205 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.907 local_y_span=0.817 head_tail_dist=0.833 mid_z=0.212 rope_mean_h=0.209 rope_min_h=0.205 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.907 local_y_span=0.816 head_tail_dist=0.833 mid_z=0.212 rope_mean_h=0.209 rope_min_h=0.204 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.906 local_y_span=0.816 head_tail_dist=0.832 mid_z=0.212 rope_mean_h=0.209 rope_min_h=0.204 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.906 local_y_span=0.815 head_tail_dist=0.832 mid_z=0.212 rope_mean_h=0.209 rope_min_h=0.203 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.905 local_y_span=0.815 head_tail_dist=0.831 mid_z=0.212 rope_mean_h=0.209 rope_min_h=0.202 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.904 local_y_span=0.814 head_tail_dist=0.831 mid_z=0.212 rope_mean_h=0.209 rope_min_h=0.202 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.904 local_y_span=0.813 head_tail_dist=0.830 mid_z=0.212 rope_mean_h=0.208 rope_min_h=0.201 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.903 local_y_span=0.813 head_tail_dist=0.829 mid_z=0.212 rope_mean_h=0.208 rope_min_h=0.201 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.902 local_y_span=0.812 head_tail_dist=0.829 mid_z=0.212 rope_mean_h=0.208 rope_min_h=0.200 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.902 local_y_span=0.811 head_tail_dist=0.828 mid_z=0.212 rope_mean_h=0.208 rope_min_h=0.200 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.901 local_y_span=0.811 head_tail_dist=0.827 mid_z=0.212 rope_mean_h=0.208 rope_min_h=0.199 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.900 local_y_span=0.810 head_tail_dist=0.827 mid_z=0.212 rope_mean_h=0.207 rope_min_h=0.198 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.899 local_y_span=0.809 head_tail_dist=0.826 mid_z=0.212 rope_mean_h=0.207 rope_min_h=0.198 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.899 local_y_span=0.809 head_tail_dist=0.825 mid_z=0.212 rope_mean_h=0.207 rope_min_h=0.197 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.898 local_y_span=0.808 head_tail_dist=0.824 mid_z=0.212 rope_mean_h=0.207 rope_min_h=0.197 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.897 local_y_span=0.807 head_tail_dist=0.824 mid_z=0.212 rope_mean_h=0.207 rope_min_h=0.196 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.896 local_y_span=0.807 head_tail_dist=0.823 mid_z=0.212 rope_mean_h=0.206 rope_min_h=0.196 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.895 local_y_span=0.806 head_tail_dist=0.822 mid_z=0.212 rope_mean_h=0.206 rope_min_h=0.195 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.895 local_y_span=0.805 head_tail_dist=0.821 mid_z=0.212 rope_mean_h=0.206 rope_min_h=0.195 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.894 local_y_span=0.804 head_tail_dist=0.821 mid_z=0.212 rope_mean_h=0.206 rope_min_h=0.194 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.893 local_y_span=0.804 head_tail_dist=0.820 mid_z=0.212 rope_mean_h=0.206 rope_min_h=0.194 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.892 local_y_span=0.803 head_tail_dist=0.819 mid_z=0.212 rope_mean_h=0.205 rope_min_h=0.194 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.891 local_y_span=0.802 head_tail_dist=0.818 mid_z=0.212 rope_mean_h=0.205 rope_min_h=0.193 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.890 local_y_span=0.801 head_tail_dist=0.818 mid_z=0.212 rope_mean_h=0.205 rope_min_h=0.193 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.889 local_y_span=0.800 head_tail_dist=0.817 mid_z=0.212 rope_mean_h=0.205 rope_min_h=0.192 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.889 local_y_span=0.800 head_tail_dist=0.816 mid_z=0.212 rope_mean_h=0.205 rope_min_h=0.192 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.888 local_y_span=0.799 head_tail_dist=0.815 mid_z=0.212 rope_mean_h=0.205 rope_min_h=0.191 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.887 local_y_span=0.798 head_tail_dist=0.814 mid_z=0.212 rope_mean_h=0.204 rope_min_h=0.191 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.886 local_y_span=0.797 head_tail_dist=0.814 mid_z=0.212 rope_mean_h=0.204 rope_min_h=0.191 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.885 local_y_span=0.797 head_tail_dist=0.813 mid_z=0.212 rope_mean_h=0.204 rope_min_h=0.190 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.884 local_y_span=0.796 head_tail_dist=0.812 mid_z=0.212 rope_mean_h=0.204 rope_min_h=0.190 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.883 local_y_span=0.795 head_tail_dist=0.811 mid_z=0.212 rope_mean_h=0.204 rope_min_h=0.189 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.883 local_y_span=0.794 head_tail_dist=0.810 mid_z=0.212 rope_mean_h=0.203 rope_min_h=0.189 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.882 local_y_span=0.794 head_tail_dist=0.810 mid_z=0.212 rope_mean_h=0.203 rope_min_h=0.188 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.881 local_y_span=0.793 head_tail_dist=0.809 mid_z=0.212 rope_mean_h=0.203 rope_min_h=0.188 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.880 local_y_span=0.792 head_tail_dist=0.808 mid_z=0.212 rope_mean_h=0.203 rope_min_h=0.188 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.879 local_y_span=0.791 head_tail_dist=0.807 mid_z=0.212 rope_mean_h=0.203 rope_min_h=0.187 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.878 local_y_span=0.790 head_tail_dist=0.806 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.187 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.877 local_y_span=0.790 head_tail_dist=0.806 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.187 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.877 local_y_span=0.789 head_tail_dist=0.805 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.186 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.876 local_y_span=0.788 head_tail_dist=0.804 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.186 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.875 local_y_span=0.788 head_tail_dist=0.804 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.186 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.874 local_y_span=0.787 head_tail_dist=0.803 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.185 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.874 local_y_span=0.786 head_tail_dist=0.802 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.185 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.873 local_y_span=0.786 head_tail_dist=0.802 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.185 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.872 local_y_span=0.785 head_tail_dist=0.801 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.185 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.872 local_y_span=0.785 head_tail_dist=0.801 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.184 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.871 local_y_span=0.784 head_tail_dist=0.800 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.184 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.871 local_y_span=0.784 head_tail_dist=0.799 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.184 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.870 local_y_span=0.783 head_tail_dist=0.799 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.184 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.869 local_y_span=0.782 head_tail_dist=0.798 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.183 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.869 local_y_span=0.782 head_tail_dist=0.798 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.183 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.868 local_y_span=0.781 head_tail_dist=0.797 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.183 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.867 local_y_span=0.781 head_tail_dist=0.796 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.183 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.867 local_y_span=0.780 head_tail_dist=0.796 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.182 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.866 local_y_span=0.779 head_tail_dist=0.795 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.182 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.865 local_y_span=0.779 head_tail_dist=0.795 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.182 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.865 local_y_span=0.778 head_tail_dist=0.794 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.182 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.864 local_y_span=0.778 head_tail_dist=0.793 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.182 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.864 local_y_span=0.777 head_tail_dist=0.793 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.181 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.863 local_y_span=0.777 head_tail_dist=0.792 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.181 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.862 local_y_span=0.776 head_tail_dist=0.792 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.181 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.862 local_y_span=0.776 head_tail_dist=0.791 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.181 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.861 local_y_span=0.775 head_tail_dist=0.791 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.180 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.861 local_y_span=0.774 head_tail_dist=0.790 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.180 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.860 local_y_span=0.774 head_tail_dist=0.789 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.180 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.859 local_y_span=0.773 head_tail_dist=0.789 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.180 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.859 local_y_span=0.773 head_tail_dist=0.788 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.180 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.858 local_y_span=0.772 head_tail_dist=0.788 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.179 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.858 local_y_span=0.772 head_tail_dist=0.787 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.179 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.857 local_y_span=0.771 head_tail_dist=0.787 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.179 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.856 local_y_span=0.771 head_tail_dist=0.786 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.179 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.856 local_y_span=0.770 head_tail_dist=0.786 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.179 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.855 local_y_span=0.770 head_tail_dist=0.785 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.178 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.855 local_y_span=0.769 head_tail_dist=0.785 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.178 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.854 local_y_span=0.769 head_tail_dist=0.784 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.178 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.853 local_y_span=0.768 head_tail_dist=0.783 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.178 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.853 local_y_span=0.768 head_tail_dist=0.783 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.178 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.852 local_y_span=0.767 head_tail_dist=0.782 mid_z=0.212 rope_mean_h=0.198 rope_min_h=0.177 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.852 local_y_span=0.766 head_tail_dist=0.782 mid_z=0.212 rope_mean_h=0.198 rope_min_h=0.177 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.851 local_y_span=0.766 head_tail_dist=0.781 mid_z=0.212 rope_mean_h=0.198 rope_min_h=0.177 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.851 local_y_span=0.765 head_tail_dist=0.781 mid_z=0.212 rope_mean_h=0.198 rope_min_h=0.177 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.850 local_y_span=0.765 head_tail_dist=0.780 mid_z=0.211 rope_mean_h=0.198 rope_min_h=0.176 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.849 local_y_span=0.764 head_tail_dist=0.779 mid_z=0.211 rope_mean_h=0.198 rope_min_h=0.176 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.848 local_y_span=0.763 head_tail_dist=0.779 mid_z=0.211 rope_mean_h=0.198 rope_min_h=0.176 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.847 local_y_span=0.763 head_tail_dist=0.778 mid_z=0.212 rope_mean_h=0.198 rope_min_h=0.175 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.846 local_y_span=0.762 head_tail_dist=0.777 mid_z=0.212 rope_mean_h=0.198 rope_min_h=0.176 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.845 local_y_span=0.761 head_tail_dist=0.776 mid_z=0.212 rope_mean_h=0.198 rope_min_h=0.176 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.844 local_y_span=0.759 head_tail_dist=0.775 mid_z=0.212 rope_mean_h=0.198 rope_min_h=0.176 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.843 local_y_span=0.758 head_tail_dist=0.774 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.177 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.841 local_y_span=0.757 head_tail_dist=0.773 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.177 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.840 local_y_span=0.756 head_tail_dist=0.771 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.178 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.839 local_y_span=0.755 head_tail_dist=0.770 mid_z=0.212 rope_mean_h=0.199 rope_min_h=0.179 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.838 local_y_span=0.754 head_tail_dist=0.769 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.179 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.836 local_y_span=0.753 head_tail_dist=0.768 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.180 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.835 local_y_span=0.752 head_tail_dist=0.767 mid_z=0.212 rope_mean_h=0.200 rope_min_h=0.181 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.834 local_y_span=0.751 head_tail_dist=0.766 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.181 success=False
+  [ep 0/1, attempt 1] step 101/300  terminated=False  truncated=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.833 local_y_span=0.750 head_tail_dist=0.765 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.182 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.832 local_y_span=0.749 head_tail_dist=0.764 mid_z=0.212 rope_mean_h=0.201 rope_min_h=0.183 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.831 local_y_span=0.748 head_tail_dist=0.763 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.183 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.830 local_y_span=0.747 head_tail_dist=0.762 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.184 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.829 local_y_span=0.746 head_tail_dist=0.761 mid_z=0.212 rope_mean_h=0.202 rope_min_h=0.185 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.828 local_y_span=0.745 head_tail_dist=0.760 mid_z=0.212 rope_mean_h=0.203 rope_min_h=0.185 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.827 local_y_span=0.745 head_tail_dist=0.760 mid_z=0.212 rope_mean_h=0.203 rope_min_h=0.186 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.827 local_y_span=0.744 head_tail_dist=0.759 mid_z=0.212 rope_mean_h=0.203 rope_min_h=0.187 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.826 local_y_span=0.743 head_tail_dist=0.758 mid_z=0.212 rope_mean_h=0.204 rope_min_h=0.188 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.825 local_y_span=0.743 head_tail_dist=0.758 mid_z=0.212 rope_mean_h=0.204 rope_min_h=0.189 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.824 local_y_span=0.742 head_tail_dist=0.757 mid_z=0.212 rope_mean_h=0.205 rope_min_h=0.189 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.824 local_y_span=0.741 head_tail_dist=0.756 mid_z=0.212 rope_mean_h=0.205 rope_min_h=0.190 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.823 local_y_span=0.741 head_tail_dist=0.756 mid_z=0.212 rope_mean_h=0.205 rope_min_h=0.191 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.823 local_y_span=0.740 head_tail_dist=0.755 mid_z=0.213 rope_mean_h=0.206 rope_min_h=0.192 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.822 local_y_span=0.740 head_tail_dist=0.755 mid_z=0.213 rope_mean_h=0.206 rope_min_h=0.193 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.822 local_y_span=0.740 head_tail_dist=0.754 mid_z=0.215 rope_mean_h=0.208 rope_min_h=0.197 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.822 local_y_span=0.739 head_tail_dist=0.754 mid_z=0.217 rope_mean_h=0.211 rope_min_h=0.202 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.821 local_y_span=0.739 head_tail_dist=0.754 mid_z=0.219 rope_mean_h=0.214 rope_min_h=0.207 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.821 local_y_span=0.739 head_tail_dist=0.754 mid_z=0.222 rope_mean_h=0.217 rope_min_h=0.209 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.820 local_y_span=0.738 head_tail_dist=0.753 mid_z=0.224 rope_mean_h=0.220 rope_min_h=0.211 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.820 local_y_span=0.738 head_tail_dist=0.753 mid_z=0.227 rope_mean_h=0.223 rope_min_h=0.212 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.819 local_y_span=0.737 head_tail_dist=0.752 mid_z=0.230 rope_mean_h=0.226 rope_min_h=0.213 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.818 local_y_span=0.736 head_tail_dist=0.751 mid_z=0.233 rope_mean_h=0.229 rope_min_h=0.214 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.817 local_y_span=0.735 head_tail_dist=0.750 mid_z=0.236 rope_mean_h=0.232 rope_min_h=0.214 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.815 local_y_span=0.734 head_tail_dist=0.749 mid_z=0.239 rope_mean_h=0.235 rope_min_h=0.215 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.814 local_y_span=0.733 head_tail_dist=0.747 mid_z=0.242 rope_mean_h=0.238 rope_min_h=0.216 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.813 local_y_span=0.732 head_tail_dist=0.746 mid_z=0.245 rope_mean_h=0.241 rope_min_h=0.217 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.812 local_y_span=0.730 head_tail_dist=0.745 mid_z=0.248 rope_mean_h=0.244 rope_min_h=0.219 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.810 local_y_span=0.729 head_tail_dist=0.743 mid_z=0.251 rope_mean_h=0.247 rope_min_h=0.220 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.809 local_y_span=0.728 head_tail_dist=0.742 mid_z=0.254 rope_mean_h=0.250 rope_min_h=0.222 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.807 local_y_span=0.726 head_tail_dist=0.740 mid_z=0.257 rope_mean_h=0.253 rope_min_h=0.223 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.805 local_y_span=0.725 head_tail_dist=0.739 mid_z=0.260 rope_mean_h=0.257 rope_min_h=0.224 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.803 local_y_span=0.723 head_tail_dist=0.737 mid_z=0.263 rope_mean_h=0.260 rope_min_h=0.226 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.801 local_y_span=0.721 head_tail_dist=0.735 mid_z=0.266 rope_mean_h=0.263 rope_min_h=0.228 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.800 local_y_span=0.720 head_tail_dist=0.733 mid_z=0.269 rope_mean_h=0.266 rope_min_h=0.230 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.798 local_y_span=0.718 head_tail_dist=0.732 mid_z=0.272 rope_mean_h=0.269 rope_min_h=0.232 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.796 local_y_span=0.717 head_tail_dist=0.730 mid_z=0.275 rope_mean_h=0.273 rope_min_h=0.234 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.794 local_y_span=0.715 head_tail_dist=0.728 mid_z=0.279 rope_mean_h=0.276 rope_min_h=0.236 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.793 local_y_span=0.714 head_tail_dist=0.727 mid_z=0.282 rope_mean_h=0.279 rope_min_h=0.238 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.791 local_y_span=0.712 head_tail_dist=0.725 mid_z=0.285 rope_mean_h=0.282 rope_min_h=0.240 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.789 local_y_span=0.711 head_tail_dist=0.724 mid_z=0.288 rope_mean_h=0.285 rope_min_h=0.242 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.788 local_y_span=0.709 head_tail_dist=0.722 mid_z=0.292 rope_mean_h=0.288 rope_min_h=0.243 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.786 local_y_span=0.707 head_tail_dist=0.720 mid_z=0.295 rope_mean_h=0.292 rope_min_h=0.245 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.784 local_y_span=0.706 head_tail_dist=0.719 mid_z=0.298 rope_mean_h=0.295 rope_min_h=0.247 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.782 local_y_span=0.704 head_tail_dist=0.717 mid_z=0.302 rope_mean_h=0.298 rope_min_h=0.249 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.781 local_y_span=0.703 head_tail_dist=0.716 mid_z=0.305 rope_mean_h=0.301 rope_min_h=0.251 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.779 local_y_span=0.701 head_tail_dist=0.714 mid_z=0.308 rope_mean_h=0.304 rope_min_h=0.253 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.776 local_y_span=0.699 head_tail_dist=0.712 mid_z=0.312 rope_mean_h=0.307 rope_min_h=0.255 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.774 local_y_span=0.696 head_tail_dist=0.709 mid_z=0.315 rope_mean_h=0.310 rope_min_h=0.257 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.771 local_y_span=0.694 head_tail_dist=0.707 mid_z=0.318 rope_mean_h=0.313 rope_min_h=0.259 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.768 local_y_span=0.692 head_tail_dist=0.704 mid_z=0.321 rope_mean_h=0.316 rope_min_h=0.261 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.766 local_y_span=0.689 head_tail_dist=0.702 mid_z=0.323 rope_mean_h=0.319 rope_min_h=0.263 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.762 local_y_span=0.686 head_tail_dist=0.699 mid_z=0.326 rope_mean_h=0.322 rope_min_h=0.265 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.759 local_y_span=0.683 head_tail_dist=0.696 mid_z=0.329 rope_mean_h=0.325 rope_min_h=0.267 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.756 local_y_span=0.680 head_tail_dist=0.693 mid_z=0.332 rope_mean_h=0.328 rope_min_h=0.269 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.752 local_y_span=0.677 head_tail_dist=0.689 mid_z=0.335 rope_mean_h=0.331 rope_min_h=0.271 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.749 local_y_span=0.674 head_tail_dist=0.686 mid_z=0.338 rope_mean_h=0.334 rope_min_h=0.273 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.745 local_y_span=0.670 head_tail_dist=0.683 mid_z=0.341 rope_mean_h=0.337 rope_min_h=0.275 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.740 local_y_span=0.666 head_tail_dist=0.679 mid_z=0.344 rope_mean_h=0.340 rope_min_h=0.277 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.736 local_y_span=0.662 head_tail_dist=0.675 mid_z=0.347 rope_mean_h=0.344 rope_min_h=0.279 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.731 local_y_span=0.658 head_tail_dist=0.670 mid_z=0.350 rope_mean_h=0.347 rope_min_h=0.281 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.727 local_y_span=0.654 head_tail_dist=0.666 mid_z=0.354 rope_mean_h=0.350 rope_min_h=0.283 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.721 local_y_span=0.649 head_tail_dist=0.661 mid_z=0.357 rope_mean_h=0.353 rope_min_h=0.285 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.716 local_y_span=0.645 head_tail_dist=0.656 mid_z=0.361 rope_mean_h=0.356 rope_min_h=0.287 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.711 local_y_span=0.640 head_tail_dist=0.651 mid_z=0.364 rope_mean_h=0.360 rope_min_h=0.290 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.704 local_y_span=0.634 head_tail_dist=0.645 mid_z=0.368 rope_mean_h=0.363 rope_min_h=0.292 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.699 local_y_span=0.629 head_tail_dist=0.640 mid_z=0.371 rope_mean_h=0.366 rope_min_h=0.294 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.693 local_y_span=0.624 head_tail_dist=0.635 mid_z=0.375 rope_mean_h=0.369 rope_min_h=0.296 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.688 local_y_span=0.620 head_tail_dist=0.630 mid_z=0.378 rope_mean_h=0.372 rope_min_h=0.298 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.683 local_y_span=0.615 head_tail_dist=0.626 mid_z=0.382 rope_mean_h=0.376 rope_min_h=0.300 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.679 local_y_span=0.611 head_tail_dist=0.621 mid_z=0.385 rope_mean_h=0.379 rope_min_h=0.303 success=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.674 local_y_span=0.607 head_tail_dist=0.617 mid_z=0.389 rope_mean_h=0.382 rope_min_h=0.305 success=True
+  [ep 0/1, attempt 1] step 173/300  terminated=True  truncated=False
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.669 local_y_span=0.602 head_tail_dist=0.612 mid_z=0.392 rope_mean_h=0.385 rope_min_h=0.307 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.665 local_y_span=0.599 head_tail_dist=0.609 mid_z=0.395 rope_mean_h=0.388 rope_min_h=0.310 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.661 local_y_span=0.595 head_tail_dist=0.604 mid_z=0.399 rope_mean_h=0.392 rope_min_h=0.312 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.655 local_y_span=0.590 head_tail_dist=0.600 mid_z=0.402 rope_mean_h=0.395 rope_min_h=0.314 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.649 local_y_span=0.584 head_tail_dist=0.594 mid_z=0.406 rope_mean_h=0.398 rope_min_h=0.316 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.644 local_y_span=0.580 head_tail_dist=0.589 mid_z=0.409 rope_mean_h=0.401 rope_min_h=0.319 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.638 local_y_span=0.575 head_tail_dist=0.584 mid_z=0.412 rope_mean_h=0.404 rope_min_h=0.321 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.633 local_y_span=0.570 head_tail_dist=0.579 mid_z=0.416 rope_mean_h=0.407 rope_min_h=0.323 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.627 local_y_span=0.564 head_tail_dist=0.574 mid_z=0.419 rope_mean_h=0.411 rope_min_h=0.326 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.621 local_y_span=0.559 head_tail_dist=0.568 mid_z=0.422 rope_mean_h=0.414 rope_min_h=0.328 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.615 local_y_span=0.553 head_tail_dist=0.563 mid_z=0.426 rope_mean_h=0.417 rope_min_h=0.331 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.607 local_y_span=0.547 head_tail_dist=0.556 mid_z=0.429 rope_mean_h=0.420 rope_min_h=0.333 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.598 local_y_span=0.539 head_tail_dist=0.548 mid_z=0.432 rope_mean_h=0.423 rope_min_h=0.335 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.585 local_y_span=0.526 head_tail_dist=0.536 mid_z=0.435 rope_mean_h=0.426 rope_min_h=0.337 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.569 local_y_span=0.512 head_tail_dist=0.522 mid_z=0.439 rope_mean_h=0.429 rope_min_h=0.340 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.558 local_y_span=0.502 head_tail_dist=0.512 mid_z=0.442 rope_mean_h=0.433 rope_min_h=0.343 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.548 local_y_span=0.493 head_tail_dist=0.503 mid_z=0.445 rope_mean_h=0.436 rope_min_h=0.346 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.538 local_y_span=0.484 head_tail_dist=0.494 mid_z=0.449 rope_mean_h=0.439 rope_min_h=0.349 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.530 local_y_span=0.477 head_tail_dist=0.486 mid_z=0.452 rope_mean_h=0.443 rope_min_h=0.352 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.522 local_y_span=0.470 head_tail_dist=0.480 mid_z=0.455 rope_mean_h=0.446 rope_min_h=0.356 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.516 local_y_span=0.465 head_tail_dist=0.474 mid_z=0.459 rope_mean_h=0.437 rope_min_h=0.295 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.512 local_y_span=0.461 head_tail_dist=0.470 mid_z=0.462 rope_mean_h=0.440 rope_min_h=0.299 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.509 local_y_span=0.458 head_tail_dist=0.467 mid_z=0.465 rope_mean_h=0.443 rope_min_h=0.302 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.507 local_y_span=0.456 head_tail_dist=0.465 mid_z=0.469 rope_mean_h=0.446 rope_min_h=0.305 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.506 local_y_span=0.455 head_tail_dist=0.464 mid_z=0.472 rope_mean_h=0.450 rope_min_h=0.309 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.505 local_y_span=0.455 head_tail_dist=0.463 mid_z=0.475 rope_mean_h=0.453 rope_min_h=0.312 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.505 local_y_span=0.455 head_tail_dist=0.463 mid_z=0.479 rope_mean_h=0.456 rope_min_h=0.315 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.506 local_y_span=0.455 head_tail_dist=0.464 mid_z=0.482 rope_mean_h=0.460 rope_min_h=0.318 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.506 local_y_span=0.456 head_tail_dist=0.464 mid_z=0.485 rope_mean_h=0.463 rope_min_h=0.321 success=True
+[RopeStretchEval] n_geoms=14 stretch_ratio=0.507 local_y_span=0.456 head_tail_dist=0.465 mid_z=0.488 rope_mean_h=0.466 rope_min_h=0.325 success=True
+  [ep 0, attempt 1] Success at step 173, collected 30 extra steps.
+  [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+[ManiLadder Camera] stop_recording target=/mnt/gck_website/maniladder.github.io/generated_demos/DualArmRopeStretch-v1/videos/orbit_camera_ep0.mp4
+[38;5;159m[Genesis] [08:25:55] [INFO] Saving video to [38;5;121m"/mnt/gck_website/maniladder.github.io/generated_demos/DualArmRopeStretch-v1/videos/orbit_camera_ep0.mp4"[0m[38;5;159m...[0m
+[38;5;159m[Genesis] [08:25:56] [INFO] Video saved.[0m
+  Saved video: /mnt/gck_website/maniladder.github.io/generated_demos/DualArmRopeStretch-v1/videos/orbit_camera_ep0.mp4 exists=True
+  Videos for episode 0 saved to /mnt/gck_website/maniladder.github.io/generated_demos/DualArmRopeStretch-v1/videos
+
+============================================================
+Done. 1 demo trajectories (traj_0..traj_0) saved to /mnt/gck_website/maniladder.github.io/generated_demos
+Final   [Success Rate] overall: 100.0% (1/1) | moving avg (last 1): 100.0%
+============================================================
+[38;5;159m[Genesis] [08:25:57] [INFO] 💤 Exiting Genesis and caching compiled kernels...[0m
+[W 09/29/26 08:25:57.358 3565720] [offline_cache.h:run@186] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. You can run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:25:57.559 3565720] [kernel_compilation_manager.cpp:dump@104] Lock /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager/ticache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/kernel_compilation_manager' and try again.
+[W 09/29/26 08:25:57.813 3565720] [ptx_cache.cpp:dump@92] Lock /home/gck/.cache/gstaichi/ticache/ptx_cache/ptxcache.lock failed. Please run 'ti cache clean -p /home/gck/.cache/gstaichi/ticache/ptx_cache' and try again.
