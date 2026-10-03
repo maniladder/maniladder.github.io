@@ -51,6 +51,11 @@
     return labels[value] || String(value || "Unknown").replace(/_/g, " ");
   }
 
+  // Show the env ID without its version (and the stray "Env" suffix), e.g. DualArmOpenPen.
+  function taskName(task) {
+    return String(task.env_id || "").replace(/-v\d+$/, "").replace(/Env$/, "");
+  }
+
   function levelLabel(level) {
     return `Level ${level}`;
   }
@@ -170,7 +175,7 @@
     items.forEach((task, index) => {
       const option = document.createElement("option");
       option.value = String(index);
-      option.textContent = task.display_name || task.env_id;
+      option.textContent = taskName(task);
       select.append(option);
     });
 
@@ -215,7 +220,7 @@
 
     const title = document.createElement("h3");
     title.className = "task-title";
-    title.textContent = task.display_name || task.env_id;
+    title.textContent = taskName(task);
 
     body.append(title);
     card.append(media, body);
